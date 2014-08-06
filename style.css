@@ -1,0 +1,367 @@
+/* meyerweb css reset start */
+/* The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on. */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+a img, :link img, :visited img {
+border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+body {
+line-height: 1;
+color: black;
+background: white;
+font-size: 13px;
+text-align:center; /* for ie5.+*/
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: none;
+}
+/* meyerweb css reset end */
+
+em {font-style: italic;}
+strong {font-weight: bold;}
+h1, h2, h3, h4, h5, h6{font-weight:bold;}
+h1{font-size:197%}/* 26px */
+h2{font-size:182%}/* 24px */
+h3{font-size:167%}/* 22px */
+h4{font-size:152%}/* 20px */
+h5{font-size:136%}/* 18px */
+h6{font-size:122%}/* 16px */
+
+.clearfix:after {
+content: " ";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix {display: inline-block;}  /* for IE/Mac */
+
+/* For HTML5 to be rendered correctly in old browsers */
+article,aside,figcaption,figure,footer,header,hgroup,nav,section,time {display: block;}
+
+.before-last {
+    margin-right: 0 !important;
+}
+
+
+.global_container_ {
+	padding: 0 0 28px 0;
+	width: 1600px;
+	min-height: 1191px;
+	margin: 0 auto 0 auto;
+	float: left;
+	height: auto;
+	position: relative;
+}
+.header {
+	float: left;
+	position: relative;
+	width: 954px;
+	margin: 0 0 0 329px;
+}
+.logo {
+	float: left;
+	position: relative;
+	margin: 56px 0 0 0;
+}
+.c_wrapper4 {
+	min-height: 285px;
+	float: right;
+	position: relative;
+	width: 733px;
+	margin: 0 0 0 0;
+}
+.orange_bg {
+	background: #f47e19;
+
+	width: 720px;
+	height: 285px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.base {
+	-webkit-border-radius: 17.88px/17.74px;
+	-moz-border-radius: 17.88px/17.74px;
+	border-radius: 17.88px/17.74px;
+
+	background: #464949;
+
+	width: 37px;
+	height: 36px;
+	position: absolute;
+	top: 153px;
+	left: 696px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.twitter {
+	position: absolute;
+	top: 165px;
+	left: 706px;
+	height: 14px;
+}
+.base_2 {
+	-webkit-border-radius: 17.88px/17.74px;
+	-moz-border-radius: 17.88px/17.74px;
+	border-radius: 17.88px/17.74px;
+
+	background: #464949;
+
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	top: 197px;
+	left: 696px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.facebook {
+	position: absolute;
+	top: 209px;
+	left: 711px;
+	height: 15px;
+}
+.base_copy {
+	-webkit-border-radius: 17.88px/17.74px;
+	-moz-border-radius: 17.88px/17.74px;
+	border-radius: 17.88px/17.74px;
+
+	background: #464949;
+
+	width: 37px;
+	height: 36px;
+	position: absolute;
+	top: 107px;
+	left: 696px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.google_copy {
+	position: absolute;
+	top: 119px;
+	left: 708px;
+	height: 14px;
+}
+.base_copy_2 {
+	-webkit-border-radius: 17.88px/17.74px;
+	-moz-border-radius: 17.88px/17.74px;
+	border-radius: 17.88px/17.74px;
+
+	background: #464949;
+
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	top: 58px;
+	left: 696px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.email_icon_copy {
+	position: absolute;
+	top: 70px;
+	left: 705px;
+	height: 13px;
+}
+.text {
+	text-align: left;
+	text-indent: 0;
+	font-size: 215.38%;
+	font-family: BrandonGrotesque-Regular, serif;
+	text-decoration: none;
+	line-height: 4%;
+	color: #f5f4ec;
+	margin: -3px 0 -1px 0;
+	position: absolute;
+	top: 61px;
+	left: 19px;
+	height: 177px;
+	width: 662px;
+}
+.horizontal_line {
+	background-color: #f47e19; /*Layer's solid color*/
+	width: 1600px;
+	height: 1px;
+	float: left;
+	clear: both;
+	position: relative;
+	margin: -1px 0 0 0;
+}
+.triangle_arrow_thing {
+	float: left;
+	clear: both;
+	position: relative;
+	margin: -2px 0 0 569px;
+}
+.maincontentwrapper {
+	float: left;
+	clear: both;
+	position: relative;
+	width: 1600px;
+	margin: 43px 0 0 0;
+}
+.wrapper1 {
+	float: left;
+	position: relative;
+	width: 978px;
+	margin: 0 0 0 330px;
+}
+.body {
+	float: left;
+	position: relative;
+	width: 978px;
+	margin: 0 0 0 0;
+}
+.orange_border-holder {
+	padding: 33px 4px 36px 4px;
+	float: left;
+	position: relative;
+	width: 148px;
+	margin: 88px 0 0 0;
+}
+.questions {
+	text-align: center;
+	font-size: 169.23%;
+	font-family: BrandonGrotesque-Regular, serif;
+	color: #f47e19;
+	margin: 0 0 -1px 0;
+	padding: 0 0 0 0;
+	clear: both;
+	min-width: 148px;
+}
+.email_icon {
+	float: left;
+	margin: 0 0 7px 55px;
+	display: block;
+}
+.orange_border-holder {
+	background: url(images/orange_border.png) no-repeat;
+	min-height: 53px;
+}
+.c_wrapper3 {
+	float: left;
+	position: relative;
+	width: 500px;
+	margin: 0 0 0 64px;
+    text-align: left;
+	font-size: 200%;
+	font-family: BrandonGrotesque-Medium, serif;
+	color: #f47e19;
+}
+.schedule_of_dates {
+	text-align: left;
+	font-size: 200%;
+	font-family: BrandonGrotesque-Medium, serif;
+	color: #f47e19;
+	margin: -1px 0 -5px 0;
+}
+.dates {
+	text-align: left;
+	text-indent: 0;
+	font-size: 100%;
+	font-family: BrandonGrotesque-Regular, serif;
+	line-height: 130%;
+	color: #464949;
+	margin: 24px 0 -7px 0;
+	height: 400px;
+	overflow: auto;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 600px;
+}
+.call_for_alumni_sponsors_ {
+	text-align: left;
+	text-indent: 0;
+	font-size: 169.23%;
+	font-family: BrandonGrotesque-Regular, serif;
+	line-height: 130%;
+	color: #464949;
+	margin: 43px 0 -3px 0;
+	float: right;
+	position: relative;
+	width: 531px;
+}
+.orange_background-holder {
+	padding: 107px 408px 118px 429px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 763px;
+	margin: 61px 0 0 0;
+}
+.codemash_only_logo {
+	float: left;
+	position: relative;
+}
+.orange_background-holder {
+	background: #f47e19;
+
+	min-height: 199px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.footer {
+	text-align: left;
+	font-size: 123.08%;
+	font-family: BrandonGrotesque-Regular, serif;
+	color: #f47e19;
+	position: relative;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 600px;
+	margin: 32px 0 0 567px;
+}
+.global_container_ {
+	background: #f5f4ec;
+	min-height: 1163px;
+}

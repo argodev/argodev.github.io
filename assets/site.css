@@ -45,4 +45,6 @@ code {
     font-size: 80%;
 }
 
-
+.avatar {
+  border-radius: 6px;
+}

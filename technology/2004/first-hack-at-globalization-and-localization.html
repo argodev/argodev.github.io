@@ -1,0 +1,121 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>First hack at globalization and localization</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>April 30, 2004</h5><p>So I&#39;ve been working on a test of the .NET globalization/localization techniques for ASP.NET (v1.1) and have been having 
+relatively mixed results.  The documentation and step-by-step examples have been a bit weak and the documentation for 
+this area of the framework does not seem nearly as robust as other topics. This perception might be, however, just from 
+my lack of true understanding of how this is all supposed to work and the associated terminology.</p>
+<p>My task was to take a single html page, convert it to asp.net, and then allow it to automatically detect the user&#39;s 
+preferred browser language “automagically” display the page (text, images, flash) in that user&#39;s language.  For the 
+initial test we decided to support English, German, and Portuguese.  In each case we were supporting only the raw 
+language rather than region specific contexts (i.e. <code>[pt]</code> rather than <code>[pt-br]</code> for General Portuguese rather than 
+specifically Brazilian Portuguese).</p>
+<p>The first thing I learned is that while the .NET framework has great support for globalizing / localizing winform apps, 
+it is a bit lacking on (particularly GUI-based) asp.net support.  While digging into this topic, I learned that there 
+were a handful of ways in which you could accomplish this - the two that I looked at most closely were string resource 
+files and satellite assemblies.  Due to the relative simplicity of everything, I elected to use the string resource 
+file method.</p>
+<p>I figured I&#39;d list pretty-much step-by-step what I did so that maybe the next person will have an easier time of this 
+than I did:</p>
+<ul>
+<li><p>I needed to &quot;get a handle&quot; on the user&#39;s preferred language. It made the most sense to do this in the global.asax 
+file.</p>
+<ul>
+<li>To set the file up for this task, I added “using“ statements for <code>System.Threading</code>, <code>System.Globalization</code>, and 
+<code>System.Resources</code> to the <code>global.asax.cs</code> file</li>
+<li><p>I modified the <code>Application_Start</code> method to create a text-file-based resource manager. The first parameter 
+indicates the name or key that is the first part of the resource files (i.e. a resources file for the English 
+language would have to be called global1app.en.resources).  The second parameter indicates where on the disk the 
+resources are located.  I chose this location arbitrarily.</p>
+<pre><code>Application[&quot;RM&quot;] = ResourceManager.CreateFileBasedResourceManager(&quot;global1app&quot;, 
+                                Server.MapPath(&quot;./resources&quot;), null);
+</code></pre></li>
+<li><p>I modified the <code>Session_Start</code> method to determine the user&#39;s language preference and to store it</p>
+<pre><code>Thread.CurrentThread.CurrentCulture = 
+        CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
+Thread.CurrentThread.CurrentUICulture = 
+        new CultureInfo(this.Request.UserLanguages[0]);
+</code></pre></li>
+</ul>
+</li>
+<li><p>The next task was to prepare the page for globalization/localization</p>
+<ul>
+<li>The first step was to convert any and all text to asp.net label controls so that I could easily change their Text 
+properties at runtime</li>
+<li>For the images, I changed them from html <code>&lt;image&gt;</code> tags to <code>&lt;asp:image/&gt;</code> tags wherever possible so that I could 
+set the <code>ImageUrl</code> property at runtime.</li>
+<li>For the places where we embedded Flash objects in the page, I simply created private string variables in the class 
+and change the html to use the value of the appropriate variable for the flash URL by using <code>&lt;%= VARNAME %&gt;</code> embedded 
+in the &quot;code&quot;.  This may not be the most elegant solution as it seems to be a bit of tangled code, but it certainly 
+worked well.</li>
+<li>In the code (besides the defaults), I only had to add a <code>using</code> statement for <code>System.Resources</code></li>
+<li><p>In the <code>Page_Load</code> method I added code similar to the following:</p>
+<pre><code>if (this.Page.IsPostBack != true)
+{
+     this.Label1.Text = ((ResourceManager)Application[&quot;RM&quot;]).GetString(&quot;UI_label01&quot;);
+     this.Label2.Text = ((ResourceManager)Application[&quot;RM&quot;]).GetString(&quot;UI_label02&quot;);
+}
+</code></pre></li>
+<li><p>I had a line for each of my labels, images, and embedded flash objects.  This part seemed a bit tedious and 
+&quot;klugy&quot; to me... I think that I could probably write a helper class that would enumerate all of the controls on a 
+page, loop through them, and, based on the control type look to the RM for a value (or set of values) to set for the 
+given language... I&#39;ll have to look more into that later.</p>
+</li>
+</ul>
+</li>
+<li><p>The next task was to actually prepare the resources for the various languages. </p>
+<ul>
+<li><p>The first task was to create string-resource files that contained a list of keys and values for the text to display 
+on the web site as well as the URLs to the various language-specific images. There are a couple of ways to create 
+string resource files.  I struggled with this for quite some time, so let me explain... </p>
+<ul>
+<li><p>The first is to use a text editor such as notepad and create a list of name/value pairs one line at a time.<br>This was initially most attractive to me because I could simply take a text file and send it to my translator and 
+it would not be very confusing to them at all.  The file would be in the following format making it very easy to 
+work with:</p>
+<p>  ; this is a comment line and localization for Spanish
+  UI_label01 = hola
+  UI_label02 = hasta luego</p>
+</li>
+<li>The second way is to create a new assembly resource file within VS.NET and set the name value pairs there.  This 
+is nearly as easy for me (the developer) to interact with, but not quite as intuitive for the translators... 
+especially if they do not have a good XML editor handy... and assuming they know what XML is.  I eventually chose 
+this option due to the fact that (I must have been doing something wrong) I could never get the language-specific 
+accent characters to display on the resultant web site using the simple text file.  I&#39;m assuming that it had 
+something to do with the character encoding of the original text file... maybe if I had opened notepad and created 
+a Unicode file from the beginning things would have worked as they were supposed to.</li>
+<li>In any case, I created a resource file for each language and named it in a consistent format (this is important).<br>Since my app was called <code>global1app</code>, I used the names <code>global1app.en.resx</code>, <code>global1app.pt.resx</code> and 
+<code>global1app.de.resx</code>.</li>
+</ul>
+</li>
+<li>I then used the <code>resgen.exe</code> tool (from the .NET framework SDK) and &quot;compiled&quot; each of these files into 
+<code>.resources</code> files (i.e. <code>global1app.en.resources</code>, etc.)</li>
+<li>Next I created a folder in the web root called &quot;resources&quot; and copied my newly-created resources files to that 
+location.</li>
+<li>Finally, I created unique images for each language (actually, someone else created them for me) and named them in 
+the format of <code>&lt;image&gt;.&lt;culture&gt;.gif</code>.  So, an image that had been logo.gif now had additional copies 
+called <code>logo.en.gif</code>, <code>logo.pt.gif</code>, and <code>logo.de.gif</code>.  These names are not crucial (the URLs are in the 
+.resources file so it really could have been anything) but I chose this naming convention to keep things consistent.</li>
+</ul>
+</li>
+<li><p>The last step is to test the asp.net page to see if everything works as it should.  There are a number of different 
+ways that you can accomplish this - the following steps are the easiest that I found and assume you are using IE 6.</p>
+<ul>
+<li>Open internet explorer</li>
+<li>Choose Internet Options… from the Tools menu</li>
+<li>Click the button named Languages…</li>
+<li>on the dialog that opens up, click Add</li>
+<li>From the list, select Portuguese (Brazil) [pt-br] and click OK</li>
+<li>Click Add again, and select German (Germany) [de]</li>
+<li>The language displayed on the web page is based on the order in the list, so you can move the language you want to 
+see to the top using the move up and move down buttons</li>
+<li>click ok and then ok which should put you at the browser window.</li>
+<li>Visit the web page above (or refresh the page if you are already there) and everything should change languages.</li>
+</ul>
+</li>
+</ul>
+<p>Finally... if everything worked properly, you should see the site in different languages based on the order of the 
+languages you chose in IE.</p>
+<h3>Wrap-up</h3><p>I&#39;m fairly pleased with how this all worked, although I&#39;m still going to look into the notepad-style resource file as I 
+know that this would be easier for my translation team.  I also like the fact that if I want to add support for a new 
+language, or update the existing support I can simply copy a new *.resources file to the web server - without 
+recompiling the app or touching the code in any way - and everything “just works“.  The final “cool“ thing is that if I 
+was unable to procure some of the resources for a particular culture, I can simply omit them from the resources file 
+for that language and when the framework doesn&#39;t find the requested resource string in the current culture&#39;s resource 
+file, it will automatically look to the resource file for the default culture (configurable in the web.config file).</p><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

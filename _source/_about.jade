@@ -1,0 +1,55 @@
+extends _layout.jade
+
+block content
+  .container
+    .page-header
+      h1 About Rob
+    .row
+      .col-md-9
+        .panel
+          .panel-body
+            != yield
+
+      .col-sm-3
+        .row
+          .col-sm-12
+            img(alt='', class='avatar', data-user='621404', height='230', src='https://avatars3.githubusercontent.com/u/621404?v=3&amp;s=460', width='230')
+            h3.vcard-names
+              a(href='https://github.com/argodev', target='blank')
+                i.fa.fa-github
+              = '  '
+              a(href='https://twitter.com/argodev', target='blank')
+                i.fa.fa-twitter
+              = '  '
+              a(href='https://www.linkedin.com/in/gillenrob', target='blank')
+                i.fa.fa-linkedin
+              = '  '
+              a(href='http://www.slideshare.net/rgillen', target='blank')
+                i.fa.fa-slideshare
+              = '  '
+              a(href='http://stackoverflow.com/users/97447/argodev', target='blank')
+                i.fa.fa-stack-overflow
+              = ' '
+              a(href='http://www.researchgate.net/profile/Robert_Gillen2', target='blank')
+                i.ai.ai-researchgate
+              = ' '
+              a(href='https://scholar.google.com/citations?user=aWpgGlcAAAAJ', target='blank')
+                i.ai.ai-google-scholar
+              = ' '
+              a(href='http://www.mendeley.com/profiles/rob-gillen/', target='blank')
+                i.ai.ai-mendeley
+        .row
+          .col-sm-11
+            .panel.panel-default
+              .panel-heading
+                | Quick Links
+              .panel-body
+                ul
+                  li
+                    a(href='#profile') Professional Profile
+                  li
+                    a(href='#education') Education
+                  li
+                    a(href='#certifications') Certifications
+                  li
+                    a(href='#awards') Awards

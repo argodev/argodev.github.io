@@ -1,0 +1,11 @@
+{
+  "about": {
+    "layout": "_about",
+    "title": "About"
+  },
+  "contact": {
+    "layout": "contact",
+    "title": "Contact"
+  }
+
+}

@@ -1,0 +1,85 @@
+{
+  "you-cant-handle-the-truth": {
+    "layout": "_tech_post",
+    "date": "August 14, 2014",
+    "title": "You Can't Handle The Truth",
+    "excerpt": "This week I spent a few days in Dallas, TX at the Crimes Against Children conference. I started to say \"I was privileged to attend…\" but I'm not certain that imparts the appropriate gravity to the conference. This week wasn't a party. It wasn't a \"good time\". It wasn't fun. It was work. Hard work. I found myself having to force myself to attend the sessions."
+  },
+
+  "codestock-2014": {
+    "layout": "_tech_post",
+    "date": "July 11, 2014",
+    "title": "CodeStock 2014",
+    "excerpt": "I'm pleased to have been asked to speak at at CodeStock 2014 this year. I'm giving two talks... one on Password security, cracking and related items and another on Hiding in Plain Site. I've been able to take some time to re-work both of these talks and extend them a bit."
+  },
+  "tracking-planes-on-vacation": {
+    "layout": "_tech_post",
+    "date": "June 13, 2014",
+    "title": "Tracking Planes on Vacation",
+    "excerpt": "We spent the past week with our extended family at a cabin in the TN mountains. We do this every year or so, and - as we normally do - we had a blast. On one of our \"in\" days, I had planned to work through an experiment with the kids to show the difference between the stock antenna for tracking airplanes via ADS-B and a custom-built antenna. We followed a number of online tutorials and used a bunch of open source software. I have posted below are the links for some of these tools and parts in case you want to do the same with your kids. I hope you have as much fun as we did!"
+  },
+  "index" : {
+    "layout": "index",
+    "_2004": {
+      "net-framework-11-sp1-and-mps-the-real-story": {
+        "layout": "../_tech_post",
+        "date": "September 24, 2004",
+        "title": ".NET Framework 1.1 sp1 and MPS - the real story",
+        "excerpt": "I've been contacted recently by a number of people regarding a recent scare about installing the service pack 1 for the .NET framework 1.1 on a system running MPS.  This issue has been fueled by the fact that Ensim had released a concern about the patch for their customers, and there have been a number of people reporting problems using the Configuration Wizard for MPS with the service pack.  So, let's get the facts out.",
+        "categories": ["Provisioning"],
+        "tags": [
+          ".net",
+          "mps"
+        ]
+      },
+      "forwarding-a-users-mailbox-via-mps": {
+        "layout": "../_tech_post",
+        "date": "July 28, 2004",
+        "title": "Forwarding a user's mailbox via MPS",
+        "excerpt": "I was recently contacted by a client inquiring how to forward a user's mail using MPS.  There is no specific \"provider method\" for this, but it is actually very easy using the Managed Active Directory::ModifyUser method. ",
+        "categories": ["Provisioning"],
+        "tags": ["mps"]
+      },
+      "miis-password-sync": {
+        "layout": "../_tech_post",
+        "date": "June 30, 2004",
+        "title": "MIIS - password sync?",
+        "excerpt": "As a member of the development community, it seems almost requisite to comment on the newly-released Visual Studio 2005 beta 1 products.  I learned of the release while on client site participating in a discovery project for a MPS rollout.  One of the things the client was concerned about was the ability to \"drive\" the provisioning system from their current *nix-based SOP system.",
+        "categories": ["General Development", "Provisioning"],
+        "tags": ["miis"]
+      },
+      "mps-and-vs-2005": {
+        "layout": "../_tech_post",
+        "date": "June 30, 2004",
+        "title": "MPS and VS 2005",
+        "excerpt": "As a member of the development community, it seems almost requisite to comment on the newly-released Visual Studio 2005 beta 1 products.  I learned of the release while on client site participating in a discovery project for a MPS rollout.  One of the things the client was concerned about was the ability to \"drive\" the provisioning system from their current *nix-based SOP system.",
+        "categories": ["Provisioning"],
+        "tags": ["mps", "vs2005"]
+      },
+      "net-based-dac-and-role-security": {
+        "layout": "../_tech_post",
+        "date": "May 26, 2004",
+        "title": ".NET-based dac and role security",
+        "excerpt": "I'm continuing to work on a .NET version of the DAC (Delegated Administration Console) - essentially a UI front-end for the Microsoft provisioning System and specifically Hosted Exchange 2003.1... I've been learning a number of things and experimenting with some very interesting (at least to me) technologies.  I thought I'd share a little here and maybe post some more detail on each of these items over the next couple of weeks.",
+        "categories": ["Provisioning"],
+        "tags": [".net", "c#"]
+      },
+      "first-hack-at-globalization-and-localization": {
+        "layout": "../_tech_post",
+        "date": "April 30, 2004",
+        "title": "First hack at globalization and localization",
+        "excerpt": "So I've been working on a test of the .NET globalization/localization techniques for ASP.NET (v1.1) and have been having relatively mixed results.  The documentation and step-by-step examples have been a bit weak and the documentation for this area of the framework does not seem nearly as robust as other topics. This perception might be, however, just from my lack of true understanding of how this is all supposed to work and the associated terminology.",
+        "categories": ["General Development"],
+        "tags": ["asp.net"]
+      },
+      "welcome-to-the-blog": {
+        "layout": "../_tech_post",
+        "date": "January 28, 2004",
+        "title": "Welcome to the blog",
+        "excerpt": "People use their blogs for all sorts of different things, I intend for mine to be a sort of “diary” of my work as I learn/increase my learning of a certain few Microsoft Technologies: MPF, BTS, C#, .NET, Whidbey, and Yukon.",
+        "categories": ["Miscellaneous"],
+        "tags": ["personal"]
+      }
+    }
+  }
+}

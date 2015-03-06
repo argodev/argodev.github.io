@@ -1,0 +1,72 @@
+doctype
+html
+  head
+    meta(http-equiv="content-type", content="text/html; charset=UTF-8")
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    title Rob Gillen
+    link(href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css", rel="stylesheet")
+    link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="/assets/site.css")
+    link(rel="stylesheet" href="/assets/academicons.css")
+  body
+    #wrap
+      .navbar.navbar-default.navbar-fixed-top
+        .container
+          .navbar-header
+            button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand(href="/") Rob Gillen
+
+          .collapse.navbar-collapse
+            ul.nav.navbar-nav
+              li
+                a(href="/technology") Technology
+              li
+                a(href='/presentations') Presentations/Talks
+              li
+                a(href='/papers') Publications/Arcticles
+              li
+                a(href='/projects') Projects
+              li
+                a(href="/personal") Personal
+              li
+                a(href="/about") About
+              li
+                a(href="/contact") Contact
+              //li.dropdown
+              //  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>
+              //  ul.dropdown-menu
+              //    li
+              //      a(href="#") Action
+              //    li
+              //      a(href="#") Another action
+              //    li
+              //      a(href="#") Something else here
+              //    li.divider
+              //    li.dropdown-header Nav header
+              //    li
+              //      a(href="#") Separated link
+              //    li
+              //      a(href="#") One more separated link
+
+      block content
+
+
+
+    #footer
+      .container
+        p.text-muted.credit
+
+          a(rel="license", href="http://creativecommons.org/licenses/by/4.0/")
+            img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by/4.0/88x31.png")
+          |  This work is licensed under a
+          a(rel="license", href="http://creativecommons.org/licenses/by/4.0/")  Creative Commons Attribution 4.0 International License
+          | .
+
+
+    script(type='text/javascript', src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    script(type='text/javascript', src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
+    script(type='text/javascript', src="/assets/site.js")

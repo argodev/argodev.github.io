@@ -10,7 +10,10 @@ have VS.NET 2005 Beta 2 installed.
 
 What I found was that VS.NET 2005 includes two features that make the editing of XML and the associated schemas much
 easier. The first is intellisense.  This is not a surprise, and I had heard that VS 2005 included better support for a
-wider range of XML namespaces, but I suppose I didn’t really think about it until it “just started working”.
+wider range of XML namespaces, but I suppose I didn’t really think about it until it “just started working”. The
+following is an example of in-line schema intellisense…
+
+<img alt='Schema 02' src='/assets/images/schema02.png' class='blogimage img-responsive'>
 
 The second feature, and probably cooler feature (from my perspective) is the ability for VS to validate the schema nodes
 I’m creating relative to the schema nodes I’ve already created.  For example, if I add an `<element />` node for a type
@@ -19,7 +22,9 @@ The same is true for `<attribute/>` and `<AttributeType/>` tags. Also, if I have
 complain. Where this helps me, is that it is often easier (for me, in my limited view of this) to begin by creating the
 `<ElementType />` node for `type=executeData` and then populating all of the appropriate `<element/>` nodes.  Then, I
 can use the validation features of VS to let me know when I have finished implementing the required `<ElementType/>`
-nodes.
+nodes. The following is a screen shot of this validation:
+
+<img alt='Schema 01' src='/assets/images/schema01.png' class='blogimage img-responsive'>
 
 These are great new features and I’m excited to see how this will speed my development moving forward
 

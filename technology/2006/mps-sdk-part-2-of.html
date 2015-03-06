@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>MPS SDK Part 2 of ?</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>June 5, 2006</h5><p>I am preparing to give a talk/introduction to the MPS SDK at the end of this week based on the outline below. I
+thought I&#39;d list some of the thoughts/comments here under each of the points as a general resource for anyone
+interested. In this post, I&#39;ll list my outline and then expand on the first points with subsequent posts expanding on
+the remaining points.</p>
+<ol>
+<li>Introduction to the SDK (scope, purpose, supported platforms, etc.)</li>
+<li>Installation (prerequisites, potential &quot;gotchas&quot;, etc.)</li>
+<li>VS 2005 SDK Overview</li>
+<li>Item templates</li>
+<li>Provider Templates/Wizard/BaseClass/Intro to sample providers</li>
+<li>Intellisense (&amp; XSLT Extensions)</li>
+<li>MPS SDK Options panel</li>
+<li>Introduction to the Named Procedure Browser</li>
+<li>Introduction to the Procedure Step Browser window &amp; the Content Window</li>
+<li>Introduction to the Find All Procedure References window</li>
+<li>Code-window context menus</li>
+<li>Solution Explorer context menus</li>
+<li>Future plans/goals</li>
+</ol>
+<h3>Introduction to the SDK (scope, purpose, supported platforms, etc.)</h3><p>My <a href="//robgillen.com/technology/2006/new-sdk-for-the-microsoft-provisioning-system">previous post on this topic</a> (as
+well as <a href="http://weblogs.asp.net/conrad/Microsoft-Provisioning-System-_2800_MPS_2900_-SDK-Beta-1-is-now-available">one written by Conrad</a>
+or <a href="http://blogs.msdn.com/b/mkostersitz/archive/2006/05/25/607296.aspx">by Mike</a>) covers a good bit of the
+introductory-style information for the SDK. Essentially the goal is to provide MPS developers (product team, ISVs and
+ISP in-house developers) a set of tools to ease the task of building applications that consume as well as extend the
+Microsoft Provisioning System. This has been a long-time gripe of every developer I&#39;ve spoken with - the platform is
+interesting but seems &quot;klugy&quot; to work with. There is no debugger, no designer, and no real developer guidance.
+Thankfully that (well... some of it) is about to change.</p>
+<p>The SDK is being made available as part of the on-going solution set Microsoft has been providing for the Hosted
+Exchange, Windows-based Hosting and now ISV customers. A [beta is now available]
+(<a href="http://download.microsoft.com/download/f/b/9/fb905eb4-d992-40e3-b0bc-cdb1996a1a10/Microsoft%20Provisioning%20System%20SDK-%20Beta%201.zip">http://download.microsoft.com/download/f/b/9/fb905eb4-d992-40e3-b0bc-cdb1996a1a10/Microsoft%20Provisioning%20System%20SDK-%20Beta%201.zip</a>)
+and, while much has changed between the beta and the final version, the current drop should give you a good idea of
+what the final product will do.</p>
+<p>The primary target platform is Visual Studio 2005 and the .NET Framework v2 although there is some support for Visual
+Studio 2003 and the .NET Framework v1.1. The tool set includes most everything you need to build solutions based on MPS
+including templates, provider wizards, intellisense, samples, integrated help (coming soon) and other tools. The SDK
+does not currently include a namespace debugger (you can still use TraceView) or a visual designer for building named
+procedures, but it does include some tools that provide great assistance to the namespace developer including
+drag-and-drop calling of procedures, integrated procedure &quot;dis-assembler&quot;, sample generator, and context menu-based
+&quot;execution&quot; of procedures saving you the time of having to look up the documentation and hand-craft the Xml request
+just to test a simple call.</p>
+<h3>Installation (prerequisites, potential &quot;gotchas&quot;, etc.)</h3><p>A normal installation machine would be a developer box running Windows Server 2003 SP1 or greater, have either Visual
+Studio 2003 or Visual Studio 2005 (preferred) and the MPS client installed. Depending on which version of Visual Studio
+is installed, the appropriate components for that version will be deployed (you can have both installed and all
+components/samples will be installed).</p>
+<p>One thing to note is that if you are installing the Visual Studio 2005 version, you should ensure that you have run
+Visual Studio at least once prior to installing the tools... this allows the SDK installer to read the registry keys
+necessary to properly locate/deploy the support files.</p>
+<p>For Visual Studio 2005, the project templates are currently deployed <em>per user</em> rather than for all users... if you
+need the templates available for other users you will need to copy the zip files from
+<code>C:\Documents and Settings\&lt;your alias&gt;\My Documents\Visual Studio 2005\Templates\ProjectTemplates\&lt;language&gt;\Microsoft Provisioning System</code>
+to the same location under their &quot;My Documents&quot; folder.</p>
+<p>For Visual Studio 2005, the add-in registration file is currently deployed <em>per user</em> rather than for all users... if
+you need the add-in available for other users you will need to copy the file named <code>Microsoft.Provisioning.Sdk.Addin</code> from
+<code>C:\Documents and Settings\&lt;your alias&gt;\My Documents\Visual Studio 2005\Addins</code> to the same location under their
+&quot;My Documents&quot; folder.</p>
+<p>If the MPS client is not installed and/or the machine is not a member of a valid (read: &quot;working&quot;) MPS
+environment/domain, many of the integrated tools will not function properly... if you have troubles, make sure you can
+perform &quot;normal&quot; MPS operations from the box outside of the VS environment.</p><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

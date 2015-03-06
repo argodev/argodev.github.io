@@ -1,0 +1,50 @@
+extends ../../_layout
+
+block content
+  .container
+    .page-header
+      h1 Technology Blog
+    .row
+      .col-md-9
+        .panel
+          .panel-body
+            //- for each item in the data...
+            //each entry in public.technology._data.archive
+              p #{ entry }
+            each entry, slug in public.technology._data.index._2011
+              if slug != 'index'
+                .row
+                  .col-md-12
+                    a(href='/technology/2011/#{ slug }')
+                      h3 #{ entry.title }
+                    p
+                      i.glyphicon.glyphicon-time
+                      |  Posted on #{ entry.date }
+                      = '  '
+                      i.glyphicon.glyphicon-comment
+                      span.disqus-comment-count(data-disqus-url='http://robgillen.com/technology/2011/#{ slug }')
+                      |  comments
+                    p #{ entry.excerpt }
+                    a.btn.btn-default(href="/technology/2011/#{ slug }")
+                      | Continue Reading
+                      = ' '
+                      i.glyphicon.glyphicon-chevron-right
+                hr
+      .col-sm-3
+        .panel.panel-default
+          .panel-heading
+            | 2011 Posts
+          .panel-body
+            ul
+              each entry, slug in public.technology._data.index._2011
+                if slug != 'index'
+                  li
+                    a(href='/technology/2011/#{ slug }') #{ entry.title }
+        .panel.panel-default
+          .panel-heading
+            | Other Posts
+          .panel-body
+            ul
+              each val in [2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004]
+                li
+                  a(href='/technology/' + val + '/') #{ val } Posts

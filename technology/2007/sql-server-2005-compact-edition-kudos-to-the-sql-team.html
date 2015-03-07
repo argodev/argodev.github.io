@@ -1,0 +1,77 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>SQL Server 2005 Compact Edition - Kudos to the SQL Team</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>January 24, 2007</h5><p>If you track the Microsoft or ASP.NET weblogs you&#39;ve surely noticed that roughly two weeks ago now Microsoft released
+SSCE or <a href="http://www.microsoft.com/sql/editions/compact/default.mspx">SQL Server 2005 Compact Edition</a>. Rather than
+simply saying &quot;they released it, go download it because it&#39;s cool&quot; I want to openly thank the SQL team for providing
+a very interesting product. As luck would have it, I was working on a POC for a customer in the later part of December
+into early January, and they actually RTM&#39;d the day prior to my final demo (thanks guys!) and allowed me to provide a
+rather interesting demo using an approach very different than I had planned. While I&#39;m on the topic, I&#39;d like to give a
+shout-out to <a href="http://pluralsight.com/blogs/jimw/archive/2006/06/18/28427.aspx">Jim Wilson</a> who helped me diagnose a
+rather esoteric problem I was having with the CTP.</p>
+<p>The customer I was working for had a data-centric web-based application for which they wanted to provide a desktop
+version that could function in an &quot;occasionally connected&quot; fashion (ala smart client). Prior to my involvement, they
+had an existing mock-up that utilized .NET 1.1 and MSDE on the desktop and replicated with the central SQL 2000
+database. They were having some seemingly insurmountable problems with performance and had asked
+<a href="http://www.go-planet.com/">my company</a> to provide an assessment and prove out some of the ideas we may have.</p>
+<p>As I studied the existing code base and problem set, there were numerous issues to address but one that gave me pause
+was the model for local data storage and replication with the master database. My initial reaction was to attempt to
+dump the whole idea of local data storage and adopt more of a service oriented smart client (SOSC) utilizing methods
+such as MSMQ and asynchronous web services and simply use a light-weight caching mechanism for the data that that must
+reside on the client. However the further I dug into the application, I became convinced that a data-centric smart
+client was the right option and therefore I needed to decide on a data storage mechanism for the local client.</p>
+<p>As I started my investigation, I believed I had two main options: SQL Server 2005 Express Edition or possibly an XML
+file (I was somewhat hopeful that I could make this latter option work).  While digging I came across some pointers to
+the (then RC) SQL Server Everywhere Edition. This was the next iteration of SQL Server for Windows CE but had been
+adapted and re-licensed to be used on any desktop application. The more I read, the more I liked it. For my customer,
+this database engine could not have been a better fit for the following reasons:</p>
+<ul>
+<li><p>Lightweight Runtime: one of the problems with both MSDE and SQL Express is that they run as a service and are
+always running on the client. Since some of the laptops used by their field staff were already resource constrained,
+the notion of adding another service that ran continuously wasn&#39;t the best option. SSCE&#39;s ability to run in-process
+made it a great fit.</p>
+</li>
+<li><p>Easy Deployment: With both MSDE and SQL Express, the installation is a bit more complicated than I wanted. My goal
+was a full click-once deployment and preferably one that didn&#39;t require any special permissions (i.e. for users to be
+local administrators). While SQL Express has a click-once compliant boot-strapper (I think there might be one for MSDE
+as well) it still required a bit heavier install and admin rights. With SSCE, I can simply reference a handful of DLLs
+in my project and deploy them to the /bin directory and I&#39;m good to go… this worked perfectly with the click-once
+deployment paradigm</p>
+</li>
+<li><p>Plausible Deniability/Obfuscation: this one may seem like a bit of a stretch for some, but it actually was one of my
+goals. See, the data being stored locally is of a somewhat classified nature (not a matter of national security, but
+not necessarily something you want floating around in the general public). One of the problems with MSDE is that you
+almost always have that little SQL Server icon in the task bar letting anyone who may have stolen the laptop know that
+a database server is running on that machine. SQL Express does not have that problem, but is still easily discoverable
+in the services applet. If you combine the fact that with SSCE the application only has the SQL assemblies in the /bin
+folder and doesn&#39;t run as a service, you wouldn&#39;t know that the database existed on the local machine unless you had
+prior knowledge of the specific application or happened to search the user&#39;s local settings folder for *.sdf files.
+So, the fact that SSCE is on the machine is significantly harder to discover than the other two db engines. Assuming
+that they did find the *.sdf file, I&#39;m protected by...</p>
+</li>
+<li><p>Data Encryption: one of the cool features of SSCE is that the database file (the entire *.sdf) can be encrypted.
+Therefore, if someone did find the file, unless they also had the decryption key, the file would be meaningless. This
+is not a feature that is available in either of the other db engines.</p>
+</li>
+<li><p>Ease of Replication: both MSDE and SQL Express have support to be subscribers to a DB publishing point. One of the
+key features of SSCE is that it is designed from the ground-up for this task… SSCE in combination with SQL 2005 at the
+master DB level supports HTTP/S endpoints for merge replication which allowed me to add a great deal of value in the
+POC… no longer would the field staff be required to VPN into headquarters to sync with the master data source…
+simply opening the app where they had an active Internet connection was all they needed for replication. It should
+be noted that SQL Express also supports HTTP endpoints, however the configuration is a bit trickier (with SSCE I can
+configure the subscription in client code when the app runs for the first time).</p>
+</li>
+<li><p>Replication Speed: Speed of replication was one of the largest issues they were experiencing with their early
+prototypes based on MSDE (each sync was averaging 15 minutes) - there were a number of issues with the replication
+configuration and general db design, however with some changes to the structure, moving the master db to SQL 2005
+and using SSCE on the client, I was able to see replication times averaging around 30 seconds (after the initial sync
+in which they received the full copy of the various lookup tables, etc… this initial sync was around 60-75 seconds).
+Needless to say, this was a great improvement and very well received.</p>
+</li>
+<li><p>Replication Feedback: another &quot;gripe&quot; with the early prototype was that while they were synchronizing, the process
+would lock the application and very little feedback was provided to the client (i.e. no way to really know how much
+longer the sync operation was going to take nor if it were really doing anything). SSCE has great support for
+asynchronous merge replication as well as a managed layer for handling replication status events in managed code
+allowing me to provide an intelligent progress bar as well as notification text indicating the current operation
+taking place (i.e. &quot;downloading users table&quot;) etc.</p>
+</li>
+</ul>
+<p>So, at the end of the day, I want to thank the SQL team for helping me do my job - providing my clients with solutions
+to their problems using robust technologies that can be customized to address their business problems.</p><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>What I'm looking for...</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>November 1, 2007</h5><p>In a number of the posts I&#39;ve been writing on the SOA/BPM conference I&#39;ve referred to the applicability (or lack
+thereof) of a given approach to &quot;the problem set&quot; that I&#39;m currently working on. I thought it might be good to
+describe what it is that I&#39;m looking for and a little bit as to why.</p>
+<p>I&#39;m working at an organization with roughly 4,000 employees that is in the process of &quot;drinking the MSFT Koolaid&quot;. We
+are deploying nearly every MSFT product and working hard to bring consistency to the platform both from a services
+aspect as well as the development paradigm. We are focusing on SAP backend, SQL data store, and SharePoint/Office
+Suite front-end.</p>
+<p>We are also focusing on bringing a consistent story to the workflow problem, and, by &quot;workflow&quot; I really mean (well,
+at least for the purposes of this post) business process. We have business processes in SAP that have workflows behind
+them and use various means of interaction to keep it moving (i.e. nag-mails, etc.). We have similar workflows in
+SharePoint for document approval processes and the like. We also have a third set of workflows (business processes)
+that are either not automated at all, or not in any sort of consistent interface. It is this last set processes that
+I&#39;m trying to &quot;fix&quot;.</p>
+<p>I have a couple of &quot;rules&quot;:</p>
+<ol>
+<li><p>The interface must live in SharePoint (at least the end-user facing portion)</p>
+</li>
+<li><p>The &quot;workflow&quot; aspects of the system should utilize one of the two existing execution engines we have running (SAP o
+r WF in MOSS)</p>
+</li>
+<li><p>The workflow designer should be comfortable for a business analyst to use, and preferably an extension to a tool
+they are already using (i.e. Visio add-in).</p>
+</li>
+<li><p>The workflow designer should be able to map actual requirements to the steps in the process (where applicable) and
+serve as a documentation source of sorts.</p>
+</li>
+<li><p>The process execution system must provide a webparts (or at least the ability to expose the data as webparts) for
+the following scenarios:</p>
+<ol>
+<li>Overall health of the system</li>
+<li>Current user&#39;s workflows currently in action</li>
+<li>Visual representation of a given workflow process</li>
+<li>Analysis relative to the execution stats for each workflow instance and type<ol>
+<li>i.e. X step of workflow Y is over the planned duration without having completed. Some indication should exist
+that this process is out of line</li>
+<li>i.e. Workflows of type X average Y days with the minimum being Z days and the maximum being T days. (and
+trends over time)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>There must be a hard link between process definition and process execution. The File | Print approach is not
+sufficient</p>
+</li>
+<li><p>The system should be standards-based. Meaning, I should be able to import/export the workflow definitions (at least
+at some level of granularity) to an industry standard such as BPEL or BPMN in order to be able to share or compare
+that process with other organizations.</p>
+</li>
+<li><p>The system should be able to provide governance over the models.</p>
+</li>
+<li><p>In all aspects possible, the system should provide a consistent story WRT the development paradigm we have selected
+(MSFT .NET, ASP.NET, Windows Workflow, SharePoint, etc.).</p>
+</li>
+</ol>
+<p>Reality...</p>
+<ol>
+<li><p>I&#39;m not exactly certain I&#39;m ready to back down on any of the items above, however I&#39;m coming to the conclusion that
+there may be a need for a &quot;third&quot; execution engine - meaning, all of the vendors that I saw that had platforms that
+did what I wanted, either used their own custom execution engine or hosted their own instance of WF separate from MOSS.
+Even MSFT pushed BizTalk as the &quot;main&quot; process execution engine for <em>serious</em> workflows.</p>
+</li>
+<li><p>If reality point #1 is in fact true, the process execution platform should be based on WF allowing the developers
+to have a consistent development paradigm.</p>
+</li>
+</ol><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

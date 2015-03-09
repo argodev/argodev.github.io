@@ -1,11 +1,67 @@
 {
-  "net-framework-11-sp1-and-mps-the-real-story": {
+  "azure-blob-storage-blob-ids-and": {
     "layout": "../_tech_post",
-    "date": "September 24, 2004",
-    "title": ".NET Framework 1.1 sp1 and MPS - the real story",
-    "excerpt": "I've been contacted recently by a number of people regarding a recent scare about installing the service pack 1 for the .NET framework 1.1 on a system running MPS.  This issue has been fueled by the fact that Ensim had released a concern about the patch for their customers, and there have been a number of people reporting problems using the Configuration Wizard for MPS with the service pack.  So, let's get the facts out.",
-    "categories": ["Provisioning"],
-    "tags": [".net", "mps"]
+    "date": "July 30, 2009",
+    "title": "Azure Blob Storage Blob IDs and “+”",
+    "excerpt": "I’d like to thank all of you who attended my session today at CodeStock. I had a great time talking with you all and sharing my experiences with SharePoint and TFS with you all.",
+    "categories": ["Cloud Computing", "General Development"],
+    "tags": ["azure", "cloud"]
+  },
+  "codestock-session": {
+    "layout": "../_tech_post",
+    "date": "June 26, 2009",
+    "title": "Codestock Session",
+    "excerpt": "I’d like to thank all of you who attended my session today at CodeStock. I had a great time talking with you all and sharing my experiences with SharePoint and TFS with you all.",
+    "categories": ["Conferences", "SharePoint"],
+    "tags": [".net", "build", "codestock", "sharepoint", "tfs"]
+  },
+  "customizations-to-stsdev-13": {
+    "layout": "../_tech_post",
+    "date": "June 23, 2009",
+    "title": "Customizations to STSDev 1.3",
+    "excerpt": "I’m working on a project which has as one of its goals the “publishing” of some very large datasets (order of 1PB) to the “cloud” for consumption by the general populous for use in scientific research. Rather than designing/inventing our own API, our decision has been to provide an interface consistent with the APIs produced by some of the leading cloud storage providers. Our goal would be that if someone is already used to/has tooling to working with cloud data sources such as Amazon’s S3 service or Microsoft’s Azure Blob storage",
+    "categories": ["Conferences", "SharePoint"],
+    "tags": [".net", "build", "codestock", "sharepoint", "tfs"]
+  },
+  "speaking-at-codestock": {
+    "layout": "../_tech_post",
+    "date": "June 22, 2009",
+    "title": "Speaking at CodeStock",
+    "excerpt": "I’m working on a project which has as one of its goals the “publishing” of some very large datasets (order of 1PB) to the “cloud” for consumption by the general populous for use in scientific research. Rather than designing/inventing our own API, our decision has been to provide an interface consistent with the APIs produced by some of the leading cloud storage providers. Our goal would be that if someone is already used to/has tooling to working with cloud data sources such as Amazon’s S3 service or Microsoft’s Azure Blob storage",
+    "categories": ["Conferences"],
+    "tags": [".net", "build", "codestock", "moss", "teamsystem", "tfs"]
+  },
+  "common-api-set-for-cloud-storage": {
+    "layout": "../_tech_post",
+    "date": "April 9, 2009",
+    "title": "Common API Set for Cloud Storage?",
+    "excerpt": "I’m working on a project which has as one of its goals the “publishing” of some very large datasets (order of 1PB) to the “cloud” for consumption by the general populous for use in scientific research. Rather than designing/inventing our own API, our decision has been to provide an interface consistent with the APIs produced by some of the leading cloud storage providers. Our goal would be that if someone is already used to/has tooling to working with cloud data sources such as Amazon’s S3 service or Microsoft’s Azure Blob storage",
+    "categories": ["Cloud Computing"],
+    "tags": ["aws", "azure"]
+  },
+  "clouds-and-traditional-hosting-companies": {
+    "layout": "../_tech_post",
+    "date": "March 25, 2009",
+    "title": "Clouds and Traditional Hosting Companies",
+    "excerpt": "I sat on a conference call yesterday wherein we discussed our thoughts on where the cloud was going and how it was going to impact the “traditional” hoster. Our company has been working with hosters for many  years (I started in 2000 and they had been doing it before that) and have seen cycles of service come and go. It used to be that just providing personal web + email was all you had to do to be successful. Then, the “Application Service Provider” (ASP) model started and morphed into providing business-related services and eventually to where companies outsourced entire portions of their infrastructure (think Hosted Exchange, Hosted CRM, Hosted OCS).",
+    "categories": ["Cloud Computing"],
+    "tags": ["cloud"]
+  },
+  "2009-bju-programming-contest": {
+    "layout": "../_tech_post",
+    "date": "March 24, 2009",
+    "title": "2009 BJU Programming Contest",
+    "excerpt": "I had the privilege of being one of the alumni-judges at the annual Bob Jones University Computer Science departments programming contest. This was the first time I’ve participated in this type of contest and I found it very interesting. The CS department had a fairly slick harness for executing the contest and supporting the judging in multiple languages and multiple platforms. As with anything of this nature, there were a few bumps in the road, but nothing of any consequence",
+    "categories": ["General Development"],
+    "tags": ["personal"]
+  },
+  "misplaced-modifier": {
+    "layout": "../_tech_post",
+    "date": "March 13, 2009",
+    "title": "Misplaced Modifier?",
+    "excerpt": "I was on a few websites this morning (go figure) and noticed a handful of visual missteps (mostly minor). One of them was on the Mix 09 conference page and made me chuckle a little.",
+    "categories": ["Miscellaneous"],
+    "tags": ["fun", "mix"]
   },
   "index" : {
     "layout": "index"

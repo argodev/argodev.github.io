@@ -296,7 +296,62 @@
       }
     },
     "_2008": {
-
+      "project-templates-for-sharepoint-development": {
+        "layout": "../_tech_post",
+        "date": "December 9, 2008",
+        "title": "Project Templates for SharePoint Development",
+        "excerpt": "I've had the privilege of working with an organization for almost two years now doing alot of SharePoint development. There's a team of approximately 75 developers that cover the gamut of skill sets and experiences, most of whom are working, to some degree, with C# and SharePoint development. One of the things that has come up repeatedly, is \"how do I get started\"? or \"what project template should I be using\"? These are good questions without a completely clear answer. This post (and hopefully some following) are intended to discuss what we are using, how it evolves, what options we discarded, and why. I spent last Friday teaching a class attempting to bring our team up to speed as to how to structure their SharePoint solutions/projects in VS and get them integrated with Team Build and packaged for deployment in our organization.",
+        "categories": ["SharePoint"],
+        "tags": [".net", "sharepoint", "teamsystem"]
+      },
+      "net-is-a-smorgasbord": {
+        "layout": "../_tech_post",
+        "date": "November 26, 2008",
+        "title": ".NET is a Smorgasbord?",
+        "excerpt": "Like many other .NET devs I often find myself expecting to be current in all of the existing and up-coming tools/technologies in the Microsoft/.NET platform. Frankly, I don't know how that is possible, especially with the pace at which MSFT (not to mention the surrounding ecosystem) is releasing tools and platforms. Over the past few years, my approach has been to know \"enough\" about the various tools/technologies so that I can be conversant, and also know when a particular toolset applies to my current project, thereby warranting a \"deeper\" dive into that area",
+        "categories": ["General Development"],
+        "tags": [".net", "wcf", "wpf"]
+      },
+      "does-the-cloud-help-the-public-sector": {
+        "layout": "../_tech_post",
+        "date": "October 29, 2008",
+        "title": "Does the “Cloud” help the Public Sector?",
+        "excerpt": "I’m here at PDC 2008 and having a rather good time attending sessions, talking with experts, speaking with vendors, etc. It has been a pretty good conference and I’ve done a better job than previously at managing my ability to pay attention (i.e. I don’t necessarily *have* to attend a session during every available slot, and, amazingly, there’s a good chance that taking a break b/t will help me pay attention better at the next one",
+        "categories": ["Cloud Computing", "Conferences"],
+        "tags": ["cloud", "pdc2008"]
+      },
+      "isnt-it-time-for-64bit": {
+        "layout": "../_tech_post",
+        "date": "September 3, 2008",
+        "title": "Isn’t it Time for 64Bit?",
+        "excerpt": "I’m getting frustrated with application vendors and their support for 64-bit OSs. I’d admit that a year or two ago the consumer-level device support for 64-bit OSs was a bit weak, but considering I can now walk into Best Buy and pick up a consumer-grade laptop that runs Vista 64, the major software vendors really need to get their act together. In the last few weeks I’ve been bitten by a “we don’t support 64-bit” story a number of times and it feels ridiculous",
+        "categories": ["Theory"],
+        "tags": ["rant"]
+      },
+      "thinking-the-cloud": {
+        "layout": "../_tech_post",
+        "date": "July 18, 2008",
+        "title": "Thinking the Cloud…",
+        "excerpt": "I’ve been talking quite a bit with a co-worker about “the cloud” and how organizations can and will leverage it over time, and how application development/design may change as a result. Microsoft’s SQL Server Data Services (SSDS) is only one example of a major paradigm shift in the industry away from internal-only systems to treating certain things as commodity-style resources.",
+        "categories": ["Cloud Computing", "Theory"],
+        "tags": ["theory"]
+      },
+      "stop-re-inventing-the-wheel": {
+        "layout": "../_tech_post",
+        "date": "June 22, 2008",
+        "title": "Stop (re-)Inventing the Wheel!",
+        "excerpt": "In my “day job”, I’m working with an organization wherein we are coaching a group of about 80 developers to view opening Visual Studio as their last viable option when looking to solve a problem. This doesn’t mean coding is bad (I certainly hope not… if so, I think I’d be out of a job soon), but rather represents a mind-set that recognizes that we have an enormous collection of functionality/tools already available to us (we are building on top of MOSS 2007) and we need to fully vet the OOTB functionality prior to deciding we need to “roll our own” anything.",
+        "categories": ["Theory", "SharePoint"],
+        "tags": ["moss", "sharepoint", "theory", "windows live"]
+      },
+      "finally-back-where-i-want-to-be": {
+        "layout": "../_tech_post",
+        "date": "May 26, 2008",
+        "title": "Finally back where I want to be...",
+        "excerpt": "It's frustrating to me to find myself redoing things that I've done before or re-solving problems. Over the years at Planet I've been involved with different software teams each with different levels of rigor, however most all of them have had, at minimum, an automated build process of some sort (at least for the past 4 years or so). Some of these systems were elaborate msbuild driven systems while others were a cobbling together of batch scripts or PowerShell linking msbuild, Vault, FogBugz and Community server,",
+        "categories": ["General Development", "SharePoint"],
+        "tags": ["build", "tfs", "visualstudio"]
+      }
     },
     "_2009": {
 

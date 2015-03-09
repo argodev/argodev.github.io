@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>Finally back where I want to be...</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>May 26, 2008</h5><p>It&#39;s frustrating to me to find myself redoing things that I&#39;ve done before or re-solving problems. Over the years at
+<a href="http://go-planet.com/">Planet</a> I&#39;ve been involved with different software teams each with different levels of rigor,
+however most all of them have had, at minimum, an automated build process of some sort (at least for the past 4 years or
+so). Some of these systems were elaborate msbuild driven systems while others were a cobbling together of batch scripts
+or PowerShell linking msbuild, <a href="http://sourcegear.com/">Vault</a>, <a href="http://fogcreeksoftware.com/">FogBugz</a> and
+<a href="http://communityserver.org/">Community server</a>.</p>
+<p>The customer I&#39;ve been working with for the past 16 months has &quot;bitten off&quot; the entire TFS tree and I&#39;ve been the
+prime developer responsible for implementing it and getting it going... all, of course, while doing &quot;real work&quot;.
+Further, (nearly) all of the work we&#39;ve been doing has been SharePoint focused (custom list event handlers, web parts,
+site definitions, etc) which means any build must generate properly formed SharePoint Solution (*.wsp) files and the
+approaches to doing this and handling the installation/upgrade of such are pretty varied.</p>
+<p>This weekend I finally completed a build on a project that meets my &quot;minimum requirements&quot; for being a properly
+formed build. I&#39;m pleased that I was able to, in relatively short order, apply it to another project verifying
+repeatability. Here&#39;s what we&#39;re doing:</p>
+<ul>
+<li><p>All build scripts are handled by TFS 2008 (using OOTB functionality)</p>
+</li>
+<li><p>Solution manifest files and DDF files are maintained both in dev and production build by a customized version of
+stsdev v1.3 (<a href="http://codeplex.com/stsdev">http://codeplex.com/stsdev</a>)</p>
+</li>
+<li><p>An &quot;installer&quot; is provided as part of the build (<buildroot>/Install) that allows the back office team to simply
+double-click and go. We use the SharePoint Installer (<a href="http://codeplex.com/sharepointinstaller">http://codeplex.com/sharepointinstaller</a>) tool/framework to
+provide this function</buildroot></p>
+</li>
+<li><p>All required web.config settings are handled via the feature receiver allowing them to be properly installed/removed
+on activation/deactivation</p>
+</li>
+<li><p>Developer-level documentation is provided for the build based on the /// comments in the code. We use Sand Castle
+(<a href="http://codeplex.com/sandcastle">http://codeplex.com/sandcastle</a>) to do the core generation and Sand Castle Help File Builder
+(<a href="http://codeplex.com/shfb">http://codeplex.com/shfb</a>) to assist with the build script integration (I tried DocProject -
+<a href="http://codeplex.com/docproject">http://codeplex.com/docproject</a> - but it pooched vs 2008 and never worked as described - hopefully it will be more
+stable when it exists beta).</p>
+</li>
+<li><p>Passed Style Cop (MS Source Analysis) rules</p>
+</li>
+<li><p>Passed Code Analysis rules</p>
+</li>
+</ul>
+<p>I still have a ways to go prior to reaching my &quot;nirvana&quot;...</p>
+<ul>
+<li><p>Build should automatically run code analysis (this is certainly possible, I&#39;ve simply not gotten it implemented yet)</p>
+</li>
+<li><p>Build should automatically run source analysis (this is possible, I&#39;ve simply not gotten it implemented yet)</p>
+</li>
+<li><p>Full testing (unit and system) on build completion - Ideally it would spin up a VM, deploy the appropriate code,
+execute the test battery, clean up and report on the results.</p>
+</li>
+</ul>
+<p>Even so, it felt good to get a respectable build out the door and to know that it was process driven and repeatable.</p><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>AtomPub, JSON, Azure and Large Datasets, Part 2</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>August 20, 2009</h5><p>Last Friday <a href="/technology/2009/atompub-json-azure-and-large-datasets">I posted some initial results</a> from some
+simplistic testing I had done comparing pulling data from Azure via ATOM (the ADO.NET data services client) and JSON. I
+was surprised at the significant difference in payload and time to completion. A little later, Steve Marx questioned
+my methodology based on the fact that Azure storage doesn’t support JSON. Steve wasn’t being contrary, but rather
+pushing for clarification to the methodology of my testing as well as a desire to keep people from attempting to
+exploit the JSON interface of Azure storage when none exists. This post is a follow up to [that one]
+(/technology/2009/atompub-json-azure-and-large-datasets) and attempts to clarify things a bit and highlight some
+expanded findings.</p>
+<p>The platform I’m working against is an Azure account with a storage account hosting the data (Azure Tables), and a web
+role providing multiple interaction points to the data, as well as making the interaction point anonymous. Essentially,
+this web role serves as a “proxy” to the data and reformats it as necessary. After Steve’s question last week, I got to
+wondering particularly about the overhead (if any) the web role/proxy was introducing and if, esp. in the case of the
+ATOM data, it was drastically affecting the results. I also got to wondering if the delays I was experiencing in data
+transmission were, in some part, caused by the fact of having to issue 9 serial requests in order to retrieve the
+entire 8100 rows that satisfied my query.</p>
+<p>To address these issues, I made the following adjustments:</p>
+<ol>
+<li><p>Tweaked my test harness for ATOM to optionally hit the storage platform directly (bypassing the proxy data service).</p>
+</li>
+<li><p>Tweaked the data service to allow an extra query string parameter to indicate that the proxy service should make as
+many calls to the data service as necessary to gather the complete result set and then return the results as a single
+batch to the caller. This allowed me to eliminate the 1000 row limit as well as to issue only a single HTTP request
+from the client.</p>
+</li>
+<li><p>I increased the test runs from 10 to 20 – still not scientifically accurate by any means, but a bit longer to provide
+a little better sense of the average lengths for each request batch.</p>
+</li>
+</ol>
+<p>The results I received as follows and not altogether different than one might expect:</p>
+<p><img alt="image" src="/assets/images/image_5B16CC5E.png" class="blogimage img-responsive"></p>
+<p><img alt="image" src="/assets/images/image_3FE1040E.png" class="blogimage img-responsive"></p>
+<p>As you can see from the charts above, the JSON FULL option was the fastest with an average time to completion of 14.4
+seconds. When compared to the regular JSON approach, you can infer that the overhead introduced from multiple calls is
+roughly 4 seconds (18.55 average time to completion).</p>
+<p>In the ATOM category, I find it interesting that the difference between the ATOM Direct (directly to the storage
+service) was only marginally faster (0.2 of a second on average) than the ATOM FULL approach. <strong><em>This would indicate
+that the network calls between the web role and the storage role are almost a non-factor</em></strong> (hinting at rather good
+network speeds). Remember, in the case of ATOM Full, the web role is doing the exact same thing as the test client is
+doing in Atom Direct, but additionally bundling the XML response into a single blob (rather than 9) and then sending it
+back to the client.</p>
+<p>The following chart shows the average payload per request between the test harness and Azure. Atom Full is different
+then Atom and Atom Direct in that the former is all 8,100 rows whereas the later two represent a single batch of 1000.
+It is interesting to note that the JSON representation of all 8,100 records is only marginally larger than the ATOM
+representation of 1,000 records (1,326,298 bytes compared to 1,118,892 bytes).</p>
+<p><img alt="image" src="/assets/images/image_0D10FD9A.png" class="blogimage img-responsive"></p>
+<p>At the end of the day, none of this is too surprising. JSON is less verbose in markup than ATOM and would logically be
+smaller on the wire and therefore complete sooner (although I wouldn’t have imagined it was a factor of 9 difference).
+What <em>is</em> interesting, is that the transfer of data b/t the data layer and the web role is almost trivially fast
+(remember, that 9 MB of XML moved between the layers and was then reformatted as JSON and shoved down back to the
+client in 14 seconds). It further makes you wonder what the performance improvement would/could be if Azure storage
+exposed a native JSON interface…</p><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

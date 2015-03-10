@@ -1,4 +1,4 @@
-I’m [playing around](//robgillen.com/technology/2009/azure-visualization-and-large-datasets) with a data visualization
+I’m [playing around](/technology/2009/azure-visualization-and-large-datasets) with a data visualization
 app using Silverlight and data hosted in Azure Tables and have been learning quite a bit in the process. Firstly,
 Azure tables only allows you to return 1000 records in a given query. If you issue a query that has a larger matching
 result set, Azure will return some extra headers indicating as such (`x-ms-continuation-NextPartitionKey` and

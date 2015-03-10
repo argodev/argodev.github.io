@@ -1,4 +1,68 @@
 {
+  "automated-chart-generation": {
+    "layout": "../_tech_post",
+    "date": "December 18, 2009",
+    "title": "Automated Chart Generation",
+    "excerpt": "It’s late on the Friday afternoon before Christmas week which means things are pretty quiet around the office. This quiet has the net-effect of allowing me to get quite a bit done. The last few days have been very productive with respect to our research project and Azure work (more on that coming soon) which is now in full swing. We are currently working on collecting performance data from our codes running in Azure (and soon in the Amazon cloud) and are also doing some testing of transfer speeds of data both to/from the cloud as well as between compute and storage in the cloud.",
+    "categories": ["Miscellaneous"],
+    "tags": ["charts", "tools", "vs2010"]
+  },
+  "windows-azure-climate-data-and-microsoft-surface": {
+    "layout": "../_tech_post",
+    "date": "December 18, 2009",
+    "title": "Windows Azure, Climate Data, and Microsoft Surface",
+    "excerpt": "I’ve been working on moving a large collection data to, from, and around Azure as we are testing the data profile for scientific computing and large-scale experiment post-processing and, in order to verify the data we uploaded and processed turned out as we wanted tit to, I built a simple visualization app that does a real-time query against the data in Azure and displays it. ",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "climate", "cloud", "ornl", "samples", "surface"]
+  },
+  "huntug-meeting-090914": {
+    "layout": "../_tech_post",
+    "date": "September 14, 2009",
+    "title": "HUNTUG Meeting 090914",
+    "excerpt": "I’ve been working for a bit on some larger-scale jobs targeting the Windows Azure platform and early last week had assembled a collection of worker roles that were supposed to be processing my datasets for a number of days moving forward. Unfortunately, they wouldn’t stay running. As always, they “worked on my machine”, so I naturally assumed that the problem was with the Azure platform :). I then proceeded to do what I thought was the correct action… go to the Azure portal and request that the logs be transferred to my storage account so I could review them and fix the problem.",
+    "categories": ["Cloud Computing", "Conferences"],
+    "tags": ["azure", "huntug", "cloud", "ineta", "slides"]
+  },
+  "live-monitoring-of-your-worker-roles-in-azure": {
+    "layout": "../_tech_post",
+    "date": "September 3, 2009",
+    "title": "“Live” Monitoring Of Your Worker Roles in Azure",
+    "excerpt": "I’ve been working for a bit on some larger-scale jobs targeting the Windows Azure platform and early last week had assembled a collection of worker roles that were supposed to be processing my datasets for a number of days moving forward. Unfortunately, they wouldn’t stay running. As always, they “worked on my machine”, so I naturally assumed that the problem was with the Azure platform :). I then proceeded to do what I thought was the correct action… go to the Azure portal and request that the logs be transferred to my storage account so I could review them and fix the problem.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", ".net", "cloud"]
+  },
+  "silverlight-and-paging-with-azure-data": {
+    "layout": "../_tech_post",
+    "date": "August 20, 2009",
+    "title": "SilverLight and Paging with Azure Data",
+    "excerpt": "If you’ve been watching by blog at all lately, you know that I’ve been playing with some larger data sets and Azure storage, specifically Azure table storage. Last week I found myself working with a SilverLight application to visualize the resulting data and display it to the user, however I did not want to use the ADO.NET Data Services client (ATOM) due to the size of data in transmission. Consequently, I set up a web role that proxied the data calls and fed them back to the caller as JSON.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "silverlight"]
+  },
+  "atompub-json-azure-and-large-datasets-part-2": {
+    "layout": "../_tech_post",
+    "date": "August 20, 2009",
+    "title": "AtomPub, JSON, Azure and Large Datasets, Part 2",
+    "excerpt": "Last Friday I posted some initial results from some simplistic testing I had done comparing pulling data from Azure via ATOM (the ADO.NET data services client) and JSON. I was surprised at the significant difference in payload and time to completion. A little later, Steve Marx questioned my methodology based on the fact that Azure storage doesn’t support JSON. Steve wasn’t being contrary, but rather pushing for clarification to the methodology of my testing as well as a desire to keep people from attempting to exploit the JSON interface of Azure storage when none exists.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "cloud", "storage"]
+  },
+  "atompub-json-azure-and-large-datasets": {
+    "layout": "../_tech_post",
+    "date": "August 14, 2009",
+    "title": "AtomPub, JSON, Azure and Large Datasets",
+    "excerpt": "I’m just really beginning to scratch the surface on my work on cloud computing and scientific computing but it seems that nearly every day I’m able to spend time on this I come away with something at least moderately novel. Today’s observation is, on reflection, a bit of a no-brainer but it wasn’t immediately obvious to me.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "cloud", "storage"]
+  },
+  "azure-visualization-and-large-datasets": {
+    "layout": "../_tech_post",
+    "date": "August 5, 2009",
+    "title": "Azure, Visualization, and Large Datasets",
+    "excerpt": "I’ve been working on kicking the tires of Azure’s data functions and in the process was able to get my hands on a large set of climate data for testing purposes. I’m fighting with some size issues and azure, but thought I’d start by loading up some experimental temperature runs into Azure tables and then build a visualization tool to help the viewer to wrap his/her mind around the numbers. This is my first real Silverlight app and, while it has a long way to go, it’s an interesting first stab.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure"]
+  },
   "silverlight-and-azure-table-data-paging": {
     "layout": "../_tech_post",
     "date": "August 5, 2009",

@@ -1,4 +1,12 @@
 {
+  "silverlight-and-azure-table-data-paging": {
+    "layout": "../_tech_post",
+    "date": "August 5, 2009",
+    "title": "Silverlight and Azure Table Data Paging",
+    "excerpt": "I’m playing around with a data visualization app using Silverlight and data hosted in Azure Tables and have been learning quite a bit in the process. Firstly, Azure tables only allows you to return 1000 records in a given query. If you issue a query that has a larger matching result set, Azure will return some extra headers indicating as such (x-ms-continuation-NextPartitionKey and x-ms-continuation-NextRowKey).",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "cloud", "silverlight"]
+  },
   "azure-blob-storage-blob-ids-and": {
     "layout": "../_tech_post",
     "date": "July 30, 2009",

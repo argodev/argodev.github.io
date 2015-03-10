@@ -1,0 +1,18 @@
+I'm finally wrapping up CodeMash 2014 and, while it turned out much differently than I expected (I had to leave early
+on Thursday), I really enjoyed the conference and had a blast presenting and getting to interact with a number of
+folks.
+
+As discussed, I've included links to the videos and slides below:
+
+* Hiding in Plain Sight
+  * [Slides](http://www.slideshare.net/rgillen/hiding-in-plain-sight)
+  * [Video](https://vimeo.com/83866906)
+* What's in a Password?
+  * [Slides](http://www.slideshare.net/rgillen/so-whats-in-a-password)
+  * [Video](https://vimeo.com/83897348)
+* Software Defined Radio for the Pen Tester
+  * [Slides](http://www.slideshare.net/rgillen/software-defined-radio-and-the-hacker)
+  * [Video](https://vimeo.com/83853243)
+* How Well Do You Know Your Runtime?
+  * [Slides](http://www.slideshare.net/rgillen/how-well-do-you-know-your-runtime)
+  * [Video](https://vimeo.com/83879067)

@@ -1,22 +1,43 @@
 {
-  "you-cant-handle-the-truth": {
-    "layout": "_tech_post",
+  "2014/you-cant-handle-the-truth": {
+    "layout": "../_tech_post",
     "date": "August 14, 2014",
     "title": "You Can't Handle The Truth",
-    "excerpt": "This week I spent a few days in Dallas, TX at the Crimes Against Children conference. I started to say \"I was privileged to attend…\" but I'm not certain that imparts the appropriate gravity to the conference. This week wasn't a party. It wasn't a \"good time\". It wasn't fun. It was work. Hard work. I found myself having to force myself to attend the sessions."
+    "excerpt": "This week I spent a few days in Dallas, TX at the Crimes Against Children conference. I started to say \"I was privileged to attend…\" but I'm not certain that imparts the appropriate gravity to the conference. This week wasn't a party. It wasn't a \"good time\". It wasn't fun. It was work. Hard work. I found myself having to force myself to attend the sessions.",
+    "categories": ["Conferences"],
+    "tags": []
   },
-
-  "codestock-2014": {
-    "layout": "_tech_post",
+  "2014/codestock-2014": {
+    "layout": "../_tech_post",
     "date": "July 11, 2014",
     "title": "CodeStock 2014",
-    "excerpt": "I'm pleased to have been asked to speak at at CodeStock 2014 this year. I'm giving two talks... one on Password security, cracking and related items and another on Hiding in Plain Site. I've been able to take some time to re-work both of these talks and extend them a bit."
+    "excerpt": "I'm pleased to have been asked to speak at at CodeStock 2014 this year. I'm giving two talks... one on Password security, cracking and related items and another on Hiding in Plain Site. I've been able to take some time to re-work both of these talks and extend them a bit.",
+    "categories": ["Conferences"],
+    "tags": ["codestock", "security"]
   },
-  "tracking-planes-on-vacation": {
-    "layout": "_tech_post",
+  "2014/tracking-planes-on-vacation": {
+    "layout": "../_tech_post",
     "date": "June 13, 2014",
     "title": "Tracking Planes on Vacation",
-    "excerpt": "We spent the past week with our extended family at a cabin in the TN mountains. We do this every year or so, and - as we normally do - we had a blast. On one of our \"in\" days, I had planned to work through an experiment with the kids to show the difference between the stock antenna for tracking airplanes via ADS-B and a custom-built antenna. We followed a number of online tutorials and used a bunch of open source software. I have posted below are the links for some of these tools and parts in case you want to do the same with your kids. I hope you have as much fun as we did!"
+    "excerpt": "We spent the past week with our extended family at a cabin in the TN mountains. We do this every year or so, and - as we normally do - we had a blast. On one of our \"in\" days, I had planned to work through an experiment with the kids to show the difference between the stock antenna for tracking airplanes via ADS-B and a custom-built antenna. We followed a number of online tutorials and used a bunch of open source software. I have posted below are the links for some of these tools and parts in case you want to do the same with your kids. I hope you have as much fun as we did!",
+    "categories": [],
+    "tags": ["sdr"]
+  },
+  "2014/book-review-learning-windows-mobile-services-for-win-8-and-win-phone-8": {
+    "layout": "../_tech_post",
+    "date": "March 25, 2014",
+    "title": "Book Review: Learning Windows Mobile Services for Win 8 and Win Phone 8",
+    "excerpt": "A few weeks ago I was approached and asked if I would like to review a book on Windows Azure Mobile Services. While I've worked with Azure from its inception, this is not an aspect of the platform that I have utilized, so I accepted - figuring I would have the opportunity to learn about a new (to me) aspect of a service I was already quite familiar with. I was provided with a copy of Learning Windows Azure Mobile Services for Windows 8 and Windows Phone 8 ",
+    "categories": ["Cloud Computing"],
+    "tags": ["books", "azure", "mobile"]
+  },
+  "2014/codemash-2014": {
+    "layout": "../_tech_post",
+    "date": "January 10, 2014",
+    "title": "CodeMash 2014",
+    "excerpt": "I'm finally wrapping up CodeMash 2014 and, while it turned out much differently than I expected (I had to leave early on Thursday), I really enjoyed the conference and had a blast presenting and getting to interact with a number of folks.",
+    "categories": ["Conferences"],
+    "tags": ["security", "codemash"]
   },
   "index" : {
     "layout": "index",
@@ -504,7 +525,46 @@
 
     },
     "_2014": {
-
+      "you-cant-handle-the-truth": {
+        "layout": "../_tech_post",
+        "date": "August 14, 2014",
+        "title": "You Can't Handle The Truth",
+        "excerpt": "This week I spent a few days in Dallas, TX at the Crimes Against Children conference. I started to say \"I was privileged to attend…\" but I'm not certain that imparts the appropriate gravity to the conference. This week wasn't a party. It wasn't a \"good time\". It wasn't fun. It was work. Hard work. I found myself having to force myself to attend the sessions.",
+        "categories": ["Conferences"],
+        "tags": []
+      },
+      "codestock-2014": {
+        "layout": "../_tech_post",
+        "date": "July 11, 2014",
+        "title": "CodeStock 2014",
+        "excerpt": "I'm pleased to have been asked to speak at at CodeStock 2014 this year. I'm giving two talks... one on Password security, cracking and related items and another on Hiding in Plain Site. I've been able to take some time to re-work both of these talks and extend them a bit.",
+        "categories": ["Conferences"],
+        "tags": ["codestock", "security"]
+      },
+      "tracking-planes-on-vacation": {
+        "layout": "../_tech_post",
+        "date": "June 13, 2014",
+        "title": "Tracking Planes on Vacation",
+        "excerpt": "We spent the past week with our extended family at a cabin in the TN mountains. We do this every year or so, and - as we normally do - we had a blast. On one of our \"in\" days, I had planned to work through an experiment with the kids to show the difference between the stock antenna for tracking airplanes via ADS-B and a custom-built antenna. We followed a number of online tutorials and used a bunch of open source software. I have posted below are the links for some of these tools and parts in case you want to do the same with your kids. I hope you have as much fun as we did!",
+        "categories": [],
+        "tags": ["sdr"]
+      },
+      "book-review-learning-windows-mobile-services-for-win-8-and-win-phone-8": {
+        "layout": "../_tech_post",
+        "date": "March 25, 2014",
+        "title": "Book Review: Learning Windows Mobile Services for Win 8 and Win Phone 8",
+        "excerpt": "A few weeks ago I was approached and asked if I would like to review a book on Windows Azure Mobile Services. While I've worked with Azure from its inception, this is not an aspect of the platform that I have utilized, so I accepted - figuring I would have the opportunity to learn about a new (to me) aspect of a service I was already quite familiar with. I was provided with a copy of Learning Windows Azure Mobile Services for Windows 8 and Windows Phone 8 ",
+        "categories": ["Cloud Computing"],
+        "tags": ["books", "azure", "mobile"]
+      },
+      "codemash-2014": {
+        "layout": "../_tech_post",
+        "date": "January 10, 2014",
+        "title": "CodeMash 2014",
+        "excerpt": "I'm finally wrapping up CodeMash 2014 and, while it turned out much differently than I expected (I had to leave early on Thursday), I really enjoyed the conference and had a blast presenting and getting to interact with a number of folks.",
+        "categories": ["Conferences"],
+        "tags": ["security", "codemash"]
+      }
     }
   }
 }

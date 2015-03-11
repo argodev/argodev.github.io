@@ -1,0 +1,91 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Presentations/Talks</a></li><li><a href="/papers">Publications/Arcticles</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1>Fighting with Hidden Characters</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>March 11, 2015</h5><p>One of the projects I&#39;m currently working on involves performing analysis over a number of different log files from an
+array of different systems. Each system has its own format/structure/whatever and we are trying to glean important
+information from the unified view of that data.</p>
+<h3>The Problem</h3><p>Many of the files handed to us have a problem in that they are not in a standard format suitable for analysis - those of
+you who do this for a living know that this is more often the rule rather than the exception. In this particular case,
+rather than having a single line of the file represent a single record, the rather long data lines were broken up at
+seemingly arbitrary locations which made it a bit difficult to process using standard tools. After studying the data and
+eventually reviewing one of the files in a hex editor, it became clear that the actual record boundaries were marked
+with <code>0D1E0A</code> (CR + RS + LF). The &quot;bogus&quot; line breaks were marked by <code>1E0A</code> (RS + LF) preceded by <code>FAKE_EOLN</code>.</p>
+<p>I could have written a python, perl, java, or c# program to do a find/replace on the various characters and been done,
+but I really wanted to be able to use existing tools as much as from the command line as possible. I&#39;m all for using the
+right tool for the job, but this felt like something a one-liner on the shell was best for.</p>
+<h3>Failed Attempt</h3><p>My first attempt, after much wailing and nashing of teeth, was the following:</p>
+<pre><code>sed -i.bak -e &#39;:a;N;$!ba;s/FAKE_EOLN\(&#39;$&#39;\036&#39;&#39;\)\n//g&#39; -e &#39;s/\r\(&#39;$&#39;\036&#39;&#39;\)//g&#39; t.csv
+</code></pre><p>I liked this version as it utilized a single tool, operated on the file in place, and seemed to work fine. However, for
+whatever reason, it failed when I tried it on the real file (over 2GB). It worked great on the smaller test files but
+simply didn&#39;t function on the large files (would complete without having actually performed the work). I tested the two
+commands independently and it appears that it was the &quot;magic&quot; that I was doing in the first command (combining lines)
+that was the problem as the second part, when run in isolation, worked fine on the full files but the first didn&#39;t. For
+those of you who care (as well as for my own reference) I&#39;ve described what that line does at the bottom of this post.</p>
+<h3>Current Solution</h3><p>I next re-thought about the problem... how could I make it fast, simple, and reliable. As such, a re-thinking of the
+problem led to the following:</p>
+<ul>
+<li>the &quot;Windowsy&quot; CR char is the one thing that accurately marked the end of the record.</li>
+<li>I could remove all RS and LF chars and then come back and replace the CR with LF and I&#39;d have one line per record</li>
+<li>Still needed to remove the &quot;FAKE_EOLN&quot; strings</li>
+</ul>
+<p>A little bit of poking around and work led me to the following:</p>
+<pre><code>tr -d &#39;\012\036&#39; &lt; t.csv | tr &#39;\015&#39; &#39;\012&#39; | sed &#39;s/FAKE_EOLN//g&#39; &gt; t1.csv
+</code></pre><p>where:</p>
+<ul>
+<li><code>t.csv</code> is the input file</li>
+<li><code>t1.csv</code> is the output file</li>
+<li><code>\012</code> is the octal value of a LF character</li>
+<li><code>\036</code> is the octal value of a RS character</li>
+<li><code>\015</code> is the octal value of the CR character</li>
+</ul>
+<p>You probably know that <code>tr</code> replaces individual characters and works on a byte stream level (rather than individual
+lines as <code>sed</code> does). This means I can easily translate/drop individual chars from the byte stream and don&#39;t have to
+worry about line breaks messing me up (this was the purpose of the ultimately unsuccessful <code>:a;N;$!ba;</code> mess in the sed
+example). Unfortunately, you cannot replace/remove a full string so I had to still use sed for that last part.</p>
+<p>The approach above &quot;fixes&quot; the problem and only takes about 13 seconds to run on a 2.2 GB file with around 1.8 million
+actual rows of data (had almost 12 million lines prior to processing)</p>
+<h3>Miscellany</h3><p>Because it took me so long to work out the first time combined with the fact that I&#39;m relatively new to sed, I wanted to
+document exactly what was going on in the initial (although failed) attempt.</p>
+<pre><code>sed -i.bak -e &#39;:a;N;$!ba;s/FAKE_EOLN\(&#39;$&#39;\036&#39;&#39;\)\n//g&#39; -e &#39;s/\r\(&#39;$&#39;\036&#39;&#39;\)//g&#39; t.csv
+</code></pre><p>The following are general statements about the above:</p>
+<ul>
+<li>There are two commands (strung together by <code>-e</code> operations) - more on these in a minute.</li>
+<li>the file will be operated on in-place with a backup being made at <code>filename.bak</code> (this is the <code>-i.bak</code>)</li>
+<li>the file to be processed is <code>t.csv</code></li>
+</ul>
+<p>Command #1:</p>
+<ul>
+<li><p>Goal: Remove all instances of <code>FAKE_EOLN</code> followed by a RS character and a LF character thus removing the junk entry
+and recombining the two lines into one. For whatever reason, an individual record is broken up into many lines using
+this combination of characters</p>
+</li>
+<li><p>this one is a bit tricky because sed only works on individual lines, but this step needs to actually remove a line
+break (not normally &#39;visible&#39; to sed)</p>
+</li>
+<li><p>we create a label via <code>:a</code></p>
+</li>
+<li><p>we append the current and next line to the pattern space via <code>N</code></p>
+</li>
+<li><p>If we are before the last line, we branch to the created label <code>$!ba</code> (<code>$!</code> means not to do it on the last line)</p>
+</li>
+<li><p>then the substitution kicks in, removing any instance of both an RS and LF characters.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> after reading the above, it makes perfect sense as to why this approach worked well on small files yet
+failed for larger ones. The branching step (<code>$!ba</code>) would effectively build a single string that contains all but the
+last line of the file, which, in my case was &gt; 2GB. I&#39;m guessing there was a memory error that simply wasn&#39;t being
+reported.</p>
+</blockquote>
+<p>Command #2</p>
+<ul>
+<li><p>Goal: remove all instances of a Windows style CR followed by a Record Separator (these appear at the end of true
+records)</p>
+</li>
+<li><p>As you can see, this one is far simpler.</p>
+</li>
+<li><p>It simply looks for all instances where there is a combination of the CR RS characters (Windows-style Carriage Return
+<code>\r</code> followed by a Record Separator <code>\036</code>)</p>
+</li>
+<li><p>replaces them with nothing (there are no replacement characters in between the two <code>//</code> marks at the end).</p>
+</li>
+<li><p>It does this globally (trailing <code>g</code>) for the file.</p>
+</li>
+</ul><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/2015/fighting_with_hidden_characters">Fighting with Hidden Characters</a></li><li><a href="/technology/2014/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/2014/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/2014/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li><li><a href="/technology/2014/book-review-learning-windows-mobile-services-for-win-8-and-win-phone-8">Book Review: Learning Windows Mobile Services for Win 8 and Win Phone 8</a></li><li><a href="/technology/2014/codemash-2014">CodeMash 2014</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2015/">2015 Posts</a></li><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

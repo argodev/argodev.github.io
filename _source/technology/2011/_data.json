@@ -1,11 +1,19 @@
 {
-  "net-framework-11-sp1-and-mps-the-real-story": {
+  "getting-monitor-mode-to-work-for-the-alfa-awus036h": {
     "layout": "../_tech_post",
-    "date": "September 24, 2004",
-    "title": ".NET Framework 1.1 sp1 and MPS - the real story",
-    "excerpt": "I've been contacted recently by a number of people regarding a recent scare about installing the service pack 1 for the .NET framework 1.1 on a system running MPS.  This issue has been fueled by the fact that Ensim had released a concern about the patch for their customers, and there have been a number of people reporting problems using the Configuration Wizard for MPS with the service pack.  So, let's get the facts out.",
-    "categories": ["Provisioning"],
-    "tags": [".net", "mps"]
+    "date": "December 23, 2011",
+    "title": "Getting Monitor Mode to work for the Alfa AWUS036H",
+    "excerpt": "If you’ve done much work with BackTrack and wireless penetration testing you’re likely using (or at least have heard of) the Alfa AWUS036H . If you haven’t, it is simply a USB-connected wireless adapter that supports long range, various external antennas, has built-in driver support in BackTrack, and supports the all-important (for this type of work) monitor mode.",
+    "categories": ["Security"],
+    "tags": ["backtrack", "security"]
+  },
+  "introduction-to-gpgpu-programming-with-cuda": {
+    "layout": "../_tech_post",
+    "date": "June 6, 2011",
+    "title": "Introduction to GPGPU Programming with CUDA",
+    "excerpt": "This past weekend I had the honor of giving a talk at CodeStock 2011 here in Knoxville. This was the third year I’ve participated in this conference and I really enjoy it. I decided to “step out” a bit and do a talk that was a bit outside of my norm and tackle a topic of interest to me – GPU computing. The talk seemed to go OK, and there was some good conversation in the room.",
+    "categories": ["Conferences"],
+    "tags": ["codestock", "cuda", "gpgpu", "nvidia"]
   },
   "index" : {
     "layout": "index"

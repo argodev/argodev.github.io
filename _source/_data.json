@@ -1,4 +1,8 @@
 {
+  "index": {
+    "layout": "index",
+    "title": "Rob Gillen"
+  },
   "about": {
     "layout": "_about",
     "title": "About"
@@ -7,5 +11,4 @@
     "layout": "contact",
     "title": "Contact"
   }
-
 }

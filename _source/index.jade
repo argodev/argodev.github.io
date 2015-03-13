@@ -7,29 +7,29 @@ block content
             .logo-subtitle random wanderings through technology, code, and life
         .row
             .col-md-9
-                .panel
-                    .panel-heading
-                        | Technology Posts
-                    .panel-body
-                        each entry, slug in public.technology._data
-                            if slug != 'index'
-                                .row
-                                    .col-md-12
-                                        a(href='/technology/#{ slug }')
-                                            h3 #{ entry.title }
-                                        p
-                                            i.glyphicon.glyphicon-time
-                                            |  Posted on #{ entry.date }
-                                            = '  '
-                                            i.glyphicon.glyphicon-comment
-                                            span.disqus-comment-count(data-disqus-url='http://robgillen.com/technology/#{ slug }')
-                                            |  comments
-                                        p #{ entry.excerpt }
-                                        a.btn.btn-default(href="/technology/#{ slug }")
-                                            | Continue Reading
-                                            = ' '
-                                            i.glyphicon.glyphicon-chevron-right
-                                hr
+                //- .panel
+                    //- .panel-heading
+                    //-     | Technology Posts
+                //-     .panel-body
+                each entry, slug in public.technology._data
+                    if slug != 'index'
+                        .row
+                            .col-md-12
+                                a(href='/technology/#{ slug }')
+                                    h3 #{ entry.title }
+                                p
+                                    i.glyphicon.glyphicon-time
+                                    |  Posted on #{ entry.date }
+                                    = '  '
+                                    //- i.glyphicon.glyphicon-comment
+                                    //- span.disqus-comment-count(data-disqus-url='http://robgillen.com/technology/#{ slug }')
+                                    //- |  comments
+                                p #{ entry.excerpt }
+                                a.btn.btn-default(href="/technology/#{ slug }")
+                                    | Continue Reading
+                                    = ' '
+                                    i.glyphicon.glyphicon-chevron-right
+                        hr
                 //
                     .panel
                         .panel-heading

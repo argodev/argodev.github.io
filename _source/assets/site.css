@@ -78,12 +78,12 @@ code {
 
 .logo-subtitle {
     color: #ddd;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'proxima-nova', sans-serif;
     font-size: 12px;
 }
 
 h1 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'futura-pt', sans-serif;
     text-transform: uppercase;
     color: #222;
     font-size: 46px;
@@ -95,21 +95,21 @@ h1 {
 h1.entry-title {
     font-size: 22px;
     font-style: normal;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'futura-pt', sans-serif;
     font-weight: bold;
     text-transform: none;
 }
 
 .navbar-nav li a {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'futura-pt', sans-serif;
     text-transform: uppercase;
 }
 
 .navbar-brand {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'futura-pt', sans-serif;
     text-transform: uppercase;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'proxima-nova', sans-serif;
 }

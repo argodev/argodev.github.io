@@ -6,28 +6,24 @@ block content
       h1 Technology Blog
     .row
       .col-md-9
-        .panel
-          .panel-body
-            //- for each item in the data...
-            each entry, slug in public.technology._data
-              if slug != 'index'
-                .row
-                  .col-md-12
-                    a(href='/technology/#{ slug }')
-                      h3 #{ entry.title }
-                    p
-                      i.glyphicon.glyphicon-time
-                      |  Posted on #{ entry.date }
-                      = '  '
-                      i.glyphicon.glyphicon-comment
-                      span.disqus-comment-count(data-disqus-url='http://robgillen.com/technology/#{ slug }')
-                      |  comments
-                    p #{ entry.excerpt }
-                    a.btn.btn-default(href="/technology/#{ slug }")
-                      | Continue Reading
-                      = ' '
-                      i.glyphicon.glyphicon-chevron-right
-                hr
+        //- .panel
+          //-   .panel-body
+        //- for each item in the data...
+        each entry, slug in public.technology._data
+          if slug != 'index'
+            .row
+              .col-md-12
+                a(href='/technology/#{ slug }')
+                  h3 #{ entry.title }
+                p
+                  i.glyphicon.glyphicon-time
+                  |  Posted on #{ entry.date }
+                p #{ entry.excerpt }
+                a.btn.btn-default(href="/technology/#{ slug }")
+                  | Continue Reading
+                  = ' '
+                  i.glyphicon.glyphicon-chevron-right
+            hr
       .col-sm-3
         .panel.panel-default
           .panel-heading

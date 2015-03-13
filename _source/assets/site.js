@@ -28,3 +28,5 @@ var disqus_shortname = 'rgillen';
 //ga('send', 'pageview');
 
 
+try{Typekit.load();}catch(e){}
+

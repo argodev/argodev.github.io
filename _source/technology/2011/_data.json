@@ -7,13 +7,93 @@
     "categories": ["Security"],
     "tags": ["backtrack", "security"]
   },
+  "ramblings-on-a-private-cloud-part-1-of": {
+    "layout": "../_tech_post",
+    "date": "November 30, 2011",
+    "title": "Ramblings on a Private Cloud (part 1 of ?)",
+    "excerpt": "As many of you are aware, a few months ago I changed jobs (more like positions) and with that change has come a shift in the focus of much of my work. I’m spending less time in the abstract (i.e. “how could we solve problem X\" in the cloud”) and working more in the concrete (“we have agency Y that has problem X that needs to be deployed in the cloud yesterday… what do you think?”). One unfortunate (at least in my way of thinking) is that many of these projects have legislative requirements that prohibit the use of public cloud platforms (at least currently).",
+    "categories": ["Cloud Computing"],
+    "tags": ["cloud", "cloudstack", "private cloud", "xen", "xen center"]
+  },
+  "windows-7-windows-8-and-linux": {
+    "layout": "../_tech_post",
+    "date": "November 4, 2011",
+    "title": "Windows 7, Windows 8, and Linux",
+    "excerpt": "This post may not be of interest to everyone, but I finally got my laptop configured the way I want it and thought I’d document what I did in case anyone else finds themselves in a similar position. It took me 4 or 5 full install/repeat processes to get this right (don’t ask…) so this description is where I ended up. Let’s start by discussing some of my requirements:",
+    "categories": ["General Development"],
+    "tags": []
+  },
+  "windows-azure-development-cookbook": {
+    "layout": "../_tech_post",
+    "date": "October 20, 2011",
+    "title": "Windows Azure Development Cookbook",
+    "excerpt": "For the last week or so, I’ve been reading the Windows Azure Development Cookbook written by a fellow Azure MVP, Neil Mackenzie. I was actually rather pleased when Packt asked if I would be willing to review the book as I’d been meaning to pick up a copy and read through it but hadn’t yet.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "books"]
+  },
+  "different-yet-the-same": {
+    "layout": "../_tech_post",
+    "date": "October 3, 2011",
+    "title": "Different, yet the Same",
+    "excerpt": "While some of you are aware, to others it may come as somewhat of a surprise that about a week ago I ended my tenure at Planet Technologies after nearly 11.5 years. As I shared with some of the Planet folks in an email, my experience at Planet was great, and I am leaving with fond memories of my time there and the people I have been privileged to work with.",
+    "categories": ["Miscellaneous"],
+    "tags": ["ornl", "personal", "planet"]
+  },
+  "slides-from-devlink-2011": {
+    "layout": "../_tech_post",
+    "date": "September 5, 2011",
+    "title": "Slides from DevLink 2011",
+    "excerpt": "While some of you are aware, to others it may come as somewhat of a surprise that about a week ago I ended my tenure at Planet Technologies after nearly 11.5 years. As I shared with some of the Planet folks in an email, my experience at Planet was great, and I am leaving with fond memories of my time there and the people I have been privileged to work with.",
+    "categories": ["Cloud Computing", "Conferences", "General Development"],
+    "tags": ["aws", "azure", "cloud", "cuda", "nvidia"]
+  },
+  "using-nevron-controls-in-azure": {
+    "layout": "../_tech_post",
+    "date": "June 9, 2011",
+    "title": "Using Nevron Controls in Azure",
+    "excerpt": "I’ve been playing around with the Nevron Controls for an Azure application I’m building (hopefully more on that soon) and I’ve been fighting with a simple problem that I’m posting here for my own remembrance and hopefully to help a few others.",
+    "categories": ["Cloud Computing", "General Development"],
+    "tags": ["azure", "nevron"]
+  },
+  "a-comparison-of-aws-and-azure": {
+    "layout": "../_tech_post",
+    "date": "June 6, 2011",
+    "title": "A Comparison of AWS and Azure",
+    "excerpt": "This past weekend at CodeStock, I gave a double-length session that was a side-by-side comparison of Amazon Web Services and Microsoft Windows Azure. The objective was to introduce the products, walk through the similarities and differences, and have a discussion around where the different offerings fit various needs better than the other (or not). ",
+    "categories": ["Cloud Computing", "Conferences"],
+    "tags": ["aws", "azure", "cloud", "codestock"]
+  },
   "introduction-to-gpgpu-programming-with-cuda": {
     "layout": "../_tech_post",
     "date": "June 6, 2011",
     "title": "Introduction to GPGPU Programming with CUDA",
     "excerpt": "This past weekend I had the honor of giving a talk at CodeStock 2011 here in Knoxville. This was the third year I’ve participated in this conference and I really enjoy it. I decided to “step out” a bit and do a talk that was a bit outside of my norm and tackle a topic of interest to me – GPU computing. The talk seemed to go OK, and there was some good conversation in the room.",
-    "categories": ["Conferences"],
-    "tags": ["codestock", "cuda", "gpgpu", "nvidia"]
+    "categories": ["Cloud Computing", "Conferences"],
+    "tags": ["cuda", "gpgpu", "nvidia", "codestock"]
+  },
+  "cloud-futures-2011scaling-document-clustering": {
+    "layout": "../_tech_post",
+    "date": "June 6, 2011",
+    "title": "Cloud Futures 2011–Scaling Document Clustering",
+    "excerpt": "I was honored to be able to give a talk at the Microsoft Research Cloud Futures 2011 conference this past week. I joined a number of other researchers and academics from around the world and discussed what folks were doing with the cloud, where issues remained, and where progress was being made. Having been in attendance at last year’s event, I was quite pleased to see the advancements both in logistics and content… the level of material was definitely stronger this year.",
+    "categories": ["Cloud Computing", "Conferences"],
+    "tags": ["aws", "azure", "ornl"]
+  },
+  "windows-azure-handbook-v1": {
+    "layout": "../_tech_post",
+    "date": "May 16, 2011",
+    "title": "Windows Azure Handbook: v1",
+    "excerpt": "Earlier this year, a fellow Windows Azure MVP, David Pallmann wrote the first book in series on Windows Azure. For whatever reason, I started reading the book with a great deal of skepticism (fast moving technology, books are outdated long before they reach press, etc.) but was pleasantly surprised with the strong business relevance of this book.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "books"]
+  },
+  "hands-on-with-amazon-web-services": {
+    "layout": "../_tech_post",
+    "date": "May 6, 2011",
+    "title": "Windows Azure Handbook: v1",
+    "excerpt": "I have the opportunity to talk at StirTrek today and wanted to make the slides available from today's session. I'll update this post a bit more following the session.",
+    "categories": ["Cloud Computing", "Conferences"],
+    "tags": ["aws", "cloud"]
   },
   "index" : {
     "layout": "index"

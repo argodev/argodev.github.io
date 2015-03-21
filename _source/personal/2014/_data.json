@@ -1,0 +1,54 @@
+{
+  "orphan-sundays-recap": {
+    "layout": "../_personal_post",
+    "date": "November 19, 2014",
+    "title": "Orphan Sunday(s) Recap",
+    "excerpt": "For the fourth year in a row, our local church family - Oak Ridge Baptist Church - set aside some time to consider the scriptural mandate to care for the orphan and the fatherless. Our efforts were slightly more subdued this year due to the overwhelming summer we have had, but I'm still quite thankful for the emphasis and the subsequent conversations we have had.",
+    "categories": [],
+    "tags": []
+  },
+  "why-we-ride": {
+    "layout": "../_personal_post",
+    "date": "September 4, 2014",
+    "title": "Why We Ride",
+    "excerpt": "Many of you are aware that our dear friend and pastor, Tom Craig, passed away last evening. I don't have the words to express my thoughts and emotions, so I'm simply going to postpone that for now and will come back to it later. Many of you also know that we have been planning to do a ride this Saturday, September 6th, in honor of Tom and his ministry in our lives.",
+    "categories": [],
+    "tags": []
+  },
+  "i-ride-for-tom": {
+    "layout": "../_personal_post",
+    "date": "July 6, 2014",
+    "title": "I Ride For Tom",
+    "excerpt": "I am once again conflicted as I sit down to write. This is a post that I never would have wanted to right, but – at the same time – I am quite proud to be able to be a small part of something in honor of a man and family I greatly respect. Many of you are aware that our Pastor – Tom Craig – was recently diagnosed with pancreatic cancer.",
+    "categories": [],
+    "tags": []
+  },
+  "a-time-to-mourn-and-a-time-to-dance": {
+    "layout": "../_personal_post",
+    "date": "June 19, 2014",
+    "title": "A time to mourn, and a time to Dance",
+    "excerpt": "This has been a conflicting week. I'm sitting on the floor in my hotel room, thinking over what today represents, what has happened this week, what will happen this evening at just a little before 9PM, and I must admit, I don't know what to think. On Sunday, our church family was told that our Pastor - Tom Craig - has been diagnosed with Pancreatic cancer and has around 6 months to live.",
+    "categories": [],
+    "tags": []
+  },
+  "hes-adopted": {
+    "layout": "../_personal_post",
+    "date": "March 23, 2014",
+    "title": "He's Adopted!",
+    "excerpt": "\"Community soccer brings out the best in people\" - almost no one (besides the soccer organizers) would make such a claim. It is true that there are many good things about teamwork, sportsmanship, physical fitness, and the like that can be learned and developed, but far too often people get in the way. Such was the case this past Friday evening.",
+    "categories": ["Adoption"],
+    "tags": ["rants"]
+  },
+  "removed-will-you-be-part-of-the-story": {
+    "layout": "../_personal_post",
+    "date": "March 09, 2014",
+    "title": "ReMoved - will you be part of the story?",
+    "excerpt": "Today is a sick-day, which means I have an abnormal amount of time to hang around and read stuff online and to think about it... some friends on FB posted a video (below) that hit me squarely between the eyes. I won't soften it - it is hard to watch - it is hard to feel what this girl feels... what each person in the film feels",
+    "categories": [],
+    "tags": ["fostercare"]
+  },
+  "index" : {
+    "layout": "index"
+  }
+}
+

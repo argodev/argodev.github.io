@@ -1,0 +1,14 @@
+{
+  "fighting_with_hidden_characters": {
+    "layout": "../_personal_post",
+    "date": "March 11, 2015",
+    "title": "Fighting with Hidden Characters",
+    "excerpt": "One of the projects I'm currently working on involves performing analysis over a number of different log files from an array of different systems. Each system has its own format/structure/whatever and we are trying to glean important information from the unified view of that data.",
+    "categories": ["Analysis"],
+    "tags": ["tr", "sed"]
+  },
+  "index" : {
+    "layout": "index"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "orphan-sundays-recap": {
+    "layout": "../_personal_post",
+    "date": "November 19, 2014",
+    "title": "Orphan Sunday(s) Recap",
+    "excerpt": "For the fourth year in a row, our local church family - Oak Ridge Baptist Church - set aside some time to consider the scriptural mandate to care for the orphan and the fatherless. Our efforts were slightly more subdued this year due to the overwhelming summer we have had, but I'm still quite thankful for the emphasis and the subsequent conversations we have had.",
+    "categories": [],
+    "tags": []
+  },
+  "index" : {
+    "layout": "index"
+  }
+}
+

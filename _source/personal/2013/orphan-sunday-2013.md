@@ -1,0 +1,19 @@
+My wife and I had the privilege of being part of the Orphan Sunday services at our church this past weekend and some have
+asked for a copy of the slides as well as links to the videos we showed. I am not able to share links to all of the
+videos, but a number of them I can.
+
+Sunday October 27th
+* AM 1 <http://vimeo.com/channels/593323/13048953>
+* AM 2 <http://vimeo.com/76357559>
+* PM 1 <http://vimeo.com/channels/593323/28012514>
+* PM 2 <http://vimeo.com/71263440>
+
+Sunday November 3rd
+* AM 1 <http://vimeo.com/channels/593323/12774686>
+* AM 2 <http://vimeo.com/37195276>
+* PM 1 <http://vimeo.com/64076933>
+* PM 2 <http://vimeo.com/66246818>
+
+Sunday November 10th
+* AM - [SS Slides](https://onedrive.live.com/redir?resid=CA99F1C887519C0%217108)
+* PM - [Slides](https://onedrive.live.com/redir?resid=CA99F1C887519C0%217109)

@@ -1,0 +1,38 @@
+{
+  "merry-christmas": {
+    "layout": "../_personal_post",
+    "date": "December 25, 2013",
+    "title": "Merry Christmas",
+    "excerpt": "It's Christmas morning 2013 and, like most mornings, I find myself sitting in a quiet house for a few hours while everyone else is sleeping. These times are great as they allow me to reflect on how good God has been to me and my family. Today is a little different than most mornings in that I find myself sitting near a lit Christmas tree with many presents and stockings spread around. In just a few hours, the kids will be running around, screaming with excitement and trying very hard to not touch anything until everyone else arrives. It will be a great day and, as a father, I enjoy little more than seeing pure joy on the face of my children.",
+    "categories": ["Adoption"],
+    "tags": ["family"]
+  },
+  "orphan-sunday-2013": {
+    "layout": "../_personal_post",
+    "date": "November 11, 2013",
+    "title": "Orphan Sunday 2013",
+    "excerpt": "My wife and I had the privilege of being part of the Orphan Sunday services at our church this past weekend and some have asked for a copy of the slides as well as links to the videos we showed. I am not able to share links to all of the videos, but a number of them I can.",
+    "categories": [],
+    "tags": []
+  },
+  "i-ride-for-connie": {
+    "layout": "../_personal_post",
+    "date": "June 2, 2013",
+    "title": "I Ride For Connie",
+    "excerpt": "I've been meaning to post this for quite some time but have been waiting until I had worked out the details (at least mentally). Things are coming together enough and its getting close enough on the calendar that we need to get this public.",
+    "categories": ["Adoption"],
+    "tags": ["connie"]
+  },
+  "happy-gotcha-day-matt": {
+    "layout": "../_personal_post",
+    "date": "March 27, 2013",
+    "title": "Happy Gotcha Day, Matt!",
+    "excerpt": "It's hard to believe that it was five years ago today that Matt came to be part of our family forever. God has been so good to us. Matt has grown a ton in that time... it is hard to look at pictures of that big-haired 15-month old and realize it's the same child. Now, as a six year old, he's one of the most kind kids I know. He's incredibly outgoing and friendly - always concerned about making others feel at important. At home, he's been a great brother to baby R and has welcomed both B and D into our family even though he took the brunt of the changes.",
+    "categories": ["Adoption"],
+    "tags": ["gotchaday", "matt"]
+  },
+  "index" : {
+    "layout": "index"
+  }
+}
+

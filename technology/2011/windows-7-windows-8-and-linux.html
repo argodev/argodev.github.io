@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><!--link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=Montserrat:400,700')--><!--link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=PT+Sans:400,700')--><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Talks</a></li><li><a href="/papers">Publications</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1 class="entry-title">Windows 7, Windows 8, and Linux</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>November 4, 2011</h5><p>This post may not be of interest to everyone, but I finally got my laptop configured the way I want it and thought
+I’d document what I did in case anyone else finds themselves in a similar position. It took me 4 or 5 full
+install/repeat processes to get this right (don’t ask…) so this description is where I ended up.</p>
+<p>Let’s start by discussing some of my requirements:</p>
+<ol>
+<li><p>It needs to run Windows 7. The software we use to support our secure email platform is only available on
+Windows or Mac, and I can’t meet my other requirements on a Mac.</p>
+</li>
+<li><p>It needs to run Linux (<a href="https://www.scientificlinux.org/">Scientific Linux</a> is the distro I’m using).</p>
+</li>
+<li><p>It needs to run Windows 8: This will be for dev/testing and not my primary OS</p>
+</li>
+<li><p>The Windows 7 partition must be encrypted using BitLocker</p>
+</li>
+<li><p>The Linux partition must be encrypted</p>
+</li>
+<li><p>I should be able to easily update Windows 8 without overly affecting the other platforms</p>
+</li>
+<li><p>Performance should be as good as possible – I don’t want to do this all in VMWare from within a main host OS.</p>
+</li>
+<li><p>While not directly related, the system should be easily bootable from external media (i.e. usb stick) to
+temporarily run network utilities or other tools (another strike against a Mac)</p>
+</li>
+</ol>
+<p><img alt="EliteBook" src="/assets/images/EliteBook.jpg" class="blogimage img-responsive"></p>
+<p>The laptop I’m using is an HP EliteBook 2760p. I selected this unit as I wanted to be able to do some
+touch &amp; tablet development and it works as a solid convertible as well as having a decent touch screen. The
+machine comes with a modest 4GB of RAM (I might upgrade this) and a 300GB hard drive.</p>
+<p>I started by performing a normal Windows 7 installation. During the phase where you select a disk, created
+three equally-sized partitions and then chose the first one for the installation. Windows split the first
+partition giving me a small boot partition (~100 MB) and then the remaining as my “C” drive. I continued
+through the install, applied drivers, patched it, etc. and everything was running fine. Note that I did
+<em>not</em> run the BitLocker configuration at this time.</p>
+<p><img alt="scientificlinux" src="/assets/images/scientificlinux.png" class="blogimage img-responsive"></p>
+<p>Next, I installed Linux. I learned from earlier tests, that I didn’t want to install GRUB to my Master Boot
+Record (MBR) as that tends to mess up your ability to use BitLocker. Instead, I inserted a memory card (SD
+card actually), and created a 200 MB /boot partition on it (EXT4) and selected it as the location for the
+GRUB installation. I then created a EXT4 partition for the / mount point that used the third partition on the
+main disk and was encrypted. This lets me then end up with the option of controlling whether or not I boot
+into Linux or not by simply inserting the memory card or not – actually quite handy for my use case. The SD
+card is a good option on this machine because it sits in such a way that, when inserted, is barely noticeable
+and can be left inserted for weeks at a time without getting caught on anything.</p>
+<p><img alt="Windows 8" src="/assets/images/windows8.png" class="blogimage img-responsive"></p>
+<p>Windows 8 was the next install, but I decided to install it a bit differently in order to possibly give me
+greater flexibility in the long run. Rather than installing directly onto my “middle” partition, I booted
+into Windows 7, formatted the partition as NTFS, and created a VHD file (expandable). Then following the
+instructions here and here, I mounted the VHD during installation and installed Windows 8 to that (virtual)
+volume.</p>
+<p>While I’m glad to have the opportunity to play with Windows 8, I don’t want it to be my default, so I
+changed the bootloader to use Windows 7 as the default (unless, of course, the SD card is inserted which
+will preempt the Windows boot process and take me directly to Linux.</p>
+<p>Finally, I switched back to Windows 7 and ran the BitLocker tools to encrypt that partition.</p>
+<p>Finally, I’m done with my laptop and my configuration is complete. The following is the disk/partition
+configuration on my machine. In this diagram, Disk 1 is the SD card I’m using to control my Linux
+installation.</p>
+<p><img alt="Disk Partitions" src="/assets/images/DiskPartitions.png" class="blogimage img-responsive"></p><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/2015/fighting_with_hidden_characters">Fighting with Hidden Characters</a></li><li><a href="/technology/2014/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/2014/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/2014/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li><li><a href="/technology/2014/book-review-learning-windows-mobile-services-for-win-8-and-win-phone-8">Book Review: Learning Windows Mobile Services for Win 8 and Win Phone 8</a></li><li><a href="/technology/2014/codemash-2014">CodeMash 2014</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2015/">2015 Posts</a></li><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script src="//use.typekit.net/lij0vky.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

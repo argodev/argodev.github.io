@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Rob Gillen</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><!--link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=Montserrat:400,700')--><!--link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=PT+Sans:400,700')--><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/academicons.css"></head><body><div id="wrap"><div class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Rob Gillen</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/technology">Technology</a></li><li><a href="/presentations">Talks</a></li><li><a href="/papers">Publications</a></li><li><a href="/projects">Projects</a></li><li><a href="/personal">Personal</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><!--li.dropdown--><!--  a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown <b class="caret"></b>--><!--  ul.dropdown-menu--><!--    li--><!--      a(href="#") Action--><!--    li--><!--      a(href="#") Another action--><!--    li--><!--      a(href="#") Something else here--><!--    li.divider--><!--    li.dropdown-header Nav header--><!--    li--><!--      a(href="#") Separated link--><!--    li--><!--      a(href="#") One more separated link--></ul></div></div></div><div class="container"><div class="page-header"><h1 class="entry-title">Ramblings on a Private Cloud (part 1 of ?)</h1></div><div class="row"><div class="col-md-9"><div class="panel"><div class="panel-body"><div class="row"><div class="col-md-12"><h5>November 30, 2011</h5><p>As many of you are aware, a few months ago I changed jobs (more like positions) and with that change has come a shift
+in the focus of much of my work. I’m spending less time in the abstract (i.e. “how could we solve problem X&quot; in the
+cloud”) and working more in the concrete (“we have agency Y that has problem X that needs to be deployed in the cloud
+yesterday… what do you think?”). One unfortunate (at least in my way of thinking) is that many of these projects have
+legislative requirements that prohibit the use of public cloud platforms (at least currently). While I’m always
+looking for ways to avoid building individual, private “Cirrus<sup>1</sup>” clouds, and I remain hopeful that the day will come
+when we all can leave the infrastructure build-outs to someone else, the reality is that in today’s world there is
+some data that simply cannot live outside of an organization’s boundaries – leaving us to look at “private cloud”
+approaches.</p>
+<h3>Overview</h3><p>We have been experimenting with a few different approaches for some of the projects I’ve been working on and are
+learning a number of interesting things. I want to be quick to say that I don’t think we’ve “arrived” by any stretch
+of the imagination and our work (and this space in general) is changing/evolving rapidly. Our initial requirements
+included using free/OSS solutions wherever possible and to, as much as possible, avoid vendor lock-in (always great
+in theory, frequently falls apart in application). The hardware used for this exercise includes 45 physical nodes
+spread over two racks with a total of 1160 cores, 3.8 TB of RAM, 200 TB (RAW) of local node storage and 288 TB
+(RAW) of iSCSI-connected storage. Our plan is to provide 8 VLANS across the environment (Management, Dev, Test,
+Prod + corresponding disk-traffic networks for each). The physical nodes/nics would all default to the management
+network and all of the actual compute resources (VMs used by researchers) would live in one of the other three
+zones (Dev/Test/Prod). For reasons that I won’t get to in this post, we standardized on <a href="http://centos.org/">CentOS</a> for the primary OS
+and <a href="http://xen.org/">Xen</a> as the target hypervisor. While some of the uses of the platform include data serving (i.e. web sites, data
+services, etc.), most of the workloads will tend to be heavy data analytics. The above scenario is complicated by
+the fact that the entire environment needed to be air-gapped (i.e. not connected to the Internet or other networks
+in any way).</p>
+<h3>Open Stack</h3><p>While we have a good bit of experience using <a href="http://www.eucalyptus.com/">Eucalyptus</a> on the Ubuntu stack, our
+initial plan was to go with the current wisdom of the crowds and deploy <a href="http://openstack.com/">OpenStack</a> as our
+cloud orchestration layer. The intent was to buy in fully and deploy their storage, image, and compute services.
+Unfortunately, while there are some very interesting things happening in this realm, we didn’t find this toolset
+to be at the level we needed it to be given our platform selections. After a few weeks of trying to get this
+working, we bailed due to simply needing to get something working<sup>2</sup>. We are hopeful that this situation
+will evolve in the future and we will reconsider down the road, but for the present we had to scrap it and move on.</p>
+<h3>Refactoring / Current Approach</h3><p>Having burned a bit of our grace period, we were faced with the need to get something running fast and spent a
+weekend digging through our options. Where we ended up is using the free
+<a href="http://www.citrix.com/English/ps2/products/product.asp?contentID=683148">XenServer</a> (via Citrix Systems) as the
+host OS in combination with <a href="http://community.citrix.com/xencenter">XenCenter</a> for managing the nodes. This –
+while not a cloud or cloud orchestration layer – allowed us to quickly meet some of our sponsor’s needs while
+buying some time to fill in the gaps. Our team is currently evaluating <a href="http://cloudstack.org/">CloudStack</a> as
+the cloud/orchestration layer to sit on top of XenServer and be the researcher-facing interface to the platform.
+Our hope is that as the story evolves (Citrix, XenServer, XenCenter, CloudStack, OpenStack, etc) that the
+deployment of future platforms will become easier and the “best” approach will become clearer.</p>
+<p><img alt="XenCenter" src="/assets/images/xencenter.png" class="blogimage img-responsive"></p>
+<p><small>XenCenter management console. Image credit Citrix Systems (<a href="http://community.citrix.com/display/xs/XenCenter">http://community.citrix.com/display/xs/XenCenter</a>)</small></p>
+<h5>Notes</h5><ol>
+<li><p>I spent a good bit of time looking on the web for the official name of the tiniest cloud but didn’t come up
+with anything better than “Cirrus” which is defined as a “<a href="http://en.wikipedia.org/wiki/Cirrus_cloud">thin, wispy cloud</a>.”
+Not exactly what I was looking for, but I’ll use it for now.</p>
+</li>
+<li><p>Our issues included (among other things) Python version conflicts between what OpenStack needed and the
+version of Centos (5.6) we were running, the lack of a good Web UI/self-service portal, getting the VLANS
+talking properly between hosts, vhosts, storage, etc., and a number of smaller miscellaneous items.</p>
+</li>
+</ol><!--a(href='#{ conf.web_link }') Conference Homepage--><!--each session in conf.sessions--><!--  .row--><!--    .col-xs-11--><!--      h4 #{ session.title }--><!--      p #{ session.abstract }--><!--      if session.assets--><!--        ul--><!--          each asset in session.assets--><!--            li--><!--              a(href='#{ asset.link }') #{ asset.title }--></div></div><hr><div id="disqus_thread"></div></div></div></div><div class="col-sm-3"><div class="panel panel-default"><div class="panel-heading">Recent Posts</div><div class="panel-body"><ul><li><a href="/technology/2015/fighting_with_hidden_characters">Fighting with Hidden Characters</a></li><li><a href="/technology/2014/you-cant-handle-the-truth">You Can't Handle The Truth</a></li><li><a href="/technology/2014/codestock-2014">CodeStock 2014</a></li><li><a href="/technology/2014/tracking-planes-on-vacation">Tracking Planes on Vacation</a></li><li><a href="/technology/2014/book-review-learning-windows-mobile-services-for-win-8-and-win-phone-8">Book Review: Learning Windows Mobile Services for Win 8 and Win Phone 8</a></li><li><a href="/technology/2014/codemash-2014">CodeMash 2014</a></li></ul></div></div><div class="panel panel-default"><div class="panel-heading">Older Posts</div><div class="panel-body"><ul><li><a href="/technology/2015/">2015 Posts</a></li><li><a href="/technology/2014/">2014 Posts</a></li><li><a href="/technology/2013/">2013 Posts</a></li><li><a href="/technology/2012/">2012 Posts</a></li><li><a href="/technology/2011/">2011 Posts</a></li><li><a href="/technology/2010/">2010 Posts</a></li><li><a href="/technology/2009/">2009 Posts</a></li><li><a href="/technology/2008/">2008 Posts</a></li><li><a href="/technology/2007/">2007 Posts</a></li><li><a href="/technology/2006/">2006 Posts</a></li><li><a href="/technology/2005/">2005 Posts</a></li><li><a href="/technology/2004/">2004 Posts</a></li></ul></div></div></div></div></div></div><div id="footer"><div class="container"><p class="text-muted credit"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a> This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</a>.</p></div></div><script src="//use.typekit.net/lij0vky.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="/assets/site.js"></script></body></html>

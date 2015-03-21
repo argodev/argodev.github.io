@@ -95,6 +95,30 @@
     "categories": ["Cloud Computing", "Conferences"],
     "tags": ["aws", "cloud"]
   },
+  "moving-applications-to-the-cloud-with-windows-azure": {
+    "layout": "../_tech_post",
+    "date": "February 11, 2011",
+    "title": "Moving Applications To The Cloud with Windows Azure",
+    "excerpt": "I just finished reading a book from the Microsoft Patterns & Practices group called Moving Applications to the Cloud on the Microsoft Windows Azure Platform. I’ve had the book for a few months, and my when I first received it, I read the first chapter or two, decided it wasn’t worth the read, and set it aside.",
+    "categories": ["Cloud Computing"],
+    "tags": ["aws", "azure", "books", "cloud"]
+  },
+  "return-of-the-windows-azure-gac-viewer": {
+    "layout": "../_tech_post",
+    "date": "January 24, 2011",
+    "title": "Return of the Windows Azure GAC Viewer",
+    "excerpt": "I just finished reading a book from the Microsoft Patterns & Practices group called Moving Applications to the Cloud on the Microsoft Windows Azure Platform. I’ve had the book for a few months, and my when I first received it, I read the first chapter or two, decided it wasn’t worth the read, and set it aside.",
+    "categories": ["Cloud Computing"],
+    "tags": ["azure", "tools", "cloud"]
+  },
+  "book-review-host-your-web-site-in-the-cloud": {
+    "layout": "../_tech_post",
+    "date": "January 6, 2011",
+    "title": "Book Review: Host Your Web Site In The Cloud",
+    "excerpt": "Over the holiday break I spent some time getting ready for the cloud computing precompiler at CodeMash and as part of that effort I read Jeff Barr’s Host Your Web Site In The Cloud, Amazon Web Services Made Easy. This book is one of the few physical paper books I’ve gotten recently, and is unique to me in that it is the only book I have that is signed by the author.",
+    "categories": ["Cloud Computing"],
+    "tags": ["aws", "books", "cloud"]
+  },
   "index" : {
     "layout": "index"
   }

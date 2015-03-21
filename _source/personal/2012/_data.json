@@ -1,10 +1,18 @@
 {
-  "orphan-sundays-recap": {
+  "a-home-for-the-holidays": {
     "layout": "../_personal_post",
-    "date": "November 19, 2014",
-    "title": "Orphan Sunday(s) Recap",
-    "excerpt": "For the fourth year in a row, our local church family - Oak Ridge Baptist Church - set aside some time to consider the scriptural mandate to care for the orphan and the fatherless. Our efforts were slightly more subdued this year due to the overwhelming summer we have had, but I'm still quite thankful for the emphasis and the subsequent conversations we have had.",
+    "date": "December 21, 2012",
+    "title": "A Home for the Holidays",
+    "excerpt": "Today is a big day… probably one that I didn’t think would come or didn’t think would happen to us. Today we welcome two young boys (B: 4 and D: 2) into our home as foster kids. Not for respite care, or a temporary placement this time, but as long as they need it. Today is also the night we celebrate our family Christmas before we start traveling to visit others… this seems somehow fitting.",
     "categories": [],
+    "tags": []
+  },
+  "unwanted": {
+    "layout": "../_personal_post",
+    "date": "August 16, 2012",
+    "title": "Unwanted.",
+    "excerpt": "Those of you who know me know that I frequently ride my bike to and from work. Besides the obvious health benefits, there are less-tangible benfits such as being able to de-compress, or think through things that happened during the day and settle them prior to arriving at home. Today was one of those days where the ride home was particularly beneficial in the latter regard.",
+    "categories": ["Adoption"],
     "tags": []
   },
   "index" : {

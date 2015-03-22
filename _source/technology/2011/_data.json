@@ -119,6 +119,14 @@
     "categories": ["Cloud Computing"],
     "tags": ["aws", "books", "cloud"]
   },
+  "speaking-at-the-codemash-precompiler": {
+    "layout": "../_tech_post",
+    "date": "January 4, 2011",
+    "title": "Speaking at the CodeMash Precompiler",
+    "excerpt": "I’m thrilled to be speaking at the CodeMash Precompiler next week. I’m going to be joined by Mike Wood and helped by Brian Prince and Michael Collier. Together, we’ll have nearly 8 hours of instruction and hands on labs covering both the Amazon and Microsoft cloud computing platforms. Below I’ve listed the abstracts for each of the sessions as well as the prerequisites for those planning on joining us. If you are going to be in Sandusky next Wednesday, be sure to drop by.",
+    "categories": ["Cloud Computing", "Conferences"],
+    "tags": ["aws", "azure", "cloud", "codemash"]
+  },
   "index" : {
     "layout": "index"
   }

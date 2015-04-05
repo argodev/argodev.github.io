@@ -31,7 +31,7 @@
     "categories": ["Miscellaneous"],
     "tags": ["windows8"]
   },
-  "codestock-2012-buffer-overflow-attack": {
+  "2012-06-17-codestock-2012-buffer-overflow-attack": {
     "layout": "../_tech_post",
     "date": "June 17, 2012",
     "title": "CodeStock 2012: Buffer Overflow Attack",

@@ -2,8 +2,11 @@
 layout:     post
 title:      Fighting with Hidden Characters
 date:       2015-03-11 12:00:00
-categories: Analysis
-tags:       tr, sed
+categories: technology
+tags:       
+- tr
+- sed
+- analysis
 ---
 
 One of the projects I'm currently working on involves performing analysis over a number of different log files from an

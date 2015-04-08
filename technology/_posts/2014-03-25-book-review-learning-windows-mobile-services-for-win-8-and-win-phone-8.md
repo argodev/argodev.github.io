@@ -1,4 +1,15 @@
-<img alt='Azure Mobile Services' src='/assets/images/learningazuremobile.jpg' class='blogimage img-responsive'>
+---
+layout: post
+category: technology
+title: 'Book Review: Learning Windows Mobile Services for Win 8 and Win Phone 8'
+date: 2014-03-25 00:00
+tags:
+- cloud
+- books
+- azure
+- mobile
+---
+<img alt='Azure Mobile Services' src='/images/learningazuremobile.jpg' class='blogimage img-responsive'>
 
 A few weeks ago I was approached and asked if I would like to review a book on Windows Azure Mobile Services. While
 I've worked with Azure from its inception, this is not an aspect of the platform that I have utilized, so I accepted -

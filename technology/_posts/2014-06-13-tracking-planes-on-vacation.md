@@ -1,4 +1,12 @@
-<img alt='Antenna' src='/assets/images/20140613_101455.jpg' class='blogimage img-responsive'>
+---
+layout: post
+category: technology
+title: 'Tracking Planes on Vacation'
+date: 2014-06-13 00:00
+tags:
+- sdr
+---
+<img alt='Antenna' src='/images/20140613_101455.jpg' class='blogimage img-responsive'>
 
 We spent the past week with our extended family at a cabin in the TN mountains. We do this every year or so, and - as 
 we normally do - we had a blast.
@@ -43,6 +51,6 @@ want to do the same with your kids. I hope you have as much fun as we did!
     setting up (see the How To tutorial above), but it does a great job of letting you see what is out there. [It is 
     available on their site](http://www.virtualradarserver.co.uk/).
 
-<a href='/assets/images/virtualradar.png'>
-<img alt='Virtual Radar Server' src='/assets/images/virtualradar.png' class='blogimage img-responsive'>
+<a href='/images/virtualradar.png'>
+<img alt='Virtual Radar Server' src='/images/virtualradar.png' class='blogimage img-responsive'>
 </a>

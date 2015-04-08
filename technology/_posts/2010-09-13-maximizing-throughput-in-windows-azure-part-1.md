@@ -2,7 +2,7 @@
 layout: post
 category: technology
 title: 'Maximizing Throughput in Windows Azure – Part 1'
-date: 2010-09-13 21:35
+date: 2010-09-13 00:00
 ---
 
 I’m working on a writing a paper dealing with the issue of maximizing data throughput when interacting with the Windows
@@ -47,18 +47,18 @@ __Results__: The first sweep was aimed at identifying the impact of VM size on t
 MS-provided storage client library (no modifications). What we found, was that, for the most part, there was a clear
 relationship between the VM size and the realized throughput.
 
-<img alt='s1chart2' src='/assets/images/s1chart2.png' class='blogimage img-responsive'>
+<img alt='s1chart2' src='/images/s1chart2.png' class='blogimage img-responsive'>
 
-<img alt='s1chart4' src='/assets/images/s1chart4.png' class='blogimage img-responsive'>
+<img alt='s1chart4' src='/images/s1chart4.png' class='blogimage img-responsive'>
 
 The second sweep had a similar objective as the first, with the only change being that rather than using the
 standard/single-threaded API calls, we used the parallelized version that we developed for our external-to-Azure tests.
 The results were similar to the above in that the node size showed (mostly) a consistent impact on the realized
 throughput (_keep reading past the charts if you review the following and think I’m out of my mind_).
 
-<img alt='s1chart1' src='/assets/images/s1chart1.png' class='blogimage img-responsive'>
+<img alt='s1chart1' src='/images/s1chart1.png' class='blogimage img-responsive'>
 
-<img alt='s1chart3' src='/assets/images/s1chart3.png' class='blogimage img-responsive'>
+<img alt='s1chart3' src='/images/s1chart3.png' class='blogimage img-responsive'>
 
 If you are still with me, you are probably wondering why the numbers for the Parallel Upload by Node Size chart look so
 off from the assumed behavior… The fact of the matter is that similarly to the small node standard download tests, the
@@ -66,7 +66,7 @@ third run for the small node parallel upload tests experienced a radically diffe
 prior two runs. This was so jolting to the numbers that I actually prepared another chart showing only the first two
 runs of this test to illustrate the difference that the last run made in the average results:
 
-<img alt='s1chart8' src='/assets/images/s1chart8.png' class='blogimage img-responsive'>
+<img alt='s1chart8' src='/images/s1chart8.png' class='blogimage img-responsive'>
 
 As you can tell from the above, these results are much closer to what you might expect (based on the values from the
 other tests above). The key take-away at this point, and the reason I am belaboring this aberration, in an environment
@@ -78,12 +78,12 @@ select the best one for a given scenario. The first chart showed exactly what I 
 significantly better than the standard approach for all node sizes although the benefit waned as the node size
 increased.
 
-<img alt='s1chart5' src='/assets/images/s1chart5.png' class='blogimage img-responsive'>
+<img alt='s1chart5' src='/images/s1chart5.png' class='blogimage img-responsive'>
 
 The second chart initially caught me off guard as it illustrated that the work being done to block/download/reassemble
 in parallel was __*far*__ less efficient than simply downloading the data.
 
-<img alt='s1chart6' src='/assets/images/s1chart6.png' class='blogimage img-responsive'>
+<img alt='s1chart6' src='/images/s1chart6.png' class='blogimage img-responsive'>
 
 My initial thoughts were that I was simply using an inefficient mechanism for reassembling the file but that the
 parallelized transfer was still likely faster than the stock approach but some additional instrumentation invalidated
@@ -99,7 +99,7 @@ standard/non-parallelized approach.
 This last chart is designed to give an idea of the realized throughput by node for both upload and downloads using the
 “optimal” approach as determined via the tests detailed above.
 
-<img alt='s1chart7' src='/assets/images/s1chart7.png' class='blogimage img-responsive'>
+<img alt='s1chart7' src='/images/s1chart7.png' class='blogimage img-responsive'>
 
 As you can imagine, the results listed here triggered a number of other questions and tests. Some of these will be
 addressed in the next post on this topic which should be available soon.

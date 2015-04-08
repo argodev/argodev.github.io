@@ -2,7 +2,11 @@
 layout: post
 category: technology
 title: 'CodeStock 2012: Buffer Overflow Attack'
-date: 2012-06-17 21:35
+date: 2012-06-17 00:00
+tags:
+- codestock
+- conferences
+- security
 ---
 We had a great time at CodeStock a few days ago discussing buffer overflow attacks, showing developers how they are
 discovered and exploited and a bit about how to avoid creating software that is vulnerable to these types of attacks.

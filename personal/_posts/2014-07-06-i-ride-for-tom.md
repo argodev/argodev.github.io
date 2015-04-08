@@ -1,4 +1,15 @@
-<img alt='I Ride For Tom' src='/assets/images/iridefortom.jpg' class='blogimage img-responsive'>
+---
+layout: post
+category: personal
+title: 'I Ride For Tom'
+date: 2014-07-06 00:00
+tags:
+- cancer
+- orbc
+- cycling
+---
+
+<img alt='I Ride For Tom' src='/images/iridefortom.jpg' class='blogimage img-responsive'>
 
 I am once again conflicted as I sit down to write. This is a post that I never would have wanted to right, but
 – at the same time – I am quite proud to be able to be a small part of something in honor of a man and family

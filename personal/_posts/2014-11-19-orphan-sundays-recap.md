@@ -1,11 +1,13 @@
 ---
 layout: post
 category: personal
-title: 'Orphan Sunday 2013'
-date: 2013-11-11 00:00
+title: 'Orphan Sunday(s) Recap'
+date: 2014-11-19 00:00
 tags:
 - adoption
-- connie
+- foster care
+- orbc
+- orphan sunday
 ---
 For the fourth year in a row, our local church family - Oak Ridge Baptist Church - set aside some time to consider the
 scriptural mandate to care for the orphan and the fatherless. Our efforts were slightly more subdued this year due to

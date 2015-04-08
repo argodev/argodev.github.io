@@ -1,4 +1,15 @@
-<img alt='TOMSTRONG' src='/assets/images/tomstrong.jpg' class='blogimage img-responsive'>
+---
+layout: post
+category: personal
+title: 'Why We Ride'
+date: 2014-09-04 00:00
+tags:
+- cancer
+- orbc
+- cycling
+---
+
+<img alt='TOMSTRONG' src='/images/tomstrong.jpg' class='blogimage img-responsive'>
 
 Many of you are aware that our dear friend and pastor, Tom Craig, passed away last evening. I don't have the words
 to express my thoughts and emotions, so I'm simply going to postpone that for now and will come back to it later.

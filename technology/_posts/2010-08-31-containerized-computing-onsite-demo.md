@@ -14,7 +14,7 @@ and where it might play a role in the computational environment where I work. In
 the privilege of visiting a few different locations and seeing the containers first hand - an experience which has both 
 answered and generated a number of questions for me.
 
-<img alt='icecube' src='/images/header_icecube.png' class='blogimage img-responsive'>
+<img alt='icecube' src='/images/header_icecube.jpg' class='blogimage img-responsive'>
 
 We have a unique opportunity in that the SGI ICE Cube demo truck is going to be on-site here Thursday and Friday 
 September 9th and 10th. During that time the container will be available both for walk-in traffic as well as 

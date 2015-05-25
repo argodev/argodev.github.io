@@ -5,6 +5,7 @@ title: 'You Can''t Handle The Truth'
 date: 2014-08-14 00:00
 tags:
 - conferences
+redirect_from: '/blog/2014/8/14/you-cant-handle-the-truth'
 ---
 *__Note__: this post deals with difficult topics. This is not suitable for minors, and may be inappropriate for others 
 based on your history. I will also quickly admit that writing this is more for my own benefit than anything else 

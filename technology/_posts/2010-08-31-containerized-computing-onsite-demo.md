@@ -39,7 +39,7 @@ some common threads such as high density, energy efficiency, etc):
 SGI has recently added to their suite of designs a totally air cooled unit that simply requires a garden hose for 
 intake water (read: “massive energy savings”).
 
-More information on the SGI container can be found here: [http://www.sgi.com/products/data_center/ice_cube/] and a PDF 
+More information on the SGI container can be found here: <http://www.sgi.com/products/data_center/ice_cube/> and a PDF 
 datasheet is here: [Datasheet PDF](http://www.sgi.com/pdfs/4160.pdf)
 
 If any of you live near where I work, and are interested in seeing this in person, contact me and I’ll see what I can 

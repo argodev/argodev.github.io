@@ -11,7 +11,7 @@ I've been talking a bit recently with members of my team about some of the basic
 scientist's toolbox. Things that, if you want to lay any claim to working with "big data" should be second nature. Many
 of these things are not terribly complicated, nor does one have to be overly clever to employ them - however the lack
 of knowledge as to when to properly apply them could cost you dearly (lost time, lost data, needless system
-maintenance, etc).
+maintenance, etc.).
 
 The first such topic came up a week or so ago when one of our younger team members mentioned that his machine fell over
 after he had written around 3,000,000 files to the same directory. This reminded me of a lesson I learned back in late
@@ -21,7 +21,7 @@ approach to store the potentially millions of mailboxes it housed on the file sy
 often have been) applied to modern day storage problems within the Big Data space.
 
 So, I came up with the following exercise/challenge for my students and colleagues - I hope you find it interesting. If
-you've faced a similar problem in the past, you are likly jumping to solutions and know exactly how you would solve it.
+you've faced a similar problem in the past, you are likely jumping to solutions and know exactly how you would solve it.
 It will be interesting to see the solutions presented by our team. I'll post any particularly interesting ones here.
 
 Challenge #1: Handling Millions of Files.
@@ -32,7 +32,7 @@ be able to explain the reasoning behind each design decision implemented in your
 
 Deliverables:
 
-* A short writeup defining your approach and any incremental steps along the way. Remember: details around interim
+* A short write-up defining your approach and any incremental steps along the way. Remember: details around interim
 "failed" attempts are as important as the final solution.
 
 * All code used in your solution. By "All" this means everything necessary to recreate your scenario and solution. This

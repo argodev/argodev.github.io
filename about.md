@@ -4,14 +4,13 @@ title: About Rob
 permalink: /about/
 ---
 
-
 Rob is a member of the Intelligent Computing Research Team within the Computational Data Analytics Group at the Oak
 Ridge National Laboratory. In his role as a research professional, works alongside domain scientists to deliver
 solutions to complex problems at a national scale. His current research interests include large-scale text analysis,
 scientific uses of cloud computing, cyber security, and machine learning. Some of his publications can be viewed at
 Research Gate.
 
-Prior to coming to ORNL 8 years ago, Rob was as a solutions architect for a high-end consulting firm where his work
+Prior to coming to ORNL 9 years ago, Rob was as a solutions architect for a high-end consulting firm where his work
 included business and systems analysis, provisioning infrastructures for federal, corporate and service provider
 environments and general application development. He has many years of experience as a professional developer with
 clients ranging from service providers in Europe and Japan to corporate and federal customers in the US including
@@ -214,10 +213,10 @@ the user interface to sit on top of the solution we provided.
   * Windows Azure 2012
   * Developer Security 2013
   * Developer Security 2014
+  * Developer Security 2015
 
 
 
 ###Presentations and Talks
 
 * Presentations and talks are listed here.
-

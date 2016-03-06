@@ -1,58 +1,27 @@
-# Site settings
-title:       rob gillen
-email:       rob+blog@gillenfamily.net
-author:      Rob Gillen
-description: "random wanderings through code and life"
-baseurl:     ""
-url:         "http://robgillen.com"
+# Dependencies
+markdown:         redcarpet
+# pygments:         true
 
-# Google analytics
-google_analytics:
+# Permalinks
+permalink:        pretty
 
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
+# Setup
+title:            rob gillen
+tagline:          'random wanderings through code and life'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://robgillen.com
 
-# configure the highlighter
-# highlighter: pygments
+author:
+  name:           'Rob Gillen'
+  url:            https://twitter.com/argodev
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname: rgillen
+paginate:         5
 
-# Social icons
-show_social_icons: false
-github_username: argodev
-stackoverflow_id: argodev
-twitter_username: argodev
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+# Custom vars
+version:          2.0.0
 
-# Post sharing icons
-show_sharing_icons: true
-share_text: 'Share this post!'
-# Change to 'true' to enable individual icons
-share_facebook: true
-share_twitter: true
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-
-# Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     3
-sass:
-  compressed: true
+github:
+  repo:           https://github.com/argodev/argodev.github.io
 
 gems:
   - jekyll-redirect-from

@@ -219,4 +219,4 @@ the user interface to sit on top of the solution we provided.
 
 ###Presentations and Talks
 
-* Presentations and talks are listed here.
+* [Presentations and talks are listed here](/presentations/).

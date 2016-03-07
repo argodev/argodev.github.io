@@ -3,9 +3,11 @@ layout: post
 category: technology
 title: 'Does Amazon’s Cluster Compute Platform Still Represent Cloud Computing?'
 date: 2010-11-17 00:00
-tags: 
+tags:
 - cloud computing
 - aws
+redirect_from:
+- /blog/2010/11/17/does-amazons-cluster-compute-platform-still-represent-cloud.html
 ---
 I’m sitting at the airport in New Orleans, after having attended the first half of the
 [ACM/IEEE 2010 Super Computing](http://www.acm.org/) conference. This was the first time I have attended this

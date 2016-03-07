@@ -3,8 +3,10 @@ layout: post
 category: technology
 title: 'Planet Technologies Launches GovCloud'
 date: 2010-12-21 00:00
-tags: 
+tags:
 - cloud computing
+redirect_from:
+- /blog/2010/12/21/planet-technologies-launches-govcloud.html
 ---
 This is just a quick post to let those interested know that the company I work for -
 [Planet Technologies](http://go-planet.com/) - has launched a new cloud-focused practice focused on helping public

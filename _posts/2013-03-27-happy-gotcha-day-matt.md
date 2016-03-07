@@ -7,6 +7,8 @@ tags:
 - adoption
 - gotchaday
 - matt
+redirect_from:
+- /personal/2013/3/27/happy-gotcha-day-matt.html
 ---
 <img alt='Matt' src='/images/fiveyearsagomatt.jpg' class='blogimage img-responsive'>
 

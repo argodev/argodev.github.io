@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - codestock
+redirect_from:
+- /blog/2012/4/9/speaking-at-codestock-2012.html
 ---
 <img alt='CodeStock' src='/images/codestock_lowres.png' class='blogimage img-responsive'>
 
@@ -39,4 +41,3 @@ If you happen to be in the Knoxville area in the middle of June I hope you’ll 
 > implications are for you as an IT professional. Using free software and inexpensive hardware (~$30), we'll
 > demonstrate a number of attacks and highlight the vulnerabilities that are present in the behavior of many wireless
 > devices.
-

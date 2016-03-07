@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - defcon
+redirect_from:
+- /blog/2013/8/2/wireless-penetration-testing-101.html
 ---
 I attended this session as my last of the day, and honestly didn't expect much. As some of you know, I have spoken on
 wireless pen testing a handful of times, have done some training and certification work, and generally feel like I

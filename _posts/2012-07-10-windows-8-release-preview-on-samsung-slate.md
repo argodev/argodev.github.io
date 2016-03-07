@@ -6,6 +6,8 @@ date: 2012-07-10 00:00
 tags:
 - Miscellaneous
 - windows8
+redirect_from:
+- /blog/2012/7/11/windows-8-release-preview-on-samsung-slate.html
 ---
 I've been playing with Windows 8 on a Samsung 700T1A slate for a number of months and was quite excited with the Release
 Preview was announced and attempted to install it straight away. Unfortunately, I was unable to get it installed right

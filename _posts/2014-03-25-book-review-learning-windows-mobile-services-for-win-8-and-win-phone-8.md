@@ -8,6 +8,8 @@ tags:
 - books
 - azure
 - mobile
+redirect_from:
+- /blog/2014/3/25/book-review-learning-windows-mobile-services-for-win-8-and-win-phone-8
 ---
 <img alt='Azure Mobile Services' src='/images/learningazuremobile.jpg' class='blogimage img-responsive'>
 

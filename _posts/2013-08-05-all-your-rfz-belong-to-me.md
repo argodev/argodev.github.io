@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - defcon
+redirect_from:
+- /blog/2013/8/5/all-your-rfz-belong-to-me.html
 ---
 This was one of the best sessions that I attended at DefCon, and was also the longest (double-length). The room was
 packed, and the aroma “fresh”... however the content made up for all of that.
@@ -41,5 +43,5 @@ A couple of links/tools of particular interest:
 
 * Baudline – signal analyzer <http://www.baudline.com/>
 
-* ATCRBS – Air Traffic Control Radar Beacon System: 
+* ATCRBS – Air Traffic Control Radar Beacon System:
 <http://en.wikipedia.org/wiki/Air_traffic_control_radar_beacon_system>

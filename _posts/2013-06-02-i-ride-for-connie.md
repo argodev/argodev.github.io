@@ -6,6 +6,8 @@ date: 2013-06-02 00:00
 tags:
 - adoption
 - connie
+redirect_from:
+- /personal/2013/6/2/i-ride-for-connie.html
 ---
 <img alt='Connie' src='/images/Connie.jpg' class='blogimage img-responsive'>
 

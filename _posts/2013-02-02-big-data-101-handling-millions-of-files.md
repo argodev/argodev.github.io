@@ -6,6 +6,8 @@ date: 2013-02-02 00:00
 tags:
 - theory
 - big data
+redirect_from:
+- /blog/2013/2/2/big-data-101-handling-millions-of-files.html
 ---
 I've been talking a bit recently with members of my team about some of the basic tools that need to be in any data
 scientist's toolbox. Things that, if you want to lay any claim to working with "big data" should be second nature. Many

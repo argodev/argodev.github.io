@@ -7,6 +7,8 @@ tags:
 - cancer
 - orbc
 - cycling
+redirect_from:
+- /personal/2014/7/5/i-ride-for-tom
 ---
 
 <img alt='I Ride For Tom' src='/images/iridefortom.jpg' class='blogimage img-responsive'>

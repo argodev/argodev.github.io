@@ -5,6 +5,8 @@ title: 'ReMoved - will you be part of the story?'
 date: 2014-03-09 00:00
 tags:
 - foster care
+redirect_from:
+- /personal/2014/3/9/removed-will-you-be-part-of-the-story
 ---
 
 Today is a sick-day, which means I have an abnormal amount of time to hang around and read stuff online and to

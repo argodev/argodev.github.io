@@ -7,6 +7,8 @@ tags:
 - codestock
 - conferences
 - security
+redirect_from:
+- /blog/2012/6/18/codestock-2012-you-think-your-wifi-is-safe.html
 ---
 This past Friday I had the privilege of speaking on WiFi security at CodeStock 2012. I had a blast both preparing for
 the talk and delivering it and I hope it was beneficial to some of those who attended.

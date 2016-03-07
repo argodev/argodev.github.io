@@ -6,6 +6,8 @@ date: 2013-12-25 00:00
 tags:
 - adoption
 - family
+redirect_from:
+- /personal/2013/12/25/merry-christmas
 ---
 
 It's Christmas morning 2013 and, like most mornings, I find myself sitting in a quiet house for a few hours while everyone

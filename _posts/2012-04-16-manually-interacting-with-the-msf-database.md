@@ -5,6 +5,8 @@ title: 'Manually Interacting with the MSF database'
 date: 2012-04-16 00:00
 tags:
 - security
+redirect_from:
+- /blog/2012/4/16/manually-interacting-with-the-msf-database.html
 ---
 <img alt='Metasploit' src='/images/metasploit.png' class='blogimage img-responsive'>
 

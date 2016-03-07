@@ -4,8 +4,10 @@ category: technology
 title: 'Would you like a Cassette for your data?'
 date: 2012-11-12 00:00
 tags:
-- iscellaneous
+- miscellaneous
 - big data
+redirect_from:
+- /blog/2012/11/1/would-you-like-a-cassette-for-your-data.html
 ---
 <img alt='Cassette' src='/images/Tdkc60cassette.jpg' class='blogimage img-responsive'>
 

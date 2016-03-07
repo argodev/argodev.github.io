@@ -8,6 +8,8 @@ tags:
 - foster care
 - orbc
 - orphan sunday
+redirect_from:
+- /personal/2014/11/18/orphan-sundays-recap
 ---
 For the fourth year in a row, our local church family - Oak Ridge Baptist Church - set aside some time to consider the
 scriptural mandate to care for the orphan and the fatherless. Our efforts were slightly more subdued this year due to

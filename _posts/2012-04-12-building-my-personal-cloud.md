@@ -6,6 +6,8 @@ date: 2012-04-12 00:00
 tags:
 - cloud computing
 - cloud
+redirect_from:
+- /blog/2012/4/12/building-my-personal-cloud.html
 ---
 <img alt='Cloud' src='/images/78881z2p31zg232.jpg' class='blogimage img-responsive'>
 

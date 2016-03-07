@@ -7,6 +7,8 @@ tags:
 - security
 - grayhat
 - windows
+redirect_from:
+- /blog/2012/10/15/debugging-and-reversing-basics-001.html
 ---
 <small>\[Note: the title is what it is because I consider myself a n00b at this and these are likely things anyone else
 already knows\]</small>
@@ -96,4 +98,3 @@ Process Explorer).
 
 From here, I can attach to the process (calc.exe as 32-bit) from my python code. This moves me forward a bit but
 doesn't solve the "how do I bind to the 64-bit image" question. That will be a problem for another day.
-

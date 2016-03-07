@@ -6,6 +6,8 @@ date: 2014-03-24 00:00
 tags:
 - adoption
 - rants
+redirect_from:
+- /personal/2014/3/23/hes-adopted
 ---
 
 <img alt='Hes Adopted' src='/images/mattsoccer.jpg' class='blogimage img-responsive'>

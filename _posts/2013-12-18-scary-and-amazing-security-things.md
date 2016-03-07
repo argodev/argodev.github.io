@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - codemash
+redirect_from:
+- /blog/2013/12/18/scary-and-amazing-security-things.html
 ---
 
 I'm working on getting ready for my precompiler at [CodeMash](http://codemash.org/) in just a few weeks and I'm

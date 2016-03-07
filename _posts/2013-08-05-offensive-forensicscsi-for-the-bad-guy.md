@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - defcon
+redirect_from:
+- /blog/2013/8/5/offensive-forensicscsi-for-the-bad-guy.html
 ---
 This talk was interesting as it relates to some of the forensics work I've been doing for my day job, however the
 premise was that rather than using it (forensics techniques) to uncover illegal activity, it can be used for uncovering

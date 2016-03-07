@@ -7,6 +7,8 @@ tags:
 - cancer
 - orbc
 - cycling
+redirect_from:
+- /personal/2014/9/4/why-we-ride
 ---
 
 <img alt='TOMSTRONG' src='/images/tomstrong.jpg' class='blogimage img-responsive'>

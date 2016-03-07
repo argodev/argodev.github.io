@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - defcon
+redirect_from:
+- /blog/2013/8/1/my-first-def-con.html
 ---
 This is my first defcon.
 

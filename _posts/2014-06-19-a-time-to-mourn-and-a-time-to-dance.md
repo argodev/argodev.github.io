@@ -5,6 +5,8 @@ title: 'A time to mourn, and a time to Dance'
 date: 2014-06-19 00:00
 tags:
 - adoption
+redirect_from:
+- /personal/2014/6/19/a-time-to-mourn-and-a-time-to-dance
 ---
 
 This has been a conflicting week.

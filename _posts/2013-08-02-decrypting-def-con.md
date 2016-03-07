@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - defcon
+redirect_from:
+- /blog/2013/8/2/decrypting-def-con.html
 ---
 This talk was given by one of the head guys of the con, specifically the guy responsible for the human badge challenge.
 He talked a bit about himself, the way he views the world, and gave some hints as to how one might go about solving

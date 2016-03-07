@@ -7,6 +7,8 @@ tags:
 - conferences
 - security
 - defcon
+redirect_from:
+- /blog/2013/8/2/oil-gas-infosec-101.html
 ---
 
 This talk was from a seasoned security professional working in the Oil & Gas industry (18+ years). It was by no means a

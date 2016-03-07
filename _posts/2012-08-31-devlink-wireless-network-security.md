@@ -8,6 +8,8 @@ tags:
 - devlink
 - security
 - wireless
+redirect_from:
+- /blog/2012/8/31/devlink-wireless-network-security.html
 ---
 On Wednesday I had the privilege of speaking at DevLink on the topic of wireless network security. I had a great time
 giving the talk and had great audience participation (including some who were unknowning victims to my

@@ -5,6 +5,8 @@ title: 'A Home for the Holidays'
 date: 2012-12-21 00:00
 tags:
 - foster care
+redirect_from:
+- /personal/2012/12/21/a-home-for-the-holidays.html
 ---
 
 Today is a big day… probably one that I didn’t think would come or didn’t think would happen to us. Today we

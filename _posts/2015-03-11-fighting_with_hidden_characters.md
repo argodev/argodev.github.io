@@ -112,6 +112,3 @@ records)
 - replaces them with nothing (there are no replacement characters in between the two `//` marks at the end).
 
 - It does this globally (trailing `g`) for the file.
-
-
-

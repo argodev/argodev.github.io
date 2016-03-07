@@ -9,6 +9,8 @@ tags:
 - aws
 - azure
 - codemash
+redirect_from:
+- /blog/2011/1/4/speaking-at-the-codemash-precompiler.html
 ---
 <img alt='CodeMash' src='/images/timid_thumb.png' class='blogimage img-responsive'>
 

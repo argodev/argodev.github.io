@@ -8,6 +8,8 @@ tags:
 - aws
 - azure
 - books
+redirect_from:
+- /blog/2011/2/11/moving-applications-to-the-cloud-with-windows-azure.html
 ---
 I just finished reading a book from the Microsoft Patterns & Practices group called _Moving Applications to the Cloud
 on the Microsoft Windows Azure Platform_. I’ve had the book for a few months, and my when I first received it, I read

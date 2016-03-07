@@ -6,6 +6,8 @@ date: 2011-12-23 00:00
 tags:
 - security
 - backtrack
+redirect_from:
+- /blog/2011/12/23/getting-monitor-mode-to-work-for-the-alfa-awus036h.html
 ---
 If you’ve done much work with [BackTrack](http://backtrack-linux.org/) and wireless penetration testing you’re likely
 using (or at least have heard of) the [Alfa AWUS036H](http://www.amazon.com/gp/product/B002BFMZR8/ref=as_li_ss_tl?ie=UTF8&tag=robgillenblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002BFMZR8).

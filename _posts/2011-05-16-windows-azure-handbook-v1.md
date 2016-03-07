@@ -7,6 +7,8 @@ tags:
 - cloud computing
 - azure
 - books
+redirect_from:
+- /blog/2011/5/16/windows-azure-handbook-v1.html
 ---
 <img alt='Azure Handbook' src='/images/azurehandbookv1.jpg' class='blogimage img-responsive'>
 

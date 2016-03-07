@@ -5,6 +5,8 @@ title: 'Windows 7, Windows 8, and Linux'
 date: 2011-11-04 00:00
 tags:
 - general development
+redirect_from:
+- /blog/2011/11/4/windows-7-windows-8-and-linux.html
 ---
 This post may not be of interest to everyone, but I finally got my laptop configured the way I want it and thought
 I’d document what I did in case anyone else finds themselves in a similar position. It took me 4 or 5 full

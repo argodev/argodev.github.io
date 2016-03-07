@@ -7,6 +7,8 @@ tags:
 - cloud computing
 - azure
 - books
+redirect_from:
+- /blog/2011/10/20/windows-azure-development-cookbook.html
 ---
 <img alt='Book' src='/images/81SI-lqZFZL.jpg' class='blogimage img-responsive'>
 

@@ -7,6 +7,8 @@ tags:
 - cloud computing
 - azure
 - tools
+redirect_from:
+- /blog/2011/1/24/return-of-the-windows-azure-gac-viewer.html
 ---
 I’m pleased to announce that the excellent utility – the Azure GAC Viewer – is once again online and available for
 general use. You can access it at <http://gacviewer.cloudapp.net>. This tool shows you a dynamically generated list of

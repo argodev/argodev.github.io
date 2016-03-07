@@ -8,6 +8,8 @@ tags:
 - general development
 - azure
 - nevron
+redirect_from:
+- /blog/2011/6/9/using-nevron-controls-in-azure.html
 ---
 I’ve been playing around with the [Nevron Controls](http://www.nevron.com/) for an Azure application I’m
 building (hopefully more on that soon) and I’ve been fighting with a simple problem that I’m posting here
@@ -23,10 +25,10 @@ the http handlers were registered. By default, I had the handlers registered lik
     <system.web>
       <httpHandlers>
         <add verb="*" path="NevronDiagram.axd"
-          type="Nevron.Diagram.WebForm.NDiagramImageResourceHandler" 
+          type="Nevron.Diagram.WebForm.NDiagramImageResourceHandler"
           validate="false"/>
         <add verb="GET,HEAD" path="NevronScriptManager.axd"
-          type="Nevron.UI.WebForm.Controls.NevronScriptManager" 
+          type="Nevron.UI.WebForm.Controls.NevronScriptManager"
           validate="false"/>
       </httpHandlers>
     </system.web>
@@ -40,15 +42,15 @@ they accounted for this and I simply missed it. The setup should be something li
     <system.webServer>
       <validation validateIntegratedModeConfiguration="false"/>
       <handlers>
-        <add name="NevronDiagram" preCondition="integratedMode" 
+        <add name="NevronDiagram" preCondition="integratedMode"
           verb="*"
-          path="NevronDiagram.axd" 
+          path="NevronDiagram.axd"
           type="Nevron.Diagram.WebForm.NDiagramImageResourceHandler"
           />
-        <add name="NevronScriptManager" 
-          preCondition="integratedMode" 
+        <add name="NevronScriptManager"
+          preCondition="integratedMode"
           verb="*"
-          path="NevronScriptManager.axd" 
+          path="NevronScriptManager.axd"
           type="Nevron.UI.WebForm.Controls.NevronScriptManager"
           />
       </handlers>

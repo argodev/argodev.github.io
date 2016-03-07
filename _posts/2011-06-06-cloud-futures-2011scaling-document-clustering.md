@@ -9,6 +9,8 @@ tags:
 - aws
 - azure
 - ornl
+redirect_from:
+- /blog/2011/6/6/cloud-futures-2011scaling-document-clustering.html
 ---
 I was honored to be able to give a talk at the Microsoft Research
 [Cloud Futures 2011](http://research.microsoft.com/en-us/events/cloudfutures2011/) conference this past week. I

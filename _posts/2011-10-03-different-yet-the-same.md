@@ -8,6 +8,8 @@ tags:
 - ornl
 - personal
 - planet
+redirect_from:
+- /blog/2011/10/3/different-yet-the-same.html
 ---
 While some of you are aware, to others it may come as somewhat of a surprise that about a week ago I ended my tenure at
 [Planet Technologies](http://go-planet.com/) after nearly 11.5 years. As I shared with some of the Planet folks in an

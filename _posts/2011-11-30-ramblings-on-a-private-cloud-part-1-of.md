@@ -9,6 +9,8 @@ tags:
 - private cloud
 - xen
 - xen center
+redirect_from:
+- /blog/2011/11/30/ramblings-on-a-private-cloud-part-1-of.html
 ---
 As many of you are aware, a few months ago I changed jobs (more like positions) and with that change has come a shift
 in the focus of much of my work. I’m spending less time in the abstract (i.e. “how could we solve problem X" in the

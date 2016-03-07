@@ -12,6 +12,8 @@ tags:
 - cuda
 - gpgpu
 - nvidia
+redirect_from:
+- /blog/2011/9/5/slides-from-devlink-2011.html
 ---
 I had the privilege of speaking at DevLink 2011 a few weeks ago in Downtown Chattanooga, TN. I have been a bit OBE
 (overcome by events) since I left the conference and have been unable to post my slides until now. I hope to get
@@ -30,4 +32,3 @@ attendance at both was great and I appreciated the questions from the audience.
     scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
   </iframe>
 </div>
-

@@ -7,6 +7,8 @@ tags:
 - cloud computing
 - aws
 - books
+redirect_from:
+- /blog/2011/1/6/book-review-host-your-web-site-in-the-cloud.html
 ---
 <img alt='Book Cover' src='/images/hostyourwebsiteinthecloud.gif' class='blogimage img-responsive'>
 

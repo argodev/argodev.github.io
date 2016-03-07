@@ -9,6 +9,8 @@ tags:
 - aws
 - azure
 - codestock
+redirect_from:
+- /blog/2011/6/6/a-comparison-of-aws-and-azure.html
 ---
 This past weekend at [CodeStock](http://codestock.org/), I gave a double-length session that was a
 side-by-side comparison of Amazon Web Services and Microsoft Windows Azure. The objective was to
@@ -41,4 +43,3 @@ time.
     <iframe src="https://player.vimeo.com/video/24803457" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
     </iframe>
 </div>
-

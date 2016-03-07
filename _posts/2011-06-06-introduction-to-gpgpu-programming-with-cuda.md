@@ -10,6 +10,8 @@ tags:
 - gpgpu
 - nvidia
 - codestock
+redirect_from:
+- /blog/2011/6/6/introduction-to-gpgpu-programming-with-cuda.html
 ---
 This past weekend I had the honor of giving a talk at CodeStock 2011 here in Knoxville. This was the third year I’ve
 participated in this conference and I really enjoy it. I decided to “step out” a bit and do a talk that was a bit

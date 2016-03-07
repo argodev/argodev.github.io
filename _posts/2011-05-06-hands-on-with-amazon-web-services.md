@@ -8,6 +8,8 @@ tags:
 - conferences
 - stirtrek
 - aws
+redirect_from:
+- /blog/2011/5/6/hands-on-with-amazon-web-services.html
 ---
 I have the opportunity to talk at StirTrek today and wanted to make the slides available from today's session. I'll
 update this post a bit more following the session.
@@ -22,4 +24,3 @@ update this post a bit more following the session.
     <iframe src="https://player.vimeo.com/video/24867049" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
     </iframe>
 </div>
-

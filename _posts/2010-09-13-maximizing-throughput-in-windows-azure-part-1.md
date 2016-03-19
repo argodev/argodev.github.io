@@ -7,6 +7,8 @@ tags:
 - cloud computing
 - azure
 - storage
+redirect_from:
+- /blog/2010/9/13/maximizing-throughput-in-windows-azure-part-1.html
 ---
 I'm working on a writing a paper dealing with the issue of maximizing data throughput when interacting with the Windows
 Azure compute cloud and am drafting some of that work as a couple of blog posts to help me work through my thoughts.
@@ -106,4 +108,3 @@ This last chart is designed to give an idea of the realized throughput by node f
 
 As you can imagine, the results listed here triggered a number of other questions and tests. Some of these will be
 addressed in the next post on this topic which should be available soon.
-

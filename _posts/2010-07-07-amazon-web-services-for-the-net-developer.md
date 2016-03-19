@@ -7,9 +7,11 @@ tags:
 - conferences
 - codestock
 - aws
+redirect_from:
+- /blog/2010/7/7/amazon-web-services-for-the-net-developer.html
 ---
 
-I spoke at CodeStock (<http://codestock.org>) a few weeks ago and one of my talks was focused on AWS from the 
+I spoke at CodeStock (<http://codestock.org>) a few weeks ago and one of my talks was focused on AWS from the
 perspective of the .NET developer. The slides are available here:
 
 Amazon Web Services for the .NET Developer
@@ -25,4 +27,3 @@ View more presentations from Rob Gillen.
 
 And the video of the session is available here:
 [Video](http://www.youtube.com/p/442C2240EE804BFD)
-

@@ -16,6 +16,13 @@ environments and general application development. He has many years of experienc
 clients ranging from service providers in Europe and Japan to corporate and federal customers in the US including
 spending time as a adjunct member of a Microsoft solutions development team.
 
+### Internet Presence
+
+* [Microsoft MVP Profile](http://mvp.microsoft.com/en-us/mvp/Rob%20Gillen-4029153)
+* [Google Scholar Profile](http://scholar.google.com/citations?user=aWpgGlcAAAAJ)
+* [ResearchGate Profile](https://www.researchgate.net/profile/Robert_Gillen2/)
+
+
 
 
 ### <a name="profile"></a>Professional Profile

@@ -21,7 +21,7 @@ on labs covering both the Amazon and Microsoft cloud computing platforms. Below 
 the sessions as well as the prerequisites for those planning on joining us. If you are going to be in Sandusky next
 Wednesday, be sure to drop by.
 
-####An Introduction to Amazon Web Services (half-day, afternoon)
+#### An Introduction to Amazon Web Services (half-day, afternoon)
 
 AWS has been in the cloud computing space longer than most anyone, and they are the de-facto standard when it comes to
 Infrastructure as a Service. While most developers are comfortable with the notion of virtual machines, reviewing the
@@ -33,7 +33,7 @@ opportunity to work through some labs, deploy some code, and begin to experience
 Examples are in .NET, but fundamental concepts apply to all platforms.
 
 
-####An Introduction to Windows Azure (half-day, morning)
+#### An Introduction to Windows Azure (half-day, morning)
 
 Steve Ballmer has made it very clear that Microsoft is "all in" when it comes to the cloud and by now most have heard
 about Microsoft's Windows Azure platform... but what does that mean for you? Whether you are an experienced .NET
@@ -45,7 +45,7 @@ best addresses, and a collection of hands-on-labs to get you started.
 Examples are in .NET, but fundamental concepts apply to all platforms.
 
 
-####Prerequisites
+#### Prerequisites
 
 The sessions will be part presentation, part hands on labs.  While you aren't required to bring a laptop, you'll get
 much more out of the sessions if you have one available to work through the labs with (but, there might be some people
@@ -53,7 +53,7 @@ willing to pair as well!).  Please make sure to bring your power cord!
 
 Here are the prerequisites to have loaded:
 
-#####An Introduction to Windows Azure
+##### An Introduction to Windows Azure
 
 * Operating Systems Supported: Windows 7 (Ultimate, Professional, and Enterprise Editions); Windows Server 2008;
 Windows Server 2008 R2; Windows Vista (Ultimate, Business, and Enterprise Editions) with either Service Pack 1 or
@@ -69,7 +69,7 @@ Service Pack 2
 
 * [Install the Windows Azure Platform Training Kit](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=413E88F8-5966-4A83-B309-53B7B77EDF78&displaylang=en)
 
-#####An Introduction to Amazon Web Services
+##### An Introduction to Amazon Web Services
 
 * [Amazon AWS SDK for .NET](http://d1q6xku6craafi.cloudfront.net/AWSSDKForNET_1.2.0.2.msi)
 
@@ -89,7 +89,7 @@ be shown using Visual Studio, but don't let that stop you from following along o
 your Mac, or using Java, PHP and Ruby on Windows.  Below are links to other SDKs for each cloud platform.  Please,
 feel free to explore your options and load these SDKs or libraries up if you prefer them.
 
-#####For Windows Azure
+##### For Windows Azure
 
 * [Windows Azure SDK For Java](http://www.windowsazure4j.org/)
 
@@ -107,7 +107,7 @@ feel free to explore your options and load these SDKs or libraries up if you pre
 
 * [Windows Azure AppFabric SDK For Ruby](http://rubyforge.org/projects/dotnetsrv-ruby/)
 
-#####For Amazon AWS
+##### For Amazon AWS
 
 * [AWS Java Developer Center](http://aws.amazon.com/java/)
 

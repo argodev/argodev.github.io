@@ -10,7 +10,7 @@ tags:
 redirect_from:
 - /personal/2013/3/27/happy-gotcha-day-matt.html
 ---
-<img alt='Matt' src='/images/fiveyearsagomatt.jpg' class='blogimage img-responsive'>
+<img alt='Matt' src='/images/FiveYearsAgoMatt.jpg' class='blogimage img-responsive'>
 
 It's hard to believe that it was five years ago today that Matt came to be part of our family forever. God has been so good
 to us. Matt has grown a ton in that time... it is hard to look at pictures of that big-haired 15-month old and realize it's

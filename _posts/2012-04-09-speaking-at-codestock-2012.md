@@ -28,7 +28,7 @@ security-specific conferences. What is great, is not only did these talks make t
 was #12 in the list of top vote getters (CodeStock lets registered attendees vote on what sessions they’d like to see).
 If you happen to be in the Knoxville area in the middle of June I hope you’ll consider attending the conference.
 
-###Anatomy of a Buffer Overflow Attack
+### Anatomy of a Buffer Overflow Attack
 > You've heard of "buffer overflows" and maybe you've even been the cause of a few, but do you understand why they are
 > bad? Maybe you're a ".NET developer" and you've never really thought about them. In this session we'll discuss how
 > attackers discover buffer overflows, how they interrogate them, and, finally, how they are exploited. We'll walk

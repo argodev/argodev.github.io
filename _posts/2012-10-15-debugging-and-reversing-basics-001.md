@@ -41,9 +41,9 @@ suggests adjusting the error line in the script as follows:
 and if the error ends with "The request is not supported" you can rest sure that your problem is a 32/64 bit issue.
 Unfortunately, A.H.'s solution was to simply use a 32-bit box for the rest of the testing.
 
-###What Version of Python am I running?
+### What Version of Python am I running?
 
-The next issue that occured to me was to determine which version of Python (bit-ness) I was running. I simple search
+The next issue that occurred to me was to determine which version of Python (bit-ness) I was running. I simple search
 brought up [Ned Deily's answer on Stack Overflow](http://stackoverflow.com/questions/1405913/how-do-i-determine-if-my-python-shell-is-executing-in-32bit-or-64bit-mode)
 which indicated that one simple way to check would be to run the following:
 
@@ -52,7 +52,7 @@ which indicated that one simple way to check would be to run the following:
 You will get either 32 or 64 as a result - in my case, 32. Great. So I know that my debugging thread is a 32-bit
 application, what is the image type of calc.exe?
 
-###DumpBin
+### DumpBin
 
 Some poking around led me to an article by [Frank Chism on the Windows HPC blog](http://blogs.technet.com/b/windowshpc/archive/2009/03/27/how-to-tell-if-a-exe-file-is-a-32-bit-or-64-bit-application-using-dumpbin.aspx)
 that pointed to being able to run a tool called dumpbin to see if an exe was 32 or 64 bit. I followed the instructions
@@ -69,14 +69,14 @@ Which resulted in:
 Ok... so my debugging thread is 32-bit, and the executeable that I'm running is 32-bit, so why am I unable to attach to
 the thread?
 
-###Process Explorer
+### Process Explorer
 
 At this point, I pulled up the trusty Sys Internals Process Explorer to see if it would shed any light on the issue.
 From within Process Monitor, if you select the View menu and then click on "Select Columns" you can tick the box for
 "Image Type" which will allow you to see for each process/executeable running what the image type is. And, after quickly
 checking, I see that calc.exe is running as a 64-bit image. How in the world is this happening?
 
-###WOW64
+### WOW64
 
 64 Bit Windows has a feature called the [File System Redirector](http://msdn.microsoft.com/en-us/library/aa384187%28VS.85%29.aspx)
 which seems to be the root of my issues. If I understand how this works (dubious), this is a layer within the OS that
@@ -85,8 +85,8 @@ which seems to be the root of my issues. If I understand how this works (dubious
 fine. However, if a 32-bit process attempts to do the same thing, it will get magically re-directed to the 32-bit
 version of the application which is located in `C:\Windows\SysWOW64` (don't even ask why the folders are named the way
 they are based on the versions of the applications that they house). What this means, is that if you simply hit
-Windows+R and type calc, you are calling it from a 64-bit process (the shell) and therefore you get the 64-bit version
-of the application. If, however, you reference calc.exe from a 32-bit process (i.e. dumpbin), you get redirected to the
+`Windows+R` and type `calc`, you are calling it from a 64-bit process (the shell) and therefore you get the 64-bit version
+of the application. If, however, you reference calc.exe from a 32-bit process (i.e. `dumpbin`), you get redirected to the
 32-bit version.
 
 If you specifically need the 32-bit version (as I did to complete my testing), you can open a command prompt, navigate

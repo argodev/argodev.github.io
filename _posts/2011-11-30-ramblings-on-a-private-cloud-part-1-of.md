@@ -22,7 +22,7 @@ when we all can leave the infrastructure build-outs to someone else, the reality
 some data that simply cannot live outside of an organization’s boundaries – leaving us to look at “private cloud”
 approaches.
 
-###Overview
+### Overview
 
 We have been experimenting with a few different approaches for some of the projects I’ve been working on and are
 learning a number of interesting things. I want to be quick to say that I don’t think we’ve “arrived” by any stretch
@@ -39,7 +39,7 @@ services, etc.), most of the workloads will tend to be heavy data analytics. The
 the fact that the entire environment needed to be air-gapped (i.e. not connected to the Internet or other networks
 in any way).
 
-###Open Stack
+### Open Stack
 
 While we have a good bit of experience using [Eucalyptus](http://www.eucalyptus.com/) on the Ubuntu stack, our
 initial plan was to go with the current wisdom of the crowds and deploy [OpenStack](http://openstack.com/) as our
@@ -49,7 +49,7 @@ to be at the level we needed it to be given our platform selections. After a few
 working, we bailed due to simply needing to get something working<sup>2</sup>. We are hopeful that this situation
 will evolve in the future and we will reconsider down the road, but for the present we had to scrap it and move on.
 
-###Refactoring / Current Approach
+### Refactoring / Current Approach
 
 Having burned a bit of our grace period, we were faced with the need to get something running fast and spent a
 weekend digging through our options. Where we ended up is using the free
@@ -66,7 +66,7 @@ deployment of future platforms will become easier and the “best” approach wi
 <small>XenCenter management console. Image credit Citrix Systems (<http://community.citrix.com/display/xs/XenCenter>)</small>
 
 
-#####Notes
+##### Notes
 1. I spent a good bit of time looking on the web for the official name of the tiniest cloud but didn’t come up
 with anything better than “Cirrus” which is defined as a “[thin, wispy cloud](http://en.wikipedia.org/wiki/Cirrus_cloud).”
 Not exactly what I was looking for, but I’ll use it for now.

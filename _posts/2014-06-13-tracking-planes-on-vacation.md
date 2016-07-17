@@ -20,8 +20,7 @@ want to do the same with your kids. I hope you have as much fun as we did!
 
 * Radio - I used the cheap USB dongle available via Amazon. These are designed for allowing you to watch digital TV on
   your computer. Some smarter people than I have figured out that the chipset in these devices can be abused to do far
-  more than initially advertised. I got mine for around $11 - [Cheap FM+DAB USB DVB-T RTL2832U+R820T w/ MCX antenna]
-  (http://www.amazon.com/gp/product/B00BYQMGZG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BYQMGZG&linkCode=as2&tag=robgillenblog-20)
+  more than initially advertised. I got mine for around $11 - [Cheap FM+DAB USB DVB-T RTL2832U+R820T w/ MCX antenna](http://www.amazon.com/gp/product/B00BYQMGZG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BYQMGZG&linkCode=as2&tag=robgillenblog-20)
 * Adapter - I put a standard F connector on the end of the custom antenna cable and then needed a way to get it
   connected to the MCX adapter on the USB dongle. This little adapter helped: [RF coaxial coax cable F female to MCX
   male right angle RG316 6"](http://www.amazon.com/gp/product/B00CKG6T9I/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CKG6T9I&linkCode=as2&tag=robgillenblog-20&linkId=SKRSHEAPEWA2CHTV)
@@ -35,7 +34,7 @@ want to do the same with your kids. I hope you have as much fun as we did!
   to plan for mistakes). I also had a box of F connectors and a crimping tool, so that made it easier. Finally, I used
   some 1/2" PVC to house the antenna once it was built. There is no mandate to do this, it just gave it some structure
   and a little protection from the elements. Also need to throw in some electrical tape and it is helpful if you have a
-  digital multimeter for continuity testing. Some of the tutorials used a set of calipers to measure the elements
+  digital multi-meter for continuity testing. Some of the tutorials used a set of calipers to measure the elements
   perfectly... we just used a standard ruler
 * Tutorial 1: The idea actually came from a couple of HAK5 episodes. The thing they did for me was convince me that it
   wasn't that hard, and we could do it in a reasonable amount of time. The shows were
@@ -43,9 +42,9 @@ want to do the same with your kids. I hope you have as much fun as we did!
   and I built a 3' version - primarily due to some reading that seemed to indicate the benefits gained from the extra
   3' weren't significant.
 * Tutorial 2-n: The real meat of the tutorials came from these pages:
-  * How To: http://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/
-  * Build an antenna: http://www.balarad.net/
-  * What is ADS-B: http://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast
+  * How To: [http://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/](http://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/)
+  * Build an antenna: [http://www.balarad.net/](http://www.balarad.net/)
+  * What is ADS-B: [http://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast](http://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast)
 * Software: I used two main tools to process the signals:
   * ADS# - This is part of the SDR# suite of tools and takes the radio signals and serves them up as ADS-B packets. [You
     can download it at the SDRSharp site](http://sdrsharp.com/).

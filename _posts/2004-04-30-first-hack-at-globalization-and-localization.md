@@ -31,19 +31,16 @@ would have to be called `global1app.en.resources`).  The second parameter
 indicates where on the disk the resources are located.  I chose this location
 arbitrarily.
 
+      Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
 
-    ```csharp linenos
-    Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
-    ```
 
   3. I modified the `Session_Start` method to determine the user's language
 preference and to store it
 
 
-    ```csharp linenos
-    Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
-    Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
-   ```
+      Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
+      Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
+
 
 2. The next task was to prepare the page for globalization/localization
 
@@ -57,15 +54,15 @@ preference and to store it
 
   5. In the `Page_Load` method I added code similar to the following:
 
-    ```
-    if (this.Page.IsPostBack != true)
-    {
-         this.Label1.Text = ((ResourceManager)Application["RM"]).GetString("UI_label01");
-         this.Label2.Text = ((ResourceManager)Application["RM"]).GetString("UI_label02");
-    }
-    ```
+      ```csharp
+      if (this.Page.IsPostBack != true)
+      {
+          this.Label1.Text = ((ResourceManager)Application["RM"]).GetString("UI_label01");
+          this.Label2.Text = ((ResourceManager)Application["RM"]).GetString("UI_label02");
+      }
+      ```
 
-    6. I had a line for each of my labels, images, and embedded flash objects.  This part seemed a bit tedious and "klugy" to me... I think that I could probably write a helper class that would enumerate all of the controls on a page, loop through them, and, based on the control type look to the RM for a value (or set of values) to set for the given language... I'll have to look more into that later.
+  6. I had a line for each of my labels, images, and embedded flash objects.  This part seemed a bit tedious and "klugy" to me... I think that I could probably write a helper class that would enumerate all of the controls on a page, loop through them, and, based on the control type look to the RM for a value (or set of values) to set for the given language... I'll have to look more into that later.
 
 3. The next task was to actually prepare the resources for the various languages.
 

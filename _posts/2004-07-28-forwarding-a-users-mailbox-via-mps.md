@@ -1,10 +1,12 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'Forwarding a user's mailbox via MPS'
+date: 2004-07-28 00:00
 tags:
-- miscellaneous
+- provisioning
+- mps
 redirect_from:
--
+- /blog/2004/7/28/forwarding-a-users-mailbox-via-mps.html
 ---
+Content coming soon

@@ -1,10 +1,12 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'New SDK for the Microsoft Provisioning System!'
+date: 2006-05-26 00:00
 tags:
-- miscellaneous
+- provisioing
+- mps
 redirect_from:
--
+- /blog/2006/5/26/new-sdk-for-the-microsoft-provisioning-system.html
 ---
+Content coming soon

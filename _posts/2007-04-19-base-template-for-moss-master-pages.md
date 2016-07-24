@@ -1,10 +1,12 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'Base Template for MOSS Master Pages'
+date: 2007-04-19 00:00
 tags:
-- miscellaneous
+- sharepoint
+- moss
 redirect_from:
--
+- /blog/2007/4/19/base-template-for-moss-master-pages.html
 ---
+Content coming soon

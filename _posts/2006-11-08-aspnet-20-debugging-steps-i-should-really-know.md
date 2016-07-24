@@ -1,10 +1,12 @@
 ---
 layout: post
 category: technology
-title: ''
+title: 'ASP.NET 2.0 Debugging steps I should really know'
 date: 2000-00-00 00:00
 tags:
-- miscellaneous
+- general development
+- asp.net
 redirect_from:
--
+- /blog/2006/11/8/aspnet-20-debugging-steps-i-should-really-know.html
 ---
+Content coming soon

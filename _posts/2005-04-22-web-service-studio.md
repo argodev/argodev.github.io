@@ -1,10 +1,12 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'Web Service Studio'
+date: 2005-04-22 00:00
 tags:
-- miscellaneous
+- general development
+- tools
 redirect_from:
--
+- /blog/2005/4/22/web-service-studio.html
 ---
+Content coming soon

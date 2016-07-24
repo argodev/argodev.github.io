@@ -1,10 +1,13 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: '.NET-based dac and role security'
+date: 2004-05-26 00:00
 tags:
-- miscellaneous
+- provisioning
+- .net
+- c#
 redirect_from:
--
+- /blog/2004/5/26/net-based-dac-and-role-security.html
 ---
+Content coming soon

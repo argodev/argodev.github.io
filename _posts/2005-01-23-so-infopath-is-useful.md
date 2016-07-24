@@ -1,10 +1,13 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'So... InfoPath IS useful....'
+date: 2005-01-23 00:00
 tags:
-- miscellaneous
+- general development
+- infopath
+- tools
 redirect_from:
--
+- /blog/2005/1/23/so-infopath-is-useful.html
 ---
+Content coming soon

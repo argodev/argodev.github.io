@@ -31,18 +31,19 @@ would have to be called `global1app.en.resources`).  The second parameter
 indicates where on the disk the resources are located.  I chose this location
 arbitrarily.
 
-   {% highlight csharp linenos %}
-    Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
 
+    ```csharp linenos
+    Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
+    ```
 
   3. I modified the `Session_Start` method to determine the user's language
 preference and to store it
 
 
-    {% highlight c# %}
+    ```csharp linenos
     Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
     Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
-
+   ```
 
 2. The next task was to prepare the page for globalization/localization
   1. The first step was to convert any and all text to asp.net label controls so that I could easily change their Text properties at runtime

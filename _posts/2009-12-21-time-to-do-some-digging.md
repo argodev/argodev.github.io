@@ -1,11 +1,14 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'Time to do some digging…'
+date: 2009-12-21 00:00
 tags:
-- miscellaneous
+- cloud computing
+- azure
+- outage
+- storage
 redirect_from:
--
+- /blog/2009/12/21/time-to-do-some-digging.html
 ---
 Content coming soon

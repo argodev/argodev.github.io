@@ -1,11 +1,12 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: '2009 BJU Programming Contest'
+date: 2009-03-24 00:00
 tags:
-- miscellaneous
+- general development
+- personal
 redirect_from:
--
+- /blog/2009/3/24/2009-bju-programming-contest.html
 ---
 Content coming soon

@@ -1,11 +1,13 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'SilverLight and Paging with Azure Data'
+date: 2009-08-20 00:01
 tags:
-- miscellaneous
+- cloud computing
+- azure
+- silverlight
 redirect_from:
--
+- /blog/2009/8/20/silverlight-and-paging-with-azure-data.html
 ---
 Content coming soon

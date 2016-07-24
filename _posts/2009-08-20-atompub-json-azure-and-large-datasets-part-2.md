@@ -1,11 +1,13 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: 'AtomPub, JSON, Azure and Large Datasets, Part 2'
+date: 2009-08-20 00:00
 tags:
-- miscellaneous
+- cloud computing
+- azure
+- cloud
 redirect_from:
--
+- /blog/2009/8/20/atompub-json-azure-and-large-datasets-part-2.html
 ---
 Content coming soon

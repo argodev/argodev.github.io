@@ -2,10 +2,11 @@
 layout: post
 category: technology
 title: ''
-date: 2000-00-00 00:00
+date: 2009-08-05 00:00
 tags:
-- miscellaneous
+- cloud computing
+- azure
 redirect_from:
--
+- /blog/2009/8/5/azure-visualization-and-large-datasets.html
 ---
 Content coming soon

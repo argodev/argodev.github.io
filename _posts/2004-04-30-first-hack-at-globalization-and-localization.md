@@ -31,7 +31,7 @@ would have to be called `global1app.en.resources`).  The second parameter
 indicates where on the disk the resources are located.  I chose this location
 arbitrarily.
 
-
+   {% highlight c# %}
     Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
 
 
@@ -39,6 +39,7 @@ arbitrarily.
 preference and to store it
 
 
+    {% highlight c# %}
     Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
     Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
 

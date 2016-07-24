@@ -1,11 +1,14 @@
 ---
 layout: post
 category: technology
-title: ''
-date: 2000-00-00 00:00
+title: '.NET is a Smorgasbord?'
+date: 2008-11-26 00:00
 tags:
-- miscellaneous
+- general development
+- .net
+- wcf
+- wpf
 redirect_from:
--
+- /blog/2008/11/26/net-is-a-smorgasbord.html
 ---
 Content coming soon

@@ -17,38 +17,49 @@ The first thing I learned is that while the .NET framework has great support for
 
 I figured I'd list pretty-much step-by-step what I did so that maybe the next person will have an easier time of this than I did:
 
-1. I needed to "get a handle" on the user's preferred language.  It made the
-most sense to do this in the `global.asax` file.
+- I needed to "get a handle" on the user's preferred language.  It
+  made the most sense to do this in the `global.asax` file.
 
-  1. To set the file up for this task, I added `using` statements for
-  `System.Threading`, `System.Globalization`, and `System.Resources` to the
-  `global.asax.cs` file
+  - To set the file up for this task, I added `using` statements for
+  `System.Threading`, `System.Globalization`, and `System.Resources`
+  to the `global.asax.cs` file
 
-  2. I modified the `Application_Start` method to create a text-file-based
-resource manager. The first parameter indicates the name or key that is the
-first part of the resource files (i.e. a resources file for the English language
-would have to be called `global1app.en.resources`).  The second parameter
-indicates where on the disk the resources are located.  I chose this location
-arbitrarily.
+  - I modified the `Application_Start` method to create a
+  text-file-based resource manager. The first parameter indicates the
+  name or key that is the first part of the resource files (i.e. a
+  resources file for the English language would have to be called
+  `global1app.en.resources`).  The second parameter indicates where
+  on the disk the resources are located.  I chose this location
+  arbitrarily.
+
 
       Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
 
 
-  3. I modified the `Session_Start` method to determine the user's language
-preference and to store it
+  - I modified the `Session_Start` method to determine the user's
+  language preference and to store it
 
 
       Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
       Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
 
 
-2. The next task was to prepare the page for globalization/localization
+- The next task was to prepare the page for globalization/localization
 
-  1. The first step was to convert any and all text to asp.net label controls so that I could easily change their Text properties at runtime
+  - The first step was to convert any and all text to asp.net label
+  controls so that I could easily change their Text properties at
+  runtime
 
-  2. For the images, I changed them from html `<image>` tags to `<asp:image/>` tags wherever possible so that I could set the `ImageUrl` property at runtime.
+  - For the images, I changed them from html `<image>` tags to
+  `<asp:image/>` tags wherever possible so that I could set the
+  `ImageUrl` property at runtime.
 
-  3. For the places where we embedded Flash objects in the page, I simply created private string variables in the class and change the html to use the value of the appropriate variable for the flash URL by using `<%= VARNAME %>` embedded in the "code".  This may not be the most elegant solution as it seems to be a bit of tangled code, but it certain worked well.
+  - For the places where we embedded Flash objects in the page, I
+  simply created private string variables in the class and change the
+  html to use the value of the appropriate variable for the flash URL
+  by using `<%= VARNAME %>` embedded in the "code".  This may not be
+  the most elegant solution as it seems to be a bit of tangled code,
+  but it certain worked well.
 
   4. In the code (besides the defaults), I only had to add a using statement for `System.Resources`
 

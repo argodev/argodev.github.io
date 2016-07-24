@@ -13,10 +13,10 @@ google_analytics:
 # Optional features
 animated:           false
 show_related_posts: false
-show_post_footers:  false
+show_post_footers:  true
 
 # configure the highlighter
-# highlighter: pygments
+highlighter: rouge
 
 # Disqus post comments
 # (leave blank to disable Disqus)

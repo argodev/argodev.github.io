@@ -19,10 +19,12 @@ I figured I'd list pretty-much step-by-step what I did so that maybe the next pe
 
 1. I needed to "get a handle" on the user's preferred language.  It made the
 most sense to do this in the `global.asax` file.
+
   1. To set the file up for this task, I added `using` statements for
   `System.Threading`, `System.Globalization`, and `System.Resources` to the
   `global.asax.cs` file
-2. I modified the `Application_Start` method to create a text-file-based
+
+  2. I modified the `Application_Start` method to create a text-file-based
 resource manager. The first parameter indicates the name or key that is the
 first part of the resource files (i.e. a resources file for the English language
 would have to be called `global1app.en.resources`).  The second parameter
@@ -32,12 +34,14 @@ arbitrarily.
 
     Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
 
-3. I modified the `Session_Start` method to determine the user's language
+
+  3. I modified the `Session_Start` method to determine the user's language
 preference and to store it
 
 
     Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
     Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
+
 
 2. The next task was to prepare the page for globalization/localization
   1. The first step was to convert any and all text to asp.net label controls so that I could easily change their Text properties at runtime

@@ -31,7 +31,7 @@ would have to be called `global1app.en.resources`).  The second parameter
 indicates where on the disk the resources are located.  I chose this location
 arbitrarily.
 
-   {% highlight c# %}
+   {% highlight csharp linenos %}
     Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
 
 

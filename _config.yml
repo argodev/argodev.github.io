@@ -54,7 +54,7 @@ future:      true
 markdown:     kramdown
 permalink:    pretty
 paginate:     5
-paginate_path: "/blog/page:num"
+paginate_path: "/page:num"
 excerpt_separator: <!--more-->
 sass:
   compressed: true

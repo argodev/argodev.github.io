@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 show_meta: false
 published: true
-description: "Contact example.com"
+description: "Contact robgillen.com"
 comments: false
 mathjax: false
 noindex: false

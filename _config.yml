@@ -10,7 +10,7 @@ baseurl:     ""
 url:         "http://robgillen.com"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-387099-5
 
 # Optional features
 animated:           false
@@ -115,25 +115,25 @@ links:
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
   - title: <i class="iconside iconm-twitter"></i> Twitter
-    url: https://twitter.com/abcd
+    url: https://twitter.com/argodev
     external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
 
 # Google Custom Search:
-#google_search: xyz123abc
+google_search: 003285320253376666153:uitdowlq-os
 
 # Twitter stream widget:
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
-#twitter_widget_id: xyz123abc
+twitter_widget_id: 757763240646500354
 
 # Add disqus username for Disqus comment board:
 disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
-#google_analytics:   xyz123abc
+google_analytics:   UA-387099-5
 
 #### For dummy website only - remove if you wish ####
-github_repo: https://github.com/dyndna/lanyon-plus
-version: 1.1.0
+#github_repo: https://github.com/dyndna/lanyon-plus
+#version: 1.1.0
 ## END ##

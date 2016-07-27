@@ -109,7 +109,7 @@ links:
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
-  title: <i class="iconside iconm-bullhorn"></i> Presentations
+  - title: <i class="iconside iconm-bullhorn"></i> Presentations
     url: /presentations/
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
@@ -118,6 +118,8 @@ links:
     external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
+  - title: <i class=""></i> Disclosure
+    url: /disclosure
 
 # Google Custom Search:
 google_search: 003285320253376666153:uitdowlq-os

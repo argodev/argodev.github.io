@@ -111,7 +111,7 @@ links:
     url: /archive/
   - title: <i class="iconside iconm-bullhorn"></i> Presentations
     url: /presentations/
-  - title: <i class=""></i> Publications
+  - title: <i class="fa fa-file-pdf-o"></i> Publications
     url: /publications/
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
@@ -120,7 +120,7 @@ links:
     external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
-  - title: <i class=""></i> Disclosure
+  - title: <i class="fa fa-creative-commons"></i> Disclosure
     url: /disclosure
 
 # Google Custom Search:

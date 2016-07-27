@@ -86,7 +86,7 @@ owner:
   twitter:        argodev
   facebook:
   github:         argodev
-  stackexchange:
+  stackexchange:  argodev
   linkedin:       https://www.linkedin.com/in/foo
   instagram:
   flickr:
@@ -94,7 +94,7 @@ owner:
   google_plus:    https://plus.google.com/+foo
   # orcid and google scholar IDs are different than standard username.
   orcid: 0000-0002-9002-1440
-  gscholar: xyz123abc
+  gscholar: aWpgGlcAAAAJ
 
 ## sidebar links:
 # For external links add external: true
@@ -111,6 +111,8 @@ links:
     url: /archive/
   - title: <i class="iconside iconm-bullhorn"></i> Presentations
     url: /presentations/
+  - title: <i class=""></i> Publications
+    url: /publications/
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
   - title: <i class="iconside iconm-twitter"></i> Twitter

@@ -58,6 +58,7 @@ for us to broaden our speaker and content base.
 Finally, the part that folks have been looking for... the summation of the results 
 from the survey. The survey had 330 responses. For those who care, the methodology 
 applied is as follows:
+
 * One vote for a topic as a "most interested" earns 1 point.
 * One vote for a topic as a "second most interested" earns 0.75 points.
 * One vote for a topic as a "third most interested" earns 0.5 points.

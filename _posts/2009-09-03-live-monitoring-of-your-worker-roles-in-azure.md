@@ -50,7 +50,7 @@ error message and do something interesting with it.
 The second step (using queues) solved the (my) impatience problem. I created a 
 local method called WriteToLog that did two things: write to the regular Azure 
 log, and write to a queue I created called status (or something similarly 
-brilliant). I replaced all of my “RoleManager.WriteToLog()” calls with calls to 
+brilliant). I replaced all of my `RoleManager.WriteToLog()` calls with calls to 
 the local method and I then wrote a console app that would periodically (every 
 few seconds) pop as many messages as it could (API-limited to 32) off of the 
 status queue, dump the data as a local csv for logging and write the data to the 

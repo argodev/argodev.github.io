@@ -13,7 +13,7 @@ tags:
 redirect_from:
 - /blog/2009/6926/codestock-session.html
 ---
-<img alt='Nerd Skull' src='/images/nerdSkull_logo_2009_091C8A70..png' class='blogimage img-responsive'>
+<img alt='Nerd Skull' src='/images/nerdSkull_logo_2009_091C8A70.png' class='blogimage img-responsive'>
 I’d like to thank all of you who attended my session today at CodeStock. I had a 
 great time talking with you all and sharing my experiences with SharePoint and 
 TFS with you all.

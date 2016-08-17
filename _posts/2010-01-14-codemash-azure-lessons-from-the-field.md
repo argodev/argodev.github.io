@@ -21,13 +21,11 @@ As promised, the following is the slide deck from today’s presentation:
 </iframe> 
 </div>
 
-
 And here are some links that may be of interest:
 
 * Video of the surface app for visualizations:
 <div class="embed-container">
-    <iframe src="https://youtu.be/bkUmhDP-MBI" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bkUmhDP-MBI" frameborder="0" allowfullscreen></iframe>
 </div>
 
 * Net CDF: [http://www.unidata.ucar.edu/software/netcdf/](http://www.unidata.ucar.edu/software/netcdf/)
@@ -43,5 +41,3 @@ And here are some links that may be of interest:
 * AtomPub, JSON, Azure, and Large Datasets
   * Part 1: [http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets.aspx](http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets.aspx)
   * Part 2: [http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets-Part-2.aspx](http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets-Part-2.aspx)
-
-

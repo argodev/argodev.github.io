@@ -3,6 +3,10 @@ layout: post
 category: technology
 title: 'Azure Blob Storage Blob IDs and “+”'
 date: 2009-07-30 21:35
+tags:
+- cloud computing
+- general development
+- azure
 redirect_from:
 - /blog/2009/7/30/azure-blob-storage-blob-ids-and.html
 ---
@@ -19,6 +23,7 @@ block IDs. The offending piece of code is here:
     for (int i = 0; i < blocksCount; i++)
     {
         blockIds[i] = Convert.ToBase64String(BitConverter.GetBytes(i));
+    }
 
 Where `i` is an integer representing the index of the current block within the file and `blockIds` is an array of IDs
 used to build the block ID list as part of a `putBlockList` operation.
@@ -43,6 +48,7 @@ standard “safe” string (“BlockId”)
         blockIds[i] = Convert.ToBase64String(
             ASCIIEncoding.ASCII.GetBytes(
             string.Format("BlockId{0}", i.ToString("000"))));
+    }
 
 This yielded a blockId that was unique, consistent length (notice the formatting of the indexer in the `ToString()`
 method), and “safe” in that it always began with a URL-safe character.

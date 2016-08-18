@@ -82,13 +82,14 @@ The second step, is to decorate the property such that the the serializer knows 
 Next I set to work on the array issue… I really wanted to be using strongly-typed lists (List<t>) which I figured had to be possible. Come to find out, it is, and all you have to do is change the types (no futher decoration necessary) yeilding an updated signature as follows:
 
 
-    [System.Xml.Serialization.XmlArray("keys")]
-    [System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
-    public List<Key> Keys
-    {
-        get { return this.keysField; }
-        set { this.keysField = value; }
-    }
+{% highlight csharp %}
+[System.Xml.Serialization.XmlArray("keys")]
+[System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
+public List<Key> Keys
+{
+    get { return this.keysField; }
+    set { this.keysField = value; }
+}
 
 Finally, I wanted to address the naming issue… Looking at the steps I’d accomplished so far, I figured that the decorations simply allow me to disassociate the C# class/property name from the Xml tag name and it proved to be correct – in the same way that I was able to adjust for casing, I could adjust for naming changes.
 

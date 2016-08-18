@@ -23,15 +23,16 @@ simply forward the mail.
 The `executeData` blob of the `ModifyUser` method should look something like the following:
 
 
-    <executeData>
-        <user/>
-        <properties>
-            <property name="altRecipient"></property>
-            <property name="deliverAndRedirect">
-                <value xmlns:dt='urn:schemas-microsoft-com:datatypes' dt:dt='boolean'/>
-            </property>
-        </properties>
-    </executeData>
+{% highlight xml %}
+<executeData>
+    <user/>
+    <properties>
+        <property name="altRecipient"></property>
+        <property name="deliverAndRedirect">
+            <value xmlns:dt='urn:schemas-microsoft-com:datatypes' dt:dt='boolean'/>
+        </property>
+    </properties>
+</executeData>
 
 The tags have been discussed previously with the exception of the `<user/>` tag 
 which should contain the LDAP path to the user object to be modified.

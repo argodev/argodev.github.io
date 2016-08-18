@@ -23,5 +23,6 @@ There is a small issue in the `Configurator.exe.config` file that was ignored by
 The net-net is that MPS and the Windows solution runs without issue with the service pack installed and none of the providers are demonstrating any problems.
  
 __Support links:__
-http://groups.msn.com/provisioning
-http://www.asp.net/Forums/ShowForum.aspx?tabindex=1&ForumID=167
+
+* [http://groups.msn.com/provisioning](http://groups.msn.com/provisioning)
+* [http://www.asp.net/Forums/ShowForum.aspx?tabindex=1&ForumID=167](http://www.asp.net/Forums/ShowForum.aspx?tabindex=1&ForumID=167)

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: technology
-title: 'Forwarding a user's mailbox via MPS'
+title: 'Forwarding a users mailbox via MPS'
 date: 2004-07-28 00:00
 tags:
 - provisioning

@@ -23,7 +23,6 @@ simply forward the mail.
 The `executeData` blob of the `ModifyUser` method should look something like the following:
 
 
-{% highlight xml %}
 <executeData>
     <user/>
     <properties>

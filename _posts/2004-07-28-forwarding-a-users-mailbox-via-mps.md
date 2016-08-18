@@ -22,7 +22,7 @@ simply forward the mail.
 
 The `executeData` blob of the `ModifyUser` method should look something like the following:
 
-
+{% highlight xml %}
 <executeData>
     <user/>
     <properties>
@@ -32,6 +32,7 @@ The `executeData` blob of the `ModifyUser` method should look something like the
         </property>
     </properties>
 </executeData>
+{% endhighlight %}
 
 The tags have been discussed previously with the exception of the `<user/>` tag 
 which should contain the LDAP path to the user object to be modified.

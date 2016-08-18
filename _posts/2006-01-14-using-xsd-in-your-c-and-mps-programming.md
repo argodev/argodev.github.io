@@ -90,7 +90,7 @@ public List<Key> Keys
     get { return this.keysField; }
     set { this.keysField = value; }
 }
-{% end highlight %}
+{% endhighlight %}
 
 Finally, I wanted to address the naming issue… Looking at the steps I’d accomplished so far, I figured that the decorations simply allow me to disassociate the C# class/property name from the Xml tag name and it proved to be correct – in the same way that I was able to adjust for casing, I could adjust for naming changes.
 

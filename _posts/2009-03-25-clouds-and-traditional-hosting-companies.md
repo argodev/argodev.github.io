@@ -8,6 +8,7 @@ tags:
 - cloud computing
 redirect_from:
 - /blog/2009/3/25/clouds-and-traditional-hosting-companies.html
+- /2009/03/25/clouds-and-traditional-hosting-companies/
 ---
 <img alt='Clouds' src='/images/1220559416cloud_611A3CE5.jpg' class='blogimage img-responsive'>
 I sat on a conference call yesterday wherein we discussed our thoughts on where 

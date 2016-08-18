@@ -9,7 +9,7 @@ tags:
 redirect_from:
 - /blog/2009/3/24/2009-bju-programming-contest.html
 ---
-<img alt='BJU' src='/images/bju_logo_281876EA.jpg' class='blogimage img-responsive'>
+<img alt='BJU' src='/images/bju_logo.jpg' class='blogimage img-responsive'>
 I had the privilege of being one of the alumni-judges at the annual 
 [Bob Jones University](http://bju.edu/) Computer Science departments programming 
 contest. This was the first time I’ve participated in this type of contest and I 

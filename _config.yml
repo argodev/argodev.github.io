@@ -78,7 +78,7 @@ author:
 # Owner/author information
 owner:
   name:           Rob Gillen
-  avatar:         621404.jpg
+  avatar:         /images/621404.jpg
   #email:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:

@@ -13,6 +13,7 @@ tags:
 - tfs
 redirect_from:
 - /blog/2009/6/23/customizations-to-stsdev-13.html
+- /2009/06/23/customizations-to-stsdev-13/
 ---
 As part of my session on Deployment and build using TFS and SharePoint for 
 [CodeStock 09](http://codestock.org/) I took the source code from the STSDev 

@@ -11,6 +11,7 @@ tags:
 - surface
 redirect_from:
 - /blog/2009/12/18/windows-azure-climate-data-and-microsoft-surface.html
+- /2009/12/18/windows-azure-climate-data-and-microsoft-surface/
 ---
 I’ve been working on moving a large collection data to, from, and around Azure 
 as we are testing the data profile for scientific computing and large-scale 

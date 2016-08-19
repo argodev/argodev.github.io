@@ -9,6 +9,7 @@ tags:
 - azure
 redirect_from:
 - /blog/2009/4/9/common-api-set-for-cloud-storage.html
+- /2009/04/09/common-api-set-for-cloud-storage/
 ---
 <img alt='Azure vs Amazon' src='/images/amazon_vs_azure_7B73CA32.png' class='blogimage img-responsive'>
 

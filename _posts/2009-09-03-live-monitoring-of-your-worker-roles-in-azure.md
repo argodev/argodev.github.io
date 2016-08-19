@@ -10,6 +10,7 @@ tags:
 - cloud
 redirect_from:
 - /blog/2009/9/3/live-monitoring-of-your-worker-roles-in-azure.html
+- /2009/09/03/e2809clivee2809d-monitoring-of-your-worker-roles-in-azure/ 
 ---
 
 <img alt='Azure Gugage' src='/images/azure_guage.png' class='blogimage img-responsive'>

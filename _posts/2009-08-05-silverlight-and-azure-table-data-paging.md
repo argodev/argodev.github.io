@@ -10,6 +10,7 @@ tags:
 - silverlight
 redirect_from:
 - /blog/2009/8/5/silverlight-and-azure-table-data-paging.html
+- /2009/08/05/silverlight-and-azure-table-data-paging/
 ---
 I’m [playing around](http://rob.gillenfamily.net/post/Azure-Visualization-and-Large-Datasets.aspx) 
 with a data visualization app using Silverlight and data hosted in Azure Tables 

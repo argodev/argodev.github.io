@@ -10,6 +10,7 @@ tags:
 - storage
 redirect_from:
 - /blog/2009/8/14/atompub-json-azure-and-large-datasets.html
+- /2009/08/14/atompub-json-azure-and-large-datasets/ 
 ---
 UPDATE 8/20/2009, 15:29 EST: There is some confusing content in this post (i.e. 
 Azure storage doesn’t support JSON). 

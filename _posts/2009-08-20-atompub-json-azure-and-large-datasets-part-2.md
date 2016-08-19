@@ -9,6 +9,7 @@ tags:
 - cloud
 redirect_from:
 - /blog/2009/8/20/atompub-json-azure-and-large-datasets-part-2.html
+- /2009/08/20/atompub-json-azure-and-large-datasets-part-2/
 ---
 Last Friday [I posted some initial results](http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets.aspx) 
 from some simplistic testing I had done comparing pulling data from Azure via 

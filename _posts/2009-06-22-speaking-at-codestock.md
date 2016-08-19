@@ -13,6 +13,7 @@ tags:
 - tfs
 redirect_from:
 - /blog/2009/6/22/speaking-at-codestock.html
+- /2009/06/22/speaking-at-codestock/
 ---
 I’m privileged to have been given the opportunity to speak at 
 [CodeStock](http://codestock.org) (details below) this coming Friday. I’ll be 

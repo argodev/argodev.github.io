@@ -8,6 +8,7 @@ tags:
 - azure
 redirect_from:
 - /blog/2009/8/5/azure-visualization-and-large-datasets.html
+- /2009/08/05/azure-visualization-and-large-datasets/
 ---
 I’ve been working on kicking the tires of Azure’s data functions and in the 
 process was able to get my hands on a large set of climate data for testing 

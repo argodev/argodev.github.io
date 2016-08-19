@@ -10,6 +10,7 @@ tags:
 - storage
 redirect_from:
 - /blog/2009/12/21/time-to-do-some-digging.html
+- /2009/12/21/time-to-do-some-digginge280a6/ 
 ---
 I’ve been getting my test harness and reporting tools setup for some performance 
 baselining that I’m doing relative to cloud computing providers and when I left 

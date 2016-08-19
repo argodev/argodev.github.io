@@ -9,6 +9,7 @@ tags:
 - azure
 redirect_from:
 - /blog/2009/7/30/azure-blob-storage-blob-ids-and.html
+- /2009/07/30/azure-blob-storage-blob-ids-and-e2809c2be2809d/
 ---
 I’ve been kicking the tires on Azure’s blob storage and am working on uploading a 1.2GB+ NetCDF file. I stumbled across
 a couple of [samples online](http://azuredba.com/Blog/tabid/621/EntryId/183/A-REST-ful-Look-at-Azure-Blob-Storage-continued.aspx)

@@ -9,6 +9,7 @@ tags:
 - silverlight
 redirect_from:
 - /blog/2009/8/20/silverlight-and-paging-with-azure-data.html
+- /2009/08/20/silverlight-and-paging-with-azure-data/
 ---
 If you’ve been watching by blog at all lately, you know that I’ve been 
 [playing with some larger data sets and Azure storage](http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets-Part-2.aspx), 

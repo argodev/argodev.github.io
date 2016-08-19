@@ -12,6 +12,7 @@ tags:
 - teamsystem
 redirect_from:
 - /blog/2009/6926/codestock-session.html
+- /2009/06/26/codestock-session/
 ---
 <img alt='Nerd Skull' src='/images/nerdSkull_logo_2009_091C8A70.png' class='blogimage img-responsive'>
 I’d like to thank all of you who attended my session today at CodeStock. I had a 

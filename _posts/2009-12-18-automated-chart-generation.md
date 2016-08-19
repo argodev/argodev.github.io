@@ -10,6 +10,7 @@ tags:
 - vs2010
 redirect_from:
 - /blog/2009/12/18/automated-chart-generation.html
+- /2009/12/18/automated-chart-generation/
 ---
 It’s late on the Friday afternoon before Christmas week which means things are 
 pretty quiet around the office. This quiet has the net-effect of allowing me to 

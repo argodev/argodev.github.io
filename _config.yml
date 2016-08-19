@@ -113,7 +113,7 @@ links:
     url: /archive/
   - title: <i class="fa fa-commenting"></i> Presentations
     url: /presentations/
- -  title: <i class="fa fa-file-pdf-o"></i> Publications
+  - title: <i class="fa fa-file-pdf-o"></i> Publications
     url: /publications/
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/

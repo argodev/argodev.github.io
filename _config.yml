@@ -103,8 +103,10 @@ links:
     url: /
   - title: <i class="iconside iconm-user"></i> About
     url: /about/
-  - title: <i class="iconside iconm-quill"></i> Blog
-    url: /blog/
+  - title: <i class="fa fa-laptop"></i> Technology
+    url: /technology/
+  - title: <i class="iconm iconm-quill"></i> Personal
+    url: /personal/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive

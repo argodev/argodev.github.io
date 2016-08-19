@@ -2,17 +2,16 @@
 layout: publ
 category: mypubs
 permalink: /about/publications/
-title: "Sample Publications"
+title: "Selected Publications"
 published: true
-description: "Sample publication page"
+description: "Selected publication page"
 tags:
   - papers
   - articles
   - research
 comments: true
-modified: "2016-02-13"
+modified: "2016-08-19"
 bibtex: "/files/mypubs.bib"
-#bibtex: "http://foo-alternate.com/files/mypubs.bib"
 show_meta: true
 noindex: false
 nofollow: true

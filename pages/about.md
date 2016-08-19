@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 show_meta: true
 # imagefeature path is relative to images/ directory.
-imagefeature: foo.png
+imagefeature: 621404.jpg
 published: true
-description: "About example.com...."
+description: "About Rob Gillen"
 category: views
 comments: false
 mathjax: false
@@ -24,9 +24,11 @@ tags:
 <div class="post-author text-center">                       
             <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
 <span class="social-icons" style="padding-top: 10px; padding-bottom: 1px;">
-<a href="{{ site.url }}/cv" title="Curriculum Vitae" class="social-icons"><i class="iconm iconm-profile" style="vertical-align: top;"></i></a>
 <a href="{{ site.url }}/about/publications/" class="social-icons" title="Publications"><i class="iconm iconm-file-pdf"></i></a>
 <a href="{{ site.owner.linkedin }}" class="social-icons" title="LinkedIn profile"><i class="iconm iconm-linkedin2"></i></a>
+<a href="https://scholar.google.com/citations?user={{ site.owner.gscholar }}&hl=en" class="social-icons" title="Google Scholar profile"><i class="ai ai-google-scholar"></i></a>
+<a href="https://orcid.org/{{ site.owner.orcid }}" class="social-icons" title="ORCID profile"><i class="ai ai-orcid"></i></a>
+
 </span>
 </div>
 

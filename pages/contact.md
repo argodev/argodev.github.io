@@ -18,13 +18,11 @@ tags:
   - address
 ---
 
-| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
-| - | :- |
+<i class="fa fa-twitter"></i> [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }}) 
+
 
 <script type="text/javascript" src="https://form.jotform.com/jsform/62307911385153"></script>
 
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="small" data-dnt="true">Tweet</a> <a href="javascript:window.print()" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 

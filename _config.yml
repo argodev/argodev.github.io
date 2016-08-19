@@ -71,14 +71,14 @@ gems:
 author:
   name:              Rob Gillen
   url:               https://twitter.com/argodev
-  avatar:         foo.png
+  avatar:         621404.jpg
   #email:
 
 
 # Owner/author information
 owner:
   name:           Rob Gillen
-  avatar:         foo.png
+  avatar:         621404.jpg
   #email:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
@@ -87,7 +87,7 @@ owner:
   facebook:
   github:         argodev
   stackexchange:  argodev
-  linkedin:       https://www.linkedin.com/in/foo
+  linkedin:       https://www.linkedin.com/in/gillenrob
   instagram:
   flickr:
   tumblr:

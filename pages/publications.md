@@ -40,4 +40,3 @@ style: |
 
 {% endcomment %}
 
-If category is *mypubs*, then html content from bibtex file at `_includes/mypubs.html` will be shown below.

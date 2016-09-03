@@ -14,7 +14,7 @@ the user of our system to define one or more "geofences" for an experiment and
 then evalute each new GPS point and indicate via an alert if the sensor crossed 
 any of those lines. 
 
-This is a very common problem in web apps, however we found some difficulty 
+This is a common problem in web apps, however we encountered some difficulty 
 piecing together all of the steps in a coherent example. As such, I've posted 
 the following with the hope it will help others as well as serve as a reference 
 for future work.
@@ -39,22 +39,10 @@ format. The following is our example document:
             "polygon" : {
                 "coordinates" : [ 
                     [ 
-                        [ 
-                            -83.939852, 
-                            35.966559
-                        ], 
-                        [ 
-                            -83.904318, 
-                            35.952316
-                        ], 
-                        [ 
-                            -83.935475, 
-                            35.943422
-                        ], 
-                        [ 
-                            -83.939852, 
-                            35.966559
-                        ]
+                        [ -83.939852, 35.966559 ], 
+                        [ -83.904318, 35.952316 ], 
+                        [ -83.935475, 35.943422 ], 
+                        [ -83.939852, 35.966559 ]
                     ]
                 ],
                 "type" : "Polygon"
@@ -68,26 +56,11 @@ format. The following is our example document:
             "polygon" : {
                 "coordinates" : [ 
                     [ 
-                        [ 
-                            -83.930989, 
-                            35.964824
-                        ], 
-                        [ 
-                            -83.918432, 
-                            35.965252
-                        ], 
-                        [ 
-                            -83.9183, 
-                            35.937539
-                        ], 
-                        [ 
-                            -83.933104, 
-                            35.937379
-                        ], 
-                        [ 
-                            -83.930989, 
-                            35.964824
-                        ]
+                        [ -83.930989, 35.964824 ], 
+                        [ -83.918432, 35.965252 ], 
+                        [ -83.9183, 35.937539 ], 
+                        [ -83.933104, 35.937379 ], 
+                        [ -83.930989, 35.964824 ]
                     ]
                 ],
                 "type" : "Polygon"
@@ -130,6 +103,7 @@ the `_id` property and also has at least one subdocument of `fences` with a
 `name` of `Fence01`
 
 __Creating a 2dsphere index for polygon queries__
+
 I don't believe this is required, but it improves the performance of the 
 queries.
 

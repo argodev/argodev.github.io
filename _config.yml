@@ -66,6 +66,11 @@ gems:
   - font-awesome-sass
   - kramdown
   - rouge
+  - jekyll-maps
+
+maps:
+    google:
+      api_key: AIzaSyCgUYlm-BQOCLSc66tIMVe3DUSXwxpAjDw
 
 # About/contact
 author:

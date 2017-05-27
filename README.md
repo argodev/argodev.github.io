@@ -6,7 +6,9 @@ This readme is designed to serve two purposes:
 1. Remind me how to use the commands relative to the site
 2. Provide credit to those whose code/libraries/etc. this site is based on (there's a bunch).
 
+[![Build Status](https://travis-ci.org/argodev/argodev.github.io.svg?branch=master)](https://travis-ci.org/argodev/argodev.github.io)
 
+[Main Site](http://robgillen.com)
 
 
 ## Helpful Links

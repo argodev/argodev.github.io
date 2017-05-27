@@ -9,11 +9,10 @@ tags:
 ---
 
 ### Daily Agenda
-- 0900 Depart
+- 0900 Depart Knoxville, TN
 - 1700 Arrive Mobile, AL
 
 ### Discussion
 Testing
 
 ### Daily Travels
-{% google_map %}

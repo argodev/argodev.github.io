@@ -9,3 +9,13 @@ tags:
 ---
 
 type a daily log
+
+### Daily Travels
+__Distance__: 381.5 miles
+
+__Duration__: 6:46
+
+<a href="/images/big_trip_day_07.png" target="_blank">
+![Day 1 Map](/images/big_trip_day_07_sm.png)
+</a>
+

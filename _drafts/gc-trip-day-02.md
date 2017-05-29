@@ -16,3 +16,13 @@ tags:
 - 1445 Depart
 - 1545 Arrive Metairie, LA
 
+
+### Daily Travels
+
+__Distance__: 163.1 miles
+
+__Duration__: 2:50
+
+<a href="/images/big_trip_day_02.png" target="_blank">
+![Day 1 Map](/images/big_trip_day_02_sm.png)
+</a>

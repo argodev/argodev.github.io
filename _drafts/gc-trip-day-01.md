@@ -16,3 +16,10 @@ tags:
 Testing
 
 ### Daily Travels
+__Distance__: 493.5 miles
+
+__Duration__: 7:05
+
+<a href="/images/big_trip_day_01.png" target="_blank">
+![Day 1 Map](/images/big_trip_day_01_sm.png)
+</a>

@@ -8,19 +8,35 @@ tags:
 - road trip
 ---
 
-Itinerary
+My wife and I have planned three "big trips" that represent experiences we want our family to have while our kids are in our home. Given a family of six, traveling can be expensive (saving for 2-3 years) which means you only get a few of these before college hits and schedules go completely sideways. The first of these is getting ready to kick off tomorrow and I am incredibly excited. Tomorrow we will load everyone into our car and head out for a 16 day road trip that will depart from Knoxville, TN and take us to the Grand Canyon and 37 other (planned) destinations before arriving home. We expect to travel nearly 4,700 miles over these next few days with nearly 80 hours in the car. 
+
+In order to help maintain a semblance of sanity while in the car, as well as to help the kids build lasting memories, my wife and daughter assembled notebooks/journals for each kid that, along with activity sheets, has a page to complete each day which prompts them to record their memories, include any pictures, thoughts, etc. This page and tose 
 
 
 
+<a class="example-image-link" href="/images/big_trip_day_01.png" data-lightbox="example-1"><img class="example-image" src="/images/big_trip_day_01_sm.png" alt="image-1" /></a>
 
 
 
-### Daily Agenda
-- 0900 Depart Knoxville, TN
-- 1700 Arrive Mobile, AL
+### Adgenda
+- Day 1: Big Driving Day
+- Day 2: Beach Day!
+- Day 3: Swamp Visit/Afternoon Drive
+- Day 4: The Alamo!
+- Day 5: Long Drive Day
+- Day 6: Carlsbad Caverns
+- Day 7: Another Drive Day
+- Day 8: Petrified Forest
+- Day 9: Grand Canyon Day!
+- Day 10: Horsehoe Bend/Monument Valley
+- Day 11: National Museum of Nuclear Science
+- Day 12: Cadillac Ranch!
+- Day 13: VW Bug Ranch
+- Day 14: USS Batfish Museum
+- Day 15: Ft. Smith Historic Site
+- Day 16: Home!
 
-### Discussion
-Testing
+### Route Overview
 
 <div id="map"></div>
 <script>

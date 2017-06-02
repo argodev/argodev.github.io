@@ -45,7 +45,7 @@ In order to help maintain a semblance of sanity while in the car, as well as to 
         {name: 'SpringHill Suites', lat: 30.6816292, lon: -88.131592},
         {name: 'Biloxi Beach', lat: 30.394054, lon: -88.901379},
         {name: 'Lunar Lander Exhibit', lat: 30.313457, lon: -89.600074},
-        {name: 'Old US Mint', lat: 29.961821, lon: -90.057811},        
+        {name: 'Old US Mint', lat: 29.961821, lon: -90.057811},
         {name: 'Sleep Inn and Suites', lat: 30.0009959, lon: -90.1886205},
         {name: 'Cajun Pride Swamp Tours', lat: 30.095049, lon: -90.4385764},
         {name: 'SpringHill Suites', lat: 29.6262022, lon: -95.6005171},
@@ -86,8 +86,65 @@ In order to help maintain a semblance of sanity while in the car, as well as to 
 
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 4,
-            center: pleasant_ks, 
-            fullscreenControl: true
+            center: pleasant_ks,
+            fullscreenControl: true,
+            styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "all",
+                    "stylers": [{"saturation": "-100"}]
+                },
+                {
+                    "featureType": "administrative.province",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": "50"}, {"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [{"saturation": "-100"}]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "all",
+                    "stylers": [{"lightness": "30"}]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "all",
+                    "stylers": [{"lightness": "40"}]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels",
+                    "stylers": [{"lightness": -25 },{"saturation": -100}]
+                }
+            ]
         });
 
         for (var i = 0; i < stops.length; i++) {

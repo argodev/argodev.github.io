@@ -7,6 +7,10 @@ tags:
 - mongodb
 - geofence
 - samples
+description: "I was recently working on a project with a colleague wherein we wanted to allow 
+the user of our system to define one or more \"geofences\" for an experiment and 
+then evalute each new GPS point and indicate via an alert if the sensor crossed 
+any of those lines."
 ---
 
 I was recently working on a project with a colleague wherein we wanted to allow 

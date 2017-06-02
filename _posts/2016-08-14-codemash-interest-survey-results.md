@@ -6,6 +6,11 @@ date: 2016-08-14 10:02
 tags:
 - codemash
 - conferences
+description: "Each year as we enter into the CodeMash CFP, we solicit feedback from the community
+to see what they are interested in hearing about in the coming conference. We 
+provide this information in aggregate to the folks submitting talks as well as
+use it as input to our content selection process. Each year, the results are both 
+helpful and sometimes humorous and... this year did not disappoint."
 ---
 
 Each year as we enter into the CodeMash CFP, we solicit feedback from the community

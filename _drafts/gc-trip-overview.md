@@ -43,8 +43,9 @@ In order to help maintain a semblance of sanity while in the car, as well as to 
     var stops = [
         {name: 'Home', lat: 35.9586595, lon: -84.065509},
         {name: 'SpringHill Suites', lat: 30.6816292, lon: -88.131592},
-        {name: 'Biloxi Beach', lat: 30.3934879, lon: -88.9324761},
-        {name: 'Lunar Lander Exhibit', lat: 30.3135084, lon: -89.6022461},
+        {name: 'Biloxi Beach', lat: 30.394054, lon: -88.901379},
+        {name: 'Lunar Lander Exhibit', lat: 30.313457, lon: -89.600074},
+        {name: 'Old US Mint', lat: 29.961821, lon: -90.057811},        
         {name: 'Sleep Inn and Suites', lat: 30.0009959, lon: -90.1886205},
         {name: 'Cajun Pride Swamp Tours', lat: 30.095049, lon: -90.4385764},
         {name: 'SpringHill Suites', lat: 29.6262022, lon: -95.6005171},

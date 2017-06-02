@@ -110,7 +110,7 @@ links:
     url: /about/
   - title: <i class="fa fa-laptop"></i> Technology
     url: /technology/
-  - title: <i class="iconm iconm-quill"></i> Personal
+  - title: <i class="fa fa-edit"></i> Personal
     url: /personal/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/

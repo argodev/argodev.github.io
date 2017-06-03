@@ -19,3 +19,8 @@ aid myself in this effort, I am going to take detailed notes as I
 work through a few books. This is the first post in what I hope to 
 be a series on the book titled "Machine Learning" by Sergios 
 Theodoridis.
+
+
+ ./fitdump -o /mnt/c/scratch/170602.02.csv -t csv /mnt/c/scratch/762D4414.FIT
+  python ./encode_gmap.py
+  

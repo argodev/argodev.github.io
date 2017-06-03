@@ -2,7 +2,7 @@
 layout: post
 category: personal
 title: 'Grand Canyon Trip - Day 03'
-date: 2017-06-02 17:47
+date: 2017-06-02 22:11
 tags:
 - vacation
 - road trip
@@ -10,18 +10,56 @@ description: ""
 ---
 
 ## Swamp Visit/Afternoon Drive
-In spite of a rather boring agenda, there was alot of excitement as we pulled out this morning. Today's only objective was to get to Mobile, AL - roughly 8 hours of driving. When we left Knoxville it was warm and sunny. We stopped at a rest stop in Ashville, AL for a picnic lunch and enjoyed some great weather. As we drove further south, we ran into some rain but nothing too bad. If the weather clears, we'll head to the beach in the morning as we head towards New Orleans, LA by nightfall. 
+Today was a split day between a tour of the New Orleans swamps and driving. I have to say, the morning tour was far more interesting than I had expected. We arrived at the venue early only to find a number of boats being prepared and a tourbus disgoring a large group of retirement-age visitors. The tourbus group must have had a prior arrangment with the swamp tour company as they were quickly settled on to one of the boats and on their way. Our group started right at 9:30 with about 30 people on the boat which left quite a bit of extra space which was very nice for the rest of the tour.
+
+
+
+Finally, we arrived on the far side of in Houston, TX after dealing with a bit of rush hour traffic. Dinner was at Maggiano's - a resturant we don't have in Knoxville and one that both my wife and daughter particularly enjoy. Wrapped up the day with laundry at the hotel and looking forward to a lighter drive day tomorrow.
+
+
+
+- Swamp Boat
+- swamp shack
+- swamp
+- little bird
+- racoon
+- good gator
+- gator mouth2
+- turtle
+- erika and gator
+- gator next
+
 
 ### Daily Agenda
-- 0900 Depart Knoxville, TN
-- 1700 Arrive Mobile, AL
+- 0830 Depart
+- 0930 Swamp Tour
+- 1130 Driving Again
+- 1800 Arrive Houston, TX
 
 ### Selected Photos
 <div>
-<a class="example-image-link" href="/images/IMG_0454.jpg" data-lightbox="daily-1" data-title="This is the family at the beginning of the trip... excitement all around"><img class="example-image lb_image" src="/images/IMG_0454_thumb.jpg" alt="image-1" /></a>
-<a class="example-image-link" href="/images/IMG_0457.jpg" data-lightbox="daily-1" data-title="Nice spot for a picnic lunch"><img class="example-image lb_image_right" src="/images/IMG_0457_thumb.jpg" alt="image-1" /></a>
-<a class="example-image-link" href="/images/IMG_0461.jpg" data-lightbox="daily-1" data-title="Our home for the night"><img class="example-image lb_image" src="/images/IMG_0461_thumb.jpg" alt="image-1" /></a>
-<a class="example-image-link" href="/images/IMG_0462.jpg" data-lightbox="daily-1" data-title="Preparing for another drive tomorrow"><img class="example-image lb_image_right" src="/images/IMG_0462_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/IMG_0496.jpg" data-lightbox="daily-1" data-title="Boat we rode on for the swamp tour"><img class="example-image lb_image" src="/images/IMG_0496_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0089.jpg" data-lightbox="daily-1" data-title="Kept thinking that Radford would have a slew of jokes for this"><img class="example-image lb_image_right" src="/images/DSC_0089_thumb.jpg" alt="image-1" /></a>
+
+
+<a class="example-image-link" href="/images/DSC_0096.jpg" data-lightbox="daily-1" data-title="The swamp has a unique beauty to it"><img class="example-image lb_image" src="/images/DSC_0096_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0110.jpg" data-lightbox="daily-1" data-title="Young birds waiting for mom to bring them food"><img class="example-image lb_image_right" src="/images/DSC_0110_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0139.jpg" data-lightbox="daily-1" data-title="This guy wanted a treat"><img class="example-image lb_image" src="/images/DSC_0139_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0154.jpg" data-lightbox="daily-1" data-title="We saw a bunch of gators"><img class="example-image lb_image_right" src="/images/DSC_0154_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0191.jpg" data-lightbox="daily-1" data-title="Open Wide!"><img class="example-image lb_image" src="/images/DSC_0191_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0201.jpg" data-lightbox="daily-1" data-title="Turtles Too!"><img class="example-image lb_image_right" src="/images/DSC_0201_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0229.jpg" data-lightbox="daily-1" data-title="Erika held a gator!"><img class="example-image lb_image" src="/images/DSC_0229_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0244.jpg" data-lightbox="daily-1" data-title="Big Gator waiting for dinner"><img class="example-image lb_image_right" src="/images/DSC_0244_thumb.jpg" alt="image-1" /></a>
+
 </div>
 
 ### Today's Route

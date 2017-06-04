@@ -17,7 +17,7 @@ In order to help maintain a semblance of sanity while in the car, as well as to 
 - [Day 1: Big Driving Day]({{ site.baseurl }}{% post_url 2017-05-31-gctrip-day01 %})
 - [Day 2: Beach Day!]({{ site.baseurl }}{% post_url 2017-06-01-gctrip-day02 %})
 - [Day 3: Swamp Visit/Afternoon Drive]({{ site.baseurl }}{% post_url 2017-06-02-gctrip-day03 %})
-- Day 4: The Alamo!
+- [Day 4: The Alamo!]({{ site.baseurl }}{% post_url 2017-06-03-gctrip-day04 %})
 - Day 5: Long Drive Day
 - Day 6: Carlsbad Caverns
 - Day 7: Another Drive Day

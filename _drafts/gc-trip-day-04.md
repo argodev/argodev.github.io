@@ -8,14 +8,132 @@ tags:
 - road trip
 ---
 
-type a daily log
+## The Alamo!
 
-### Daily Travels
-__Distance__: 207.2 miles
 
-__Duration__: 3:29
+### Daily Agenda
+- 0930 Depart
+- 1400 The Alamo! / RiverWalk
+- 1945 Arrive San Antoio, TX
 
-<a href="/images/big_trip_day_02.png" target="_blank">
-![Day 1 Map](/images/big_trip_day_02_sm.png)
-</a>
+
+### Selected Photos
+<div>
+
+<a class="example-image-link" href="/images/DSC_0317.jpg" data-lightbox="daily-1" data-title="Remember the Alamo!"><img class="example-image lb_image" src="/images/DSC_0317_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0266.jpg" data-lightbox="daily-1" data-title="Courtyard at the Alamo mission"><img class="example-image lb_image_right" src="/images/DSC_0266_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0293.jpg" data-lightbox="daily-1" data-title="Locks along the riverwalk"><img class="example-image lb_image" src="/images/DSC_0293_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0310.jpg" data-lightbox="daily-1" data-title="San Antonio Riverwalk"><img class="example-image lb_image_right" src="/images/DSC_0310_thumb.jpg" alt="image-1" /></a>
+
+<a class="example-image-link" href="/images/DSC_0312.jpg" data-lightbox="daily-1" data-title="Not a bad view for our dinner"><img class="example-image lb_image" src="/images/DSC_0312_thumb.jpg" alt="image-1" /></a>
+
+</div>
+
+### Today's Route
+__Distance__: 212.5 miles __Duration__: 3:57
+
+<div id="map"></div>
+<script>
+    var stops = [
+        {name: 'SpringHill Suites', lat: 29.6262022, lon: -95.6005171},
+        {name: 'The Alamo', lat: 29.4259718, lon: -98.4883359},
+        {name: 'San Antonio River Walk', lat: 29.423754, lon: -98.4866138 },
+        {name: 'SpringHill Suites', lat: 29.615672, lon: -98.598078}
+    ];
+
+    var encoded_route = "uvxsD~hofQoO|]zHbq@`Grg@pGfj@lIjp@~Z~{@qS`Vqi@t@}e@|Egg@Rii@Nyo@uKa_@sW}c@iMsm@Dsm@f@g}@Zws@\\_n@T}g@T{h@Ryj@o@wm@Fsq@\\su@hAaj@Dsi@Fgg@sFwk@jEek@bA_Kp_@Bhj@Lji@Hlm@Dlt@Lvv@Ynu@Ixw@N|w@Q`z@Wzy@@dz@D`z@]dz@R|y@G`z@Y|y@Tzy@dInw@`b@pi@rCfy@Ldz@P|y@I|y@K`z@B~y@B~y@B~y@D`z@D~y@D`z@qCpy@qEly@H~y@Fhz@Jbz@wJzv@yIxv@xFpz@nLbx@`Mzw@dMtw@rLzw@fL~w@Sfy@iFpy@}Ejy@iDvy@kH|x@eFjy@]zy@x@~y@jAvy@fKbx@j_@|l@fQxu@fDnd@fIkXcMpIjR~l@dM`t@sFz|@sOj{@`Gh}@fIxz@rHxv@fIny@pFt}@lFn}@lFp}@lFn}@lFv}@fGj}@lKl|@jKp|@pKl|@pKn|@jKp|@vKr}@~Kd_A|Kx~@`Ld_A~K~~@xKf~@tKf|@bK|z@nKt|@tKh}@`Ix_A~Dv{@xF~{@bHr{@jH|_AzIl_AnP~z@p[tl@lQ~w@nXlu@hZvo@hAp{@kFd{@M~~@Lx`ALv`ADn`ALx`AVz`AbCh`A~Bt`A`Cp`A|Bp`A~Bn`A`Cp`AbCr`ALl`AyGz_AmGd{@_Ezx@Nv~@Hx`ALv`AhAt`AtCr`AtCv`A|Cj`ArCv`ApCp`AwK`~@oVnz@mOvp@Fjq@Zxr@h@xy@zDr}@bHly@zHh~@pGp`AtBh`AzBt`AvBp`AyBl`AaFd`A_Cp`A_@x`A_@t`AwG`_AaItz@eJr_AqGf~@g@vz@v@n}@r@p_Av@r`An@z`Aj@x`At@h_AFz`AYv`AxFr_AhNj~@|D|_AUbaAQr`AS|`ASn`AMz`AQ`aAfAn`AnSf|@jTf|@`Zdy@vZlx@zY`v@pP~w@bDb~@`Dz|@bDh`AnDt`AjDv|@fDt`AlDj`AnDl`AjFb`ArH|_AnGr_AlEv|@tEj~@~Ef`ArFd`AdHr}@jHjaAfHx_AA~~@yB`}@uBf|@yBr}@sB|~@yBh`AcCp`AaBz`AaA|`AxDh`AlIn_AbIn~@xHn|@oA|y@aClv@eCpw@_C|v@cCfw@{@~v@nLdu@tOz|@bPb~@dPl}@vO`~@~On}@`P`~@|On}@rOx}@jQb}@dQf}@`Qr}@`Phy@|GdjALpw@Nb|@NfaAhB~aA`Nh`AbNh`A~Mb_A~Lb}@nMr}@rMr~@hCt`AD|_A?haADf}@@``AlNb{@da@pp@lb@pr@fa@pq@r]tt@p\\lv@j_@~u@bb@lq@dk@jg@r[rt@bRxy@lRtz@rRlz@hRnz@bOn|@hOv|@zQr|@~Try@`Uly@pUxy@hU|y@`Upy@hUjz@bUry@~Tby@dSju@vRly@|R~y@|R|x@fR~w@rSr{@lStz@pQhx@zQhy@bQxv@~Ovw@`Nhx@tNry@pNby@dQdx@bQns@hOpr@fNdt@hPvu@lP~u@dNtn@jKhi@gUra@g_@hc@q[n^oT|i@^fd@nS`g@jVzl@|Xll@bQhm@l@ht@tCfs@Ifk@Wjl@fc@|QlXr[oJiTif@}RaQr]vD~i@vTzh@dNpd@mb@fUkL~f@{\\lTog@tB{j@`Amq@G_n@`I}_@hg@g[~j@eBdu@i]ff@wg@dKcj@tGwi@hPwn@tLuo@jOoe@rc@ad@|e@m_@nj@o[vk@ki@|Xaj@`Sgm@zL}o@vMgq@nN_p@hFql@xFsi@rL{f@~IoGcc@";
+
+    function initMap() {
+        var mid_point =  {lat: 29.692905, lng: -96.976786};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 8,
+            center: mid_point,
+            fullscreenControl: true,
+            styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "all",
+                    "stylers": [{"saturation": "-100"}]
+                },
+                {
+                    "featureType": "administrative.province",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": "50"}, {"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [{"saturation": "-100"}]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "all",
+                    "stylers": [{"lightness": "30"}]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "all",
+                    "stylers": [{"lightness": "40"}]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels",
+                    "stylers": [{"lightness": -25 },{"saturation": -100}]
+                }
+            ]
+        });
+
+        for (var i = 0; i < stops.length; i++) {
+          var latLng = new google.maps.LatLng(stops[i].lat, stops[i].lon);
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map,
+            title: stops[i].name
+          });
+        }
+
+        var routePath = new google.maps.Polyline({
+          path: google.maps.geometry.encoding.decodePath(encoded_route),
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 4
+        });
+
+        routePath.setMap(map);
+
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgUYlm-BQOCLSc66tIMVe3DUSXwxpAjDw&libraries=geometry&callback=initMap">
+</script>
+
 

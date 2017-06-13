@@ -21,6 +21,8 @@ be a series on the book titled "Machine Learning" by Sergios
 Theodoridis.
 
 
- ./fitdump -o /mnt/c/scratch/170602.02.csv -t csv /mnt/c/scratch/762D4414.FIT
-  python ./encode_gmap.py
+./fitdump -o /mnt/c/scratch/170602.02.csv -t csv /mnt/c/scratch/762D4414.FIT
+python ./encode_gmap.py
+
+rename -n s/DSC_/DSC_1/ *
   

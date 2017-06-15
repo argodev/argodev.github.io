@@ -41,7 +41,7 @@ __Distance__: 432.1 miles __Duration__: 5:56
 <div id="map"></div>
 <script>
     var stops = [
-        {name: 'SpringHill Suites', lat: 35.1459944, lon: -90.0549883},
+        {name: 'SpringHill Suites', lat: 35.2024086, lon: -89.782424},
         {name: 'Home', lat: 35.9586595, lon: -84.065509}
     ];
 

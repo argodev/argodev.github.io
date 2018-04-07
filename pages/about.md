@@ -14,14 +14,14 @@ noindex: false
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2016-02-13
-# tags will be used as html meta keywords.    
+    lastmod: 2018-04-07
+# tags will be used as html meta keywords.
 tags:
   - "foo boo"
   - "city tx"
 ---
 
-<div class="post-author text-center">                       
+<div class="post-author text-center">
             <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
 <span class="social-icons" style="padding-top: 10px; padding-bottom: 1px;">
 <a href="{{ site.url }}/about/publications/" class="social-icons" title="Publications"><i class="iconm iconm-file-pdf"></i></a>
@@ -32,16 +32,16 @@ tags:
 </span>
 </div>
 
-Rob is a member of the Intelligent Computing Research Team within the Computational Data Analytics Group at the Oak
+Rob is a member of the Cyber and Information Security Research Group (CSIR) at the Oak
 Ridge National Laboratory. In his role as a research professional, works alongside domain scientists to deliver
 solutions to complex problems at a national scale. His current research interests include large-scale text analysis,
-scientific uses of cloud computing, cyber security, and machine learning. Some of his publications can be viewed at
-Research Gate.
+cyber security, machine learning and embedded systems. Some of his publications can be viewed via
+his [ORCID page](https://orcid.org/{{ site.owner.orcid }}).
 
-Prior to coming to ORNL 9 years ago, Rob was as a solutions architect for a high-end consulting firm where his work
+Prior to coming to ORNL in 2007, Rob was as a solutions architect for a high-end consulting firm where his work
 included business and systems analysis, provisioning infrastructures for federal, corporate and service provider
 environments and general application development. He has many years of experience as a professional developer with
-clients ranging from service providers in Europe and Japan to corporate and federal customers in the US including
+clients ranging from service providers in Europe and the Far East to corporate and federal customers in the US including
 spending time as a adjunct member of a Microsoft solutions development team.
 
 ### Internet Presence

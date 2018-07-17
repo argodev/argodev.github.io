@@ -38,11 +38,19 @@ Prior to coming to ORNL in 2007, Rob was as a solutions architect for a high-end
 
 ### Internet Presence
 
-* [Microsoft MVP Profile](http://mvp.microsoft.com/en-us/mvp/Rob%20Gillen-4029153)
+* [Corporate Site](https://www.ornl.gov/staff-profile/rob-gillen)
 * [Google Scholar Profile](http://scholar.google.com/citations?user=aWpgGlcAAAAJ)
 * [ResearchGate Profile](https://www.researchgate.net/profile/Robert_Gillen2/)
+* [ORCID Profile](https://orcid.org/0000-0002-9002-1440)
+* [Mendeley Profile](https://www.mendeley.com/profiles/rob-gillen/)
 
 ### <a name="profile"></a>Professional Profile
+
+#### Platform for high-performance & Shared Data Analytics
+
+Principle investigator for a project a that aims to provide a platform for sharing data and data analytics across disparate organizations. The platform is designed to scale - from a multi-node docker platform to a full-scale production cluster. It provides management web interfaces for building both summary and real-time dashboards, for managing data sets and algorithms, and for submitting jobs to the back-end cluster.
+
+* MCR Container Tools: [Overview](https://www.osti.gov/biblio/1429980-mcr-container-tools) [Source Code](https://github.com/ORNL/mcr-container-tools)
 
 #### Text Analysis Workbench for Forensic Investigations
 
@@ -58,7 +66,7 @@ analysts in a stand-alone field environment.
 
 Member of a team developing a machine-learning based approach to detecting anomalous network traffic. This platform has
 been implemented and tested in a number of environments and has proven quite effective. Currently working on taking the
-research prototype into an operationally-sustainable model. You can learn more about this effor [on the project's website](https://www.ornl.gov/division/projects/orca).
+research prototype into an operationally-sustainable model. You can learn more about this effort [on the project's website](https://www.ornl.gov/division/projects/orca).
 
 * [US Patent US9497204B2](https://patents.google.com/patent/US9497204B2/en)
 * [A Learning System for Discriminating Variants of Malicious Network Traffic](https://doi.org/10.1145/2459976.2460003)

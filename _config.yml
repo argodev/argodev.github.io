@@ -7,7 +7,7 @@ author:      Rob Gillen
 tagline:          'random wanderings through technology, code and life'
 description:      '<img src="/images/621404.jpg" style="width:230px;height:230px;"> Rob Gillen<br>Senior Research Professional<br/> Oak Ridge National Laboratory'
 baseurl:     ""
-url:         "http://robgillen.com"
+url:         "https://robgillen.com"
 
 # Google analytics
 google_analytics: UA-387099-5

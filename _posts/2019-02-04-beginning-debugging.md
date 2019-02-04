@@ -27,7 +27,7 @@ int main() {
 
 The idea is, that the calculator should *not* pop up however the clear/obvious buffer overflow in `subfunc()` will modify the in-memory value of `run_calc` setting it to `1` and thereby causing the calculator to appear. I had to make some initial adjustments to the code (`execl()` is a little different on Debian-based machines) and the resultant code is as follows:
 
-```c linenos
+```c {.line-numbers}
 #include <unistd.h>
 
 void subfunc() {

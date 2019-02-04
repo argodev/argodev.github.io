@@ -60,29 +60,42 @@ At this point, it was time to see what was going on, and how I might adjust it t
 
 I set breakpoints (`(gdb) break test.cpp:14`) at lines 14, 18, 20 and 21. I then ran the program (`(gdb) run`) and stopped just before we did anything with `subfunc()`. The stack at this point, is shown below:
 
-stack_start01.png
 <img alt='Initial Stack' src='/images/stack_start01.png' class='blogimage img-responsive'>
 
 You can see the initial value of `run_calc` is highlighted and currently `0`.
 
+Next, I stepped into the `subfunc()` and stopped right after setting the (within-bounds) normal values of the array. You can see them highlighted in the image below:
 
+<img alt='Stack Array' src='/images/stack_start02.png' class='blogimage img-responsive'>
 
-Helpful GDB commands:
+While the memory location of the array is obvious, an offset of `16` (from the original sample) is definitely not going to reach where we want it to. I counted the offsets and came up with a new offset value of `44`. I re-compiled and re-ran gdb. Now, when we run the application and stop just after the overflowed array set, you can see that the stack's version of `run_calc` is now set to `1`.
+
+<img alt='Overflowed Stack' src='/images/stack_start03.png' class='blogimage img-responsive'>
+
+At this point (with the modified overflow value of `44`), I get the calculator popped every time I run the application.
+
+<img alt='Calculator' src='/images/stack_start04.png' class='blogimage img-responsive'>
+
+## Helpful GDB commands:
 
 - Launch and set up to debug an application named `test`
-`# gdb test`
+
+  `# gdb test`
 
 - Set various breakpoints
-`(gdb) break test.cpp:14`
-`(gdb) break test.cpp:18`
+
+  `(gdb) break test.cpp:14`
+  `(gdb) break test.cpp:18`
 
 - run the program to the first breakpoint
-`(gdb) run`
+
+  `(gdb) run`
 
 - show a portion of the stack
 
-`(gdb) x/100x $sp`
+  `(gdb) x/100x $sp`
 
-- Other helpful/obvious commands: `next, step, contine`
+- Other helpful/obvious commands:
+  
+  `next, step, contine`
 
-0

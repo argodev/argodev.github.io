@@ -27,7 +27,7 @@ int main() {
 
 The idea is, that the calculator should *not* pop up however the clear/obvious buffer overflow in `subfunc()` will modify the in-memory value of `run_calc` setting it to `1` and thereby causing the calculator to appear. I had to make some initial adjustments to the code (`execl()` is a little different on Debian-based machines) and the resultant code is as follows:
 
-```c {.line-numbers}
+```c
 #include <unistd.h>
 
 void subfunc() {
@@ -58,7 +58,12 @@ At this point, it was time to see what was going on, and how I might adjust it t
 
 > Note: at this point, I did some playing around, but in order to ensure I could see exactly what was going on, I modified `subfunc()` above to set the 'proper' array locations to `0x88` - `0xFF`.
 
-I set breakpoints (`(gdb) break test.cpp:14`) at lines 14, 18, 20 and 21
+I set breakpoints (`(gdb) break test.cpp:14`) at lines 14, 18, 20 and 21. I then ran the program (`(gdb) run`) and stopped just before we did anything with `subfunc()`. The stack at this point, is shown below:
+
+stack_start01.png
+<img alt='Initial Stack' src='/images/stack_start01.png' class='blogimage img-responsive'>
+
+You can see the initial value of `run_calc` is highlighted and currently `0`.
 
 
 

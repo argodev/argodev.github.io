@@ -16,10 +16,10 @@ In order to help maintain a semblance of sanity while in the car, as well as to 
 ### Adgenda
 - [Day 1: Big Driving Day]({{ site.baseurl }}{% post_url 2019-07-13-ectrip-day01 %})
 - [Day 2: Gettysburg]({{ site.baseurl }}{% post_url 2019-07-14-ectrip-day02 %})
-- [Day 3: Mark Twain/Dinosaurs]({{ site.baseurl }}{% post_url 2019-07-15-ectrip-day03 %})
-- [Day 4: Freedom Trail/Plymoth Plantation]({{ site.baseurl }}{% post_url 2019-07-16-ectrip-day04 %})
-- [Day 5: Battleship Cove/Cliff Walk/Lighthouse]({{ site.baseurl }}{% post_url 2019-07-17-ectrip-day05 %})
-- [Day 6: Bamboo Forest/National Constitution Center]({{ site.baseurl }}{% post_url 2019-07-18-ectrip-day06 %})
+- [Day 3: Crayola]({{ site.baseurl }}{% post_url 2019-07-15-ectrip-day03 %})
+- [Day 4: Freedom Trail]({{ site.baseurl }}{% post_url 2019-07-16-ectrip-day04 %})
+- [Day 5: Plimoth Plantation/Cliff Walk]({{ site.baseurl }}{% post_url 2019-07-17-ectrip-day05 %})
+- [Day 6: National Constitution Center]({{ site.baseurl }}{% post_url 2019-07-18-ectrip-day06 %})
 - [Day 7: American Revolution/Independence Hall/Liberty Bell]({{ site.baseurl }}{% post_url 2019-07-19-ectrip-day07 %})
 - [Day 8: Baltimore]({{ site.baseurl }}{% post_url 2019-07-20-ectrip-day08 %})
 - [Day 9: Home!]({{ site.baseurl }}{% post_url 2019-07-21-ectrip-day09 %})
@@ -33,12 +33,13 @@ In order to help maintain a semblance of sanity while in the car, as well as to 
         {name: 'Home', lat: 35.9586595, lon: -84.065509},
         {name: 'SpringHill Suites', lat: 39.936741, lon: -77.632141},
         {name: 'Gettysburg National Military Park', lat: 39.811367, lon: -77.225934}, 
-        {name: 'SpringHill Suites', lat: 40.550132, lon: -75.423700}, 
+        {name: 'SpringHill Suites', lat: 40.550132, lon: -75.423700},
+        {name: 'Crayola Experience', lat: 40.690544, lon: -75.209716},
         {name: 'Dinosaur State Park', lat: 41.652144, lon: -72.656303}, 
         {name: 'Mark Twain House and Museum', lat: 41.767378, lon: -72.701365}, 
         {name: 'Homewood Suites', lat: 42.357120, lon: -71.623357}, 
         {name: 'Freedom Trail', lat: 42.355431, lon: -71.063749}, 
-        {name: 'Plymoth Plantation', lat: 41.938056, lon: -70.625386},
+        {name: 'Plimoth Plantation', lat: 41.938056, lon: -70.625386},
         {name: 'Residence Inn', lat: 39.834896, lon: -75.089009},
         {name: 'Battleship Cove', lat: 41.705827, lon: -71.159887}, 
         {name: 'The Cliff Walk', lat: 32.391971, lon: -104.2230587},

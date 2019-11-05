@@ -107,10 +107,8 @@ wasn't seeing system anomalies. I also ran them on different machines. While the
 numbers were different based on the machine (different processors, hard drives),
 the ratios between the approaches remained constant.
 
-__INSERT_TIMING_CHART__
 <img alt='Seconds per File' src='/images/secondsperfile.png' class='blogimage img-responsive'>
 
-__INSERT_PACKETS_PER_SECOND_CHART__
 <img alt='Packets per Second' src='/images/packetspersecond.png' class='blogimage img-responsive'>
 
 In the end, the `go` program allows me to analyze the entire data set in

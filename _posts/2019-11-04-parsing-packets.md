@@ -108,19 +108,17 @@ numbers were different based on the machine (different processors, hard drives),
 the ratios between the approaches remained constant.
 
 __INSERT_TIMING_CHART__
+<img alt='Seconds per File' src='/images/secondsperfile.png' class='blogimage img-responsive'>
 
 __INSERT_PACKETS_PER_SECOND_CHART__
+<img alt='Packets per Second' src='/images/packetspersecond.png' class='blogimage img-responsive'>
 
 In the end, the `go` program allows me to analyze the entire data set in
-approximately 32 minutes compared to over 8 days for the `scapy` script. I think
-I will be honing my `go` skills...
-
-
-
-
-
-
-
+approximately 32 minutes compared to over 8 days for the `scapy` script. As you
+can see in the lower figure, the scapy-based script was able to process at a
+rate of 510 packets/second (PPS) whereas the golang program ran at 193,821 PPS. 
+On newer hardware with faster drives, the PPS rate nearly doubled, but the ratio 
+held.  I think I will be honing my `go` skills...
 
 
 ## Lessons Learned
@@ -132,13 +130,7 @@ I will be honing my `go` skills...
    cause memory issues. The `PcapReader` approach gives you an iterator and you
    can work with each packet as it is `yielded`. 
 
-1. While it is obvious, extra "friendliness"/verbosity is often the enemy of
-   performance (thought not always). 
+1. While it is probably obvious, extra "friendliness"/verbosity is often the enemy of
+   performance (though not always). 
 
 1. It is hard to beat the performance of a compiled language.
-
-
-
-
-<img alt='Stack Smashing Protection' src='/images/stack_start00.png' class='blogimage img-responsive'>
-

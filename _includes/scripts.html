@@ -24,5 +24,7 @@
 <!-- disqus comments -->
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
 
-
-<script src="{{ site.baseurl }}/public/js/lightbox-plus-jquery.min.js"></script>
+<!-- Can I include this *only* if needed? -->
+{% if page.lightbox %}
+<script async defer src="{{ site.baseurl }}/public/js/lightbox-plus-jquery.min.js"></script>
+{% endif %} 

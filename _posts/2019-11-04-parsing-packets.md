@@ -107,9 +107,9 @@ wasn't seeing system anomalies. I also ran them on different machines. While the
 numbers were different based on the machine (different processors, hard drives),
 the ratios between the approaches remained constant.
 
-<img alt='Seconds per File' src='/images/secondsperfile.png' class='blogimage img-responsive'>
+<img alt='Seconds per File' src='/images/secondsperfile.webp' class='blogimage img-responsive'>
 
-<img alt='Packets per Second' src='/images/packetspersecond.png' class='blogimage img-responsive'>
+<img alt='Packets per Second' src='/images/packetspersecond.webp' class='blogimage img-responsive'>
 
 In the end, the `go` program allows me to analyze the entire data set in
 approximately 32 minutes compared to over 8 days for the `scapy` script. As you

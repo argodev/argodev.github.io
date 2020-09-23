@@ -28,3 +28,7 @@
 {% if page.lightbox %}
 <script async defer src="{{ site.baseurl }}/public/js/lightbox-plus-jquery.min.js"></script>
 {% endif %} 
+
+{% if page.category contains 'mypubs' or page.category contains 'myaoi' %}
+<script src="{{ site.baseurl }}/public/js/jquery.min.js"></script>
+{% endif %}

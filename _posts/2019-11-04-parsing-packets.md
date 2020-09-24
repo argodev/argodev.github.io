@@ -7,6 +7,13 @@ tags:
 - vulnerability research
 - studies
 - ics
+description: 'Over the past few weeks I have been working on analyzing a series of `pcap`
+captures. These files represent the communication between a number of industrial
+control devices such as variable frequency drives (VFDs), a historian, a
+human-machine interface (HMI) and a programmable logic controller (PLC). The
+data is Ethernet/IP and CIP (Common Idustrial Protocol). For those who may not
+be aware, ENIP+CIP is essentially an ICS protocol that is transported over
+standard Ethernet packets as the payload for either TCP or UDP packets.'
 ---
 
 Over the past few weeks I have been working on analyzing a series of `pcap`

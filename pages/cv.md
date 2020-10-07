@@ -25,11 +25,11 @@ style: |
 <span class="social-icons">
 <a href="https://twitter.com/share?text=Curriculum Vitae - {{ site.owner.name }}&amp;url={{ site.url }}/cv&amp;via={{ site.owner.twitter }}"  class="social-icons" target="_blank" title="Share on twitter"> <i class="fa fa-twitter meta"></i></a>
 <a href="{{ site.owner.linkedin }}" class="social-icons" title="LinkedIn profile"><i class="fa fa-linkedin"></i></a>
-<a href="{{ site.url }}/files/Robert_Gillen_CV_200927.pdf" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
+<a href="{{ site.url }}/files/Robert_Gillen_CV_201007.pdf" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
 </span>
 
 {:.text-center}
 [Publications]({{ site.url }}/about/publications/) \| [ORCID profile](https://orcid.org/{{ site.owner.orcid }}) \| [Google Scholar profile](https://scholar.google.com/citations?user={{ site.owner.gscholar }}&hl=en)
 
 <!-- Alternaetly, user html5 embed tag -->
-<iframe src="{{ site.url }}/files/Robert_Gillen_CV_200927.pdf" width="100%" style="height: 100vh;"></iframe>
+<iframe src="{{ site.url }}/files/Robert_Gillen_CV_201007.pdf" width="100%" style="height: 100vh;"></iframe>

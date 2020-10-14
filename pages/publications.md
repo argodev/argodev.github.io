@@ -10,7 +10,7 @@ tags:
   - articles
   - research
 comments: true
-modified: "2016-08-19"
+modified: "2020-10-14"
 bibtex: "/files/mypubs.bib"
 show_meta: true
 noindex: false
@@ -18,7 +18,7 @@ nofollow: true
 sitemap:
     priority: 0.5
     changefreq: 'monthly'
-    lastmod: 2016-02-13
+    lastmod: 2020-10-14
 style: |
   .container {
         max-width: 48rem;

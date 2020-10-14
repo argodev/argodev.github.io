@@ -35,7 +35,7 @@ style: |
   {% assign domain = site.url %}
  {% endif %}
  {% capture biburl %}{{ domain }}{{ page.bibtex }}{% endcapture %}
-<script src="http://bibbase.org/show?bib={{ biburl | cgi_escape }}&amp;jsonp=1&amp;authorFirst=1"></script>
+<script src="https://bibbase.org/show?bib={{ biburl | cgi_escape }}&amp;jsonp=1&amp;authorFirst=1"></script>
 {% endif %}
 
 {% endcomment %}

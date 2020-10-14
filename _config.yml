@@ -63,8 +63,8 @@ maps:
 
 # About/contact
 author:
-  name:              Rob Gillen
-  url:               https://twitter.com/argodev
+  name:           Rob Gillen
+  url:            https://twitter.com/argodev
   avatar:         621404.jpg
 
 
@@ -80,9 +80,8 @@ owner:
   github:         argodev
   stackexchange:  argodev
   linkedin:       https://www.linkedin.com/in/gillenrob
-  # orcid and google scholar IDs are different than standard username.
-  orcid: 0000-0002-9002-1440
-  gscholar: aWpgGlcAAAAJ
+  orcid:          0000-0002-9002-1440
+  gscholar:       aWpgGlcAAAAJ
 
 ## sidebar links:
 # For external links add external: true

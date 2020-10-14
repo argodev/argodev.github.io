@@ -5,12 +5,9 @@ title:       rob gillen
 email:       rob+blog@gillenfamily.net
 author:      Rob Gillen
 tagline:          'random wanderings through technology, code and life'
-description:      '<img src="/images/621404.jpg" style="width:230px;height:230px;"> Rob Gillen<br>Senior Research Professional<br/> Oak Ridge National Laboratory'
+description:      '<img src="/images/621404.jpg" style="width:230px;height:230px;"> Rob Gillen<br>Distinguished R&amp;D Staff Member <br/> Oak Ridge National Laboratory'
 baseurl:     ""
 url:         "https://robgillen.com"
-
-# Google analytics
-#google_analytics: UA-387099-5
 
 # Optional features
 animated:           false
@@ -20,20 +17,12 @@ show_post_footers:  true
 # configure the highlighter
 highlighter: rouge
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
 # Social icons
 show_social_icons: false
 github_username: argodev
 stackoverflow_id: argodev
 twitter_username: argodev
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+linkedin_username: gillenrob
 
 # Post sharing icons
 show_sharing_icons: false
@@ -59,7 +48,7 @@ excerpt_separator: <!--more-->
 sass:
   compressed: true
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-paginate
   - jemoji
@@ -77,14 +66,12 @@ author:
   name:              Rob Gillen
   url:               https://twitter.com/argodev
   avatar:         621404.jpg
-  #email:
 
 
 # Owner/author information
 owner:
   name:           Rob Gillen
   avatar:         /images/621404.jpg
-  #email:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
@@ -93,10 +80,6 @@ owner:
   github:         argodev
   stackexchange:  argodev
   linkedin:       https://www.linkedin.com/in/gillenrob
-  instagram:
-  flickr:
-  tumblr:
-  #google_plus:    https://plus.google.com/+RobGillen76
   # orcid and google scholar IDs are different than standard username.
   orcid: 0000-0002-9002-1440
   gscholar: aWpgGlcAAAAJ
@@ -129,19 +112,3 @@ links:
     url: /feed.xml
   - title: <i class="fa fa-creative-commons"></i> Disclosure
     url: /disclosure
-
-# Google Custom Search:
-google_search: 003285320253376666153:uitdowlq-os
-
-# Twitter stream widget:
-# Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
-#twitter_widget_id: 757763240646500354
-
-
-# Analytics and webmaster tools stuff goes here
-#google_analytics:   UA-387099-5
-
-#### For dummy website only - remove if you wish ####
-#github_repo: https://github.com/dyndna/lanyon-plus
-#version: 1.1.0
-## END ##

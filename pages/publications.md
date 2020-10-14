@@ -2,7 +2,7 @@
 layout: publ
 category: mypubs
 permalink: /about/publications/
-title: "Selected Publications."
+title: "Selected Publications"
 published: true
 description: "Selected publication page"
 tags:

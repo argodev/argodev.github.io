@@ -21,3 +21,16 @@ This readme is designed to serve two purposes:
 
 Open sourced under the [MIT license](LICENSE.md).
 
+
+
+## Publication Management
+
+This is a little more confusing than it should be, and I regularly forget what I need to do. Here are the steps.
+
+1. Maintain the bibliography at https://zotero.org. I am specifically using a public group named `argodev_pubs` and a collection named `mypubs`. This becomes the _authoritative source_ for the bibliography list.
+1. Download/setup [zot_bib_web](https://github.com/davidswelt/zot_bib_web)
+1. Run `./zot.py --group 2586018 H7WVKG2P` to generate the `html` content (`zotero-bib.html`)
+1. Copy/paste the entire `<div class="full-bib-section" />` div from the generated file and replace the div by the same name in `_includes/mypubs.html`
+1. Search for instances of `title = {{` and insert a space between the two `{{`
+1. Search for instances of `series = {{` and insert a space between the two `{{`
+

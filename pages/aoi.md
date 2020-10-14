@@ -31,13 +31,13 @@ style: |
 <!-- bibbase.org should work with following code unless you are hosting domain over https. -->
 
 {% if page.bibtex %}
- {% if page.bibtex contains 'http' %}
+ {% if page.bibtex contains 'https' %}
   {% assign domain = '' %}
   {% else %}
   {% assign domain = site.url %}
  {% endif %}
  {% capture biburl %}{{ domain }}{{ page.bibtex }}{% endcapture %}
-<script src="http://bibbase.org/show?bib={{ biburl | cgi_escape }}&amp;jsonp=1&amp;authorFirst=1"></script>
+<script src="https://bibbase.org/show?bib={{ biburl | cgi_escape }}&amp;jsonp=1&amp;authorFirst=1"></script>
 {% endif %}
 
 {% endcomment %}

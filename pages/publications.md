@@ -11,7 +11,7 @@ tags:
   - research
 comments: true
 modified: "2020-10-14"
-bibtex: "/files/mypubs.bib"
+bibtex: "https://robgillen.com/files/mypubs.bib"
 show_meta: true
 noindex: false
 nofollow: true

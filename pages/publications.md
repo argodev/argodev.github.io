@@ -29,7 +29,7 @@ style: |
 <!-- bibbase.org should work with following code unless you are hosting domain over https. -->
 
 {% if page.bibtex %}
- {% if page.bibtex contains 'http' %}
+ {% if page.bibtex contains 'https' %}
   {% assign domain = '' %}
   {% else %}
   {% assign domain = site.url %}

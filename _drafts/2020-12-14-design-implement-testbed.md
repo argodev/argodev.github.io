@@ -7,7 +7,7 @@ tags:
 - vulnerability research
 - studies
 - ics
-description: "Some of you know that a few months ago I mentioned that I had successfully defended my disseration. One of the things I did not do at that time, was to point to some of the work that both I and my team had done in getting to that point. This is the first in a series of posts that will introduce some of that work."
+description: "Last week, I wrote about the first paper in a series of three that summarize the work my team did on assessing anomaly detection methods for protecting industrial control systems. In this post, I introduce the second paper published by the IEEE. This paper discusses the design methodology and implementation of a test bed required to validate the method described in the first paper. The third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second."
 ---
 
 Last week, I wrote about [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/) in a series of three that summarize the work my team did on assessing anomaly detection methods for protecting industrial control systems. In this post, I introduce the second paper published by [the IEEE](https://www.ieee.org/). This paper discusses the design methodology and implementation of a test bed required to validate the method described in [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/). The third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second.
@@ -27,6 +27,8 @@ The paper is availble at the following locations:
 Here's a few pictures of the testbed:
 
 ![TestBed](/images/laboverview.png)
+
+![Back Side](/images/backside.jpg)
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 category: technology
 title: 'Assessing Anomaly-Based Intrusion Detection Configurations for Industrial Control Systems'
-date: 2020-22-14 08:00
+date: 2020-12-22 08:00
 tags:
 - vulnerability research
 - studies

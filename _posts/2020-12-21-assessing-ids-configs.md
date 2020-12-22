@@ -7,7 +7,7 @@ tags:
 - vulnerability research
 - studies
 - ics
-description: "Last week, I wrote about [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/) in a series of three that summarize the work my team did on assessing anomaly detection methods for protecting industrial control systems. In this post, I introduce the second paper published by [the IEEE](https://www.ieee.org/). This paper discusses the design methodology and implementation of a test bed required to validate the method described in [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/). The third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second."
+description: "Over the past few weeks, I have written about a series of papers my team produced on the topic of anomaly detection-based protection systems for industrial control systems. The first paper a simple model for assessing the effective security gained/lost by various configurations of ML-based anomaly detection systems desgined to protect industrial control systems. The second paper discusses the design methodology and implementation of a test bed required to validate the method described in the first paper. This third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second."
 mathjax: true
 ---
 

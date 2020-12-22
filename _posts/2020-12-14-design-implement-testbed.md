@@ -10,7 +10,7 @@ tags:
 description: "Last week, I wrote about the first paper in a series of three that summarize the work my team did on assessing anomaly detection methods for protecting industrial control systems. In this post, I introduce the second paper published by the IEEE. This paper discusses the design methodology and implementation of a test bed required to validate the method described in the first paper. The third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second."
 ---
 
-Last week, I wrote about [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/) in a series of three that summarize the work my team did on assessing anomaly detection methods for protecting industrial control systems. In this post, I introduce the second paper published by [the IEEE](https://www.ieee.org/). This paper discusses the design methodology and implementation of a test bed required to validate the method described in [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/). The third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second.
+Last week, I wrote about [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/) in a series of three that summarize the work my team did on assessing anomaly detection methods for protecting industrial control systems. In this post, I introduce the second paper published by [the IEEE](https://www.ieee.org/). This paper discusses the design methodology and implementation of a test bed required to validate the method described in [the first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/). The [third paper](https://robgillen.com/technology/2020/12/22/assessing-ids-configs/) details the experiments and results of evaulating the method from the first paper via the testbed described in the second.
 
 The title of this paper is: _"Design and Implementation of Full-Scale Industrial Control System Test Bed for Assessing Cyber-Security Defenses"_. I was the lead author and the paper was co-authored by [Laura Ann Anderson](https://www.ornl.gov/staff-profile/laura-anderson), [Chris Craig](https://www.linkedin.com/in/chris-craig-47250024/), [Jordan Johnson](https://www.linkedin.com/in/jordan-johnson-993009141/), [Andrew Craig](https://www.linkedin.com/in/andrew-craig-426766118/), [Adam Columbia](https://www.linkedin.com/in/adam-columbia-95329a15a/), Rachel Anderson, and my doctoral advisor, [Dr. Stephen L. Scott](https://www.tntech.edu/directory/engineering/faculty/stephen-scott.php).
 
@@ -31,4 +31,8 @@ Here's a few pictures of the testbed:
 ![Back Side](/images/backside.jpg)
 
 
+The other posts in this series can be found here:
 
+* [Theoretical Approach](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/)
+* [Testbed](https://robgillen.com/technology/2020/12/14/design-implement-testbed/)
+* [Evaluation and Analysis](https://robgillen.com/technology/2020/12/22/assessing-ids-configs/)

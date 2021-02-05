@@ -6,7 +6,7 @@ date: 2021-02-12 08:00
 tags:
 - networking
 - wifi
-- netscope
+- netspot
 description: "In my last post, I provided some background for this series and introduced the environment. In this post I describe how I measured the effectiveness (or not) of my current WiFi system and collected data to inform my upgrade/changes."
 ---
 

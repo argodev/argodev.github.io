@@ -14,7 +14,7 @@ I have a tendency to over-think things. I like to imagine that it is a personali
 
 The posts in this series are as follows:
 
-* Part 1: Introduction and background (this post)
+* [Part 1: Introduction and background (this post)](https://robgillen.com/technology/2021/02/05/fix-home-network-part-1/)
 * Part 2: Establishing an RF baseline
 * Part 3: Internal Network Baseline
 * Part 4: External Network Baseline
@@ -49,7 +49,7 @@ __Netgear ORBI:__ This is my main network router and WiFi. If you know anything 
 
 __Netgear Nighthawk R7000:__ This is probably the most "odd" thing on the network and may be the source of numerous issues. Being the parent of kids learning to use devices and the Internet is a difficult balance of teaching, responsibility, and controls. The primary means we have handled this over the years is using [Circle by Disney](https://meetcircle.com/). This allows us to assign each device (via MAC address) to a person/profile and then set filters, time restrictions, etc. for each child. While this works generally well and is quite user-friendly, the implementation makes my network-purist *skin crawl*. In its primary form factor - an appliance you simply plug into your network - it ARP spoofs *every* device on the network to allow itself to man-in-the-middle (MITM) all of your traffic. This works reasonably well with a handful of devices, but some of my systems didn't like it at all. My distaste for the implementation was resolved when Netgear started offering Circle as an integrated option into some of their routers. This was great... the filter was implemented at the natural/existing gateway to the devices and no longer required ARP spoofing or layer 2 funny business. Unfortunately, while some earlier-generation ORBI devices came with Circle support, the RBR750 *did not* (much to my disappointement). To make matters worse, connecting the appliance-based version really made the network unstable. I'm not certain if the layer 2 schennanigans were messing with ORBI's mesh networking or traffic direction logic, but things were not going well. Therefore, my (admitedly ugly) _"solution"_ was to re-deploy an old R7000 I had sitting around that still had Circle support built in. I then connected all of my kids devices to that access point and thereby limited any ill-effects to that segment.
 
-![Example Circle Control Page](/images/circle.jpg)
+<img src="/images/circle.jpg" height="400">
 
 ## Obvious Issues
 

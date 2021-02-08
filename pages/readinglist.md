@@ -47,12 +47,34 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [Reversing TL-WR840N](https://therealunicornsecurity.github.io/TPLink/)
 1. [P0: An iOS hacker tries Android](https://googleprojectzero.blogspot.com/2020/12/an-ios-hacker-tries-android.html)
 
+[Back to Contents](#contents)
 
 ## 2020
 
+1. [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
+1. [Apple's T2 Security Chip Has an Unfixable Flaw](https://www.wired.com/story/apple-t2-chip-unfixable-flaw-jailbreak-mac/)
+1. [Malloc DES-MALEFICARUM](http://phrack.org/issues/66/10.html)
+1. [Boosting Fuzzer Efficiency: An Information Theoretic Perspective](https://mboehme.github.io/paper/FSE20.Entropy.pdf)
+1. [Deep Reinforcement Fuzzing](https://arxiv.org/pdf/1801.04589.pdf)
+1. [Empowering Reinforcement Learning on Big Sensed Data for Intrusion Detection](https://ieeexplore.ieee.org/document/8761575)
+1. [Adaptively Supervised and Intrusion-Aware Data Aggregation for Wireless Sensor Clusters in Critical Infrastructures](https://ieeexplore.ieee.org/document/8422401)
+1. [An intrusion detection system for connected vehicles in smart cities](https://www.sciencedirect.com/science/article/abs/pii/S1570870519301131)
+1. [Android privilege escalation to mediaserver from zero permissions (CVE-2014-7920 + CVE-2014-7921)](http://bits-please.blogspot.com/2016/01/android-privilege-escalation-to.html)
+1. [Android linux kernel privilege escalation vulnerability and exploit (CVE-2014-4322)](http://bits-please.blogspot.com/2015/08/android-linux-kernel-privilege.html)
+1. [Full TrustZone exploit for MSM8974](http://bits-please.blogspot.com/2015/08/full-trustzone-exploit-for-msm8974.html)
+1. [Exploring Qualcomm's TrustZone implementation](http://bits-please.blogspot.com/2015/08/exploring-qualcomms-trustzone.html)
+1. [Getting arbitrary code execution in TrustZone's kernel from any context](http://bits-please.blogspot.com/2015/03/getting-arbitrary-code-execution-in.html)
+1. [Would you like some RCE with yo8ur Guacamole?](https://research.checkpoint.com/2020/apache-guacamole-rce/)
+1. [Heap overflow with stack-pivoting, format string mem leaking and first-stage ROP-ing to shellcode after making it executable on the heap - on a statically linked binary (MBE LAB7A)](https://hackingiscool.pl/heap-overflow-with-stack-pivoting-format-string-leaking-first-stage-rop-ing-to-shellcode-after-making-it-executable-on-the-heap-on-a-statically-linked-binary-mbe-lab7a/)
+1. [How To Write Shared Libraries](https://software.intel.com/sites/default/files/m/a/1/e/dsohowto.pdf)
+1. [Exploiting SMBGhost (CVE-2020-0796) for a Local Privilege Escalation: Writeup + POC](https://blog.zecops.com/vulnerabilities/exploiting-smbghost-cve-2020-0796-for-a-local-privilege-escalation-writeup-and-poc/)
+1. ["I'll ask your body": SMBGhost pre-auth RCE abusing Direct Memory Access structs](https://ricercasecurity.blogspot.com/2020/04/ill-ask-your-body-smbghost-pre-auth-rce.html)
+
+[Back to Contents](#contents)
 
 ## 2019
 
+[Back to Contents](#contents)
 
 ## 2018
 
@@ -60,6 +82,7 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [Remote LD_PRELOAD Exploitation](https://www.elttam.com/blog/goahead/)
 1. [Owning Internet Printing - A Case Study in Modern Software Exploitation](https://googleprojectzero.blogspot.com/2015/06/owning-internet-printing-case-study-in.html)
 
+[Back to Contents](#contents)
 
 ## Books
 
@@ -93,3 +116,5 @@ I read a fair number of books (40+/year for the last decade). I skim and start a
 1. [Metasploit](https://amzn.to/3jruZn4)
 1. [BackTrack 5 Wireless Penetration Testing](https://amzn.to/36SDVwF)
 1. [CUDA by Example](https://amzn.to/3aHn6Gc)
+
+[Back to Contents](#contents)

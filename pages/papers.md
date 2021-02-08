@@ -1,4 +1,29 @@
-# Papers of Interest
+---
+layout: page
+title: Papers of Interest
+permalink: /papers/
+show_meta: true
+# imagefeature path is relative to images/ directory.
+#imagefeature: 621404.jpg
+published: true
+description: "Papers that I find interesting and have been reading recently"
+category: views
+comments: false
+mathjax: false
+noindex: false
+sitemap:
+    priority: 0.7
+    changefreq: 'monthly'
+    lastmod: 2021-02-08
+# tags will be used as html meta keywords.
+tags:
+  - "Rob Gillen"
+  - "ORNL"
+  - "Cyber Security"
+  - "Vulnerability Science"
+  - "Research"
+  - "Academic Papers"
+---
 
 As part of my role at the laboratory, I am expected to stay current on various topics related to vulnerability science. To that end, I regularly read research papers or long-form blog posts. This is a list of the papers that I have read. Some of them are great, others are fair, and some aren't worth the time. All of them, however, have helped me develop a better understanding of the field. Hopefully these are somewhat helpful to you.
 

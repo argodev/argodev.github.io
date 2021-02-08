@@ -25,7 +25,7 @@ tags:
   - "Academic Papers"
 ---
 
-As part of my role at the laboratory, I am expected to stay current on various topics related to vulnerability science. To that end, I regularly read research papers or long-form blog posts. This is a list of the papers that I have read. Some of them are great, others are fair, and some aren't worth the time. All of them, however, have helped me develop a better understanding of the field. Hopefully these are somewhat helpful to you. 
+As part of my role at [the laboratory](https://ornl.gov), I am expected to stay current on various topics related to vulnerability science. To that end, I regularly read research papers or long-form blog posts. This is a list of the papers that I have read. Some of them are great, others are fair, and some aren't worth the time. All of them, however, have helped me develop a better understanding of the field. Hopefully these are somewhat helpful to you. 
 
 Admittedly, there is some randomness to this list... sometimes, someone will suggest something that catches my eye for a little while, after which I set it aside. Sometimes I'm asked to read just enough about a topic to be able to discuss it intelligently. Sometimes, I chase rabbits. 
 
@@ -69,6 +69,12 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [How To Write Shared Libraries](https://software.intel.com/sites/default/files/m/a/1/e/dsohowto.pdf)
 1. [Exploiting SMBGhost (CVE-2020-0796) for a Local Privilege Escalation: Writeup + POC](https://blog.zecops.com/vulnerabilities/exploiting-smbghost-cve-2020-0796-for-a-local-privilege-escalation-writeup-and-poc/)
 1. ["I'll ask your body": SMBGhost pre-auth RCE abusing Direct Memory Access structs](https://ricercasecurity.blogspot.com/2020/04/ill-ask-your-body-smbghost-pre-auth-rce.html)
+1. [Decision forest: Twenty years of research](https://www.sciencedirect.com/science/article/abs/pii/S1566253515000561)
+1. [Frequency Envelope Modulation (FEM): A Passive Approach to Universal Spectrum Recognition and Network Self-Configuration](https://ieeexplore.ieee.org/document/7414052)
+1. [Checking is Believing: Event-Aware Program Anomaly Detection in Cyber-Physical Systems](https://arxiv.org/abs/1805.00074)
+1. [Online Anomaly Detection under Adversarial Impact](http://proceedings.mlr.press/v9/kloft10a/kloft10a.pdf)
+1. [Effectiveness and Weakness of Quantified/Automated Anomaly Based IDs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3394712)
+1. [Anomaly Detection in Cyber Physical Systems Using Recurrent Neural Networks](https://ieeexplore.ieee.org/document/7911887)
 
 [Back to Contents](#contents)
 
@@ -81,6 +87,26 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [Asterisk Exploit](https://blog.exodusintel.com/tag/asterisk-exploit/)
 1. [Remote LD_PRELOAD Exploitation](https://www.elttam.com/blog/goahead/)
 1. [Owning Internet Printing - A Case Study in Modern Software Exploitation](https://googleprojectzero.blogspot.com/2015/06/owning-internet-printing-case-study-in.html)
+
+[Back to Contents](#contents)
+
+## Other
+
+1. [A New, Principled Approach to Anomaly Detection](https://ieeexplore.ieee.org/abstract/document/6406752)
+1. [Setting the threshold for high throughput detectors: A mathematical approach for ensembles of dynamic, heterogeneous, probabilistic anomaly detectors](https://arxiv.org/abs/1710.09422)
+1. [Internet Traffic Behavior Profiling for Network Security Monitoring](https://www-users.cs.umn.edu/~zhang089/Papers/TON-Profiling.pdf)
+1. [Exploiting the Shape of CAN Data for In-Vehicle Intrusion Detection](https://arxiv.org/abs/1808.10840)
+1. [Anomaly Detection over Noisy Data using Learned Probability Distributions](https://dl.acm.org/doi/10.5555/645529.658128)
+1. [Outlier Detection for Temporal Data: A Survey](https://ieeexplore.ieee.org/document/6684530)
+1. [Structural analysis of network traffic flows](https://dl.acm.org/doi/10.1145/1005686.1005697)
+1. [A density-based algorithm for discovering clusters in large spatial databases with noise](https://dl.acm.org/doi/10.5555/3001460.3001507)
+1. [A study of cross-validation and bootstrap for accuracy estimation and model selection](https://dl.acm.org/doi/10.5555/1643031.1643047)
+1. [Estimating the number of clusters in a data set via the gap statistic](https://statweb.stanford.edu/~gwalther/gap)
+1. [A Wavelet-Based Anytime Algorithm for K-Means Clustering of Time Series](https://cs.gmu.edu/~jessica/publications/ikmeans_sdm_workshop03.pdf)
+1. [Knowledge Acquisition Via Incremental Conceptual Clustering](https://link.springer.com/article/10.1023/A:1022852608280)
+1. [The Strength of Weak Learnability](https://dl.acm.org/doi/10.1023/A%3A1022648800760)
+1. [A theory of the learnable](https://dl.acm.org/doi/10.1145/1968.1972)
+1. [Machine Learning](http://www.cs.cmu.edu/~tom/mlbook.html)
 
 [Back to Contents](#contents)
 

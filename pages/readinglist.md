@@ -31,6 +31,13 @@ Admittedly, there is some randomness to this list... sometimes, someone will sug
 
 The list is in roughly reverse chronological order that I've read them. Don't assume that the order indicates anything of particular import.
 
+## Contents
+
+* [2021 Papers/Posts](#2021)
+* [2020 Papers/Posts](#2020)
+* [2019 Papers/Posts](#2019)
+* [2018 Papers/Posts](#2018)
+* [Books](#books)
 
 ## 2021
 
@@ -52,3 +59,37 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [Asterisk Exploit](https://blog.exodusintel.com/tag/asterisk-exploit/)
 1. [Remote LD_PRELOAD Exploitation](https://www.elttam.com/blog/goahead/)
 1. [Owning Internet Printing - A Case Study in Modern Software Exploitation](https://googleprojectzero.blogspot.com/2015/06/owning-internet-printing-case-study-in.html)
+
+
+## Books
+
+I read a fair number of books (40+/year for the last decade). I skim and start a good deal more. This is a list of books that are related in some tangential way to vulnerability science research that, for better or worse, I have made it all the way through. Maybe some of them will be intersting.
+
+1. [Assembly Language: Programming with Linux](https://amzn.to/3jsrjkZ)
+1. [Deep Work: Rules for Focused Success in a Distracted World, Cal Newport](https://amzn.to/2MBJuc3)
+1. [Russian Cyber Operations, Scott Jasper](https://amzn.to/36T7gXO)
+1. [Attacking Network Protocols, James Forshaw](https://amzn.to/3cYusb7)
+1. [Penetration Testing with Shellcode, Hamza Megahed](https://amzn.to/36SX1mu)
+1. [Practical Vim](https://amzn.to/3jBxSlm)
+1. [Cult of the Dead Cow](https://amzn.to/3jwcCx2)
+1. [Facts and Fears](https://amzn.to/3rsYvve)
+1. [The Perfectionists](https://amzn.to/3cTpAUj)
+1. [Lights Out](https://amzn.to/3tGclfG)
+1. [OpenACC for Programmers](https://amzn.to/3oYorgU)
+1. [CUDA for Engineers](https://amzn.to/3jxdNN4)
+1. [Embedded System Design](https://amzn.to/2Luc6Di)
+1. [Verilog by Example](https://amzn.to/2MNCysj)
+1. [Heterogeneous Computing with OpenCL 2.0](https://amzn.to/3tECAmH)
+1. [Writing for Science and Engineering](https://amzn.to/3a0W0up)
+1. [Passive Python Network Mapping](https://amzn.to/36TyNZ8)
+1. [The Hobbyist's Guide to the RTL-SDR](https://amzn.to/39Zjn7C)
+1. [Command and Control](https://amzn.to/3rBUzZ8)
+1. [Naked Statistics](https://amzn.to/39ZHROf)
+1. [Data Hiding](https://amzn.to/3tCDd06)
+1. [How to Create a Mind](https://amzn.to/2YXjJFy)
+1. [Managed Code Rootkits](https://amzn.to/36Oy9fx)
+1. [Violent Python](https://amzn.to/3rxyStl)
+1. [Cyber War](https://amzn.to/3tG5YZM)
+1. [Metasploit](https://amzn.to/3jruZn4)
+1. [BackTrack 5 Wireless Penetration Testing](https://amzn.to/36SDVwF)
+1. [CUDA by Example](https://amzn.to/3aHn6Gc)

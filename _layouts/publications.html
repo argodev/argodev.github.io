@@ -1,0 +1,25 @@
+---
+layout: single
+classes: wide
+---
+
+{{ content }}
+
+<br />
+
+<div class="entries-list">
+    {% for pub in site.data.pubs.list %}
+    <div class="list__item">
+        <p>
+            {{ pub.pt_authors }} ({{ pub.pt_year }})<br>
+            {% if pub.pt_doi %}
+            <a href="http://dx.doi.org/{{ pub.pt_doi }}"><strong>{{ pub.title }}</strong></a><br>
+            {% else %}
+            <a href="{{ pub.pt_url }}"><strong>{{ pub.title }}</strong></a><br>
+            {% endif %}
+            <em>{{ pub.pt_conf }}</em>{% if pub.pt_pages %}, {{ pub.pt_pages }}{% endif %}<br>
+        </p>
+        <!-- <p class="archive__item-excerpt" itemprop="description">{{ pub.abstract }}</p> -->
+    </div>
+    {% endfor %}
+</div>

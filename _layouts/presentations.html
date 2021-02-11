@@ -1,0 +1,35 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% for conference in site.data.talks.data %}
+<section id="{{ conference.slug }}">
+  <!-- <h2 class="archive__subtitle">{{ conference.conference }}</h2> -->
+  <h2 id="{{ conference.slug }}" class="" tabindex="-1" style="outline: none;">{{ conference.conference }}</h2>
+  <p class="page__meta">
+    {{ conference.date }} <a href="{{ conference.web_link }}"  target="_blank">Conference Homepage</a>
+  </p>
+
+  <div class="entries-list">
+    {% for session in conference.sessions %}
+    <div class="list__item">
+      <h4>{{ session.title }}</h4>
+      <p class="archive__item-excerpt" itemprop="description">{{ session.abstract }}</p>
+
+      {% if session.assets %}
+      <ul>
+        {% for asset in session.assets %}
+          <li><a href="{{ asset.link }}" target="_blank">{{ asset.title }}</a> <i class="fas fa-external-link-alt"></i></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    </div>
+    {% endfor %}
+  </div>
+  <a href="#page-title" class="back-to-top">Back to top ↑</a>
+</section>
+{% endfor %}
+

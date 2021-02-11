@@ -1,0 +1,17 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Technology"
+    url: /categories/technology/
+  - title: "Personal"
+    url: /categories/personal/
+  - title: "Archive"
+    url: /year-archive/
+  - title: "CV"
+    url: /cv/
+  - title: "Publications"
+    url: /publications/
+  - title: "Talks"
+    url: /presentations/
+  - title: "Reading List"
+    url: /readinglist/

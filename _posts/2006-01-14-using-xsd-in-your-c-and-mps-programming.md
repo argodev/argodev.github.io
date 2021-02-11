@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Using XSD in your C# and MPS programming...'
 date: 2006-01-14 00:00
@@ -33,56 +32,58 @@ For the most part, this approach is very interesting to me and I’ve been using
 
 I was able to work around the casing issue for switches by modifying the generated C# classes to match our coding standards and then decorating them so that the XmlSerializer knows which Xml nodes to algin with which classes. The xsd.exe tool initially genrated code that looked like the following:
 
-
-    [System.Xml.Serialization.XmlElement()]
-    public key key
-    {
-        get { return this.keyField; }
-        set { this.keyField = value; }
-    }
-
+```c#
+[System.Xml.Serialization.XmlElement()]
+public key key
+{
+    get { return this.keyField; }
+    set { this.keyField = value; }
+}
+```
 
 I then updated the code and tweaked the decoration as follows to ge the casing the way I wanted…
 
-
-    [System.Xml.Serialization.XmlElement("key")]
-    public Key Key
-    {
-        get { return this.keyField; }
-        set { this.keyField = value; }
-    }
+```c#
+[System.Xml.Serialization.XmlElement("key")]
+public Key Key
+{
+    get { return this.keyField; }
+    set { this.keyField = value; }
+}
+```
 
 What stumped me for a few minutes was how to handle the casing of the parent node of a collection (i.e. a node named keys that has children named key). The compiler generated code that looks like
 
-
-    [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable = false)]
-    public key[] keys
-    {
-        get { return this.keysField; }
-        set { this.keysField = value; }
-    }
+```c#
+[System.Xml.Serialization.XmlArrayItemAttribute(IsNullable = false)]
+public key[] keys
+{
+    get { return this.keysField; }
+    set { this.keysField = value; }
+}
+```
 
 What I wanted, is a property called Keys (rather than keys).  There were two tricks I found here. The first was to indicate the naming of the child nodes (“key”) which is accomplished by setting the ElementName property of the XmlArrayItemAttribute as follows:
 
-
-    [System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
-
+```c#
+[System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
+```
 
 The second step, is to decorate the property such that the the serializer knows that the Key[] array maps to the <keys/> node. This is accomplished by adding an additional decoration to the property of type XmlArray() and setting the constructor value. The following is the fully updated (at this stage) array property.
 
-
-    [System.Xml.Serialization.XmlArray("keys")]
-    [System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
-    public Keys[] Keys
-    {
-        get { return this.keysField; }
-        set { this.keysField = value; }
-    }
+```c#
+[System.Xml.Serialization.XmlArray("keys")]
+[System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
+public Keys[] Keys
+{
+    get { return this.keysField; }
+    set { this.keysField = value; }
+}
+```
 
 Next I set to work on the array issue… I really wanted to be using strongly-typed lists (List<t>) which I figured had to be possible. Come to find out, it is, and all you have to do is change the types (no futher decoration necessary) yeilding an updated signature as follows:
 
-
-{% highlight csharp %}
+```c#
 [System.Xml.Serialization.XmlArray("keys")]
 [System.Xml.Serialization.XmlArrayItemAttribute(ElementName = "key", IsNullable = false)]
 public List<Key> Keys
@@ -90,7 +91,7 @@ public List<Key> Keys
     get { return this.keysField; }
     set { this.keysField = value; }
 }
-{% endhighlight %}
+```
 
 Finally, I wanted to address the naming issue… Looking at the steps I’d accomplished so far, I figured that the decorations simply allow me to disassociate the C# class/property name from the Xml tag name and it proved to be correct – in the same way that I was able to adjust for casing, I could adjust for naming changes.
 

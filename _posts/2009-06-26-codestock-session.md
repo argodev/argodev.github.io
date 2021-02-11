@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Codestock Session'
 date: 2009-06-26 00:00
@@ -15,9 +14,8 @@ redirect_from:
 - /2009/06/26/codestock-session/
 ---
 <img alt='Nerd Skull' src='/images/nerdSkull_logo_2009_091C8A70.png' class='blogimage img-responsive'>
-I’d like to thank all of you who attended my session today at CodeStock. I had a 
-great time talking with you all and sharing my experiences with SharePoint and 
-TFS with you all.
+
+I’d like to thank all of you who attended my session today at CodeStock. I had a great time talking with you all and sharing my experiences with SharePoint and TFS with you all.
 
 Downloads from today’s session:
 

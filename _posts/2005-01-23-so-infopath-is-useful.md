@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'So... InfoPath IS useful....'
 date: 2005-01-23 00:00

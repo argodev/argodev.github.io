@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'MIIS - password sync?'
 date: 2004-06-30 00:00

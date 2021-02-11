@@ -1,15 +1,12 @@
----
----
-
 /* TEAM */
 Primary Contact: foo
-Site: {{ site.url }}/about/
-Twitter: https://twitter.com/{{ site.owner.twitter }}
+Site: https://robgillen.com/about/
+Twitter: https://twitter.com/argodev
 
 /* THANKS */
-Design Contributors: {{ site.url }}/disclosure/
+Design Contributors: https://robgillen.com/about/#sitetheme-credits
 
 /* SITE */
-Last Updated: {{ site.time | date:"%Y/%m/%d" }}
+Last Updated: 2021/20/10
 Standards: HTML5, CSS3
 Software: Sublime Text, Chrome, Jekyll, Git, Sass

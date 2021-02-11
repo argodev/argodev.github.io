@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'CodeMash 2.0.1.6 Content Interest Survey'
 date: 2015-08-02 07:24
@@ -9,7 +8,10 @@ tags:
 redirect_from:
 - /blog/2015/8/2/codemash-2016-content-interest-survey
 ---
-<img alt='CodeMash' src='/images/codemash_10.png' class='blogimage img-responsive'>
+
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/codemash_10.png"><img src="{{ site.url }}{{ site.baseurl }}/images/codemash_10.png" alt="CodeMash"></a>
+</figure>
 
 We are only a few weeks away from the CodeMash 2.0.1.6 Call for Speakers and, like always, we are trying our best to make this year's conference the best it can possibly be. The fact that this will be our 10th year adds an extra amount of pressure to ensure that we "get it right". Further, it has caused us to reflect on our roots... why was this conference started? what were the goals? are we still holding true to those?
 

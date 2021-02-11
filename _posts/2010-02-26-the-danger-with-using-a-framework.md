@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'The Danger with using a framework…'
 date: 2010-02-26 00:00
@@ -20,37 +19,36 @@ The behavior I was seeing, was that after two threads would execute, all subsequ
 The solution I came up with was to first shorten the time to live for idle threads, next to monitor the number of threads currently “consumed” and to increase the limit based on how many I needed for the current operations, all while ensuring an upper bound and stand-off mechanism should things get too far out of bounds.
 
 
+```c#
+// ensure that we don't have lingering connections that will hamper our
+// ability to continue...
+// Start by getting the ServicePoint for our current Url
+ServicePoint servicePoint =
+    ServicePointManager.FindServicePoint(new Uri(url));
 
-    // ensure that we don't have lingering connections that will hamper our
-    // ability to continue...
-    // Start by getting the ServicePoint for our current Url
-    ServicePoint servicePoint =
-        ServicePointManager.FindServicePoint(new Uri(url));
+// see how many connections currently exist...
+int existingConnections = servicePoint.CurrentConnections;
 
-    // see how many connections currently exist...
-    int existingConnections = servicePoint.CurrentConnections;
+// if we are above our upper bound, wait a bit to let things settle down...
+while (existingConnections >= 64)
+{
+    Console.WriteLine("Connection count too high. sleeping for a bit.");
+    Thread.Sleep(1000);
+}
 
-    // if we are above our upper bound, wait a bit to let things settle down...
-    while (existingConnections >= 64)
-    {
-        Console.WriteLine("Connection count too high. sleeping for a bit.");
-        Thread.Sleep(1000);
-    }
+// ensure that we have enough room to do what we need
+if ((existingConnections + options.ConcurrentThreads + 1) >
+    servicePoint.ConnectionLimit)
+{
+    servicePoint.ConnectionLimit = existingConnections +
+        options.ConcurrentThreads + 1;
+}
 
-    // ensure that we have enough room to do what we need
-    if ((existingConnections + options.ConcurrentThreads + 1) >
-        servicePoint.ConnectionLimit)
-    {
-        servicePoint.ConnectionLimit = existingConnections +
-            options.ConcurrentThreads + 1;
-    }
+// only give them a few seconds (5) to time out...
+ServicePointManager.MaxServicePointIdleTime = 5000;
 
-    // only give them a few seconds (5) to time out...
-    ServicePointManager.MaxServicePointIdleTime = 5000;
-
-    Console.WriteLine("Pre-Existing Connections: {0}", existingConnections);
-    Console.WriteLine("Connection Limit: {0}", servicePoint.ConnectionLimit);
-
-
+Console.WriteLine("Pre-Existing Connections: {0}", existingConnections);
+Console.WriteLine("Connection Limit: {0}", servicePoint.ConnectionLimit);
+```
 
 Hopefully, this will be helpful for someone else hitting the same issue.

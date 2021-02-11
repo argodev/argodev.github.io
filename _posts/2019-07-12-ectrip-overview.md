@@ -1,5 +1,4 @@
 ---
-layout: post
 category: personal
 title: 'East Coast Trip - Overview'
 date: 2019-07-12 17:47

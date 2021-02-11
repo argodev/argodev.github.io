@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Assessing Anomaly-Based Intrusion Detection Configurations for Industrial Control Systems'
 date: 2020-12-22 08:00
@@ -11,13 +10,13 @@ description: "Over the past few weeks, I have written about a series of papers m
 mathjax: true
 ---
 
-Over the past few weeks, I have written about a series of papers my team produced on the topic of anomaly detection-based protection systems for industrial control systems. [The first paper](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/) establishes a simple model for assessing the effective security gained/lost by various configurations of ML-based anomaly detection systems desgined to protect industrial control systems. The [second paper](https://robgillen.com/technology/2020/12/14/design-implement-testbed/) discusses the design methodology and implementation of a test bed required to validate the method described in the first paper. This third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second.
+Over the past few weeks, I have written about a series of papers my team produced on the topic of anomaly detection-based protection systems for industrial control systems. [The first paper]({{ site.url }}{{ site.baseurl }}/technology/2020/12/07/method-for-accessing-ad/) establishes a simple model for assessing the effective security gained/lost by various configurations of ML-based anomaly detection systems desgined to protect industrial control systems. The [second paper]({{ site.url }}{{ site.baseurl }}/technology/2020/12/14/design-implement-testbed/) discusses the design methodology and implementation of a test bed required to validate the method described in the first paper. This third paper details the experiments and results of evaulating the method from the first paper via the testbed described in the second.
 
 The title of this paper is: _"Assessing Anomaly-Based Intrusion Detection Configurations for Industrial Control Systems"_. I was the lead author and the paper was co-authored by [Jason M. Carter](https://www.ornl.gov/staff-profile/jason-m-carter), [Chris Craig](https://www.linkedin.com/in/chris-craig-47250024/), [Jordan Johnson](https://www.linkedin.com/in/jordan-johnson-993009141/), and my doctoral advisor, [Dr. Stephen L. Scott](https://www.tntech.edu/directory/engineering/faculty/stephen-scott.php).
 
 The abstract is as follows:
 
-> To reduce cost and ease maintenance, industrial control systems (ICS) have adopted Ethernetbased interconnections that integrate operational technology (OT) systems with information technology (IT) networks. This integration has made these critical systems vulnerable to attack. Security solutions tailored to ICS environments are an active area of research. Anomalybased network intrusion detection systems are well-suited for these environments. Often these systems must be optimized for their specific environment. In prior work, we introduced a method for assessing the impact of various anomaly-based network IDS settings on security. This paper reviews the experimental outcomes when we applied our method to a full-scale ICS test bed using actual attacks. Our method provides new and valuable data to operators enabling more informed decisions about IDS configurations.
+> To reduce cost and ease maintenance, industrial control systems (ICS) have adopted Ethernet based interconnections that integrate operational technology (OT) systems with information technology (IT) networks. This integration has made these critical systems vulnerable to attack. Security solutions tailored to ICS environments are an active area of research. Anomaly based network intrusion detection systems are well-suited for these environments. Often these systems must be optimized for their specific environment. In prior work, we introduced a method for assessing the impact of various anomaly-based network IDS settings on security. This paper reviews the experimental outcomes when we applied our method to a full-scale ICS test bed using actual attacks. Our method provides new and valuable data to operators enabling more informed decisions about IDS configurations.
 
 The paper is availble at the following locations:
 
@@ -27,16 +26,25 @@ The paper is availble at the following locations:
 
 Here's a figures of interest from the paper:
 
-![Scoring System](/images/737400a360-fig-1-source-large.gif)
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/737400a360-fig-1-source-large.gif"><img src="{{ site.url }}{{ site.baseurl }}/images/737400a360-fig-1-source-large.gif" alt="Scoring System"></a>
+  <figcaption>Figure 1</figcaption>
+</figure> 
 
 Threat score ( \\(S_t\\) ) and false positives related to alert threshold. The initial alert threshold for the IDS is 3.80 (\\(k\\)). Via (2), \\(S_δ\\) is calculated with \\(S_t(K_i); k=3.80 \\) and \\(S_t(K_j); k=3.00\\). Shading between 0-1% false positives illustrates operator-specified constraint.
 
-![Hypothesis](/images/737400a360-fig-2-source-large.gif)
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/737400a360-fig-2-source-large.gif"><img src="{{ site.url }}{{ site.baseurl }}/images/737400a360-fig-2-source-large.gif" alt="Hypothesis"></a>
+  <figcaption>Figure 2</figcaption>
+</figure> 
+
 
 Score generated by the IDS over time given 100 flows. The scenarios are identical except for a differing inter-packet delay. A threshold of 3.2 is shown. In light print is our hypothesized output from the IDS given the same attacks.
 
 The other posts in this series can be found here:
 
-* [Theoretical Approach](https://robgillen.com/technology/2020/12/07/method-for-accessing-ad/)
-* [Testbed](https://robgillen.com/technology/2020/12/14/design-implement-testbed/)
-* [Evaluation and Analysis](https://robgillen.com/technology/2020/12/14/design-implement-testbed/)
+* [Theoretical Approach]({{ site.url }}{{ site.baseurl }}/technology/2020/12/07/method-for-accessing-ad/)
+* [Testbed]({{ site.url }}{{ site.baseurl }}/technology/2020/12/14/design-implement-testbed/)
+* [Evaluation and Analysis]({{ site.url }}{{ site.baseurl }}/technology/2020/12/22/assessing-ids-configs/)
+
+{% include math.html %}

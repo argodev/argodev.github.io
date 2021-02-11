@@ -1,5 +1,4 @@
 ---
-layout: post
 category: personal
 title: 'Grand Canyon Trip - Overview'
 date: 2017-05-30 17:47

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Codemash 2018 Content Interest Survey Results'
 date: 2017-08-11 10:22
@@ -46,7 +45,9 @@ Finally, the part that folks have been looking for... the summation of the resul
 * One vote for a topic as a "third most interested" earns 0.5 points.
 * One vote for a topic in the "please do less of this topic so you can do more of the ones I care about" subtracts 0.25 points.
 
-<img alt=' 2018 CodeMash Content Interest Survey Results' src='/images/2018_cm_interest.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/2018_cm_interest.png"><img src="{{ site.url }}{{ site.baseurl }}/images/2018_cm_interest.png" alt="2018 CodeMash Content Interest Survey Results"></a>
+</figure>
 
 ## Analysis
 There was some movement in the categories this year... 

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'A Comparison of AWS and Azure'
 date: 2011-06-06 00:00
@@ -12,15 +11,9 @@ tags:
 redirect_from:
 - /blog/2011/6/6/a-comparison-of-aws-and-azure.html
 ---
-This past weekend at [CodeStock](http://codestock.org/), I gave a double-length session that was a
-side-by-side comparison of Amazon Web Services and Microsoft Windows Azure. The objective was to
-introduce the products, walk through the similarities and differences, and have a discussion around
-where the different offerings fit various needs better than the other (or not).
+This past weekend at [CodeStock](http://codestock.org/), I gave a double-length session that was a side-by-side comparison of Amazon Web Services and Microsoft Windows Azure. The objective was to introduce the products, walk through the similarities and differences, and have a discussion around where the different offerings fit various needs better than the other (or not).
 
-The sessions were fairly well attended and we had some good conversations. The slides from both
-sessions are provided below and, if you attended, I’d appreciate it if you’d also take a minute to
-rate the sessions (button below) and provide feedback as to how they might be improved for the next
-time.
+The sessions were fairly well attended and we had some good conversations. The slides from both sessions are provided below and, if you attended, I’d appreciate it if you’d also take a minute to rate the sessions (button below) and provide feedback as to how they might be improved for the next time.
 
 <div class="embed-container">
   <iframe src="//www.slideshare.net/slideshow/embed_code/8216629" frameborder="0" marginwidth="0" marginheight="0"
@@ -28,10 +21,7 @@ time.
   </iframe>
 </div>
 
-<div class="embed-container">
-    <iframe src="https://player.vimeo.com/video/24776502" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-    </iframe>
-</div>
+{% include video id="24776502" provider="vimeo" %}
 
 <div class="embed-container">
   <iframe src="//www.slideshare.net/slideshow/embed_code/8216697" frameborder="0" marginwidth="0" marginheight="0"
@@ -39,7 +29,4 @@ time.
   </iframe>
 </div>
 
-<div class="embed-container">
-    <iframe src="https://player.vimeo.com/video/24803457" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-    </iframe>
-</div>
+{% include video id="24803457" provider="vimeo" %}

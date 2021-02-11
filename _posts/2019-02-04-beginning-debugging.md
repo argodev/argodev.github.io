@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Beginning Debugging'
 date: 2019-02-04 17:47
@@ -46,7 +45,9 @@ int main() {
 
 When I first ran it (my Ubuntu-based test machine [18.04]), I received the following error message:
 
-<img alt='Stack Smashing Protection' src='/images/stack_start00.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/stack_start00.png"><img src="{{ site.url }}{{ site.baseurl }}/images/stack_start00.png" alt="Stack Smashing Protection"></a>
+</figure>
 
 While this is a good thing (better to bail than to allow a stack overflow) it wasn't quite as intersting as I was hoping. After some digging, I learned that modern versions of gcc have some protections built in to help prevent buffer overflows. In order for my test demo to work as I wanted it to, I needed to disable those protections when I built my application. The following is the command I used to build it (*notice the presence of `-fno-stack-protector`*):
 
@@ -93,28 +94,37 @@ int main() {
 
 I set breakpoints (`(gdb) break test.cpp:24`) at lines 24, 19, 20 and 26. I then ran the program (`(gdb) run`) and stopped just before we did anything with `subfunc()`. The stack at this point, is shown below:
 
-<img alt='Initial Stack' src='/images/stack_start01.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/stack_start01.png"><img src="{{ site.url }}{{ site.baseurl }}/images/stack_start01.png" alt="Initial Stack"></a>
+</figure>
 
 You can see the initial value of `run_calc` is highlighted and currently `0`.
 
 Next, I stepped into the `subfunc()` and stopped right after setting the (within-bounds) normal values of the array. You can see them highlighted in the image below:
 
-<img alt='Stack Array' src='/images/stack_start02.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/stack_start02.png"><img src="{{ site.url }}{{ site.baseurl }}/images/stack_start02.png" alt="Stack Array"></a>
+</figure>
 
 > Note: I should mention that I wasted a ton of time at this point because my view of the stack didn't work quite the way I expected. Up to this point, I've been using `x/24x $sp` to see the last 24 slots of the stack... however when I did this hear, I would never see the values of the array that I had overwritten. The displayed stack (when using the command just mentioned) started at `0x7fffffffdbe0` and really it should have started at `0x7fffffffdbd0`. In order to actually see the portion of the stack I wanted to, I had to run the following command: `x/24x 0x7fffffffdbd0`
 
 While the memory location of the array is obvious, an offset of `16` (from the original sample) is definitely not going to reach where we want it to. I counted the offsets and came up with a new offset value of `44`. I re-compiled and re-ran gdb. Now, when we run the application and stop just after the overflowed array set, you can see that the stack's version of `run_calc` is now set to `1`.
 
-<img alt='Overflowed Stack' src='/images/stack_start03.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/stack_start03.png"><img src="{{ site.url }}{{ site.baseurl }}/images/stack_start03.png" alt="Overflowed Stack"></a>
+</figure>
 
 At this point (with the modified overflow value of `44`), I get the calculator popped every time I run the application.
 
-<img alt='Calculator' src='/images/stack_start04.png' class='blogimage img-responsive'>
-
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/stack_start04.png"><img src="{{ site.url }}{{ site.baseurl }}/images/stack_start04.png" alt="Calculator"></a>
+</figure>
 
 Finally, I wanted to see if I could understand the stack smashing protection a bit better so I compiled the app again without the `fno-stack-protector` flag and, while it let me run through the `subfunc()`, it aborted when returning into the `main()` function. This led me to believe that some sort of state is stored prior to calling the subfunction and then validated upon return. The image below seems to support this fact as all of the memory slots in this image are the same as the above with the exception of the highlighted areas:
 
-<img alt='Stack Smashing Protection' src='/images/stack_start05.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images//stack_start05.png"><img src="{{ site.url }}{{ site.baseurl }}/images//stack_start05.png" alt="Stack Smashing Protection"></a>
+</figure>
 
 Checking the gcc main page, we learn the following:
 

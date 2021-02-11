@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Writing MPF Schemas is easier now using VS 2005'
 date: 2005-07-19 00:00
@@ -16,12 +15,16 @@ Yesterday I was faced with the need to write a schema for a named procedure I ha
 
 What I found was that VS.NET 2005 includes two features that make the editing of XML and the associated schemas much easier. The first is intellisense.  This is not a surprise, and I had heard that VS 2005 included better support for a wider range of XML namespaces, but I suppose I didn’t really think about it until it “just started working”.  The following is an example of in-line schema intellisense…
 
-<img alt='MPS' src='/images/schema01.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/schema01.png"><img src="{{ site.url }}{{ site.baseurl }}/images/schema01.png" alt="MPS"></a>
+</figure>
 
 The second feature, and probably cooler feature (from my perspective) is the ability for VS to validate the schema nodes I’m creating relative to the schema nodes I’ve already created.  For example, if I add an `<element />` node for a type for which I have not yet defined an `<ElementType/>`, I will get the appropriate squiggly lines indicating a problem.  The same is true for `<attribute/>` and `<AttributeType/>` tags. Also, if I have duplicate `<element/>` nodes it will complain.  Where this helps me, is that it is often easier (for me, in my limited view of this) to begin by creating the `<ElementType />` node for `type=executeData` and then populating all of the appropriate `<element/>` nodes.  Then, I can use the validation features of VS to let me know when I have finished implementing the required `<ElementType/>` nodes.  The following is a screen shot of this validation:
 
-<img alt='MPS' src='/images/schema02.png' class='blogimage img-responsive'>
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/schema02.png"><img src="{{ site.url }}{{ site.baseurl }}/images/schema02.png" alt="MPS"></a>
+</figure>
 
- These are great new features and I’m excited to see how this will speed my development moving forward
+These are great new features and I’m excited to see how this will speed my development moving forward
 
-(note: yes, I’m aware that XMLSpy does this now, but I’ve simply not been able to get myself into the habit of having two “heavier” apps running to support my coding… I end up using VS for all of it… and I’m also aware that XMLSpy has an add-in for VS… but it changes the XML fonts and styles and that bugs me… oh well…)
+>  yes, I’m aware that XMLSpy does this now, but I’ve simply not been able to get myself into the habit of having two “heavier” apps running to support my coding… I end up using VS for all of it… and I’m also aware that XMLSpy has an add-in for VS… but it changes the XML fonts and styles and that bugs me… oh well…

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Walkthrough: Heterogeneous Computing with OpenCL 2'
 date: 2017-12-19 17:47

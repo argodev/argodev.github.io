@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Today I did a thing...'
 date: 2020-09-24 10:15

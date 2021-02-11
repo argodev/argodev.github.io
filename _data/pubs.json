@@ -1,4 +1,115 @@
 {
-  "data": [
-  ]
+    "list": [
+        {
+            "slug": "9291625",
+            "title" : "An Integrated Platform for Collaborative Data Analytics",
+            "pt_authors": "S. Oesch, R. Gillen and T. Karnowski",
+            "pt_conf": "2020 International Conferences on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData) and IEEE Congress on Cybermatics (Cybermatics)",
+            "pt_loc": "Rhodes Island, Greece",
+            "pt_year": "2020", 
+            "pt_pages": "648-653",
+            "pt_doi": "10.1109/iThings-GreenCom-CPSCom-SmartData-Cybermatics50389.2020.00113"
+        },
+        {
+            "slug": "9217655",
+            "title" : "Assessing Anomaly-Based Intrusion Detection Configurations for Industrial Control Systems",
+            "pt_authors": "R. E. Gillen, J. M. Carter, C. Craig, J. A. Johnson and S. L. Scott",
+            "pt_conf": "2020 IEEE 21st International Symposium on 'A World of Wireless, Mobile and Multimedia Networks' (WoWMoM)",
+            "pt_loc": "Cork, Ireland",
+            "pt_year": "2020", 
+            "pt_pages": "360-366",
+            "pt_doi": "10.1109/WoWMoM49955.2020.00067"
+        },
+        {
+            "slug": "9217693",
+            "title" : "Design and Implementation of Full-Scale Industrial Control System Test Bed for Assessing Cyber-Security Defenses",
+            "pt_authors": "R. E. Gillen, L. A. Anderson, C. Craig, J. A. Johnson, A. Columbia, R. Anderson, A. Craig and S. L. Scott",
+            "pt_conf": "2020 IEEE 21st International Symposium on 'A World of Wireless, Mobile and Multimedia Networks' (WoWMoM)",
+            "pt_loc": "Cork, Ireland",
+            "pt_year": "2020", 
+            "pt_pages": "341-346",
+            "pt_doi": "10.1109/WoWMoM49955.2020.00064"
+        },
+        {
+            "slug": "9274691",
+            "title" : "Method for Assessment of Security-Relevant Settings in Anomaly-Based Intrusion Detection for Industrial Control Systems",
+            "pt_authors": "R. E. Gillen and S. L. Scott",
+            "pt_conf": "2020 IEEE Conference on Industrial Cyberphysical Systems (ICPS)",
+            "pt_loc": "Tampere, Finland",
+            "pt_year": "2020", 
+            "pt_pages": "156-161",
+            "pt_doi": "10.1109/ICPS48405.2020.9274691"
+        },
+        {
+            "slug": "45685",
+            "title" : "ShareAnalytics",
+            "pt_authors": "T. S. Oesch, R. E. Gillen, N. Q. Haas, and T. P. Karnowski",
+            "pt_conf": "US Department of Energy (USDOE)",
+            "pt_year": "2018", 
+            "pt_doi": "10.11578/dc.20201001.71"
+        },
+        {
+            "slug": "osti_1429980",
+            "title" : "MCR Container Tools",
+            "pt_authors": "N. Q. Haas, R. E. Gillen and T. P. Karnowski",
+            "pt_conf": "US Department of Energy (USDOE)",
+            "pt_year": "2018", 
+            "pt_doi": "10.11578/dc.20201001.61"
+        },
+        {
+            "slug": "US201361872047P",
+            "title" : "In-situ trainable intrusion detection system",
+            "pt_authors": "C. T. Symons, J. M. Beaver, R. E. Gillen and T. E. Potok",
+            "pt_conf": "US Patent and Trade Office",
+            "pt_year": "2016", 
+            "pt_url": "https://patents.google.com/patent/US9497204B2/en"
+        },
+        {
+            "slug": "US201161490235P",
+            "title" : "Cloud computing method for dynamically scaling a process across physical machine boundaries",
+            "pt_authors": "R. E. Gillen, R. M. Patton, T. E. Potok and C. C. Rojas",
+            "pt_conf": "US Patent and Trade Office",
+            "pt_year": "2014", 
+            "pt_url": "https://patents.google.com/patent/US8825710B2/en"
+        },
+        {
+            "slug": "6699034",
+            "title" : "Redeye Text Analysis Workbench: Actionable intelligence from non-actionable data",
+            "pt_authors": "A. McKenzie, R. Gillen and P. Logasa Bogen",
+            "pt_conf": "2013 IEEE International Conference on Technologies for Homeland Security (HST)",
+            "pt_loc": "Waltham, MA",
+            "pt_year": "2013", 
+            "pt_pages": "381-385",
+            "pt_doi": "10.1109/THS.2013.6699034"
+        },
+        {
+            "slug": "6691610",
+            "title" : "Massively scalable near duplicate detection in streams of documents using MDSH",
+            "pt_authors": "P. Logasa Bogen, C. T. Symons, A. McKenzie, R. M. Patton and R. E. Gillen",
+            "pt_conf": "2013 IEEE International Conference on Big Data",
+            "pt_loc": "Silicon Valley, CA",
+            "pt_year": "2013", 
+            "pt_pages": "480-486",
+            "pt_doi": "10.1109/BigData.2013.6691610"
+        },
+        {
+            "slug": "10.1145/2467696.2467716",
+            "title" : "Redeye: A Digital Library for Forensic Document Triage",
+            "pt_authors": "P. Logasa Bogen, A. McKenzie, and R. E. Gillen",
+            "pt_conf": "Proceedings of the 13th ACM/IEEE-CS Joint Conference on Digital Libraries",
+            "pt_loc": "New York, NY",
+            "pt_year": "2013", 
+            "pt_pages": "181–190",
+            "pt_doi": "10.1145/2467696.2467716"
+        },
+        {
+            "slug": "10.1145/2459976.2460003",
+            "title" : "A Learning System for Discriminating Variants of Malicious Network Traffic",
+            "pt_authors": "J. M. Beaver, C. T. Symons and R. E. Gillen",
+            "pt_conf": "Proceedings of the Eighth Annual Cyber Security and Information Intelligence Research Workshop",
+            "pt_loc": "Oak Ridge, TN",
+            "pt_year": "2013", 
+            "pt_doi": "10.1145/2459976.2460003"
+        }
+    ]
 }

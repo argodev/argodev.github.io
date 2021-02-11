@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'VisualStudio.Net.2005.Beta2(firstExperience) == Really.Good;'
 date: 2005-04-21 00:00

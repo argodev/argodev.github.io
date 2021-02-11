@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'DevLink: Wireless Network Security'
 date: 2012-08-31 00:00

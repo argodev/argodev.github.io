@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'CodeMash: Azure – Lessons from the Field'
 date: 2010-01-14 00:00
@@ -12,8 +11,7 @@ tags:
 redirect_from:
 - /blog/2010/1/14/codemash-azure-lessons-from-the-field.html
 ---
-I had the privilege of speaking at [CodeMash](http://codemash.org) today and had 
-a blast. The attendance was good, and the conversation both before and after the session was great.
+I had the privilege of speaking at [CodeMash](http://codemash.org) today and had a blast. The attendance was good, and the conversation both before and after the session was great.
 
 As promised, the following is the slide deck from today’s presentation:
 <div class="embed-container">
@@ -24,9 +22,7 @@ As promised, the following is the slide deck from today’s presentation:
 And here are some links that may be of interest:
 
 * Video of the surface app for visualizations:
-<div class="embed-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bkUmhDP-MBI" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include video id="bkUmhDP-MBI" provider="youtube" %}
 
 * Net CDF: [http://www.unidata.ucar.edu/software/netcdf/](http://www.unidata.ucar.edu/software/netcdf/)
 * Net CDF Wrapper for .NET: [http://netcdf.codeplex.com/](http://netcdf.codeplex.com/)
@@ -36,8 +32,8 @@ And here are some links that may be of interest:
 * JSON.NET: [http://json.codeplex.com/](http://json.codeplex.com/)
 * Heat maps in C#: [http://dylanvester.com/post/Creating-Heat-Maps-with-NET-20-%28C-Sharp%29.aspx](http://dylanvester.com/post/Creating-Heat-Maps-with-NET-20-%28C-Sharp%29.aspx)
 * Silverlight 3 and Data Paging
-  * With ATOM: [http://rob.gillenfamily.net/post/Silverlight-and-Azure-Table-Data-Paging.aspx](http://rob.gillenfamily.net/post/Silverlight-and-Azure-Table-Data-Paging.aspx)
-  * With JSON: [http://rob.gillenfamily.net/post/SilverLight-and-Paging-with-Azure-Data.aspx](http://rob.gillenfamily.net/post/SilverLight-and-Paging-with-Azure-Data.aspx)
+  * With ATOM: [{{ site.url }}{{ site.baseurl }}/technology/2009/08/05/silverlight-and-azure-table-data-paging/]({{ site.url }}{{ site.baseurl }}/technology/2009/08/05/silverlight-and-azure-table-data-paging/)
+  * With JSON: [{{ site.url }}{{ site.baseurl }}/technology/2009/08/20/silverlight-and-paging-with-azure-data/]({{ site.url }}{{ site.baseurl }}/technology/2009/08/20/silverlight-and-paging-with-azure-data/)
 * AtomPub, JSON, Azure, and Large Datasets
-  * Part 1: [http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets.aspx](http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets.aspx)
-  * Part 2: [http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets-Part-2.aspx](http://rob.gillenfamily.net/post/AtomPub-JSON-Azure-and-Large-Datasets-Part-2.aspx)
+  * Part 1: [{{ site.url }}{{ site.baseurl }}/technology/2009/08/14/atompub-json-azure-and-large-datasets/]({{ site.url }}{{ site.baseurl }}/technology/2009/08/14/atompub-json-azure-and-large-datasets/)
+  * Part 2: [{{ site.url }}{{ site.baseurl }}/technology/2009/08/20/atompub-json-azure-and-large-datasets-part-2/]({{ site.url }}{{ site.baseurl }}/technology/2009/08/20/atompub-json-azure-and-large-datasets-part-2/)

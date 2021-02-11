@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Cloud Futures 2010: Panel on Cloud Applications - New Experiences and Expectations'
 date: 2010-04-07 00:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Does the “Cloud” help the Public Sector?'
 date: 2008-10-29 00:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Welcome to the blog'
 date: 2004-01-28 00:00

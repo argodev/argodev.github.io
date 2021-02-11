@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'SQL Server 2005 Compact Edition - Kudos to the SQL Team'
 date: 2007-01-24 00:00
@@ -9,12 +8,9 @@ tags:
 redirect_from:
 - /blog/2007/1/24/sql-server-2005-compact-edition-kudos-to-the-sql-team.html
 ---
-If you track the Microsoft or ASP.NET weblogs you've surely noticed that roughly two weeks ago now Microsoft released SSCE or 
-[SQL Server 2005 Compact Edition](http://www.microsoft.com/sql/editions/compact/default.mspx). Rather than simply saying "they released it, go download it because it's cool" I want to openly thank the SQL team for providing a very interesting product. As luck would have it, I was working on a POC for a customer in the later part of December into early January, and they actually RTM'd the day prior to my final demo (thanks guys!) and allowed me to provide a rather interesting demo using an approach very different than I had planned. While I'm on the topic, I'd like to give a shout-out to 
-[Jim Wilson](http://pluralsight.com/blogs/jimw/archive/2006/06/18/28427.aspx) who helped me diagnose a rather esoteric problem I was having with the CTP.
+If you track the Microsoft or ASP.NET weblogs you've surely noticed that roughly two weeks ago now Microsoft released SSCE or [SQL Server 2005 Compact Edition](http://www.microsoft.com/sql/editions/compact/default.mspx). Rather than simply saying "they released it, go download it because it's cool" I want to openly thank the SQL team for providing a very interesting product. As luck would have it, I was working on a POC for a customer in the later part of December into early January, and they actually RTM'd the day prior to my final demo (thanks guys!) and allowed me to provide a rather interesting demo using an approach very different than I had planned. While I'm on the topic, I'd like to give a shout-out to [Jim Wilson](http://pluralsight.com/blogs/jimw/archive/2006/06/18/28427.aspx) who helped me diagnose a rather esoteric problem I was having with the CTP.
 
-The customer I was working for had a data-centric web-based application for which they wanted to provide a desktop version that could function in an "occasionally connected" fashion (ala smart client). Prior to my involvement, they had an existing mock-up that utilized .NET 1.1 and MSDE on the desktop and replicated with the central SQL 2000 database. They were having some seemingly insurmountable problems with performance and had asked 
-[my company](http://www.go-planet.com/) to provide an assessment and prove out some of the ideas we may have.
+The customer I was working for had a data-centric web-based application for which they wanted to provide a desktop version that could function in an "occasionally connected" fashion (ala smart client). Prior to my involvement, they had an existing mock-up that utilized .NET 1.1 and MSDE on the desktop and replicated with the central SQL 2000 database. They were having some seemingly insurmountable problems with performance and had asked [my company](http://www.go-planet.com/) to provide an assessment and prove out some of the ideas we may have.
 
 As I studied the existing code base and problem set, there were numerous issues to address but one that gave me pause was the model for local data storage and replication with the master database. My initial reaction was to attempt to dump the whole idea of local data storage and adopt more of a service oriented smart client (SOSC) utilizing methods such as MSMQ and asynchronous web services and simply use a light-weight caching mechanism for the data that that must reside on the client. However the further I dug into the application, I became convinced that a data-centric smart client was the right option and therefore I needed to decide on a data storage mechanism for the local client.
 

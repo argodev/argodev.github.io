@@ -1,15 +1,25 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
+# For GitHub Pages
+# To upgrade, run `bundle update github-pages`.
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'jemoji'
-gem 'jekyll-redirect-from'
-gem 'jekyll-paginate'
-gem 'jekyll-compose'
+  gem 'jekyll-maps'
+  gem 'jekyll-redirect-from'
 end
 
-gem 'font-awesome-sass'
-gem 'kramdown'
-gem 'rouge'
-gem 'jekyll-maps'
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+
+

@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'CodeStock 2012: You Think Your WiFi is Safe?'
 date: 2012-06-17 00:00
@@ -10,8 +9,7 @@ tags:
 redirect_from:
 - /blog/2012/6/18/codestock-2012-you-think-your-wifi-is-safe.html
 ---
-This past Friday I had the privilege of speaking on WiFi security at CodeStock 2012. I had a blast both preparing for
-the talk and delivering it and I hope it was beneficial to some of those who attended.
+This past Friday I had the privilege of speaking on WiFi security at CodeStock 2012. I had a blast both preparing for the talk and delivering it and I hope it was beneficial to some of those who attended.
 
 As promised (although a bit late), the following are the slides and video from the session:
 
@@ -19,7 +17,4 @@ As promised (although a bit late), the following are the slides and video from t
     <script async class="speakerdeck-embed" data-id="4fde14acb0559d01500043f1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-<div class="embed-container">
-    <iframe src="https://player.vimeo.com/video/44177323" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-    </iframe>
-</div>
+{% include video id="44177323" provider="vimeo" %}

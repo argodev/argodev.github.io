@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'First hack at globalization and localization'
 date: 2004-04-30 00:00
@@ -33,16 +32,17 @@ I figured I'd list pretty-much step-by-step what I did so that maybe the next pe
   arbitrarily.
 
 
-      Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
-
+```c#
+Application["RM"] = ResourceManager.CreateFileBasedResourceManager("global1app", Server.MapPath("./resources"), null);
+```
 
   - I modified the `Session_Start` method to determine the user's
   language preference and to store it
 
-
-      Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
-      Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
-
+```c#
+Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(this.Request.UserLanguages[0]);
+Thread.CurrentThread.CurrentUICulture = new CultureInfo(this.Request.UserLanguages[0]);
+```
 
 - The next task was to prepare the page for globalization/localization
 
@@ -77,25 +77,25 @@ I figured I'd list pretty-much step-by-step what I did so that maybe the next pe
 
 3. The next task was to actually prepare the resources for the various languages.
 
-  1. The first task was to create string-resource files that contained a list of keys and values for the text to display on the web site as well as the URLs to the various language-specific images. There are a couple of ways to create string resource files.  I struggled with this for quite some time, so let me explain...  
+   1. The first task was to create string-resource files that contained a list of keys and values for the text to display on the web site as well as the URLs to the various language-specific images. There are a couple of ways to create string resource files.  I struggled with this for quite some time, so let me explain...  
 
-    1. The first is to use a text editor such as notepad and create a list of name/value pairs one line at a time.  This was initially most attractive to me because I could simply take a text file and send it to my translator and it would not be very confusing to them at all.  The file would be in the following format making it very easy to work with:
+     1. The first is to use a text editor such as notepad and create a list of name/value pairs one line at a time.  This was initially most attractive to me because I could simply take a text file and send it to my translator and it would not be very confusing to them at all.  The file would be in the following format making it very easy to work with:
 
-    ```
-    ; this is a comment line and localization for Spanish
-    UI_label01 = hola
-    UI_label02 = hasta luego
-    ```
+     ```
+     ; this is a comment line and localization for Spanish
+     UI_label01 = hola
+     UI_label02 = hasta luego
+     ```
 
-    2. The second way is to create a new assembly resource file within VS.NET and set the name value pairs there.  This is nearly as easy for me (the developer) to interact with, but not quite as intuitive for the translators... especially if they do not have a good XML editor handy... and assuming they know what XML is.  I eventually chose this option due to the fact that (I must have been doing something wrong) I could never get the language-specific accent characters to display on the resultant web site using the simple text file.  I'm assuming that it had something to do with the character encoding of the original text file... maybe if I had opened notepad and created a Unicode file from the beginning things would have worked as they were supposed to.
+     2. The second way is to create a new assembly resource file within VS.NET and set the name value pairs there.  This is nearly as easy for me (the developer) to interact with, but not quite as intuitive for the translators... especially if they do not have a good XML editor handy... and assuming they know what XML is.  I eventually chose this option due to the fact that (I must have been doing something wrong) I could never get the language-specific accent characters to display on the resultant web site using the simple text file.  I'm assuming that it had something to do with the character encoding of the original text file... maybe if I had opened notepad and created a Unicode file from the beginning things would have worked as they were supposed to.
 
-    3.In any case, I created a resource file for each language and named it in a consistent format (this is important).  Since my app was called `global1app`, I used the names `global1app.en.resx`, `global1app.pt.resx` and `global1app.de.resx`.
+     3.In any case, I created a resource file for each language and named it in a consistent format (this is important).  Since my app was called `global1app`, I used the names `global1app.en.resx`, `global1app.pt.resx` and `global1app.de.resx`.
 
-  2. I then used the resgen.exe tool (from the .NET framework SDK) and “compiled“ each of these files into .resources files (i.e. global1app.en.resources, etc.)
+   2. I then used the resgen.exe tool (from the .NET framework SDK) and “compiled“ each of these files into .resources files (i.e. global1app.en.resources, etc.)
 
-  3. Next I created a folder in the web root called “resources“ and copied my newly-created resources files to that location.
+   3. Next I created a folder in the web root called “resources“ and copied my newly-created resources files to that location.
 
-  4. Finally, I created unique images for each language (actually, someone else created them for me) and named them in the format of <image>.<culture>.gif.  So, an image that had been logo.gif now had additional copies called logo.en.gif, logo.pt.gif, and logo.de.gif.  These names are not crucial (the URLs are in the .resources file so it really could have been anything) but I chose this naming convention to keep things consistent.
+   4. Finally, I created unique images for each language (actually, someone else created them for me) and named them in the format of <image>.<culture>.gif.  So, an image that had been logo.gif now had additional copies called logo.en.gif, logo.pt.gif, and logo.de.gif.  These names are not crucial (the URLs are in the .resources file so it really could have been anything) but I chose this naming convention to keep things consistent.
 
 4. The last step is to test the asp.net page to see if everything works as it should.  There are a number of different ways that you can accomplish this - the following steps are the easiest that I found and assume you are using IE 6.
 
@@ -115,7 +115,6 @@ I figured I'd list pretty-much step-by-step what I did so that maybe the next pe
 
   8. click ok and then ok which should put you at the browser window.
 Visit the web page above (or refresh the page if you are already there) and everything should change languages.
-
 
 Finally... if everything worked properly, you should see the site in different languages based on the order of the languages you chose in IE.
 

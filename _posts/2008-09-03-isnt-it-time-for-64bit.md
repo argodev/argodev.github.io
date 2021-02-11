@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Isn’t it Time for 64Bit?'
 date: 2008-09-03 00:00

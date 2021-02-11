@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: '.NET is a Smorgasbord?'
 date: 2008-11-26 00:00

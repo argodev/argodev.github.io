@@ -2,6 +2,14 @@
     "list": [
         {
             "slug": "9291625",
+            "title" : "Method for Assessing Security Impact of Settings in Anomaly-Based Intrusion Detection for Industrial Control Systems",
+            "pt_authors": "R. E. Gillen",
+            "pt_conf": "ProQuest Dissertations and Theses, Tennessee Technological University",
+            "pt_year": "2020", 
+            "pt_url": "https://www.proquest.com/dissertations-theses/method-assessing-security-impact-settings-anomaly/docview/2487732598/se-2?accountid=26379"
+        },
+        {
+            "slug": "9291625",
             "title" : "An Integrated Platform for Collaborative Data Analytics",
             "pt_authors": "S. Oesch, R. Gillen and T. Karnowski",
             "pt_conf": "2020 International Conferences on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData) and IEEE Congress on Cybermatics (Cybermatics)",

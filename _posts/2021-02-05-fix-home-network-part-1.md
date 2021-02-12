@@ -13,7 +13,7 @@ I have a tendency to over-think things. I like to imagine that it is a personali
 The posts in this series are as follows:
 
 * [Part 1: Introduction and background (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/)
-* Part 2: Establishing an RF baseline
+* [Part 2: Establishing an RF baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
 * Part 3: Internal Network Baseline
 * Part 4: External Network Baseline
 * Part 5: Selecting the New Eqiuipment

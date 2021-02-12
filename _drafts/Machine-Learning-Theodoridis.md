@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Machine Learning - Sergios Theodoridis'
 date: 2016-08-15 17:47

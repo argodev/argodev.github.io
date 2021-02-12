@@ -1,5 +1,4 @@
 ---
-layout: post
 category: technology
 title: 'Fixing My Home Network: Part 3'
 date: 2021-02-19 08:00

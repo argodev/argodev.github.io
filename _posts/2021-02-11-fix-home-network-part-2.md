@@ -14,7 +14,7 @@ The posts in this series are as follows:
 
 * [Part 1: Introduction and background]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/)
 * [Part 2: Establishing an RF baseline (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
-* Part 3: Internal Network Baseline
+* [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
 * Part 4: External Network Baseline
 * Part 5: Selecting the New Eqiuipment
 * Part 6: Deploying the New Equipment
@@ -81,4 +81,4 @@ When you run NetSpot, it generates a number of reports (beyond what is shown her
 
 ## Next Steps
 
-In my next post, I return to my home network and detail how I characterized the performance of the internal network and tried to understand the quality of service in the different areas of my house.
+In [my next post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/), I return to my home network and detail how I characterized the performance of the internal network and tried to understand the quality of service in the different areas of my house.

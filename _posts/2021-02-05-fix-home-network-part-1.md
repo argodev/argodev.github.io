@@ -14,7 +14,7 @@ The posts in this series are as follows:
 
 * [Part 1: Introduction and background (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/)
 * [Part 2: Establishing an RF baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
-* Part 3: Internal Network Baseline
+* [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
 * Part 4: External Network Baseline
 * Part 5: Selecting the New Eqiuipment
 * Part 6: Deploying the New Equipment
@@ -78,4 +78,4 @@ One last thing before we get rolling... I should be up-front about another drivi
 
 ## Next Steps
 
-In the next post, I analyze the RF network coverage to attempt to understand some of the issues and to confirm that what I experienced (or thought I was) could be confirmed by emperical measurements.
+[In the next post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/), I analyze the RF network coverage to attempt to understand some of the issues and to confirm that what I experienced (or thought I was) could be confirmed by emperical measurements.

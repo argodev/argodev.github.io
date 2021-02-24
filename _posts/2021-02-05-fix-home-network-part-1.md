@@ -6,6 +6,7 @@ tags:
 - networking
 - wifi
 description: "I have a tendency to over-think things. I like to imagine that it is a personality feature rather than a blight, but some close to me may not always agree. Regardless, I have recently turned my focus towards fixing my home network and, in typical fashion, I have spent what is quite likely far too much time and exerted far more effort than the problem warranted. That said, I have arrived at, what I hope, will be a quite stable and well-performing network for quite some time to come. In this series of posts, I detail the starting point, the analysis I applied, the changes I have made, and the final results"
+toc: True
 ---
 
 I have a tendency to over-think things. I like to imagine that it is a personality feature rather than a blight, but some close to me may not always agree. Regardless, I have recently turned my focus towards fixing my home network and, in typical fashion, I have spent what is quite likely far too much time and exerted far more effort than the problem warranted. That said, I have arrived at, what I hope, will be a quite stable and well-performing network for quite some time to come. In this series of posts, I detail the starting point, the analysis I applied, the changes I have made, and the final results. As with most things, your mileage may vary, but maybe you will find the following helpful, or at least mildly entertaining.

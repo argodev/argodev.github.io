@@ -7,7 +7,9 @@ tags:
 - wifi
 - netspot
 description: "In my last post, I provided some background for this series and introduced the environment. In this post I describe how I measured the effectiveness (or not) of my current WiFi system and collected data to inform my upgrade/changes."
+toc: True
 ---
+
 In [my last post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/), I provided some background for this series and introduced the environment. In this post I describe how I measured the effectiveness (or not) of my current WiFi system and collected data to inform my upgrade/changes.
 
 The posts in this series are as follows:

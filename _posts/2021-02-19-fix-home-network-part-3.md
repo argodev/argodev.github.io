@@ -8,6 +8,7 @@ tags:
 - iperf
 - iperf3
 description: "This is the third in a series of ten posts I'm writing regarding on the topic of fixing up my home network. In the first post I introduced the project and provided some of the motivations and constraints. In the second, I described the tooling I used to evaluate my 'pre-upgrade' signal coverage which is one of three 'before' steps I performed to accurately understand the pre-condition of my environment. This is the second of the evaluation steps in which we measure the internal network performance."
+toc: True
 ---
 
 This is the third in a series of ten posts I'm writing regarding on the topic of fixing up my home network. In the [first post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/) I introduced the project and provided some of the motivations and constraints. In [the second]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/), I described the tooling I used to evaluate my "pre-upgrade" signal coverage which is one of three "before" steps I performed to accurately understand the pre-condition of my environment. This is the second of the evaluation steps in which we measure the _internal_ network performance.
@@ -118,7 +119,7 @@ Figure 4 is the wireless complement to figure 2 and the data is not altogether s
   <figcaption>Figure 5: Internal Network Transfer Speeds by SSID [click to enlarge]</figcaption>
 </figure> 
 
-Figure 5 is the same data is Figure 4, but this time broken out by the individual wireless networks (SSID). Somewhat inexplicably, we see the `main_2G` shows similar transfer rates as the `main_5G`. This *was* a **Wifi 6** router, so maybe that had something to do with it. We see a good bit of similarity between the first three quadrants with the fourth, `kids_2G` dropping off dramatically, which is to be expected for a router with technology that is over 5 years old.
+Figure 5 is the same data is Figure 4, but this time broken out by the individual wireless networks (SSID). Somewhat inexplicably, we see the `main_2G` shows similar transfer rates as the `main_5G`. This *was* a **Wifi 6** router (with AC support), so maybe that had something to do with it. We see a good bit of similarity between the first three quadrants with the fourth, `kids_2G` dropping off dramatically, which is to be expected for a router with technology that is over 5 years old.
 
 <figure class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/images/hn1_internal_wireless_rexmit.png"><img src="{{ site.url }}{{ site.baseurl }}/images/hn1_internal_wireless_rexmit.png" alt="wired retransmissions"></a>

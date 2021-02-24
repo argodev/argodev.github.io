@@ -1,7 +1,6 @@
 ---
 category: technology
 title: 'Fixing My Home Network: Part 9'
-date:
 tags:
 - networking
 - wifi

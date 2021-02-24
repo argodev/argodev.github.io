@@ -11,6 +11,8 @@ main:
     url: /cv/
   - title: "Publications"
     url: /publications/
+  - title: "Vulnerability Science"
+    url: /vsstudy/
   - title: "Talks"
     url: /presentations/
   - title: "Reading List"
@@ -22,13 +24,15 @@ vsstudy:
     children:
       - title: "Assembly Language"
         url: /vsstudy/assembly/
-      - title: "C/C++"
-        url: /vsstudy/ccpp/
-      - title: Reverse Engineering
-        url: /vsstudy/reverse/
-      - title: Fuzzing
-        url: /vsstudy/fuzzing/
-      - title: Memory Allocation
-        url: /vsstudy/memory/
-      - title: Post-Exploitation
-        url: /vsstudy/exploit/
+  - title: "Future Topics"
+    children:
+    - title: "C/C++"
+      url: /vsstudy/ccpp/
+    - title: Reverse Engineering
+      url: /vsstudy/reverse/
+    - title: Fuzzing
+      url: /vsstudy/fuzzing/
+    - title: Memory Allocation
+      url: /vsstudy/memory/
+    - title: Post-Exploitation
+      url: /vsstudy/exploit/

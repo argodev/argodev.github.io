@@ -7,7 +7,7 @@ title                    : "Rob Gillen"
 title_separator          : "-"
 subtitle                 : random wanderings through technology, code, and life # site tagline that appears below site title in masthead
 name                     : "Rob Gillen"
-description              : "An amazing website."
+description              : "The personal home page of Rob Gillen. Here you will find a number of articles, posts, code snippets, and more that I find interesting in some form or fashion."
 url                      : https://robgillen.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : argodev/argodev.github.io
@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : &name "Rob Gillen"
-  avatar           : /images/621404.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/621404.jpg
   bio              : "Christian, husband, father; adoption, foster care and orphan advocate. Researcher at [ORNL](https://ornl.gov). Security hobbyist. Part of [CodeMash](https://codemash.org) team. Occasional cyclist."
   location         : "Knoxville, TN"
   email            :
@@ -112,8 +112,6 @@ author:
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=aWpgGlcAAAAJ&hl=en"
 
-
-      
 
 # Site Footer
 footer:

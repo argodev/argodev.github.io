@@ -3,6 +3,7 @@ category: technology
 title: 'Fixing My Home Network: Part 3'
 date: 2021-02-18 12:15
 tags:
+- homenetwork
 - networking
 - wifi
 - iperf
@@ -11,14 +12,14 @@ description: "This is the third in a series of ten posts I'm writing regarding o
 toc: True
 ---
 
-This is the third in a series of ten posts I'm writing regarding on the topic of fixing up my home network. In the [first post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/) I introduced the project and provided some of the motivations and constraints. In [the second]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/), I described the tooling I used to evaluate my "pre-upgrade" signal coverage which is one of three "before" steps I performed to accurately understand the pre-condition of my environment. This is the second of the evaluation steps in which we measure the _internal_ network performance.
+This is the third in a [series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) of ten posts I'm writing regarding on the topic of fixing up my home network. In the [first post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/) I introduced the project and provided some of the motivations and constraints. In [the second]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/), I described the tooling I used to evaluate my "pre-upgrade" signal coverage which is one of three "before" steps I performed to accurately understand the pre-condition of my environment. This is the second of the evaluation steps in which we measure the _internal_ network performance.
 
-The posts in this series are as follows:
+The [posts in this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) are as follows:
 
 * [Part 1: Introduction and background]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/)
 * [Part 2: Establishing an RF baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
 * [Part 3: Internal Network Baseline (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
-* Part 4: External Network Baseline
+* [Part 4: External Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/)
 * Part 5: Selecting the New Eqiuipment
 * Part 6: Deploying the New Equipment
 * Part 7: Resulting RF Baseline
@@ -147,4 +148,4 @@ Figure 8 is the combination/flattening of Figures 2 and 4. Its no surprise that 
 
 ## Next Steps
 
-OK... that was alot, and we should probably wrap it up here. In my next post, we apply a similar methodolgy to measuring the performance of our local network to remote, Internet-based services. At that point, we will have a reasonably complete characterization of the "before" picture. Then we finally get to start making some changes.
+OK... that was alot, and we should probably wrap it up here. [In my next post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/), we apply a similar methodolgy to measuring the performance of our local network to remote, Internet-based services. At that point, we will have a reasonably complete characterization of the "before" picture. Then we finally get to start making some changes.

@@ -1,12 +1,12 @@
 ---
 category: technology
 title: 'Fixing My Home Network: Part 7'
-date: 2021-03-19 08:00
+date:
 tags:
 - networking
 - wifi
 - netspot
-description: "Part 7 Notes"
+excerpt: "Part 7 Notes"
 ---
 
 Part 7: Coming Soon...

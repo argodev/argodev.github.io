@@ -3,6 +3,7 @@ category: technology
 title: 'Fixing My Home Network: Part 2'
 date: 2021-02-11 07:00
 tags:
+- homenetwork
 - networking
 - wifi
 - netspot
@@ -10,14 +11,14 @@ description: "In my last post, I provided some background for this series and in
 toc: True
 ---
 
-In [my last post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/), I provided some background for this series and introduced the environment. In this post I describe how I measured the effectiveness (or not) of my current WiFi system and collected data to inform my upgrade/changes.
+In [my last post]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/), I provided some background for [this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) and introduced the environment. In this post I describe how I measured the effectiveness (or not) of my current WiFi system and collected data to inform my upgrade/changes.
 
-The posts in this series are as follows:
+The [posts in this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) are as follows:
 
 * [Part 1: Introduction and background]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/)
 * [Part 2: Establishing an RF baseline (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
 * [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
-* Part 4: External Network Baseline
+* [Part 4: External Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/)
 * Part 5: Selecting the New Eqiuipment
 * Part 6: Deploying the New Equipment
 * Part 7: Resulting RF Baseline

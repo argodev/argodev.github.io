@@ -3,20 +3,21 @@ category: technology
 title: 'Fixing My Home Network: Part 1'
 date: 2021-02-05 08:00
 tags:
+- homenetwork
 - networking
 - wifi
 description: "I have a tendency to over-think things. I like to imagine that it is a personality feature rather than a blight, but some close to me may not always agree. Regardless, I have recently turned my focus towards fixing my home network and, in typical fashion, I have spent what is quite likely far too much time and exerted far more effort than the problem warranted. That said, I have arrived at, what I hope, will be a quite stable and well-performing network for quite some time to come. In this series of posts, I detail the starting point, the analysis I applied, the changes I have made, and the final results"
 toc: True
 ---
 
-I have a tendency to over-think things. I like to imagine that it is a personality feature rather than a blight, but some close to me may not always agree. Regardless, I have recently turned my focus towards fixing my home network and, in typical fashion, I have spent what is quite likely far too much time and exerted far more effort than the problem warranted. That said, I have arrived at, what I hope, will be a quite stable and well-performing network for quite some time to come. In this series of posts, I detail the starting point, the analysis I applied, the changes I have made, and the final results. As with most things, your mileage may vary, but maybe you will find the following helpful, or at least mildly entertaining.
+I have a tendency to over-think things. I like to imagine that it is a personality _feature_ rather than a blight, but some close to me may not always agree. Regardless, I have recently turned my focus towards fixing my home network and, in typical fashion, I have spent what is quite likely far too much time and exerted far more effort than the problem warranted. That said, I have arrived at, what I hope, will be a quite stable and well-performing network for quite some time to come. In [this series of posts]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/), I detail the starting point, the analysis I applied, the changes I have made, and the final results. As with most things, your mileage may vary, but maybe you will find the following helpful, or at least mildly entertaining.
 
-The posts in this series are as follows:
+The [posts in this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) are as follows:
 
 * [Part 1: Introduction and background (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/05/fix-home-network-part-1/)
 * [Part 2: Establishing an RF baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
 * [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
-* Part 4: External Network Baseline
+* [Part 4: External Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/)
 * Part 5: Selecting the New Eqiuipment
 * Part 6: Deploying the New Equipment
 * Part 7: Resulting RF Baseline

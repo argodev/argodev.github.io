@@ -10,8 +10,6 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.6)
   image_description: "Sample Assembly Language Script"
 ---
-
-
 ## Introduction
 
 It seems that nearly all of the tools used in Vulnerability Science generate (or expose) assembly language at some point. You see it in stack traces, you see it in `gdb` outputs, you see it in `Ghidra` outputs, you see it all over the place. If you want to be craftsman in vulnerability science, you need to get comfortable with assembly. Unfortunately, most of my knowledge in this area dates back to my EE classes in college.

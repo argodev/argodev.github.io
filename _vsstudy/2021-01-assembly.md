@@ -56,6 +56,10 @@ What follows on this page is not a lesson in assembly, nor a series of specifica
 
 ## Miscellany
 
+### A Different List
+
+It looks like [Adam Wood](https://www.whoishostingthis.com/authors/adam-michael-wood/) had the same idea I did, and [assembled his own list of resources](https://www.whoishostingthis.com/resources/assembly-language/) for learning assembly language. He last updated only a year ago, so it is still pretty relevant. 
+
 ### NASM Assembly Language Tutorial
 
 There's a nice [series of lessons and walk-throughs](https://asmtutor.com/) created by [Daniel Givney](https://danielgivney.com/). You can access them at [https://asmtutor.com/](https://asmtutor.com/)

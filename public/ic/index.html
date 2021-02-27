@@ -23,6 +23,57 @@
 </head>
 
 <body class="layout--collection wide">
+    <nav class="skip-links">
+        <h2 class="screen-reader-text">Skip links</h2>
+        <ul>
+          <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+          <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+          <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+        </ul>
+    </nav>
+    <div class="masthead">
+        <div class="masthead__inner-wrap">
+          <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav">
+              <a class="site-title" href="/">
+                Rob Gillen
+                <span class="site-subtitle">random wanderings through technology, code, and life</span>
+              </a>
+              <ul class="visible-links"><li class="masthead__menu-item">
+                    <a href="/about/">About</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/categories/technology/">Technology</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/categories/personal/">Personal</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/year-archive/">Archive</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/cv/">CV</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/publications/">Publications</a>
+                  </li></ul>
+              <button class="search__toggle" type="button">
+                <span class="visually-hidden">Toggle search</span>
+                <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+                  <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+                </svg>
+              </button>
+              
+              <button class="greedy-nav__toggle" type="button" count="3" style="">
+                <span class="visually-hidden">Toggle menu</span>
+                <div class="navicon"></div>
+              </button>
+              <ul class="hidden-links hidden"><li class="masthead__menu-item">
+                    <a href="/vsstudy/">Vulnerability Science</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/presentations/">Talks</a>
+                  </li><li class="masthead__menu-item">
+                    <a href="/readinglist/">Reading List</a>
+                  </li></ul>
+            </nav>
+          </div>
+        </div>
+      </div>    
     <div class="initial-content">
         <div id="main" role="main">
             <div class="archive">
@@ -37,88 +88,104 @@
                                 locations marked in red with 2.5, 5, and 10 mile radius markings in green.</p>
                           </article>
                     </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="regulars_heatmap.html" target="_blank">Regular Attenders (Heat Map)<i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Combined view of members and regular attenders in a heatmap. Zooming in/out conveys relative "hot spots".</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href=""regularsbyzip.html" target="_blank">Regular Attenders By ZipCode <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Combined view of members and regular attenders grouped by zip code. Scale is indicated in upper 
+                            right of map. Hovering over each zipcode provides zipcode-specific details.</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="ic_people_westpark.html" target="_blank">IC, West Park, Regulars <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Immanuel Church locations with 5 mile radius marked in green. West Park location 
+                            marked with 5 mile radius marked in orange. Regular attenders with no prior affiliation
+                            with WestPark are indicated with green. Regular attenders with recent West Park 
+                            affiliation are marked in orange. Those with long-past affiliation with West
+                            Park are marked in light green. The menu on the upper right allows layers to
+                            be enabled/disabled.</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="groupcoverage.html" target="_blank">Community Group Area Coverage <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Shows geographic coverage for each of the community groups based on participants. Menu on upper 
+                            right allows you to turn on/off individual groups.</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="traveltime.html" target="_blank">Travel Time to Church <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Assuming an arrival time of 10:15 AM on a Sunday Morning, show the area covered by various
+                            travel times (e.g. 10 minutes, 15 minutes, etc.)</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="traveltimevv.html" target="_blank">Travel Time to Valley Vista location <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Assuming an arrival time of 10:15 AM on a Sunday Morning, show the area covered by various
+                            travel times (e.g. 10 minutes, 15 minutes, etc.)</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="traveltime_combined.html" target="_blank">Travel Time to HVA vs Valley Vista <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Assuming an arrival time of 10:15 AM on a Sunday Morning, show the area covered by various
+                            travel times (e.g. 10 minutes, 15 minutes, etc.)</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="otherchurches.html" target="_blank">Other Churches <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Immanuel Church locations (red) with 2.5, 5, and 10 mile radius marked in green. Other churches
+                            of interest in the area with individual 5-mile radii marked in orange. Zooming in/out give 
+                            detail/separation.</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="combined_clusters.html" target="_blank">Regular Attenders (Clustered) <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Combined view of members (dark blue) and regular attenders (light blue). Pins are automatically 
+                            clustered by geographic proximity. Zooming in/out gives insight into relative distances. 
+                            <strong>NOTE:</strong> hovering over larger-clusters (> 2 pins) will provide an outline of the 
+                            area covered by that cluster.</p>
+                        </article>
+                    </div>
+                    <div class="list__item">
+                      <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+                          <h2 class="archive__item-title no_toc" itemprop="headline">
+                              <a href="groups.html" target="_blank">Community Group Meeting Locations <i class="fa fa-external-link"></i></a>
+                          </h2>
+                          <p class="archive__item-excerpt" itemprop="description">Meeting locations for Community Groups. If Virtual, use leader's residence as location.</p>
+                        </article>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="container content">
-            <div class="posts">
-                <hr>
-                <div class="post">
-                    <h3 class="post-title"><a href="combined.html" target="_blank">Regular Attenders <i class="fa fa-external-link"></i></a></h3>
-                    Combined view of members (dark blue) and regular attenders (light blue). Immanuel Church 
-                    locations marked in red with 2.5, 5, and 10 mile radius markings in green.
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="regulars_heatmap.html" target="_blank">Regular Attenders (Heat Map) <i class="fa fa-external-link"></i></a></h3>
-                    Combined view of members and regular attenders in a heatmap. Zooming in/out conveys relative 
-                    "hot spots".
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="regularsbyzip.html" target="_blank">Regular Attenders By ZipCode <i class="fa fa-external-link"></i></a></h3>
-                    Combined view of members and regular attenders grouped by zip code. Scale is indicated in upper 
-                    right of map. Hovering over each zipcode provides zipcode-specific details.
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="ic_people_westpark.html" target="_blank">IC, West Park, Regulars <i class="fa fa-external-link"></i></a></h3>
-                    Immanuel Church locations with 5 mile radius marked in green. West Park location 
-                    marked with 5 mile radius marked in orange. Regular attenders with no prior affiliation
-                    with WestPark are indicated with green. Regular attenders with recent West Park 
-                    affiliation are marked in orange. Those with long-past affiliation with West
-                    Park are marked in light green. The menu on the upper right allows layers to
-                    be enabled/disabled.
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="groupcoverage.html" target="_blank">Community Group Area Coverage <i class="fa fa-external-link"></i></a></h3>
-                    Shows geographic coverage for each of the community groups based on participants. Menu on upper 
-                    right allows you to turn on/off individual groups.
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="traveltime.html" target="_blank">Travel Time to Church <i class="fa fa-external-link"></i></a></h3>
-                    Assuming an arrival time of 10:15 AM on a Sunday Morning, show the area covered by various
-                    travel times (e.g. 10 minutes, 15 minutes, etc.)
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="traveltimevv.html" target="_blank">Travel Time to Valley Vista location <i class="fa fa-external-link"></i></a></h3>
-                    Assuming an arrival time of 10:15 AM on a Sunday Morning, show the area covered by various
-                    travel times (e.g. 10 minutes, 15 minutes, etc.)
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="traveltime_combined.html" target="_blank">Travel Time to HVA vs Valley Vista <i class="fa fa-external-link"></i></a></h3>
-                    Assuming an arrival time of 10:15 AM on a Sunday Morning, show the area covered by various
-                    travel times (e.g. 10 minutes, 15 minutes, etc.)
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="otherchurches.html" target="_blank">Other Churches <i class="fa fa-external-link"></i></a></h3>
-                    Immanuel Church locations (red) with 2.5, 5, and 10 mile radius marked in green. Other churches
-                    of interest in the area with individual 5-mile radii marked in orange. Zooming in/out give 
-                    detail/separation.
-                </div>
-                <hr>
-                <div class="post">
-                    <h3 class="post-title"><a href="combined_clusters.html" target="_blank">Regular Attenders (Clustered) <i class="fa fa-external-link"></i></a></h3>
-                    Combined view of members (dark blue) and regular attenders (light blue). Pins are automatically 
-                    clustered by geographic proximity. Zooming in/out gives insight into relative distances. 
-                    <strong>NOTE:</strong> hovering over larger-clusters (> 2 pins) will provide an outline of the 
-                    area covered by that cluster.
-                </div>
-                <hr class="transp">
-                <div class="post">
-                    <h3 class="post-title"><a href="groups.html" target="_blank">Community Group Meeting Locations <i class="fa fa-external-link"></i></a></h3>
-                    Meeting locations for Community Groups. If Virtual, use leader's residence as location.
-                </div>
-            </div>
-            <hr class="transp">
-          
-            <i class="fa fa-warning"></i> All maps support zoom in/out (try mouse wheel). Clicking on pins should show name/title of that location.
-            <hr class="transp">          
         </div>
     </div>
 

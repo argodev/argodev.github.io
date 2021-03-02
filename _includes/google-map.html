@@ -1,0 +1,143 @@
+<div id="map" style="height: 400px"></div>
+
+<script>
+    window.mapData = {"latitude": {{ page.map_config.latitude }},
+                      "longitude": {{ page.map_config.longitude }}, 
+                      "zoom": {{ page.map_config.zoom }}, "stops": [] };
+
+    {% for stop in page.map_config.stops %}
+        window.mapData.stops.push({
+            "title": "{{ stop.title }}",
+            "latitude": {{ stop.latitude }},
+            "longitude": {{ stop.longitude }}
+        });
+    {% endfor %}
+
+  function initMap() {
+
+        const map = new google.maps.Map(document.getElementById('map'), {
+            zoom: window.mapData.zoom,
+            center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude), 
+            fullscreenControl: true,
+            styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "all",
+                    "stylers": [{"saturation": "-100"}]
+                },
+                {
+                    "featureType": "administrative.province",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "on"}]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": "50"}, {"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [{"saturation": "-100"}]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "all",
+                    "stylers": [{"lightness": "30"}]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "all",
+                    "stylers": [{"lightness": "40"}]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels",
+                    "stylers": [{"lightness": -25 },{"saturation": -100}]
+                }
+            ]
+        });
+
+        var stops = window.mapData.stops;
+
+        for (var i = 0; i < stops.length; i++) {
+          const latLng = {lat: stops[i].latitude, lng: stops[i].longitude };
+          new google.maps.Marker({
+            position: latLng,
+            map,
+            title: stops[i].title
+          });
+        }
+
+        {% if page.map_config.encoded_route %}
+        var encoded_route = atob("{{ page.map_config.encoded_route }}");
+
+        //var encoded_route = "arhzD|k{xO`Rs@vo@\\jp@Gno@{Efo@eSbn@}Shs@gE~o@zHzdArcBvf@bf@th@nc@jl@`]hm@b[he@nh@tZzt@h\\`s@ja@do@xa@ln@|a@rn@ja@fo@n`@~o@t[vs@nYdu@tYfu@rYdu@x\\`s@p]lr@l\\js@d[|s@dWvv@jVhw@bRdy@zKt{@~Jx{@~Jx{@jKt{@|Pvy@`Vjw@bVdw@nVhw@hVzv@jTtq@lVbw@nVfw@bQly@xFr|@tFx|@fDx|@|Ad}@zAh}@nC~|@vShx@|Vvv@fWtv@fVbw@zHd|@|Fv|@p@~|@Lp}@Jf{@Nly@Jh}@Nb}@Pt}@T~|@nDd}@fEd{@i@~r@ag@|L}Yba@q\\r`@ad@bZ_\\xb@iXxh@y]ja@e^j]i]x\\ma@|`@lRx\\xc@lS~e@zR|g@`Gzi@wAzd@cA|k@cCbc@pCmFxc@lVzg@~Yt`@dXbb@lLnj@tLde@pL~c@xOpl@xNdi@`Ulh@yGfu@cGvq@mEzi@Jfx@`@fq@`@t|@hQle@lc@z`@vc@n`@he@nb@lPrf@w@lz@iC|aA_@rw@wDzu@|Be`@ai@hCgn@uCun@U_l@lAwm@fAgm@Hol@Lmi@vBoHfHdOhp@lNpn@|Dhx@yFrz@sTxw@y\\`t@qUjw@i@r}@fAv}@zW~u@z^tq@vK|{@dHh}@`K|{@lJl|@fHx|@dHx|@fH||@lHz|@rN|z@`O~z@rMzu@bNnz@|Ml{@nHp|@Lz}@bKb|@jLx{@hLx{@`Df}@Nr}@xCl}@rTlx@vTnx@nTvx@lMd{@t@r}@Dx}@gAt}@q@l}@tGz|@~G~|@tMb{@|\\hs@d\\zs@|Q~y@fQry@~Pbz@lQ~y@dQ`z@dQfz@fQ`z@nQzy@jQhz@nP`z@bPxu@bQjz@bQ`z@vPjz@bNf{@hNb{@`Nf{@xMl{@bNf{@bNf{@~Mj{@gBv|@}Bx|@jPnz@bQdz@fQdz@nPrx@~Opv@hJzp@tPcCzO}@NnOsAm`@a]|`@zPpj@jPhw@hQdx@xPnz@fLpx@fLj{@jL`{@fJjy@Fh|@iAj|@eA|z@uA~y@mK|y@eOry@}Ipz@lb@`f@lq@tQdq@zQbq@tQvp@pQjq@xQ`q@tQbp@lQnm@`Z`f@je@de@ng@~e@hh@hi@~e@be@de@xe@`h@~d@bg@hf@ph@te@~g@jg@pi@xg@`j@bg@li@hc@tj@ve@|f@vh@~`@rh@l`@tj@~a@vh@fc@ff@bb@nh@|c@bh@tc@bh@rc@hh@xc@nh@~c@dNfh@f\\s_@lb@xQ|`@v\\jj@nRjk@eAj]|l@eh@~Cqk@{AUd\\|Xbe@pTda@vVfd@|Xzg@vWjf@jRbi@hSbq@bPbi@vJbn@rGvp@x]fWvi@eCtg@rFbLnj@hKjt@hHrj@pVte@r\\zZh`@p[n`@tL`Xt]|\\`^p^wC`^gLmHs^ag@|Aei@hBwj@`Cma@lJhCjq@{Hdn@sA`o@oCnq@yE~q@gBzq@gBvp@{A`n@kApo@eApn@sA~|@{@jp@cAbo@wAvo@mFj|@kNvU";
+        //var encoded_route = "qenxEhcpbOpjeA||x@r~fAr}gAxrlAswg@xekAinc@lh}@qa{@";
+        var routePath = new google.maps.Polyline({
+          path: google.maps.geometry.encoding.decodePath(encoded_route),
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 4
+        });
+
+        routePath.setMap(map);
+        {% endif %}
+
+    }
+
+
+
+  //function initMap() {
+
+
+
+
+
+
+//     var myOptions = {
+//       scrollwheel: false,
+//       draggable: false,
+//       panControl: false,
+//       disableDefaultUI: true,
+//       zoom: window.mapData.zoom,
+//       maxZoom: window.mapData.zoom,
+//       minZoom: window.mapData.zoom,
+//       center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+//       mapTypeId: google.maps.MapTypeId.ROADMAP
+//     };
+
+//     var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+//     var marker = new google.maps.Marker({
+//       map: map,
+//       position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
+//     });
+
+//     google.maps.event.addDomListener(window, 'resize', function() {
+//       map.setCenter(myOptions.center);
+//     });
+//   }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key={{ site.maps.google.api_key }}&amp;callback=initMap"></script>

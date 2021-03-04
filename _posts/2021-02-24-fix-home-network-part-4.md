@@ -19,7 +19,7 @@ The [posts in this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) a
 * [Part 2: Establishing an RF baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/11/fix-home-network-part-2/)
 * [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
 * [Part 4: External Network Baseline (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/)
-* Part 5: Selecting the New Eqiuipment
+* [Part 5: Selecting the New Eqiuipment]({{ site.url }}{{ site.baseurl }}/technology/2021/03/05/fix-home-network-part-5/)
 * Part 6: Deploying the New Equipment
 * Part 7: Resulting RF Baseline
 * Part 8: New Internal/External Network Measurements
@@ -111,4 +111,4 @@ Finally, we directly compare the two connection types here in Figure 7. The wire
 
 ## Next Steps
 
-Having clearly established the *before* state of the network environment in the next post we will document the equipment selected for the upgrade and the reasoning behind it. The following post will discuss the actual installation and configuration followed by performance measurements and comparisons.
+Having clearly established the *before* state of the network environment in [the next post]({{ site.url }}{{ site.baseurl }}/technology/2021/03/05/fix-home-network-part-5/) we will document the equipment selected for the upgrade and the reasoning behind it. The following post will discuss the actual installation and configuration followed by performance measurements and comparisons.

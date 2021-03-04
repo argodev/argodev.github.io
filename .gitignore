@@ -44,3 +44,4 @@ bower_components
 build
 serve
 .jekyll-cache
+.jekyll-metadata

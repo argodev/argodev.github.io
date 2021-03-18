@@ -20,7 +20,7 @@ The [posts in this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) a
 * [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
 * [Part 4: External Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/)
 * [Part 5: Selecting the New Eqiuipment (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/03/05/fix-home-network-part-5/)
-* Part 6: Deploying the New Equipment
+* [Part 6: Deploying the New Equipment]({{ site.url }}{{ site.baseurl }}/technology/2021/03/17/fix-home-network-part-6/)
 * Part 7: Resulting RF Baseline
 * Part 8: New Internal/External Network Measurements
 * Part 9: Comparison and Initial Results
@@ -77,4 +77,4 @@ Looking into things a bit further, the management tools and controls were specif
 
 ## Installation
 
-In my next post, I'll discuss the installation and configuration of the new network and provide some initial impressions before measuring the effective differences.
+In [my next post]({{ site.url }}{{ site.baseurl }}/technology/2021/03/17/fix-home-network-part-6/), I'll discuss the installation and configuration of the new network and provide some initial impressions before measuring the effective differences.

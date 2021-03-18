@@ -20,7 +20,7 @@ The [posts in this series]({{ site.url }}{{ site.baseurl }}/tags/homenetwork/) a
 * [Part 3: Internal Network Baseline]({{ site.url }}{{ site.baseurl }}/technology/2021/02/18/fix-home-network-part-3/)
 * [Part 4: External Network Baseline (this post)]({{ site.url }}{{ site.baseurl }}/technology/2021/02/24/fix-home-network-part-4/)
 * [Part 5: Selecting the New Eqiuipment]({{ site.url }}{{ site.baseurl }}/technology/2021/03/05/fix-home-network-part-5/)
-* Part 6: Deploying the New Equipment
+* [Part 6: Deploying the New Equipment]({{ site.url }}{{ site.baseurl }}/technology/2021/03/17/fix-home-network-part-6/)
 * Part 7: Resulting RF Baseline
 * Part 8: New Internal/External Network Measurements
 * Part 9: Comparison and Initial Results

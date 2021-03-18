@@ -176,6 +176,22 @@ Some might this this is a bit of a gimmic, but I have used it more than I would 
   <figcaption>Network Topology</figcaption>
 </figure>
 
+### Aesthetics
+
+The way things work/perform is often more important than how they look... _but_ when they can look good as well, it is always helpful. I wanted to include two pictures that convey a bit of how this system looks as deployed. The first is a picture of the in-wall HD AP. This is powered by POE and has a 4-port switch in the bottom of it. This is mounted on the wall in my home office and looks great.
+
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/office_ap.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/office_ap.jpg" alt="In Wall HD"></a>
+  <figcaption>In-Wall HD</figcaption>
+</figure>
+
+The second is the Nano HD mounted on the ceiling in our second-floor hallway. It blends in rather well and is about the size of a smoke detector. I've disabled the status LEDs, so they don't glow or otherwise draw attention to themselves. 
+
+<figure class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/upstairs_ap.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/upstairs_ap.jpg" alt="Nano HD Ceiling Mount"></a>
+  <figcaption>Nano HD, Ceiling Mount</figcaption>
+</figure>
+
 ## Gotchas
 
 I'll be quick to say that, while things have been quite amazing in general, there have been a handful of oddities that have arisen. 

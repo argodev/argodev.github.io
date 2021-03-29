@@ -24,6 +24,9 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 <!--
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
+1. [P0: Chrome Infinity Bug](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-infinity-bug.html)
+1. [P0: Introducing the In-the-Wild Series](https://googleprojectzero.blogspot.com/2021/01/introducing-in-wild-series.html)
+1. [VulDeePecker: A Deep Learning-Based System for Vulnerability Detection](https://arxiv.org/pdf/1801.01681.pdf)
 1. [Dependency Confusion: How I Hacked into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
 1. [Embracing a Zero Trust Security Model](https://media.defense.gov/2021/Feb/25/2002588479/-1/-1/0/CSI_EMBRACING_ZT_SECURITY_MODEL_UOO115131-21.PDF)
 1. [DECAF++: Elastic Whole-System Dynamic Taint Analysis](https://www.cs.ucr.edu/~adava003/RAID__Elastic_Whole_System_Dynamic_Taint_Analysis.pdf)

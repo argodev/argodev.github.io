@@ -24,6 +24,9 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 <!--
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
+1. [Exploiting Logic Bugs in JavaScript JIT Engines](http://phrack.org/papers/jit_exploitation.html)
+1. [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
+1. [P0: In-the-Wild Series: Chrome Exploits](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-exploits.html)
 1. [P0: Chrome Infinity Bug](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-infinity-bug.html)
 1. [P0: Introducing the In-the-Wild Series](https://googleprojectzero.blogspot.com/2021/01/introducing-in-wild-series.html)
 1. [VulDeePecker: A Deep Learning-Based System for Vulnerability Detection](https://arxiv.org/pdf/1801.01681.pdf)

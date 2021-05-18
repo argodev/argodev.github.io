@@ -24,6 +24,11 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 <!--
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
+
+
+1. [On the feasibility of Stealthily Introducing Vulnerabilities in Open-Source Software via Hypocrite Commits](https://github.com/QiushiWu/QiushiWu.github.io/blob/main/papers/OpenSourceInsecurity.pdf)
+1. [Automatic Inference of Search Patterns for Taint-Style Vulnerabilities](https://ieeexplore.ieee.org/document/7163061)
+1. [P0: Exploiting .NET Managed DCOM](https://googleprojectzero.blogspot.com/2017/04/exploiting-net-managed-dcom.html)
 1. [Calling Local Windows RPC Servers from .NET](https://googleprojectzero.blogspot.com/2019/12/calling-local-windows-rpc-servers-from.html)
 1. [Exploiting Logic Bugs in JavaScript JIT Engines](http://phrack.org/papers/jit_exploitation.html)
 1. [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)

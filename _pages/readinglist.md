@@ -25,7 +25,9 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
-
+1. [Structure-Aware Fuzzing with libFuzzer](https://github.com/google/fuzzing/blob/master/docs/structure-aware-fuzzing.md)
+1. [PHRACK: .NET Instrumentation via MSIL bytecode injection](http://phrack.org/papers/dotnet_instrumentation.html)
+1. [P0: Designing sockfuzzer, a network syscall fuzzer for XNU](https://googleprojectzero.blogspot.com/2021/04/designing-sockfuzzer-network-syscall.html)
 1. [On the feasibility of Stealthily Introducing Vulnerabilities in Open-Source Software via Hypocrite Commits](https://github.com/QiushiWu/QiushiWu.github.io/blob/main/papers/OpenSourceInsecurity.pdf)
 1. [Automatic Inference of Search Patterns for Taint-Style Vulnerabilities](https://ieeexplore.ieee.org/document/7163061)
 1. [P0: Exploiting .NET Managed DCOM](https://googleprojectzero.blogspot.com/2017/04/exploiting-net-managed-dcom.html)

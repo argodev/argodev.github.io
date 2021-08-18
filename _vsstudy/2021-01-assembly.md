@@ -2,7 +2,7 @@
 title: "Learning Assembly Language"
 permalink: /vsstudy/assembly/
 excerpt: "Books, Tools, Links and Other Resources"
-last_modified_at: 2021-02-24
+last_modified_at: 2021-08-18
 published: True
 toc: true
 header:
@@ -43,7 +43,7 @@ What follows on this page is not a lesson in assembly, nor a series of specifica
 ## Tutorials
 
 * [NASM Assembly Language Tutorials](https://asmtutor.com/)
-
+- [Introduction to ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/)
 
 ## Cheat Sheets 
 

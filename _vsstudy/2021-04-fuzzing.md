@@ -21,6 +21,11 @@ I've not read many books on this topic. It seems that the general space is movin
 
 ## Videos of Interest
 
+- [Intro to Exploit Development: Fuzzing with AFL](https://www.youtube.com/watch?v=3Kc_joW2YgM)
+- [Fuzzing for Beginners](https://www.youtube.com/watch?v=O3hb6HV1ZQo&t=1400s)
+- [LiveOverflow: Fuzzing Sudo series](https://www.youtube.com/playlist?list=PLhixgUqwRTjy0gMuT4C3bmjeZjuNQyqdx)
+- [Awesome Fuzzing List Video Links](https://github.com/secfigo/Awesome-Fuzzing#videos)
+
 ## Tutorials
 
 - [Google's libfuzzer tutorial](https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md)

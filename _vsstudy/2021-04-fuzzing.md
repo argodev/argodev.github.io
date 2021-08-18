@@ -5,6 +5,10 @@ excerpt: "Resources, Tutorials and Tips for fuzzing software"
 last_modified_at: 2021-08-18
 published: True
 toc: true
+header:
+  overlay_image: /assets/images/fuzzing.png
+  overlay_filter: rgba(0, 0, 0, 0.6)
+  image_description: "AFL++ Fuzzing Screen"
 ---
 
 ## Introduction

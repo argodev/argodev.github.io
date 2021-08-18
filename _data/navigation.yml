@@ -22,16 +22,16 @@ main:
 vsstudy:
   - title: "Study Topics"
     children:
-      - title: "Assembly Language"
-        url: /vsstudy/assembly/
+    - title: "Assembly Language"
+      url: /vsstudy/assembly/
+    - title: Fuzzing
+      url: /vsstudy/fuzzing/
   - title: "Future Topics"
     children:
     - title: "C/C++"
       url: /vsstudy/ccpp/
     - title: Reverse Engineering
       url: /vsstudy/reverse/
-    - title: Fuzzing
-      url: /vsstudy/fuzzing/
     - title: Memory Allocation
       url: /vsstudy/memory/
     - title: Post-Exploitation

@@ -25,6 +25,7 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
+1. [Your AST Guide for the Disenchanted: Part 1](https://forallsecure.com/blog/your-ast-guide-for-the-disenchanted-part-1)
 1. [Learning About Structure-Aware Fuzzing and Finding JSON Bugs to Boot](https://forallsecure.com/blog/learning-about-structure-aware-fuzzing-and-finding-json-bugs-to-boot)
 1. [A Large-Scale Analysis of the Security of Embedded Firmwares](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-costin.pdf)
 1. [Automated Dynamic Firmware Analysis at Scale: A Case Study on Embedded Web Interfaces](http://s3.eurecom.fr/docs/asiaccs16_costin.pdf)

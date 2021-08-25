@@ -25,6 +25,7 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
+1. [Firmware Fuzzing 101](https://forallsecure.com/blog/firmware-fuzzing-101)
 1. [How Fuzzing Redefines Application Security](https://forallsecure.com/blog/how-fuzzing-redefines-application-security)
 1. [Your AST Guide for the Disenchanted: Part 1](https://forallsecure.com/blog/your-ast-guide-for-the-disenchanted-part-1)
 1. [Learning About Structure-Aware Fuzzing and Finding JSON Bugs to Boot](https://forallsecure.com/blog/learning-about-structure-aware-fuzzing-and-finding-json-bugs-to-boot)

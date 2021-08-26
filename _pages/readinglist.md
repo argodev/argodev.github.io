@@ -25,6 +25,7 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
+1. [What is Property-based Testing?](https://forallsecure.com/blog/what-is-property-based-testing)
 1. [Back to the Fuzz: Fuzzing for Command Injections](https://forallsecure.com/blog/fuzzing-for-command-injection)
 1. [How to Address Software Reliability, Security, and Quality Requirements with Fuzz Testing](https://forallsecure.com/blog/what-is-the-cia-triad)
 1. [Firmware Fuzzing 101](https://forallsecure.com/blog/firmware-fuzzing-101)

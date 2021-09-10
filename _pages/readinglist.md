@@ -25,6 +25,7 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
+1. [The Performance Cost of Shadow Stacks and Stack Canaries](https://people.eecs.berkeley.edu/~daw/papers/shadow-asiaccs15.pdf)
 1. [NFDFuzz: A Stateful Structure-Aware Fuzzer for Named Data Networking](https://dl.acm.org/doi/10.1145/3405656.3420234)
 1. [What is Property-based Testing?](https://forallsecure.com/blog/what-is-property-based-testing)
 1. [Back to the Fuzz: Fuzzing for Command Injections](https://forallsecure.com/blog/fuzzing-for-command-injection)

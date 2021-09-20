@@ -25,6 +25,7 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
+1. [Want to Hack a Satellite? It Might Be Easier Than You Think](https://forum.defcon.org/node/232085)
 1. [The Performance Cost of Shadow Stacks and Stack Canaries](https://people.eecs.berkeley.edu/~daw/papers/shadow-asiaccs15.pdf)
 1. [NFDFuzz: A Stateful Structure-Aware Fuzzer for Named Data Networking](https://dl.acm.org/doi/10.1145/3405656.3420234)
 1. [What is Property-based Testing?](https://forallsecure.com/blog/what-is-property-based-testing)

@@ -26,6 +26,8 @@ vsstudy:
       url: /vsstudy/assembly/
     - title: Fuzzing
       url: /vsstudy/fuzzing/
+    - title: Post-Exploitation
+      url: /vsstudy/exploit/
   - title: "Future Topics"
     children:
     - title: "C/C++"
@@ -34,5 +36,3 @@ vsstudy:
       url: /vsstudy/reverse/
     - title: Memory Allocation
       url: /vsstudy/memory/
-    - title: Post-Exploitation
-      url: /vsstudy/exploit/

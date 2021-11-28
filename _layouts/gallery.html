@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<!--
+	Lens by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Modified by @argodev for personal use
+-->
+<html>
+
+{% include galleryhead.html %}
+
+    <body class="is-loading-0 is-loading-1 is-loading-2">
+        <!-- Main -->
+        <div id="main">
+            {% include galleryheader.html %}
+            
+            <!-- Thumbnail -->
+            <section id="thumbnails">{% for photo in page.gallery_data %}
+                <article>
+                    <a class="thumbnail" href="{{ photo.image }}" data-position="center"><img src="{{ photo.thumbnail }}" alt="" /></a>
+                    <h2>{{ photo.title }}</h2>
+                    <p><a href="{{ photo.image }}" download><i class="fas fa-download"></i></a> {{ photo.caption }}</p>
+                </article>
+            {% endfor %}</section>
+
+            {% include galleryfooter.html %}
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+        <script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+        <!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}></script><![endif]-->
+        <script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+    </body>
+</html>

@@ -36,3 +36,8 @@ vsstudy:
       url: /vsstudy/reverse/
     - title: Memory Allocation
       url: /vsstudy/memory/
+
+# Image Galleries
+galleries:
+  - title: "Test Gallery"
+    url: /galleries/test/

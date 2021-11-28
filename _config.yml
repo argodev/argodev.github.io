@@ -275,6 +275,9 @@ collections:
   vsstudy:
     output: true
     permalink: /:collection/:path/
+  galleries:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -308,3 +311,13 @@ defaults:
       share: false
       sidebar:
         nav: "vsstudy"
+  #_galleries
+  - scope:
+      path: ""
+      type: galleries
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      sidebar:
+        nav: "galleries"

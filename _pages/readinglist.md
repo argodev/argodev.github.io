@@ -4,7 +4,7 @@ title: "Reading List"
 excerpt: "Papers, articles, books that I find interesting and have been reading recently."
 toc: true
 
-modified: 2021-07-07T11:09:00-05:00
+modified: 2022-01-06T11:09:00-05:00
 tags:
   - "Rob Gillen"
   - "ORNL"
@@ -18,6 +18,12 @@ As part of my role at [the laboratory](https://ornl.gov), I am expected to stay 
 Admittedly, there is some randomness to this list... sometimes, someone will suggest something that catches my eye for a little while, after which I set it aside. Sometimes I'm asked to read just enough about a topic to be able to discuss it intelligently. Sometimes, I chase rabbits. 
 
 The list is in roughly reverse chronological order that I've read them. Don't assume that the order indicates anything of particular import.
+
+## 2022
+
+1. [Bypassing Authentication on Arcadyan Routers with CVE-2021–20090 and rooting some Buffalo](https://medium.com/tenable-techblog/bypassing-authentication-on-arcadyan-routers-with-cve-2021-20090-and-rooting-some-buffalo-ea1dd30980c2)
+1. [A deep dive into an NSO zero-click iMessage exploit: Remote Code Execution](https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html)
+
 
 ## 2021
 

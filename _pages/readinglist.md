@@ -31,6 +31,8 @@ The list is in roughly reverse chronological order that I've read them. Don't as
 1. [KleeNet: Discovering Insidious Interaction Bugs in Wireless Sensor Networks Before Deployment](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.519&rep=rep1&type=pdf)
 -->
 
+1. [The Mayhem Cyber Reasoning System](http://users.umiacs.umd.edu/~tdumitra/courses/ENEE657/Fall19/papers/Avgerinos18.pdf)
+1. [Enhancing Symbolic Execution with Veritesting](https://cacm.acm.org/magazines/2016/6/202649-enhancing-symbolic-execution-with-veritesting/fulltext)
 1. [Want to Hack a Satellite? It Might Be Easier Than You Think](https://forum.defcon.org/node/232085)
 1. [The Performance Cost of Shadow Stacks and Stack Canaries](https://people.eecs.berkeley.edu/~daw/papers/shadow-asiaccs15.pdf)
 1. [NFDFuzz: A Stateful Structure-Aware Fuzzer for Named Data Networking](https://dl.acm.org/doi/10.1145/3405656.3420234)

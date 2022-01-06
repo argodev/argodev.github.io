@@ -1,0 +1,8 @@
+<!-- Header -->
+<header id="header">
+	<h1>{{ page.title }}</h1>
+	<p>{{ page.description }}</p>
+	{% if page.download_gallery_link %}
+	<p>Download Entire Gallery: <a href="{{ page.download_gallery_link }}" download><i class="fas fa-download"></i></a></p>
+	{% endif %}
+</header>

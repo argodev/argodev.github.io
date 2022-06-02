@@ -18,3 +18,6 @@ bundle exec jekyll serve
 Docs and info can be found here: 
 https://github.com/mmistakes/minimal-mistakes
 
+
+mymaps.google.com
+

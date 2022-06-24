@@ -73,9 +73,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-387099-5
+    tracking_id          : G-P5P17L952P
     anonymize_ip         : # true, false (default)
 
 

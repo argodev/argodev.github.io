@@ -216,6 +216,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-maps
   - jekyll-redirect-from  
+  - premonition
 
 maps:
     google:
@@ -272,7 +273,7 @@ compress_html:
 
 # Collections
 collections:
-  ctf_portswigger:
+  ctf-portswigger:
     output: true
     permalink: /vsstudy/ctf/portswigger/:path/
   vsstudy:
@@ -314,6 +315,14 @@ defaults:
       share: false
       sidebar:
         nav: "vsstudy"
+  #_ctf-portswigger
+  - scope:
+      path: ""
+      type: ctf-portswigger
+    values:
+      layout: single
+      author_profile: false
+      share: false
   #_galleries
   - scope:
       path: ""

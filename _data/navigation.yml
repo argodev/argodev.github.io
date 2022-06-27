@@ -28,6 +28,8 @@ vsstudy:
       url: /vsstudy/fuzzing/
     - title: Post-Exploitation
       url: /vsstudy/exploit/
+    - title: "Capture The Flag"
+      url: /vsstudy/ctf/
   - title: "Future Topics"
     children:
     - title: "C/C++"

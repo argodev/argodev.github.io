@@ -7,21 +7,25 @@ published: True
 toc: true
 ---
 
-## :material-gauge-empty: Unprotected admin functionality
+## Unprotected admin functionality
 
-!!! question
-    This lab has an unprotected admin panel.
+> note "I am a note"
+> please work for me?
 
-    Solve the lab by deleting the user `carlos`.
+
+> info "Question"
+> This lab has an unprotected admin panel.
+> Solve the lab by deleting the user `carlos`.
 
 This was pretty simple, though it took me a bit to remember that `/robots.txt` can be your friend when looking for "hidden" directory paths. Once I remembered this, I navigated to `/administrator-panel` (which was unprotected) and successfully deleted the user.
 
 ## :material-gauge-empty: Unprotected admin functionality with unpredictable URL
 
-!!! question
-    This lab has an unprotected admin panel. It's located at an unpredictable location, but the location is disclosed somewhere in the application.
+{% include ctfq text="This lab has an unprotected admin panel. It's located at an unpredictable location, but the location is disclosed somewhere in the application.
 
-    Solve the lab by accessing the admin panel, and using it to delete the user `carlos`.
+Solve the lab by accessing the admin panel, and using it to delete the user `carlos`." %}
+
+
 
 The normal guesses didn't work, so I started looking through the raw HTML within burpsuite. Eventually, I stumbled across this bit of JavaScript:
 

@@ -1,0 +1,22 @@
+#cloud-config
+users:
+  - default
+  - name: ubuntu
+    gecos: Ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    shell: /bin/bash
+    ssh_import_id: None
+    lock_passwd: true
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEnV/4K8SnW1CZ8lyu4XrdWaVX0opZpweSmGbF7Xzjqs argox1
+package_update: true
+packge_upgrade: true
+packages:
+  - build-essential
+  - ruby
+  - ruby-dev
+  - avahi-daemon
+
+runcmd:
+ - [ sudo gem install bundler jekyll ]

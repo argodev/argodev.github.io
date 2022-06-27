@@ -1,0 +1,5 @@
+<div class="ctf_question">
+    <b>Question</b><br/>
+    {{ include.text}}
+</div>
+{: .notice--success}

@@ -21,3 +21,32 @@ https://github.com/mmistakes/minimal-mistakes
 
 mymaps.google.com
 
+
+
+docker pull jekyll/jekyll
+
+
+or maybe multipass??
+multipass mount . foo:/site
+
+sudo apt install ruby ruby-dev build-essential
+
+
+with multipass enabled...
+
+# can this be moved to cloud-init?
+sudo gem install bundler jekyll
+# needs to be done from site root (/site)
+bundle
+
+
+Then, you can develop on the vm using the following
+
+```sh
+# connect and port-forward
+ssh -L 4000:localhost:4000 ubuntu@myblog.local
+cd /site
+./serve.sh
+
+# view the site using http://localhost:4000
+```

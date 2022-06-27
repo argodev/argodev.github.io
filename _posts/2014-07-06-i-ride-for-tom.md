@@ -8,7 +8,8 @@ tags:
 - cycling
 redirect_from:
 - /personal/2014/7/5/i-ride-for-tom
-description: "I am once again conflicted as I sit down to write. This is a post that I never would have wanted to write, but – at the same time – I am quite proud to be able to be a small part of something in honor of a man and family I greatly respect."
+excerpt: "I am once again conflicted as I sit down to write. This is a post that I never would have wanted to write, but – at the same time – I am quite proud to be able to be a small part of something in honor of a man and family I greatly respect."
+last_modified_at: 2022-06-27T11:10:34-05:00
 ---
 
 <figure class="align-center">

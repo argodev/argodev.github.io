@@ -8,6 +8,7 @@ tags:
 - cycling
 redirect_from:
 - /personal/2014/9/4/why-we-ride
+description: "Many of you are aware that our dear friend and pastor, Tom Craig, passed away last evening. I don't have the words to express my thoughts and emotions, so I'm simply going to postpone that for now and will come back to it later."
 ---
 
 <figure class="align-center">

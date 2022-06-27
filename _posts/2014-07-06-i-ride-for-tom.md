@@ -8,13 +8,14 @@ tags:
 - cycling
 redirect_from:
 - /personal/2014/7/5/i-ride-for-tom
+description: "I am once again conflicted as I sit down to write. This is a post that I never would have wanted to write, but – at the same time – I am quite proud to be able to be a small part of something in honor of a man and family I greatly respect."
 ---
 
 <figure class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/images/iridefortom.jpg"><img src="{{ site.url }}{{ site.baseurl }}/images/iridefortom.jpg" alt="I Ride For Tom"></a>
 </figure>
 
-I am once again conflicted as I sit down to write. This is a post that I never would have wanted to write, but – at the same time – I am quite proud to be able to be a small part of something in honor of a man and familyI greatly respect.
+I am once again conflicted as I sit down to write. This is a post that I never would have wanted to write, but – at the same time – I am quite proud to be able to be a small part of something in honor of a man and family I greatly respect.
 
 Many of you are aware that our Pastor – Tom Craig – was recently diagnosed with pancreatic cancer. Initially, this devastated our church family. However, not long after learning of his cancer, we watched a man do what he has always done… minister to the people around him. He is sharing his trial – the pain, lessons, good times, bad times, everything – with those he cares about. Not for the purpose of saddening them, but rather showing them (well... us) how good our God is in all of this. How *His* Name can be glorified even when we don’t understand what or why things are happening.
 

@@ -272,6 +272,9 @@ compress_html:
 
 # Collections
 collections:
+  ctf_portswigger:
+    output: true
+    permalink: /vsstudy/ctf/portswigger/:path/
   vsstudy:
     output: true
     permalink: /:collection/:path/

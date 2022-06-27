@@ -6,7 +6,7 @@ tags:
 - adoption
 redirect_from:
 - /personal/2014/6/19/a-time-to-mourn-and-a-time-to-dance
-description: "This has been a conflicting week. I'm sitting on the floor in my hotel room, thinking over what today represents, what has happened this week, what will happen this evening at just a little before 9PM, and I must admit, I don't know what to think."
+excerpt: "This has been a conflicting week. I'm sitting on the floor in my hotel room, thinking over what today represents, what has happened this week, what will happen this evening at just a little before 9PM, and I must admit, I don't know what to think."
 last_modified_at: 2022-06-27T11:10:34-05:00
 ---
 

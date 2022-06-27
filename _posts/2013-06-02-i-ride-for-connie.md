@@ -7,7 +7,7 @@ tags:
 - connie
 redirect_from:
 - /personal/2013/6/2/i-ride-for-connie.html
-description: "Each of the past three years, I have participated in a long bike ride in honor of my Mother-in-law, Ann Black, who passed away in April of 2010 after struggling for years with complications from a fight with cancer and diabetes. Her spirit of fighting/unwillingness to give up is the reason that I've chosen to do the ride in a time of the year that is unpopular and hot. While not impossible rides, they have been tributes to Ann’s spirit of fighting even when it was tough. She completed her course and didn't give up."
+excerpt: "Each of the past three years, I have participated in a long bike ride in honor of my Mother-in-law, Ann Black, who passed away in April of 2010 after struggling for years with complications from a fight with cancer and diabetes. Her spirit of fighting/unwillingness to give up is the reason that I've chosen to do the ride in a time of the year that is unpopular and hot. While not impossible rides, they have been tributes to Ann’s spirit of fighting even when it was tough. She completed her course and didn't give up."
 last_modified_at: 2022-06-27T11:10:34-05:00
 ---
 

@@ -7,6 +7,7 @@ tags:
 - rants
 redirect_from:
 - /personal/2014/3/23/hes-adopted
+description: "Community soccer brings out the best in people - almost no one (besides the soccer organizers) would make such a claim. It is true that there are many good things about teamwork, sportsmanship, physical fitness, and the like that can be learned and developed, but far too often people get in the way. Such was the case this past Friday evening. My family was watching one of my sons play soccer and, right on the other side of two of my adopted children (all four of ours joined our family via adoption) sat 'that guy'. If you’ve ever been to a game, you likely know who I’m talking about."
 ---
 
 <figure class="align-center" style="width: 500px">

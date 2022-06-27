@@ -8,6 +8,7 @@ tags:
 - matt
 redirect_from:
 - /personal/2013/3/27/happy-gotcha-day-matt.html
+description: "It's hard to believe that it was five years ago today that Matt came to be part of our family forever. God has been so good to us. Matt has grown a ton in that time... it is hard to look at pictures of that big-haired 15-month old and realize it's the same child."
 ---
 <figure class="align-center" style="width: 400px">
   <a href="{{ site.url }}{{ site.baseurl }}/images/FiveYearsAgoMatt.jpg"><img src="{{ site.url }}{{ site.baseurl }}/images/FiveYearsAgoMatt.jpg" alt="Matt"></a>

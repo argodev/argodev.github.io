@@ -10,6 +10,7 @@ users:
     lock_passwd: true
     ssh_authorized_keys:
       - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEnV/4K8SnW1CZ8lyu4XrdWaVX0opZpweSmGbF7Xzjqs argox1
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILnSV4KmSxZLWbV+6w5q1SQJ7eFn2mvEFzk+c3e75JJA pc116911
 package_update: true
 packge_upgrade: true
 packages:

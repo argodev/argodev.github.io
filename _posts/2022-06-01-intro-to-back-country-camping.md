@@ -2,6 +2,8 @@
 category: personal
 title: 'Introduction to Back-Country Camping'
 date: 2022-06-01 13:12
+last_modified_at: 2022-06-29
+classes: wide
 tags:
 - vacation
 - camping

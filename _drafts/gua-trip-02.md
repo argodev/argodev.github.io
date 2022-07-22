@@ -18,9 +18,26 @@ gallery1:
     image_path: /assets/images/site1hammocks.jpg
     title: "Plenty of space for our hammocks"
 header:
-  overlay_image: /assets/images/guatemala-usstatedept.webp
-  overlay_filter: rgba(0, 0, 0, 0.4)
+  overlay_image: /assets/images/20220709-181217-2500.jpg
+  overlay_filter: rgba(0, 0, 0, 0.3)
 ---
+
+Wow, today was quite a day. We got up at 6:00 to begin the rush to head to the airport. The family all did their part and we left the hotel at 6:45 - allowing us to arrive at the Parking Spot just before 7:00. Timing here _is key_ as they only run to the International Terminal _once every 30 minutes on the hour_, and we were able to get on the 7:00 shuttle. This was a good thing, as it took approximately 30 minutes to get to where we needed to be dropped off. Check in at the airport went rather smoothly - at least for the older five of us. Our youngest had to be checked in by a gate agent - they said it has to do with child protection regulations or something… not exactly sure, but it went smoothly enough and I can’t complain. We zipped through security and made it to the gate with an hour to spare prior to boarding. The flight ended up being delayed by about two hours, but this was OK as it didn’t negatively affect anything on the Guatemalan side.
+
+
+
+The flight itself was incredibly uneventful (in a good way). We got to see some amazing views of the country during the landing approach and we sailed through immigration and customs. We were met as soon as we walked out the door by a representative from Our Guatemala and things got easy from that point on. They had a 12 passenger van that took us the 1:30 minute drive to La Antigua. Traffic was really bad, but the scenery and conversation was great. Sadly, our first meal in Guatemala was at a McDonalds - we hadn’t eaten since the airport in ATL and that was a reasonably easy place for our guide to stop on the way. We all agreed that would be the last American meal until we got back stateside.
+
+The hotel we are staying in - La Porta - is beautiful. There really aren’t words that would do it justice.
+
+TODO: Get address/location of hotel
+TODO: Get address/location of restaurant.
+
+Dinner was at NNNNN. (GET PICTURE). It was both simple and amazing. The restaurant was Italian fare and owned by a friend of our group leader. The conversation around the table with so many other adoptive families was excellent and a kind of relaxation of its own. At the end of the meal, the owner appeared and we had a great conversation with him - he’s a bit of an artist (painting) and he discussed some of the paintings on the wall… how he did them, what they mean/were trying to capture… it is obvious that he has a flare for the dramatic and he discussed the topics incredibly.
+
+After dinner we had a nice walk back to the hotel to attempt to adjust to Guatemalan time and to catch up on sleep from the long day. As I write this, it is just after 2330 EDT and the kids have just gone to bed. Tomorrow the “official” in-country portion of the trip begins with orientation at 0900. We are looking forward to it.
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel efficitur velit. Sed ut mollis enim, nec mollis diam. Etiam quis ante non dolor faucibus commodo. Aliquam nec lacus tempor, rutrum nibh quis, sodales est. Praesent blandit quam dui, ut porttitor sem convallis sagittis. Donec vel auctor tortor. Vivamus convallis mi lacinia ipsum pharetra sagittis. Donec bibendum iaculis diam, accumsan mattis neque congue ut. Etiam nulla mauris, elementum vel lacus ac, ultricies cursus metus. Ut feugiat nisl ut arcu convallis sollicitudin eu sed sem. Vestibulum mi risus, convallis sit amet dui et, porta hendrerit velit.
 

@@ -50,3 +50,13 @@ cd /site
 
 # view the site using http://localhost:4000
 ```
+
+
+
+Image Handling
+
+Make thumbnails for images:
+
+# widthxheight... if you only need one (e.g. width of 201px), just specify 
+# that one and it will scale accordingly.
+mogrify -format gif -path thumbs -thumbnail 201 *.jpg

@@ -7,54 +7,234 @@ tags:
 - road trip
 - adoption
 excerpt: "Guatemala Trip Day 05"
+
 gallery1:
-  - url: /assets/images/site1.jpg
-    image_path: /assets/images/site1.jpg
-    title: "Great view from the campsite"
-  - url: /assets/images/skinks.jpg
-    image_path: /assets/images/skinks.jpg
-    title: "Dakota hanging on the edge of the cliff, looking for skinks"
-  - url: /assets/images/site1hammocks.jpg
-    image_path: /assets/images/site1hammocks.jpg
-    title: "Plenty of space for our hammocks"
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-083221.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-083221.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-084006.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-084006.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-090050.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-090050.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092430.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092430.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092505.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092505.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092528.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092528.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092601.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092601.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092627.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092627.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092643.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092643.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092659.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092659.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-092712.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-092712.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-093243.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-093243.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-093316.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-093316.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-093339.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-093339.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-093520.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-093520.gif
+    title: ""
+
+gallery2:    
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-100456.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-100456.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-100724.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-100724.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-100812.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-100812.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-101229.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-101229.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-103110.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-103110.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-113601.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-113601.gif
+    title: ""
+
+gallery3:    
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-115824.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-115824.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-124218.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-124218.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220716-154533.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220716-154533.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-124225.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-124225.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-124227.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-124227.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-124234.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-124234.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-125155.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-125155.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-125239.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-125239.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-125406.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-125406.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-131636.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-131636.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-132626.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-132626.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-133213.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-133213.gif
+    title: ""
+
+gallery4:
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-135706.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-135706.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-135714.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-135714.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-144802.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-144802.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-154925.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-154925.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-155312.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-155312.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-155415.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-155415.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-155528.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-155528.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-155730.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-155730.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-160340.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-160340.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-160713.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-160713.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-160954.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-160954.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-161033.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-161033.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-161456.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-161456.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-161528.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-161528.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-162150.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-162150.gif
+    title: ""
+
+gallery5:
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-173207.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-173207.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-181547.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-181547.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-181834.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-181834.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-181921.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-181921.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-182124.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-182124.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-182214.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-182214.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-195723.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220712-195723.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220718-194151.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220718-194151.gif
+    title: ""
+  - url: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220718-194157.jpg
+    image_path: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/thumbs/20220718-194157.gif
+    title: ""
+
 header:
-  overlay_image: /assets/images/guatemala-usstatedept.webp
+  overlay_image: https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220712-101229.jpg
+  #overlay_image: /assets/images/guatemala-usstatedept.webp
   overlay_filter: rgba(0, 0, 0, 0.4)
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. QCurabitur vel efficitur velit. Sed ut mollis enim, nec mollis diam. Etiam quis ante non dolor faucibus commodo. Aliquam nec lacus tempor, rutrum nibh quis, sodales est. Praesent blandit quam dui, ut porttitor sem convallis sagittis. Donec vel auctor tortor. Vivamus convallis mi lacinia ipsum pharetra sagittis. Donec bibendum iaculis diam, accumsan mattis neque congue ut. Etiam nulla mauris, elementum vel lacus ac, ultricies cursus metus. Ut feugiat nisl ut arcu convallis sollicitudin eu sed sem. Vestibulum mi risus, convallis sit amet dui et, porta hendrerit velit.
+## Halfway Point
 
-[![image-center](/assets/images/elevation_day01.png)](/assets/images/elevation_day01.png)
+Welcome to the half-way point of our trip. This was a "travel day" - the group moved from where we had been staying in La Antigua to Hotel Atitlan in Panajachel. Compared to yesterday, this was an *easy* day. We had plenty of time in the morning to get things together, so we decided that as a family we would pack up, enjoy a breakfast and walk around the hotel, and then look around town before we had to leave.
 
-![image-left](/assets/images/filename-150x150.jpg){: .align-left} 
+## Hotel Porta
 
-Quisque porta velit ac metus laoreet, in lobortis leo porttitor. In lobortis luctus libero, eget hendrerit sapien mollis sit amet. Quisque ullamcorper mauris ut velit dapibus, in sodales erat malesuada. Curabitur imperdiet congue dui at rutrum. Nam placerat, orci a varius consequat, purus magna hendrerit felis, ac auctor felis libero id risus. Pellentesque suscipit libero et nunc egestas efficitur. Mauris eu nisl non nisi placerat venenatis. Aliquam rhoncus convallis nisi in tempus.
+I have been pleasntly surprised at how beautiful the hotel and its grounds are in La Antigua. After we finished breakfast, I stole away and grabbed a few more shots.
 
-![image-right](/assets/images/filename-300x200.jpg){: .align-right}
+> I should note that *most* of the pictures I've been posting have been taken by me, on my iPhone. Some of them were taken by Matthew with his cell phone and some were provided by our trip leader (also using an iPhone). Many times on this trip I found myself wishing I had a high-end mirrorless camera with a couple of great lenses. That said, I think the phones did an OK job, all things considered.
 
-Praesent at magna a nibh rutrum sollicitudin in nec leo. Morbi eleifend neque vitae augue sagittis, at malesuada urna auctor. Cras metus dui, varius in sem vel, malesuada sollicitudin purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam consectetur pellentesque nulla ut sollicitudin. Nulla quis fringilla risus, ac pellentesque mauris. Donec vehicula hendrerit nibh a tincidunt. Donec sed metus non lacus euismod consectetur eget nec turpis. Vivamus a lacus placerat, feugiat orci id, dignissim tortor.
+{% include gallery id="gallery1" caption="Pictures from around Hotel Porta" %}
 
-Pellentesque bibendum interdum scelerisque. Nam at est facilisis, facilisis lacus vel, dictum mi. Quisque a elit congue, luctus ante sed, sollicitudin odio. Vivamus tempus erat tellus, vel venenatis lectus placerat et. Duis ligula augue, fermentum vel risus vel, ornare cursus mauris. Nulla sollicitudin vestibulum accumsan. Nunc arcu lorem, suscipit sit amet dui nec, lacinia luctus dui. Fusce dapibus sodales mattis. In hac habitasse platea dictumst. Cras ex metus, ultricies feugiat sem sit amet, auctor pharetra ex. Mauris eget ante imperdiet, pharetra mauris sit amet, venenatis ex. Pellentesque dolor sapien, tincidunt sit amet sodales nec, dapibus sed lorem. Cras leo nisl, tincidunt quis laoreet ac, dictum vitae odio.
+After we finished packing, we headed out for some "just us Gillens" time around town. Antigua is a beautiful town and I think we could easily spend a few more days here.
 
-![image-center](/assets/images/filename-580x300.jpg){: .align-center}
+{% include gallery id="gallery2" caption="Pictures from around La Antigua" %}
 
-Morbi tellus mauris, congue at posuere vitae, volutpat ut velit. Vivamus rutrum nec dolor et sollicitudin. Duis quis dapibus risus. In hac habitasse platea dictumst. Nulla tristique massa ut nisi faucibus, at elementum mi finibus. Curabitur vehicula tempor neque. Praesent egestas purus et varius porta. Proin accumsan augue a risus posuere tempus. Fusce massa justo, rhoncus a lacus quis, facilisis euismod purus. Vivamus sagittis eu magna at sodales. Morbi sit amet mattis quam, a consequat nisi. Morbi sollicitudin sapien eu facilisis cursus. Nullam quis fermentum elit.
+## Travel and Pastores
 
-![full](/assets/images/filename-1200x400.jpg)
-{: .full}
+Just before noon, we gathered as a group, loaded up the busses, and prepared to head out. Along the way, we stopped at a town named Pastores (quite close to Antigua), that sells all sorts of boots and other leather goods. It is so well know for this, that there is a massive boot on the corner leading into town.
 
-Picture Ideas
+{% include gallery id="gallery3" caption="Pastores Shopping and Sites" %}
 
-- hotel
-- family before we leave
-- Cousin's house/playing
+## Trip to Atitlan
+
+With some shopping done, we settled in for the ~3 hour trip to Lake Atitlan. What follows is a collection of images that I selected to try to give you an idea of some of the countryside. It was *beautiful*, unique, different. During the trip, we climbed substantially (near 9,000 ft) and then dropped back down to around 5,500 feet at the lake. As you might imagine, cell phone pictures from inside a bus cannot do justice to the views we saw. Remember to click the pictures to get a full-screen view.
+
+{% include gallery id="gallery4" caption="Pictures from around traveling to Lake Atitlan" %}
+
+## Hotel Atitlan and Group Dinner
+
+The hotel in Antigua was beautiful... the [hotel in Panajachel](https://www.hotelatitlan.com/) is beautiful in different ways. The rooms at the new hotel were not as unique or historical, but the gardens were amazing and the views across the water are hard to describe. I've included some pictures below and will continue to include some others taken on subsequent days. Once we settled in, we looked around a bit and then enjoyed a good meal and great conversation as a group at one of the largest tables I've seen.
+
+One other difference between the two hotels is that this one catered more towards the tourist/restort-type person and we found ourselves surrounded by a rather loud group from the US that included a large number of ill-behaving teens. This group left the next day, and we rather enjoyed the remainder of our time at the hotel, but I was struck by the contrast to the teens that were with our group, and made a point of thanking them for conducting themselves so well and in a fashion that was respectful to those around them.
+
+{% include gallery id="gallery5" caption="Hotel Atitlan and Group Dinner" %}
+
+After dinner it was "off to bed" to get ready for our "day with Jose Miguel" tomorrow.
 
 ## Today's Travels
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1WgA75F-mAM0VD1fXUVbdctkTUnr6iKU&ehbc=2E312F" width="640" height="480"></iframe>
 
-Lodging: [Hotel Atitlan, Hotel & Gardens](https://www.hotelatitlan.com/)
 
-## Picture Gallery
-
-{% include gallery id="gallery1" caption="Pictures from today" %}

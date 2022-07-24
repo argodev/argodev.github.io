@@ -57,6 +57,12 @@ Image Handling
 
 Make thumbnails for images:
 
+```bash
 # widthxheight... if you only need one (e.g. width of 201px), just specify 
 # that one and it will scale accordingly.
 mogrify -format gif -path thumbs -thumbnail 201 *.jpg
+
+# resizing such that our "massive" images aren't quite so massive....
+# for context, the images  alone for day 4 were nearly 0.5 GB originally
+mogrify -format jpg -quality 75 -path web -resize x2800\> *.jpg
+```

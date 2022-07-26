@@ -277,7 +277,7 @@ During the boat ride back across the lake, the waves got quite high (a storm was
 
 ## Swimming
 
-Back a the hotel, we had group time in the pool and hot tub. I sat on the side, working through my thoughts I found myself thrilled that the kids (from all of the families) were getting along so well and seemed to truly enjoy being together. I also enjoyed watching the other parents interact not only with their children, but also ours. 
+Back at the hotel, we had group time in the pool and hot tub. I sat on the side, working through my thoughts I found myself thrilled that the kids (from all of the families) were getting along so well and seemed to truly enjoy being together. I also enjoyed watching the other parents interact not only with their children, but also ours. 
 
 {% include gallery id="gallery7" caption="Pool and Hotel views" %}
 
@@ -285,7 +285,7 @@ Back a the hotel, we had group time in the pool and hot tub. I sat on the side, 
 
 Dinner this evening is supposed to be a family affair and intentionally *not* a group event. A number of the teens gathered to have dinner together and the rest of the group split into smaller groups for some down time.
 
-There *was* a bit of drama this afternoon - and it was (in the end) a good thing. For the first time (probably in all of their lives), some of the white, American-born children in the group found themselves experiencing a little bit of race-based exclusion. Without really trying, the Guatemalan adoptees in the group huddled up for some time with just themselves, and those white kids in the group (not just my two boys), felt quite out of place. Adding to the fact that they were already uncomfortable due to language issues and the general “most people here don’t look like me” issues, we had a bit of a bubbling over. However, as most things like this, it was not really a surprise (though the details are nearly always unexpected), and in the end, I’m grateful as it led to some good conversations.
+There *was* a bit of drama this afternoon - and it was (in the end) a good thing. For the first time (probably in all of their lives), some of the white, American-born children in the group found themselves experiencing a little bit of race-based exclusion. Without really trying, the Guatemalan adoptees in the group huddled up for some time with just themselves, and some of the white kids in the group felt quite out of place. Adding to the fact that they were already uncomfortable due to language issues and the general “most people here don’t look like me” issues, we had a bit of a bubbling over. However, as most things like this, it was not really a surprise (though the details are nearly always unexpected), and in the end, I’m grateful as it led to some good conversations.
 
 Tomorrow we head to San Juan for our "Day with Dina" and some shopping - it should be a great day.
 

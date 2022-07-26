@@ -333,7 +333,7 @@ header:
 
 ## Tour Through the Gardens
 
-The gardens around the hotel are simply beautiful. I spent a few minutes walking through them before the day got rolling and included a few pictures here to try to convey the beauty of this place.
+The gardens around [Hotel Atitlan](https://www.hotelatitlan.com/) are simply beautiful. We spent a few minutes walking through them before the day got rolling and included a few pictures here to try to convey the beauty of this place.
 
 {% include gallery id="gallery1" caption="Tour of the gardens" %}
 
@@ -341,53 +341,55 @@ The gardens around the hotel are simply beautiful. I spent a few minutes walking
 
 ## Ethical Tourim with Dina
 
-Today is Day with Dina and the focus is ethical tourism. We took a boat ride approximately 20 minutes across to the village of San Juan where we spent our day learning about artisans who use their talents to create beautiful items. 
+Today is Day with Dina and the focus is ethical tourism. We took a boat ride approximately 20 minutes across to the village of San Juan where we spent our day learning about artisans who use their talents to create beautiful items. As you come into San Juan, there is a mountain off to the right called La Nariz del Indio (literally, "the nose of the indian"). If you imagine someone laying their head back and looking up towards the sky (as demonstrated by Maria in the pictures below) it becomes quite obvious.
 
-{% include gallery id="gallery2" caption="Pictures from today" %}
+{% include gallery id="gallery2" caption="Transit to San Juan" %}
 
 ## Cafe San Juan
 
-We started with a tour of a coffee shop complete with an overview of the coffee growing process. They explained how they start the seeds, then curate the small plants, and - when they are ready - they carry them up the sides of the volcanos and plant them where they will grow for multiple years until the coffee fruit is ready to be picked. It was fascinating to see how the shelling process, washing, drying and roasting steps all are coordinated such that we end up with a great cup of coffee to enjoy in the mornings. 
+We started with a tour of a [coffee shop](https://www.cafesanjuangt.com/) complete with an overview of the coffee growing process. They explained how they start the seeds, then curate the small plants, and - when they are ready - they carry them up the sides of the volcanos and plant them where they will grow for multiple years until the coffee fruit is ready to be picked. It was fascinating to see how the shelling process, washing, drying and roasting steps all are coordinated such that we end up with a great cup of coffee to enjoy in the mornings. 
 
-{% include gallery id="gallery3" caption="Pictures from today" %}
+{% include gallery id="gallery3" caption="Coffee - from bean to cup" %}
 
 ## Art Studio
 
-Next we visited an art studio that that displayed the art from a number of local artists. It was beautiful art and quite reasonably priced - especially for custom pieces. While we were there, we were able to meet one of the artists and he showed us some of his work, which was beautiful. There were two styles/perspectives that were highlighted by our guide - the first is _”Bird’s Eye”_ which shows various buildings/towns from the perspective of a bird flying overhead… it results in a sort of abstract art. The second was _”Ants Perspective” which was, as you might imagine, designed to show various scenes as they might be seen from the vantage point of an ant on the floor. 
+Next we visited an art studio that that displayed the art from a number of local artists. It was beautiful art and quite reasonably priced - especially for custom pieces. While we were there, we were able to meet one of the artists and he showed us some of his work, which was beautiful. There were two styles/perspectives that were highlighted by our guide - the first is _”Bird’s Eye”_ which shows various buildings/towns from the perspective of a bird flying overhead… it results in a sort of abstract art. The second was _”Ants Perspective” which was, as you might imagine, designed to show various scenes as they might be seen from the vantage point of an ant on the floor.
 
-## Traditional Medicines
+> NOTE: Out of respect for the artists, I did not take any photos inside the gallery. If you search the web you will quickly find examples of these art styles.
 
-Our third stop was a coop of traditional “healers” - women who grow and use indigenous plants to address various ailments that one might have. Our guide here selected a number of plants and explained how they use each one to address issues from mosquito bites to baldness to cancer. Once she finished, we were able to tour the gardens to see the various plants and then procure any salves desired.
+## ASOCIACIÓN Q’OOMANEL
 
-{% include gallery id="gallery4" caption="Pictures from today" %}
+Our third stop was a [coop of traditional “healers”](https://www.sanjuanlalaguna.com.gt/es/atractivos-turisticos/asociacion-qomaneel) - women who grow and use indigenous plants to address various ailments that one might have. Our guide here selected a number of plants and explained how they use each one to address issues from mosquito bites to baldness to cancer. Once she finished, we were able to tour the gardens to see the various plants and then procure any salves desired.
+
+{% include gallery id="gallery4" caption="Plants used to cure what ails you" %}
 
 ## Casa Flor Ixcaco
 
-Our next stop was a textiles/weaving shop that is a co-op for women in the area. Our guide explained the four different types of cotton used in Guatemala and demonstrated how they go from the plant to thread to custom-dyed threads ready for weaving. She then showed how the weaving process works in the traditional style. Each item in the store has a tag that shows a picture of the women who made the item as well as showing how long it took to make. One of the unique aspects of this coop is that rather than selling on consignment, the women produce products that the coop knows will sell, and they (the coop) purchases the items as soon as they have been made. This allows the artisan to have as short-as-possible cycle between crafting an item and receiving the funding for it. The split between the artisan and the coop is 80/20, which is wonderful. Their website is [http://www.woven-gt.com](http://www.woven-gt.com).
+Our next stop was a textiles/weaving shop that is a co-op for women in the area. Our guide explained the four different types of cotton used in Guatemala and demonstrated how they go from the plant to thread to custom-dyed threads ready for weaving. She then showed how the weaving process works in the traditional style. Each item in the store has a tag that shows a picture of the women who made the item as well as showing how long it took to make. One of the unique aspects of this coop is that rather than selling on consignment, the women produce products that the coop knows will sell, and they (the coop) purchases the items as soon as they have been made (rather than on consignment). This allows the artisan to have as short-as-possible cycle between crafting an item and receiving the funding for it. The split between the artisan and the coop is 80/20, which is wonderful. Their website is [http://www.woven-gt.com](http://www.woven-gt.com).
 
-{% include gallery id="gallery5" caption="Pictures from today" %}
+{% include gallery id="gallery5" caption="Creating clothes from raw cotton" %}
 
 ## Chocolate Factory
 
-Our final stop before lunch was the Chocolate Factory Hotel and Resturant. Here our tour guide demonstrated and explained the process of making chocolate from the cacao bean.  I found it fascinating to see how many different varieties of chocolate are made, various mixtures including milk (of course), orange juice (this was news to me), and other flavorings. We were able to try some freshly made chocolate as well as try our hand at grinding some cacao beans. Overall, it was an amazing time.
+Our final stop before lunch was the Chocolate Factory Hotel and Resturant. Here our tour guide demonstrated and explained the process of making chocolate from the cacao bean.  I found it fascinating to see how many different varieties of chocolate are made, various mixtures including milk (of course), orange juice (this was news to me), and other flavorings. We were able to try some freshly made chocolate as well as try our hand at grinding some cacao beans. I found myself wondering at the end just how dangerous it would be to my general health to book a room at a hotel literally feet away from that much chocolate... well, at least I would die happy.
 
-{% include gallery id="gallery6" caption="Pictures from today" %}
+{% include gallery id="gallery6" caption="Chocolate - the best tour yet" %}
 
 ## Comedor Elenita
 
-Around 1330, we made it to our resturant stop for lunch. This was the Comedor Elenita and the food was amazing. We were led through the resturant, past the kitchen, and up to a second floor room where we were able to enjoy a feast of grilled beef/chicken tacos, rice and vegetables, sort of like a carne asada-style meal.
+Around 1:30, we made it to our resturant stop for lunch. This was the Comedor Elenita and once again the food was good. We were led through the resturant, past the kitchen, and up to a second floor room where we were able to enjoy a feast of grilled beef/chicken tacos, rice and vegetables, sort of like a carne asada-style meal. While there, I took a number of pictures out the second-floor windows. The view from the street is often brightly colored and exciting - the view from above paints a slightly different picture.
 
-{% include gallery id="gallery7" caption="Pictures from today" %}
+{% include gallery id="gallery7" caption="Lunch at Comedor Elenita" %}
 
 ## Shopping and Return
 
-After lunch, we did some shopping as we walked back down the mountain to the boats. We were able to pick up some amazing souvenirs and, using what we had learned in the morning, ensure that our money went directly to the artists and didn’t see the majority of it pilfered by middle-men. Once finished, we enjoyed a calm ride across the water back to the hotel where the kids swam again while waiting for the busses to take us to dinner (they are finally letting us off the reservation). 
+After lunch, we did some shopping as we walked back down the mountain to the boats. We were able to pick up some amazing souvenirs and, using what we had learned in the morning, ensure that the majority of our money went to the artists creating the goods rather than being parceled out amongst a number of middle-men. Once finished, we enjoyed a calm ride across the water back to the hotel where the kids swam again while waiting for the busses to take us to dinner (they are finally letting us off the reservation). 
 
-{% include gallery id="gallery8" caption="Pictures from today" %}
+{% include gallery id="gallery8" caption="Pictures from San Juan" %}
 
 ## Group Dinner
 
-Dinner was at an Italian restaurant and hotel in town (Panajanchel) which was about a 10-minute drive from the hotel. Our group had the entire restaurant and it started with a bit of a recap/discussion time. We also were joined by some folks from Guatelmala SP (service projects). The meal was great and was generally pretty reasonably priced (many of the meals have been pretty expensive). The only complaint, is that we didn’t order until *after* the discussion time, which resulted in a late dinner becoming *very* late (plates were served around 9:20 PM. We finally left the restaurant around 10 PM and crashed into our beds as soon as we got back to the hotel.
+Dinner was at an Italian restaurant and hotel in town (Panajanchel) which was about a 10-minute drive from the hotel. Our group had the entire restaurant and it started with a bit of a recap/discussion time. We also were joined by some folks from [Guatelmala SP](https://www.guatsp.org/) (service projects). The meal was great and was generally pretty reasonably priced (food is the one thing we found to be a little expensive on this trip). Unfortunately we didn’t order until *after* the discussion time, which resulted in a late dinner becoming *very* late (plates were served around 9:20 PM). We left the restaurant around 10 PM and crashed into our beds as soon as we got back to the hotel - full bellies and happy hearts.
 
 {% include gallery id="gallery9" caption="Group Dinner and Presentation" %}
 

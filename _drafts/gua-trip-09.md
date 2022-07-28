@@ -137,7 +137,10 @@ After the main part of the program was done, Jose Miguel got up and helped get t
 
 {% include gallery id="gallery3" caption="Friends for a lifetime" %}
 
-Unfortunately, the end of the evening brought goodbyes and the sadness that comes with "endings". I have a feeling that for most everyone in the group, this was much more of a "so long for now" rather than a "goodbye".
+Unfortunately, the end of the evening brought goodbyes and the sadness that comes with "endings". I have a feeling that for most everyone in the group, this was much more of a "so long for now" rather than a "goodbye". I find myself reminded of a quote from a *famous* author, the illustrious Dr. Seuss:
+
+> citation "Dr. Seuss" [ cite = "seuss" ]
+> Don't cry because it's over. Smile becaue it happened
 
 ## Today's Travels
 

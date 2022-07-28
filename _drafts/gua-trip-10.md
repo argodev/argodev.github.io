@@ -6,7 +6,7 @@ tags:
 - vacation
 - road trip
 - adoption
-excerpt: "Guatemala Trip Day 10"
+excerpt: "The Long Road Home"
 gallery1:
   - url: /assets/images/site1.jpg
     image_path: /assets/images/site1.jpg
@@ -22,13 +22,24 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.4)
 ---
 
+Today is our long travel day - we start with a bus ride from Antigua to the airport in Guatemala City. From there we fly to Atlanta, GA and then drive on to Knoxville. 
+
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. WCurabitur vel efficitur velit. Sed ut mollis enim, nec mollis diam. Etiam quis ante non dolor faucibus commodo. Aliquam nec lacus tempor, rutrum nibh quis, sodales est. Praesent blandit quam dui, ut porttitor sem convallis sagittis. Donec vel auctor tortor. Vivamus convallis mi lacinia ipsum pharetra sagittis. Donec bibendum iaculis diam, accumsan mattis neque congue ut. Etiam nulla mauris, elementum vel lacus ac, ultricies cursus metus. Ut feugiat nisl ut arcu convallis sollicitudin eu sed sem. Vestibulum mi risus, convallis sit amet dui et, porta hendrerit velit.
 
-[![image-center](/assets/images/elevation_day01.png)](/assets/images/elevation_day01.png)
+[![image-center](https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220717-090638.jpg)](https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220717-090638.jpg)
 
 ![image-left](/assets/images/filename-150x150.jpg){: .align-left} 
 
 Quisque porta velit ac metus laoreet, in lobortis leo porttitor. In lobortis luctus libero, eget hendrerit sapien mollis sit amet. Quisque ullamcorper mauris ut velit dapibus, in sodales erat malesuada. Curabitur imperdiet congue dui at rutrum. Nam placerat, orci a varius consequat, purus magna hendrerit felis, ac auctor felis libero id risus. Pellentesque suscipit libero et nunc egestas efficitur. Mauris eu nisl non nisi placerat venenatis. Aliquam rhoncus convallis nisi in tempus.
+
+[![image-center](https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220717-083243.jpg)](https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220717-083243.jpg)
+
+
+[![image-center](https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220718-204830.jpg)](https://umdzysetiu80mfh1bz.s3.amazonaws.com/guat/20220718-204830.jpg)
+
+
 
 ![image-right](/assets/images/filename-300x200.jpg){: .align-right}
 

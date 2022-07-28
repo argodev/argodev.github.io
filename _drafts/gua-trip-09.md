@@ -109,19 +109,35 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.4)
 ---
 
+Today is the last "full day" of the trip, and the agenda consists of three main items: Xtreme Zip-lining, travel from Panajanchel to Antigua, and the evening banquet. If that sounds like alot, it kinda was - but (as with most things on this trip), it was great.
+
+## Zip Lines
+
+I would have told you that I've been ziplining before, but after what we did today, I'm not sure my prior experience counts. We met at 8:45 and walked over to [Reserva Natural Atitlan](https://en.atitlanreserva.com/). As you can see in the pictures below, most of the equipment we were given was exactly what I expected, but the welders gloves with thick leather pads gave me pause. During our training, they explained that you are to use that to apply downward pressure on the cable to help slow you down as you come to the end of each line. They did point out that you should be sure to put your hand *behind* the pullies rather than in front (assuming you want to keep your fingers). As odd as that all sounded to me, it *worked*, and actually gave a sense of control to the riders. We then had about a 20-30 minute hike up the side of the ridge - crossing a number of wire bridges, seeing a waterfall, and enjoying nature before we reached the beginning of zip line A. If you notice the picture below that looks like a sign, we took the _"Ultra X-tremos"_ route consisting of lines A, B, C, D, 6, 7 & 8. They were all good, but the first four were amazing: great views, long rides, and only a *little* scary. I wish I had brought a GoPro or similar on the trip so I could have captured some video while actually on the zipline, but the pictures and videos below should give a decent idea of what it was like.
+
 {% include gallery id="gallery1" caption="Views from zip line territory" %}
 
 {% include video id="a4RroNUOXDs" provider="youtube" %}
 
 {% include video id="pnyz3Ex9puI" provider="youtube" %}
 
+## Bus Ride to Antigua
 
+The bus ride back to Antigua was essentially a non-event. We loaded up around 12:30 and arrived at our hotel in Antigua just before 4, having made one stop on the way. What struck me the most intersting about this drive, is how "flat" everyone was. It was clear that folks were worn down (energy-wise) and many slept or rested on the bus. The conversation that had been so prevelant on the way to the lake was largely missing. Having only been in the country for a week, many of the sites and sounds were already becoming common place. A certain level of adaptation is certainly a good thing, but I found myself wondering if we had begun to become numb to the situations around us.
+
+## Goodbye Dinner
+
+Starting tomorrow, many of the team (including us) will begin traveling home, so the dinner tonight is made a bit special. We had a room rented out, complete with a DJ and fancy decorations, and ended up having a wonderful time of reflection, celebration, and just plain fun. After the meal, each family came up one at a time and the parents had an opportunity to publicly celebrate and talk about/brag on their children. In some ways this seemed strange at first, but it really was a great thing. There is something good about our kids hearing us speak of their strengths and character in front of others. Each of the children then received a special cupcake to commemorate the various things that they have missed during the last few years with Covid (e.g. graduation parties, [quinceaneras](https://en.wikipedia.org/wiki/Quincea%C3%B1era), etc.). Maria - an adult adoptee on the trip, did not have her parents with her, so each of the moms got up and said something about her and thanked her for coming and helping our kids this week.
 
 {% include gallery id="gallery2" caption="Goodbye dinner" %}
+
+After the main part of the program was done, Jose Miguel got up and helped get the party started. There was much dancing, silliness, and fun. I, of course, did not join on the dance floor but I must say that I *truly enjoyed* watching the sheer joy and happiness on the faces of my children (and everyone else's kids). Gone was any shame, any embarrasement, any timidness - replaced by friendship, shared experiences, and joy. For a few moments on a Saturday night in a rented room in Antigua, Guatemala, our little group could just relax, be ourselves, and have fun. It was a wonderful end to a great week.
 
 {% include video id="pa-EtfDoS90" provider="youtube" %}
 
 {% include gallery id="gallery3" caption="Friends for a lifetime" %}
+
+Unfortunately, the end of the evening brought goodbyes and the sadness that comes with "endings". I have a feeling that for most everyone in the group, this was much more of a "so long for now" rather than a "goodbye".
 
 ## Today's Travels
 

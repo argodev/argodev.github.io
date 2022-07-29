@@ -49,7 +49,7 @@ We've been away for 10 days and there's quite of bit of life to catch back up on
 
 ## What's Next?
 
-Now that the trip is over we are already sliding back into the busyiness of "normal" life. I'm writing this from a Starbucks four states away from my home while waiting for a meeting, our two oldest are away from home for the week and school starts up at the end of next week. It is a little crazy how fast the summer has passed. As I reflect over the trip, what it's meant to me, what I've pondered while writing these posts, I got to thinking of a quote by JFK during his Thanksgiving proclamation made on November 4, 1963:
+Now that the trip is over we are already sliding back into the busyiness of "normal" life. I'm writing this from a Starbucks four states away from my home on my second business trip since returning from Guatemala, our two oldest are away from home for the week and school starts up at the end of next week. It is a little crazy how fast the summer has passed. As I reflect over the trip, what it's meant to me, what I've pondered while writing these posts, I got to thinking of a quote by JFK during his Thanksgiving proclamation made on November 4, 1963:
 
 > citation "John F. Kennedy" [ cite = "jfk" ]
 > As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.

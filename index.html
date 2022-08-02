@@ -1,4 +1,57 @@
 ---
-layout: home
+layout: splash
+title: "Rob's Digital Journal"
 author_profile: true
+header:
+  overlay_color: "#fff"
+  overlay_image: /assets/images/site1.webp
+  overlay_filter: rgba(0, 0, 0, 0.3)
+excerpt: "Christian, husband, father; adoption, foster care and orphan advocate. Researcher at ORNL. Security hobbyist. Occasional cyclist"
+intro: 
+  - excerpt: 'May we not just speak, write, click “like”, share, or repost, but __*actually act*__.'
+feature_row:
+  - image_path: assets/images/fuzzingth.webp
+    alt: "Fuzzing with AFL"
+    title: "Technical Posts"
+    excerpt: "Technical topics spanning my consulting and research career. "
+    url: "/categories/technology/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/guatemala.webp
+    alt: "Antigua, Guatemala"
+    title: "Personal Posts"
+    excerpt: "Trip logs, adoption issues, fund raisers, random topics of interest (_at least to me_)"
+    url: "/categories/personal/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/assemblyth.webp
+    title: "Vulnerability Science Topics"
+    excerpt: "Scratch space for topics I'm learning about, studying, or otherwise interested in."
+    url: "/vsstudy/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/guatemala_mountains.webp
+    alt: "Mountains of Guatemala"
+    title: "Family Heritage Trip, Guatemala 2022"
+    excerpt: 'Nearly fifteen years after bringing our second child home, we return to Guatemala to introduce the family to the culture, enjoy the beauty, and meet some of the wonderful people in the birth country of our two oldest children.'
+    url: "/personal/2022/07/08/gua-trip-01/"
+    btn_label: "The trip begins"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/grandcanyon.webp
+    alt: "Grand Canyon"
+    title: "Massive Road Trip: Grand Canyon"
+    excerpt: 'Sixteen days, 96 hours of driving, over 35 stops for various sites. It took two years to plan, but this was an amazing trip that allowed us to see everything from alligators to radio telescopes, to [Cadillacs](https://www.roadsideamerica.com/story/2220) stuck nose-first into the dirt. '
+    url: "/personal/2017/05/30/gctrip-overview/"
+    btn_label: "Start with the overview"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}

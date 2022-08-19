@@ -277,6 +277,12 @@ collections:
   ctf-portswigger:
     output: true
     permalink: /vsstudy/ctf/portswigger/:path/
+  ctf-ring0:
+    output: true
+    permalink: /vsstudy/ctf/ringzer0/:path/
+  ctf-picoctf:
+    output: true
+    permalink: /vsstudy/ctf/picoctf/:path/
   vsstudy:
     output: true
     permalink: /:collection/:path/
@@ -321,6 +327,24 @@ defaults:
   - scope:
       path: ""
       type: ctf-portswigger
+    values:
+      layout: single
+      author_profile: false
+      share: false
+  #_ctf-picoctf
+  - scope:
+      path: ""
+      type: ctf-picoctf
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      sidebar:
+        nav: "picoctf"
+  #_ctf-ringzer0
+  - scope:
+      path: ""
+      type: ctf-ringzer0
     values:
       layout: single
       author_profile: false

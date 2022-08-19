@@ -39,6 +39,27 @@ vsstudy:
     - title: Memory Allocation
       url: /vsstudy/memory/
 
+# PicoCTF Links
+picoctf:
+  - title: "Pico CTF"
+    children:
+    - title: "General"
+      url: /vsstudy/ctf/picoctf/general
+    - title: "Web Exploitation"
+      url: /vsstudy/ctf/picoctf/webexploitation
+    - title: "Reverse Engineering"
+      url: /vsstudy/ctf/picoctf/re
+    - title: "Forensics"
+      url: /vsstudy/ctf/picoctf/forensics
+    - title: "Cryptography"
+      url: /vsstudy/ctf/picoctf/cryptography
+    - title: "Binary Exploitation"
+      url: /vsstudy/ctf/picoctf/binaryexploitation
+    - title: "2019 Event"
+      url: /vsstudy/ctf/picoctf/2019
+
+
+
 # Image Galleries
 galleries:
   - title: "Test Gallery"

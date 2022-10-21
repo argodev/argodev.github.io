@@ -19,44 +19,44 @@ main:
     url: /readinglist/
 
 # VS Study Links
-vsstudy:
-  - title: "Study Topics"
-    children:
-    - title: "Assembly Language"
-      url: /vsstudy/assembly/
-    - title: Fuzzing
-      url: /vsstudy/fuzzing/
-    - title: Post-Exploitation
-      url: /vsstudy/exploit/
-    - title: "Capture The Flag"
-      url: /vsstudy/ctf/
-  - title: "Future Topics"
-    children:
-    - title: "C/C++"
-      url: /vsstudy/ccpp/
-    - title: Reverse Engineering
-      url: /vsstudy/reverse/
-    - title: Memory Allocation
-      url: /vsstudy/memory/
+# vsstudy:
+#   - title: "Study Topics"
+#     children:
+#     - title: "Assembly Language"
+#       url: /vsstudy/assembly/
+#     - title: Fuzzing
+#       url: /vsstudy/fuzzing/
+#     - title: Post-Exploitation
+#       url: /vsstudy/exploit/
+#     - title: "Capture The Flag"
+#       url: /vsstudy/ctf/
+#   - title: "Future Topics"
+#     children:
+#     - title: "C/C++"
+#       url: /vsstudy/ccpp/
+#     - title: Reverse Engineering
+#       url: /vsstudy/reverse/
+#     - title: Memory Allocation
+#       url: /vsstudy/memory/
 
 # PicoCTF Links
-picoctf:
-  - title: "Pico CTF"
-    children:
-    - title: "General"
-      url: /vsstudy/ctf/picoctf/general
-    - title: "Web Exploitation"
-      url: /vsstudy/ctf/picoctf/webexploitation
-    - title: "Reverse Engineering"
-      url: /vsstudy/ctf/picoctf/re
-    - title: "Forensics"
-      url: /vsstudy/ctf/picoctf/forensics
-    - title: "Cryptography"
-      url: /vsstudy/ctf/picoctf/cryptography
-    - title: "Binary Exploitation"
-      url: /vsstudy/ctf/picoctf/binaryexploitation
-    - title: "2019 Event"
-      url: /vsstudy/ctf/picoctf/2019
+# picoctf:
+#   - title: "Pico CTF"
+#     children:
+#     - title: "General"
+#       url: /vsstudy/ctf/picoctf/general
+#     - title: "Web Exploitation"
+#       url: /vsstudy/ctf/picoctf/webexploitation
+#     - title: "Reverse Engineering"
+#       url: /vsstudy/ctf/picoctf/re
+#     - title: "Forensics"
+#       url: /vsstudy/ctf/picoctf/forensics
+#     - title: "Cryptography"
+#       url: /vsstudy/ctf/picoctf/cryptography
+#     - title: "Binary Exploitation"
+#       url: /vsstudy/ctf/picoctf/binaryexploitation
+#     - title: "2019 Event"
+#       url: /vsstudy/ctf/picoctf/2019
 
 
 

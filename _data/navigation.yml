@@ -11,8 +11,8 @@ main:
     url: /cv/
   - title: "Publications"
     url: /publications/
-  - title: "Vulnerability Science"
-    url: /vsstudy/
+  - title: "Study Topics"
+    url: /study/
   - title: "Talks"
     url: /presentations/
   - title: "Reading List"

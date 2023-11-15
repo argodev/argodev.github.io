@@ -1,10 +1,10 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "Rob works in Vulnerability Science and is part of the Cyber Resilience and Intelligence division at the Oak Ridge National Laboratory. In his role as a computer science researcher, he works alongside other scientists to deliver solutions to complex problems at a national scale."
 toc: true
 
-modified: 2021-02-10T11:09:00-05:00
+modified: 2023-11-15T11:09:00-05:00
 ---
 
 {% include base_path %}
@@ -24,10 +24,14 @@ Prior to coming to ORNL in 2007, Rob was a solutions architect for a high-end co
 ## Professional Profile
 * [Selected Projects](/about/profile)
 
+## Technical Community
+* Cybersecurity Career Mentor: EC-Council (2023)
+
 
 ## Education
 
 * Tennessee Technological University - PhD in Engineering, focus: Computer Science
+* Tennessee Technological University - Masters in Computer Science
 * Bob Jones University – Bachelor of Science in Broadcast Engineering,
 * Minor in Computer Science
 
